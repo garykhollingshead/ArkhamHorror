@@ -1,0 +1,18 @@
+{
+  "description" : "Any Phase: Lose 2 Stamina and discard Blue Watcher of the Pyramid to automatically succeed at a Combat check or a Fight or Lore check made to close a gate. This cannot be used against an Ancient One.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Blue Watcher of the Pyramid",
+  "hands" : 0,
+  "price" : 4,
+  "itemtype" : "None",
+  "stamina" : -2,
+  "discard" : "True",
+  "conditionals" : {"isCombatCheck" : "None", "isCloseGateFightCheck" : "None", "isCloseGateLoreCheck" : "None"},
+  "AncientOne" : "False",
+  "combatcheck" : {"isCombatCheck" : ["succeed", 0]},
+  "fightcheck" : {"isCloseGateFightCheck" : ["succeed", 0]},
+  "lorecheck" : {"isCloseGateLoreCheck" : ["succeed", 0]},
+  "amount" : 1,
+  "picture" : "Blue Watcher of the Pyramid.jpg"
+}

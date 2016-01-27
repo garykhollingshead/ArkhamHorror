@@ -1,0 +1,28 @@
+
+{
+  "SilverTwilightLodge" : {
+    'text' : "Make a Sneak (-2) check.  If you pass, you slip into the temple area of the lodge and find 2 items of interest.  Roll a die for each item. On a success, draw a Unique Item, otherwise draw a Common Item.",
+    'action' : [ {'sneak':-2},
+                 {'roll':2, 'success':'UniqueItem', 'failure':'CommonItem'},
+                 'None'
+               ]
+  },
+
+  "InnerSanctum" : {
+    'text' : "You\'re invited to take part in a Gating ceremony.  If you agree, spend 2 Clue tokens and 1 Sanity to make a Lore (-2) check.  If you pass, close one gate of your choice.  If you fail, nothing happens.",
+    'action' : [ {'clue':-2, 'sanity':-1, 'lore':-2, 'optional': 'True'},
+                 'closeGate(choice)',
+                          'None'
+               ]
+  },
+
+  "TheWitchHouse" : {
+    'text' : 'You are overcome by the echoing chants of the long-gone witches who have lived and died here - you pass out.  Make a Will (-2) check.  If you pass, you learn an ancient spell in your dreams.  Draw 1 Spell.  If you fail, you are missing half your items when you wake up.  Discard half of your items (your choice, round down).',
+    'action' : [ {'will': -2},
+                 {'spell':'draw(1)'},
+                 'discardHalfOfItems()'
+               ]
+  }
+
+}
+

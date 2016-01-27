@@ -1,0 +1,19 @@
+{
+  "name" : "Joe diamond",
+  "title" : "the Private Eye",
+  "sanity" : 4,
+  "stamina" : 6,
+  "home" : "Police Station",
+  "fixed" : {"money" : 8, "clue" : 3, "common" : ".45 Automatic"},
+  "random" : {"common" : 2, "skill" : 1},
+  "focus" : 3,
+  "speed" : 3,
+  "sneak" : 1,
+  "fight" : 2,
+  "will" : 0,
+  "lore" : 0,
+  "luck" : 0,
+  "interrupt" : [ { "condition" : "always"} ],
+  "picture" : "joe.jpg",
+  "story" : "The job sounded simple enough - pick up a statue at the Providence Museum and deliver it to a guy at the Silver Twilight Lodge.  The money was good, and the dame who gave him the job seemed sincere.\n\nSadly, things never seem to work out the easily for Joe.  Now the statue is missing, two people are dead, strange cultists are on his tail, and all the clues lead to Arkham.  Lady Luck can be funny that way.\n\nhe\'s already tried talking to the Sheriff, but that flatfoot proved to be worse than useless.  Looks like its one again going to be up to Joe diamond to solve the case."
+}

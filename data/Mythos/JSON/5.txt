@@ -1,0 +1,11 @@
+{
+ "name" : "Sheldon Gang Turns to Police for Aid!",
+ "description" : "The Sheldon Gang disturbs a burial mound, releasing 2 monsters into Uptown streets",
+ "category" : "headline",
+ "monsterArea" : "graveyard",
+ "whiteMovementShapes" : ["circle"],
+ "blackMovementShapes" : ["square", "diamond"], 
+ "clueAppears" : "unvisited isle",
+ "actions" : ["PlaceMonstersAt( number=2, streets=[\"uptown\"])"],
+ "movementImage" : "circle square diamond.jpg"
+}

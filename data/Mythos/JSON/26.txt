@@ -1,0 +1,11 @@
+{
+  "name" : "City Gripped by Blackouts!",
+  "description" : "The General Store, Curiositie Shoppe, and Ye Olde Magick Shoppe are closed until the end of the next turn. Leave this card in play until then to indicate this.",
+  "category" : "headline",
+  "closeAreas" : ["The General Store", "Curiositie Shoppe", "Ye Olde Magick Shoppe"],
+  "clueAppears" : "science building",
+  "monsterArea" : "unvisited isle",
+  "whiteMovementShapes" : ["hexagon"],
+  "blackMovementShapes" : ["slash", "triangle", "star"],
+  "movementImage" : "hex slash triangle star.jpg"
+}

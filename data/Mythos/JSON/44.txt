@@ -1,0 +1,16 @@
+{ 
+  'name' : 'Good Work Undone',
+  'category' : 'rumor',
+  'description' : "When this card enters play,  place 6 Clue tokens on it. Any player may spend Clue tokens during the Arkham Encounter Phase while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis.",
+  'ongoingEffectsCondition' : 'IsPhase(\"mythos\")',
+  'ongoingEffects' : 'RollTwoDiceAddClueTokenOn1Or2()',
+  'passCondition' : '[[IsPhase(\"encounter\"), TokensOnCard(0)]]',
+  'passActions' : '[[ReturnThisCard(), PlayersDrawUniqueItem(1)]]',
+  'failCondition' : '[[IsPhase(\"encounter\"), TokensOnCard(10)',
+  'failActions' : '[[ReturnThisCard(), RemoveAllFromBoard(\"elder sign\")]]',
+  'activityAt' : 'easttown streets',
+  'monsterArea' : 'unvisited isle',
+  'whiteMovementShapes' : ['slash', 'triangle', 'star'],
+  'blackMovementShapes' : ['hexagon'],
+  'movementImage' : 'slash triangle star hex.jpg'
+}

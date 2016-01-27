@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            None
+         </action>
+         <text>
+            You bump into Eric Colt. He tells you a horrible tale of the Mythos to test your nerves. If you listen, lose 2 Sanity. If this doesn&quot;t drive you insane, take his Ally card if it is available. If it is not available, you may pump him for information instead. Gain 3 Clue tokens.
+         </text>
+         <optional>
+            true
+         </optional>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            None
+         </action>
+         <text>
+            You bump into Abner Weems, the local drunk. You help him find a place to sleep for the night, and he mumbles something to you over and over. Make a Luck (-1) check. If you pass, his mumbling is a magical chant. Draw 1 Spell. If you fail, it&quot;s gibberish. Nothing happens.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            None
+         </action>
+         <text>
+            You come across a large pile of human bones under the boughs of one of the willows on the isle. Lose 1 Sanity, but find a scroll among the bones. Draw 1 Spell.
+         </text>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>

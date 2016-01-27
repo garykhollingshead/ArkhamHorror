@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         All monsters in locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersAt(ALL_LOCATIONS)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Manhunt in Arkham
+      </name>
+   </Mythos>

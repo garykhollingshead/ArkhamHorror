@@ -1,0 +1,11 @@
+{
+  "name" : "Hastur",
+  "title" : "The King in Yellow",
+  "combat" : -10,
+  "defense" : "Physical Resistance",
+  "worshippers" :["Cultists", "combat=-2"], 
+  "interrupt" : [ { "routine" : "AttemptSealGateRoutine", "condition" : "always", "modifyValue" : { "clueCost" : 3}} ],
+  "attack" : {"luck" : {"sanity" : -2}},
+  "doom" : 13,
+  "picture" : "hastur.jpg"
+}

@@ -1,0 +1,11 @@
+{
+ "name" : "Strange Lights on Campus!",
+ "description" : "The Library Administration Building, and Science Building are all closed until the end of next turn. Leave this card in playuntil then to indicate this.",
+ "category" : "headline",
+ "monsterArea" : "woods",
+ "whiteMovementShapes" : ["hexagon"],
+ "blackMovementShapes" : ["slash", "triangle", "star"] ,
+ "clueAppears" : "historical society",
+ "closeAreas" : ["administration building", "library", "science building"],
+ "movementImage" : "hex slash triangle star.jpg"
+}

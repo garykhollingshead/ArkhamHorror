@@ -1,0 +1,13 @@
+{
+  "description" : "+6 to Combat checks (Discard after use)",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Holy Water",
+  "hands" : 2,
+  "price" : 4,
+  "itemtype" : "magical weapon",
+  "combatcheck" : 6,
+  "discard" : "True",
+  "amount" : 4,
+  "picture" : "Holy Water.jpg"
+}

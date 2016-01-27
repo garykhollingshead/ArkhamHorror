@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;item&quot;, &quot;ofChoice(1)&quot;)
+         </failaction>
+         <description>
+            You&quot;re dizzy from the strange ray. Pass a Will (-2) check or lose 1 item of your choice.
+         </description>
+         <passaction/>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;money&quot;, &quot;halfRoundedUp()&quot;)
+         </failaction>
+         <description>
+            A thief attempts to rob you. Pass a Sneak (+0) check to notice him. If you fail, lose half of your items (your choice) and half your money (rounded up).
+         </description>
+         <passaction/>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;sanity&quot;,1)
+         </failaction>
+         <passaction>
+            lose(&quot;sanity&quot;,1)
+         </passaction>
+         <description>
+            The strain is too much for your mind. Lose 1 Sanity.
+         </description>
+      </other>
+   </otherworldCard>

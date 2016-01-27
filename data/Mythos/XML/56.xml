@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Miskatonic U. streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersAt([],[&quot;Miskatonic U.&quot;])
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Campus Security Increases
+      </name>
+   </Mythos>

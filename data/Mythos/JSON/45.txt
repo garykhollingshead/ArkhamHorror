@@ -1,0 +1,15 @@
+{ 
+  "name" : "The Great Ritual",
+  "category" : "rumor",
+  "ongoingEffectsCondition" : "IsPhase(\"mythos\")",
+  "ongoingEffects" : "[[IncreaseToughnessByClass([\"cultist\", \"witch\", \"warlock\", \"high priest\"], 2), AddClueTokenToCard()]]",
+  "passCondition" : "[[IsPhase(\"encounter\"), PlayerInLocation(\"french hill streets\"), PlayerDiscardsSpell(3)]]", 
+  "passActions" : "[[ReturnThisCard(), PlayersDrawClue(2)]]",
+  "failCondition" : "[[IsPhase(\"encounter\"), TokensOnCard(5)",
+  "failActions" : "OnMythosPhaseDrawExtraCardAndOpenGate()",
+  "activityAt" : "french hill streets",
+  "monsterArea" : "graveyard",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

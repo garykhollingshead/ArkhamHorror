@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Due to the interference of the solar eclipse, no spells may be cast.
+      </description>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Solar Eclipse
+      </name>
+   </Mythos>

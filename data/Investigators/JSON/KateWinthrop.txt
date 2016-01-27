@@ -1,0 +1,19 @@
+{
+  "name" : "Kate Winthrop",
+  "title" : "the Scientist",
+  "sanity" : 6,
+  "stamina" : 4,
+  "home" : "Science Building",
+  "fixed" : {"money" : 7, "clue" : 2},
+  "random" : {"common" : 1, "unique" : 1, "spell" : 2, "skill" : 1},
+  "focus" : 1,
+  "speed" : 1, 
+  "sneak" : 4,
+  "fight" : 1,
+  "will" : 0,
+  "lore" : 2,
+  "luck" : 1,
+  "interrupt" : [ {"routine" : "AttemptOpenGateSubroutine" , "condition" : {"areEqual" : ["location", {"this" : "location"}]}, "invalidate" : "True"}],
+  "picture" : "kate.jpeg",
+  "story" : "A brilliant researcher, but a shy, lonely person, Kate Winthrop has been working at the Miskatonic Science Labs for 4 years now and her supervisor still doesn\'t know her name. That doesn\'t matter to her thought, as she has been working to complete a private quest for most of that time. Almost 3 years ago, she watched as a device malfunctioned, and Professor Young, her long-time mentor and friend, was torn apart by an indistinct creature that shrieked and gibbered before vanishing in top the night. Since then, she has delved into darker scientific studies, always hoping to find something that would allow her to find and defeat that creature along with the others of its kind. Tonight, her research has finally paid off, allowing her to create a device that can defeat the alien beings she has detected in Arkham."
+}

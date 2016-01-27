@@ -1,0 +1,16 @@
+{
+  "description" : "Discard to cancel all sanity or stamina loss from one source.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Obsidian Statue",
+  "hands" : 0,
+  "price" : 4, 
+  "itemtype" : "None",
+  "discard" : "True",
+  "amount" : 1,
+  "picture" : "Obsidian Statue.jpg",
+  "conditionals" : {"ChooseSanityOrStamina" : "None"},
+  "action" : {"ChooseSanityOrStamina" :
+  				{"CancelSanityLoss" : "None",
+  				"CancelStaminaLoss" : "None"}}
+}

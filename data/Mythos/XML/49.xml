@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Darke&quot;s Carnival Arrives
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <activityAt>
+         northside streets
+      </activityAt>
+      <actions>
+         LoseSanity(1)
+      </actions>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;northside streets&quot;), PlayerMovementFinished(), FailCheck(&quot;will&quot;, -1)]]
+      </conditions>
+      <description>
+         Investigators who end their movement in the Northside streets gain 1 Clue token from the sinister wonders they witness, but must pass a Will(-1) check or lose 1 Sanity.
+      </description>
+   </Mythos>

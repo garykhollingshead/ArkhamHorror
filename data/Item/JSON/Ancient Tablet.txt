@@ -1,0 +1,16 @@
+{
+  "description" : "Movement: Spend 3 movement points and discard Ancient Tablet to roll 2 dice. For every success rolled, draw 1 Spell. For every failure rolled, gain 2 Clue tokens",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Ancient Tablet",
+  "hands" : 0,
+  "price" : 8,
+  "itemtype" : "None",
+  "conditionals" : "None",
+  "movement" : -3,
+  "discard" : "True",
+  "conditionals" : {"rollDice" : 2},
+  "draw" : {"spell" : {"rollDice" : [1, 0]}, "clue" : {"rollDice" : [0, 2]}},
+  "amount" : 1,
+  "picture" : "Ancient Tablet.jpg"
+}

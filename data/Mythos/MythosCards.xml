@@ -1,0 +1,1949 @@
+<?xml version="1.0" ?>
+<mythoscards>
+    <Mythos>
+      <name>
+         The Story Continues...
+      </name>
+      <actions>
+         DrawCard(&quot;mythos&quot;)
+      </actions>
+      <description>
+         I cannot remember, I must not remember what I saw on that dark and foreboding night
+      </description>
+   </Mythos>
+    <Mythos>
+      <movementImage>
+         None
+      </movementImage>
+      <name>
+         The Story Continues...
+      </name>
+      <actions>
+         DrawCard(&quot;mythos&quot;)
+      </actions>
+      <description>
+         I cannot remember, I must not remember what I saw on that dark and foreboding night
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         A rusty train in Arkham, disgorging 2 monsters into the Northside streets
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;northside&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Terror at the Train Station
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Uptown streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersIn(locations=[&quot;uptown&quot;, streets=&quot;uptown&quot;)
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         PrivateSecurity Hired in Uptown!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Dark Young in Arkham are returned to the cup.  If at least one monster returns to the cup, raise terror level by 1.
+      </description>
+      <actions>
+         RaiseTerrorLevel(1)
+      </actions>
+      <clueAppears>
+         the unamable
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Goat-like Creature Spotted in Woods!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Rivertown streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;rivertown&quot;], streets=[&quot;rivertown&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Rivertown Residents Take Back Streets!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An old basement is opened, releasing 2 monsters into the Easttown streets.
+      </description>
+      <actions>
+         PlaceMonstersAt(2, streets=[&quot;easttown&quot;])
+      </actions>
+      <clueAppears>
+         Historical Society
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Slum Murders Continue!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Easttown streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;easttown&quot;], streets=[&quot;easttown&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Gangs Clean Up Easttown!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All investigators in jail are released. No investigators may be arrested until the end of next turn. Leave this card in play until then to indicate this.
+      </description>
+      <actions>
+         SetInvestigatorsCannotBeArrested(1)
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Blue Flu!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Gugs and Nightgaunts in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.
+      </description>
+      <actions>
+         if previousWasTrue then RaiseTerrorLevel(1)
+      </actions>
+      <clueAppears>
+         the witch house
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         science building
+      </monsterArea>
+      <name>
+         Bizarre Dreams Plague Citizens!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         A Silver Lodge ritual lets 2 monsters loose in the French Hill streets.
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2 , streets=[&quot;french hill&quot;])
+      </actions>
+      <clueAppears>
+         Hibb&quot;s Roadhouse
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         black cabe
+      </monsterArea>
+      <name>
+         Lodge Member Held for Questioning!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <name>
+         Merchants March on Crime!
+      </name>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Merchant Dist. Streets or locations are returned to the cup.
+      </description>
+      <monsterSrea>
+         independence square
+      </monsterSrea>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;merchant dist&quot;], streets=[&quot;merchant dist&quot;])
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An ancient stone is disturbed by the construction, releasing 2 monsters into the Miskatonic U. streets
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;miskatonic u.&quot;])
+      </actions>
+      <clueAppears>
+         silver twilight lodge
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         historical society
+      </monsterArea>
+      <name>
+         Horror at Groundbreaking!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Downtown streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;downtown&quot;], streets=[&quot;downtown&quot;])
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Vigilante Guards the Night!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         All monsters in the Sky and Outskirts are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;sky&quot;, &quot;outskirts&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Big Storm Sweeps Arkham!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Dimensional Shamblers and Hounds of Tindalos in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.
+      </description>
+      <actions>
+         ReturnToCupMosterTypes([&quot;dimensional shamblers&quot;, &quot;hounds of Tindalos&quot;])
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Scientist Warns of Dimensional Rift!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         The terror level increases by 1 in light of this tragic news.
+      </description>
+      <actions>
+         RaiseTerrorLevel(1)
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Family Found Butchered!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         Any investigator with Whiskey must pass a Sneak(-1) check or get arrested and taken to the Police Station. If this occurs they must discard their Whiskey. In addition, Hibb&quot;s Roadhouse is closed until the end of the next turn. Leave this card in play until then to indicate this.
+      </description>
+      <closeAreas>
+         hibb&quot;s roadhouse
+      </closeAreas>
+      <actions>
+         if not PassSneakCheck() then ArrestPlayer(), TakeAllOfPlayersWisky()
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Temperence Fever Sweeps City!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         The festival has begun! Cultists and Byakhee have their toughness increased by 1.
+      </description>
+      <actions>
+         IncreaseToughnessFor([&quot;Cultists&quot;, &quot;Byakhee&quot;])
+      </actions>
+      <clueAppears>
+         Historical Society
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         The Festival
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <name>
+         City Gripped by Blackouts!
+      </name>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <closeAreas>
+         Ye Olde Magick Shoppe
+      </closeAreas>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <description>
+         The General Store, Curiositie Shoppe, and Ye Olde Magick Shoppe are closed until the end of the next turn. Leave this card in play until then to indicate this.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         Star Spawn and Maniacs have their toughness increased by 1. The difficulty to seal or close gates to R&quot;lyeh is increased by 1.
+      </description>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         R&quot;lyeh Rising
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         All Undead monsters have their toughness increased by 1.
+      </description>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         The Chill of the Grave
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Ghouls, Formless Spawns, Shoggoths, and Flying Polyps have their toughness increased by 1.
+      </description>
+      <clueAppears>
+         graveyard
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         silver twilight lodge
+      </monsterArea>
+      <name>
+         Things of Darkness
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An ancient ghost ship arries in Arkham, releasting 2 monsters into the Merchant Dist. streets.
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;merchant dist.&quot;])
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Ghost Ship Docks by Itself!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Black Magic
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <activityAt>
+         rivertown streets
+      </activityAt>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <description>
+         Investigators who end their movement in Rivertown streets may choose to delve into dark mysteries using their life force. They roll dice equal to their current Stamina, and for every failed die, they lose 1 Stamina. If this reduces them to 0 Stamina, they are devoured and the player must start a new character. Otherwise, they gain 3 Clue tokens.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         All Undead monsters have their toughness increased by 1.
+      </description>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         The Chill of the Grave
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Investigators cannot gain Stamina except by recieving medical care in St. Mary&quot;s Hospital (or from Vincent Lee).
+      </description>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         A Strange Plague
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Investigators cannot gain Sanity except by receiving psychiatric care at Arkham Asylum (or from Carolyn Fern).
+      </description>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Dreams of a Sunken City
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Luck checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus
+      </description>
+      <clueAppears>
+         hibb&quot;s roadhouse
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <name>
+         Blackest Night
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Due to the interference of the solar eclipse, no spells may be cast.
+      </description>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Solar Eclipse
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         cicle
+      </blackMovementShapes>
+      <description>
+         Thanks to the mystic energy generated by the planetary alignment, all spells have a Sanity cost of 0.
+      </description>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Planetary Alignment
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         It costs 2 fewer Clue tokens to seal gates.
+      </description>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Noden&quot;s Favor
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Gates cannot be sealed, although they can still be closed.
+      </description>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         No One Can Help You Now
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All monsters in the Southside streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnMonstersInSouthsideStreetsAndLocationsToCup()
+      </actions>
+      <clueAppears>
+         hibb&quot;s roadhouse
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <name>
+         Church Group Reclaims Southside!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         The Library Administration Building, and Science Building are all closed until the end of next turn. Leave this card in playuntil then to indicate this.
+      </description>
+      <closeAreas>
+         science building
+      </closeAreas>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Strange Lights on Campus!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         PlayersDrawCommonItems(2)
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         The Stars Are Right
+      </name>
+      <failCondition>
+         AncientOneAwakens()
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <activityAt>
+         downtown streets
+      </activityAt>
+      <failActions>
+         ReturnThisCard()
+      </failActions>
+      <passCondition>
+         PlayerInLocation(downtown streets)
+      </passCondition>
+      <monsterArea>
+         science building
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RollDieAtEndOfMythosPhaseOn1or2AdvanceDoomTrack()
+      </ongoingEffects>
+      <description/>
+   </Mythos>
+    <Mythos>
+      <category>
+         rumor
+      </category>
+      <playerInput>
+         [[IsPhase(&quot;Encounter&quot;), PlayerInLocation(&quot;miskatonic u. streets&quot;), PlayerMayFightMonstersOnCard()]]
+      </playerInput>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawSkillItems(1)]]
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         The Terrible Experiment
+      </name>
+      <failCondition>
+         MonstersOnCard(8)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <activityAt>
+         miskatonic u. streets
+      </activityAt>
+      <actions>
+         AddMonstersToCard(5)
+      </actions>
+      <passCondition>
+         MonstersOnCard(0)
+      </passCondition>
+      <failActions>
+         [[SetTerorLevel(10), MoveMonstersFromCard(&quot;miskatonic u. streets&quot;)]]
+      </failActions>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         AddMonstersToCard(1, &quot;MythosPhase&quot;)
+      </ongoingEffects>
+      <description>
+         When this card enters play, place 5 monsters from the cup on it. Any player may choose to fight one or more of these monsters while in the Miskatonic U. streets during the Arkham Encounters Phase. If defeated, they are claimed as monster trophies. These monsters do not move, are not considered to be on the board, and do not count against the monster limit.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawMoney(5)]]
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         The Southside Strangler Strikes
+      </name>
+      <failCondition>
+         DeckEmpty(&quot;ally&quot;)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         southside streets
+      </activityAt>
+      <failActions>
+         [[ReturnThisCard(), PlayersChooseSanityOrStamina(-1)]]
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), PlayerInLocation(&quot;ma&quot;s boarding house&quot;), PlayerDiscardsClue(5)]]
+      </passCondition>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RemoveCardFromDeck(&quot;ally&quot;)
+      </ongoingEffects>
+      <description/>
+   </Mythos>
+    <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawSpell(1)]]
+      </passActions>
+      <name>
+         Distrubing the Dead
+      </name>
+      <failCondition>
+         TerrorLevel(10)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         rivertown streets
+      </activityAt>
+      <failActions>
+         [[ReturnThisCard(), PlayersCursed()]]
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), PlayerInLocation(&quot;rivertown streets&quot;), PlayerDiscardsGate(2)]]
+      </passCondition>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RollDieAtEndOfMythosPhaseOn1or2AdvanceTerrorTrack()
+      </ongoingEffects>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+   </Mythos>
+    <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawUniqueItem(1)]]
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         Good Work Undone
+      </name>
+      <failCondition>
+         [[IsPhase(&quot;encounter&quot;), TokensOnCard(10)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         easttown streets
+      </activityAt>
+      <failActions>
+         [[ReturnThisCard(), RemoveAllFromBoard(&quot;elder sign&quot;)]]
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), TokensOnCard(0)]]
+      </passCondition>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RollTwoDiceAddClueTokenOn1Or2()
+      </ongoingEffects>
+      <description>
+         When this card enters play,  place 6 Clue tokens on it. Any player may spend Clue tokens during the Arkham Encounter Phase while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawClue(2)]]
+      </passActions>
+      <name>
+         The Great Ritual
+      </name>
+      <failCondition>
+         [[IsPhase(&quot;encounter&quot;), TokensOnCard(5)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         french hill streets
+      </activityAt>
+      <failActions>
+         OnMythosPhaseDrawExtraCardAndOpenGate()
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), PlayerInLocation(&quot;french hill streets&quot;), PlayerDiscardsSpell(3)]]
+      </passCondition>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         [[IncreaseToughnessByClass([&quot;cultist&quot;, &quot;witch&quot;, &quot;warlock&quot;, &quot;high priest&quot;], 2), AddClueTokenToCard()]]
+      </ongoingEffects>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <name>
+         Feds Raid Arkham!
+      </name>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <clueAppears>
+         hibb&quot;s roadhouse
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <action>
+         RemoveMonstersFromLocation(&quot;streets&quot;)
+      </action>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <description>
+         All monsters in the streets are returned to the cup.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <name>
+         Egyptian Exhibit Visits Miskatonic U.
+      </name>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <activityAt>
+         miskatonic u. streets
+      </activityAt>
+      <actions>
+         GainClueToken(1)
+      </actions>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;miskatonic u. streets&quot;), PlayerMovementFinished(), PassCheck(&quot;lore&quot;, -1)]]
+      </conditions>
+      <description>
+         Any investigator who ends his movement in the Miskatonic U. streets may pass a Lore(-1) check to gain 1 Clue token by reading the strange heiroglyphics on the artifacts in the exhibit.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Alien Technology
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <actions>
+         [[MonsterToughnessIncreased(2), DrawUniqueItemOnPassCombatCheck(1)]]
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <conditions>
+         PlayerFightingMonster(&quot;mi-go&quot;)
+      </conditions>
+      <description>
+         Mi-Go have their toughness increased by 2. If an investigator passes a Combat Check gainst a Mi-Go, he draws 1 extra Unique Item.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Darke&quot;s Carnival Arrives
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <activityAt>
+         northside streets
+      </activityAt>
+      <actions>
+         LoseSanity(1)
+      </actions>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;northside streets&quot;), PlayerMovementFinished(), FailCheck(&quot;will&quot;, -1)]]
+      </conditions>
+      <description>
+         Investigators who end their movement in the Northside streets gain 1 Clue token from the sinister wonders they witness, but must pass a Will(-1) check or lose 1 Sanity.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         The Sheldon Gang disturbs a burial mound, releasing 2 monsters into Uptown streets
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;uptown&quot;])
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Sheldon Gang Turns to Police for Aid!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Estate Sale
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <activityAt>
+         uptown streets
+      </activityAt>
+      <actions>
+         DrawAndPurchaseOrDiscard(&quot;unique&quot;, 2)
+      </actions>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;uptown streets&quot;), PlayerMovementFinished()]]
+      </conditions>
+      <description>
+         Investigators who end their movement in the Uptown streets may draw 2 Unique items and purchase one, none, or both of them at list price, discarding any that are not purchased.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <name>
+         Curfew Enforced
+      </name>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <actions>
+         MovePlayerTo(&quot;police station&quot;)
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;streets&quot;), PlayerMovementFinished(), FailCheck(&quot;will&quot;)]]
+      </conditions>
+      <description>
+         Any investigator who ends his movement in the streets must pass a Will (+0) check or be arrested and taken to the Police Station.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Happy Days are Here Again
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <actions>
+         FreezeTerrorTrack()
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <description>
+         Due to the renewed prosperity that has come to Arkham, the terror level cannot increase.
+      </description>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         A careless picnicker unleashes 2 monsters on the Downtown streets.
+      </description>
+      <actions>
+         PlaceMostersAt( number=2, streets=[&quot;downtown&quot;] )
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Picnickers Panic!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         Each player may pass a Luck (-1) check to be Blessed.
+      </description>
+      <actions>
+         if Check(&quot;luck&quot;, -1) then Bless()
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         All Quiet in Arkham!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         All monsters in locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersAt(ALL_LOCATIONS)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Manhunt in Arkham
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Miskatonic U. streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersAt([],[&quot;Miskatonic U.&quot;])
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Campus Security Increases
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         However, the press is mistaken, and the murders were caused by 2 monsters that are released into the Southside streets.
+      </description>
+      <actions>
+         PlaceMonstersAt(2, [&quot;soutside&quot;]
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Southside Strangler Suspected
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Northside streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersAt([], [&quot;northside&quot;])
+      </actions>
+      <clueAppears>
+         graveyard
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         silver twilight lodge
+      </monsterArea>
+      <name>
+         Police Step Up Patrols in Northside!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Chthonians and Dholes in Arkham are returned to the cup.  If at least one monster returns to the cup, raise the terror level by 1.
+      </description>
+      <actions>
+         if ReturnToCupMonstersType([&quot;chthonians&quot;, &quot;dholes&quot;]) then RaiseTerrorLevel(1)
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Strange Tremors Cease!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An ancient curse strikes Arkham, releasing 2 monsters into the Rivertown streets.
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;rivertown&quot;])
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Witch Burning Anniversary!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         All investigators in Other World areas may immediately return to Arkham.
+      </description>
+      <actions>
+         ReturnFromOtherWorld()
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Strange Power Flux Plagues City!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Fight checks in Arkham are made at a -1 penalty. Lore checks in Arkham are made at a +1 bonus. Fire Vampires have their toughness increased by 1.
+      </description>
+      <actions>
+         ModifyCheck(&quot;fight&quot;, -1) and ModifyCheck(&quot;lore&quot;, 1) and ModifyTraitOf(&quot;fire vampire&quot;, &quot;toughness&quot;, 1)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Heatwave
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         All investigators currently in lost in time and space immediately return to Arkham, appearing in a street or location of their choice.
+      </description>
+      <actions>
+         ReturnFromLISAT()
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Missing People Return!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Will checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus. Fliers do not move.
+      </description>
+      <actions>
+         ModifyCheck(&quot;will&quot;, 1) and ModifyCheck(&quot;sneak&quot;, 1) and FliersDoNotMove()
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         An Evil Fog
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Speed checks in Arkham are made at a -1 penalty, and players receive 1 less movement point during the Movement Phase. Sneak checks in Arkham are made at a +1 bonus. Return any Fire Vampires in play to the cup. If a Fire Vampire enters play, return it to the cup and draw a different monster.
+      </description>
+      <actions>
+         ModifyCheck(&quot;speed&quot;, -1) and ModifyMovement(1) and ModifyCheck(&quot;sneak&quot;, 1) and ReturnToCupMonstersType(&quot;fire vampire&quot;)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         hibbs roadhouse
+      </monsterArea>
+      <name>
+         Raining Cats and Dogs
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Investigators receive 1 less movement point during the Movement Phase. Fast monsters move like normal monsters.
+      </description>
+      <actions>
+         ModifyMovement(-1) and FastMonstersMoveNormal()
+      </actions>
+      <clueAppears>
+         silver twilight lodge
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         historical society
+      </monsterArea>
+      <name>
+         Icy Conditions
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         Any Elder Things perviously claimed as monster trophies by players return to life and are placed in the River Docks.
+      </description>
+      <actions>
+         ReturnTrophiesToLife(&quot;Elder Things&quot;)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         hibb&quot;s roadhouse
+      </monsterArea>
+      <name>
+         Miskatonic Arctic Expedition Returns!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         The first player must pass a Luck (-1) check or be Cursed.
+      </description>
+      <actions>
+         CursePlayer()
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Ill Wind Grips Arkham!
+      </name>
+   </Mythos>
+    <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the French Hill streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersIn(locations=[&quot;french hill&quot;], streets=&quot;french hill&quot; )
+      </actions>
+      <clueArea>
+         science building
+      </clueArea>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Lodge Members Watch the Night!
+      </name>
+   </Mythos>
+</mythoscards>

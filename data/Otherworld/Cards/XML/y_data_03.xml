@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            The hideous whistling fills your ears. Pass a Will(-1) check or lose 2 Sanity.
+         </description>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <passaction>
+            rollDieAndLoseSanity()
+         </passaction>
+         <name>
+            R&quot;lyeh
+         </name>
+         <description>
+            The night stars change and the brazen temple doors open, pouring forth a vast, black corpulence. Roll a die and lose that much Sanity.
+         </description>
+      </loc1>
+      <other>
+         <passaction>
+            stayHereNextTurn()
+         </passaction>
+         <description>
+            The sky is spinning. Pass a Will(-2) check or pass out and stay here next turn.
+         </description>
+      </other>
+   </otherworldCard>

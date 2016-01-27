@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            The cylindered head mocks your hopes. &quot;You&quot;ll never return home!&quot; it cackles. Pass a Will(-2) check or lose 2 Sanity.
+         </description>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            The buzzing language of your captors begins to make sense to you. Gain 2 Clue tokens. then you must pass a Luck(-1) check to avoid hearing about the origins of the mankind and thereby losing 2 Sanity.
+         </description>
+         <passaction>
+            gain(&quot;clue&quot;,2)
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            monsterAppears()
+         </passaction>
+         <description>
+            A monster appears!
+         </description>
+      </other>
+   </otherworldCard>

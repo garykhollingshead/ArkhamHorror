@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the French Hill streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersIn(locations=[&quot;french hill&quot;], streets=&quot;french hill&quot; )
+      </actions>
+      <clueArea>
+         science building
+      </clueArea>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Lodge Members Watch the Night!
+      </name>
+   </Mythos>

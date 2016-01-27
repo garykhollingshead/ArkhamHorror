@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            You earn a hefty fee for a story and get a ride with Doyle Jefferies, the editor. Gain $2 and move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            cursed()
+         </action>
+         <text>
+            You examine an obscene statue. Pass a Luck (-2) check or else you feel a cold dread spread through your body as you hold it. You are Cursed.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <movement>
+               Police Station
+            </movement>
+         </action>
+         <text>
+            On the loading dock you investigate a large crate with strange markings. Make a Sneak (-1) check. If you pass, you find a very unusual item in the crate. Gain 1 Unique Item. If you fail, Deputy Dingby cathces you breaking it open. You are arrested and taken to the Police Station
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>

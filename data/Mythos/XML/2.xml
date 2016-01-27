@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An ancient stone is disturbed by the construction, releasing 2 monsters into the Miskatonic U. streets
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;miskatonic u.&quot;])
+      </actions>
+      <clueAppears>
+         silver twilight lodge
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         historical society
+      </monsterArea>
+      <name>
+         Horror at Groundbreaking!
+      </name>
+   </Mythos>

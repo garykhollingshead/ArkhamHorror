@@ -1,0 +1,12 @@
+{
+  "name" : "Shub-Niggurath",
+  "title" : "Black Goat of the Woods",
+  "combat" : -5,
+  "defense" : "Physical Immunity",
+  "worshippers" :["DarkYoung", "toughness+1"], 
+  "interrupt" : [{"routine" : "CreateMonsterRoutine" , "condition" : "always" , "modifyValue" : {"toughness" : 1}}],
+  "attack" : ["Sneak" , "Lose(\"MonsterTrophy\",1)"],
+  "doom" : 12,
+  "picture" : "shub.jpg"
+
+}

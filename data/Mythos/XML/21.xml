@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         All monsters in the Sky and Outskirts are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;sky&quot;, &quot;outskirts&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Big Storm Sweeps Arkham!
+      </name>
+   </Mythos>

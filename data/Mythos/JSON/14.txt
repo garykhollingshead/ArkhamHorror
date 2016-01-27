@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Slum Murders Continue!",
+  "description"            : "An old basement is opened, releasing 2 monsters into the Easttown streets.", 
+  "category"               : "headline",
+  "monsterArea"           : "woods",
+  "whiteMovementShapes"  : ["crescent"],
+  "blackMovementShapes"  : ["plus"],
+  "clueAppears"           : "Historical Society",
+  "actions"                : "PlaceMonstersAt(2, streets=[\"easttown\"])", 
+  "movementImage"         : "crescent plus.jpg"
+}

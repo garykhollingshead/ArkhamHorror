@@ -1,0 +1,16 @@
+{
+  "description" : "Upkeep: Exhaust to gain 1 Stamina or 1 Sanity. Discard this card if the Ancient One awakens.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Healing Stone",
+  "hands" : 0,
+  "price" : 8,
+  "itemtype" : "None",
+  "exhaust" : "True",
+  "conditionals" : {"isPhase" : "upkeep", "chooseSanityOrStaminaBoost" : "None", "isAncientOneAwake" : "None"},
+  "sanity" : {"chooseSanityOrStaminaBoost" : [1, 0]},
+  "stamina" : {"chooseSanityOrStaminaBoost" : [0, 1]},
+  "discard" : {"isAncientOneAwake" : ["True", "False"]},
+  "amount" : 1,
+  "picture" : "Healing Stone.jpg"
+}

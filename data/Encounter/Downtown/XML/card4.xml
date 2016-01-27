@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            SpeedCheck(successes,GainUniqueItem(1),movement(to_street))
+         </action>
+         <text>
+            Nurse Heather is coming!  Make a Speed(-1) check to hid in time.  If you pass, you see her drop something as she walks by.  Draw 1 Unique Item.  If you fail, she throws you out.  Move to the street.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            WillCheck(success,GainAlly(Anna Kaslow)|GainClues(2),null
+         </action>
+         <text>
+            Make a Will(-1) check.  If you pass it, Anna Kaslow the fortune teller offers her help in your investigation.  Take her Ally card if it is still available.  Otherwise, gain 2 Clue tokens.  If you fail, nothing happens.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            LuckCheck(successes,GainUniqueItem(1),GainCommonItem(1))
+         </action>
+         <text>
+            A man wearing dirty and tattered clothing is loitering outside the bank.  He offers to sell you his last possession to get some food money for him and his family.  If you accept, pay $2 and make a Luck(-1) check.  If you pass, draw 1 Unique Item.  If you fail, draw 1 Common Item
+         </text>
+      </BankOfArkham>
+   </downtownencounter>

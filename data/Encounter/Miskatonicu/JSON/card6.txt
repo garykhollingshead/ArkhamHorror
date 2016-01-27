@@ -1,0 +1,21 @@
+{
+  "AdministrationBuilding": {
+    "text" : "Your descussions on the Mythos lead campus security to conclude that you are off your rocker, and they escort you off campus.  Move to Arkham Asylum and immediately have an encounter there.",
+    "action" : [ "True", { "movement" : "arkhamasylum"},           "None"]
+  },
+
+  "Library" : {
+    "text" : "A book in a shadowy corner of the library begins to whisper terrible things to you.  Lose 1 Sanity.",
+    "action" : [ "True",
+                 {"stamina" : -2, "sanity": -2},
+                  "None"
+               ]
+  },
+
+  "ScienceBuilding" : {
+    "text" : "A chemical brew bubbles on a nearby Bunsen burner. It smells delicious. If you drink it, make a Luck (+0) check.  If you pass, the strange liquid fortifies you. Roll a die and gain that many points, split between your Stamina and Sanity however you like. If you fail, the liquid turns out to be coffee. Gain 1 Stamina.",
+    "action" : [ {"Luck" : 0}, 
+                 {"sanity": "youChoosewithMax(Rolled())", "stamina" : "youChoosewithMax(Rolled()-sanity)"},                 {"stamina" : 1} ]
+  }
+
+}

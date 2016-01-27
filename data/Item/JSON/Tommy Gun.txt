@@ -1,0 +1,11 @@
+{
+  "description" : "+6 to Combat checks.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Tommy Gun",
+  "price" : 7,
+  "itemtype" : "physical weapon",
+  "combatcheck" : 6,
+  "amount" : 2,
+  "picture" : "Tommy Gun.jpg"
+}

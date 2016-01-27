@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction/>
+         <description>
+            Pass a Luck (-1) check or the book is a prison. If you fail, roll a die. On a failure, a monster appears from the book. On a success, you are drawn into the book for a time. Stay here next turn.
+         </description>
+         <passaction/>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            monster
+         </failaction>
+         <passaction>
+            monster
+         </passaction>
+         <name>
+            Yuggoth
+         </name>
+         <description>
+            A monster appears from the darkness!
+         </description>
+      </loc1>
+      <other>
+         <failaction/>
+         <passaction>
+            draw(&quot;common&quot;, &quot;firstWeaponInDeck()&quot;, 1)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Luck (-1) check to find something to defend yourself with. Take the first Weapon from the Common Item Deck.
+         </description>
+      </other>
+   </otherworldCard>

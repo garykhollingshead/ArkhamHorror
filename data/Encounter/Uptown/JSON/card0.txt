@@ -1,0 +1,26 @@
+{
+  "StMarysHospital" : {
+    "text" : "One of the staff physicians talks some sense into you. You are disabused of certain crazy but accurate notions. Lose 1 Clue token.",
+    "action" : [ {"optional" : "False"},
+                 "lose(\'cluetoken\', 1)",
+                 "None"
+	       ]
+  },
+
+  "Woods" : {
+    "text" : "You trip over an object which turns out to be a rusty lockbox. If you open it, make a Luck(0) check and consult the following chart. Successes. 0) A rotted human foot. Lose 1 Sanity. 1) Draw 1 Common Item 2) Draw 1 Unique Item 3+)$10 in jewelery.",
+    "action" : [ {"optional" : "True"}, 
+		 {"open": "LuckCheck(0)"},
+                 {"success": [{"sanity":-1},"draw(\'CommonItem\',1)", "draw(\'UniqueItem\')", "drawinCash(\'jewelry\',10)"]}
+               ]
+  },
+
+  "YeOldeMagickShoppe" : {
+    "text" : "Looking closely at a mummified head in the shop, you are horrified to find it looking back at you! Lose 1 Sanity",
+    "action" : [ {"optional" : "False"},
+                 "lose(\'cluetoken\', 1)", 
+                 "None"
+               ]
+  }
+
+}

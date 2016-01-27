@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "All Quiet in Arkham!",
+  "description"            : "Each player may pass a Luck (-1) check to be Blessed.", 
+  "category"               : "headline",
+  "monsterArea"           : "woods",
+  "whiteMovementShapes"  : ["hexagon"],
+  "blackMovementShapes"  : ["slash", "triangle", "star"],
+  "clueAppears"           : "historical society",
+  "actions"                : "if Check(\"luck\", -1) then Bless()",
+  "movementImage"         : "hex slash triangle star.jpg"
+}

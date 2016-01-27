@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         The festival has begun! Cultists and Byakhee have their toughness increased by 1.
+      </description>
+      <actions>
+         IncreaseToughnessFor([&quot;Cultists&quot;, &quot;Byakhee&quot;])
+      </actions>
+      <clueAppears>
+         Historical Society
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         The Festival
+      </name>
+   </Mythos>

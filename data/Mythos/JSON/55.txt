@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Manhunt in Arkham",
+  "description"            : "All monsters in locations are returned to the cup.",
+  "category"               : "headline",
+  "monsterArea"           : "woods",
+  "whiteMovementShapes"  : ["slash", "triangle", "star"],
+  "blackMovementShapes"  : ["hexagon"],
+  "clueAppears"           : "independence square",
+  "actions"                : "ReturnToCupMonstersAt(ALL_LOCATIONS)",
+  "movementImage"         : "slash triangle star hex.jpg"
+}

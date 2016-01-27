@@ -1,0 +1,13 @@
+{
+  "description" : "+1 to Evade checks",  
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Dark Cloak",
+  "hands" : 0,
+  "price" : 2,
+  "itemtype" : "None",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Dark Cloak.jpg",
+  "evadecheck" : 1
+}

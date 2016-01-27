@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All investigators in jail are released. No investigators may be arrested until the end of next turn. Leave this card in play until then to indicate this.
+      </description>
+      <actions>
+         SetInvestigatorsCannotBeArrested(1)
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Blue Flu!
+      </name>
+   </Mythos>

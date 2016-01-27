@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+   <Investigator>
+      <stamina>
+         4
+      </stamina>
+      <picture>
+         carolyn.jpg
+      </picture>
+      <story>
+         Carolyn is a first year resident at a sanitarium in Providence.  Over the past six months, she has been studying the dreams of her patients using hypnosis.  One patient in particular gave her vivid and disturbing descriptions of his dreams, right up until he was murdered with a strange knife that closely resembled something from one of his nightmares.
+
+Disturbed and frightened by his murder, Carolyn dug back through her notes, poring over them late into the night.  Finally, she found some subtle clues that led to her here, to Arkham, where he was previously an inmate in Arkham Asylum.  Someone here has to know why a harmless man was murdered for talking about his dreams to his psychologist.
+      </story>
+      <name>
+         Carolyn Fern
+      </name>
+      <title>
+         the Psychologist
+      </title>
+      <interrupt>
+         <invoke>
+            <target>
+               <invoke>
+                  ChooseLocalInvestigator
+               </invoke>
+            </target>
+            <routine>
+               RestoreSanitySubroutine
+            </routine>
+         </invoke>
+         <condition>
+            optional
+         </condition>
+         <routine>
+            UpkeepRoutine
+         </routine>
+      </interrupt>
+      <fight>
+         1
+      </fight>
+      <random>
+         <skill>
+            1
+         </skill>
+         <unique>
+            2
+         </unique>
+         <common>
+            2
+         </common>
+      </random>
+      <focus>
+         2
+      </focus>
+      <sneak>
+         0
+      </sneak>
+      <sanity>
+         6
+      </sanity>
+      <will>
+         1
+      </will>
+      <lore>
+         2
+      </lore>
+      <home>
+         Arkham Asylum
+      </home>
+      <fixed>
+         <money>
+            7
+         </money>
+         <clue>
+            1
+         </clue>
+      </fixed>
+      <speed>
+         0
+      </speed>
+      <luck>
+         2
+      </luck>
+   </Investigator>

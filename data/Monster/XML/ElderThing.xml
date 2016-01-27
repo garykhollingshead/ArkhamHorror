@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Elder Thing.jpg
+      </picture>
+      <toughness>
+         2
+      </toughness>
+      <description/>
+      <combatDamage>
+         LoseWeaponOrSpellOfChoice
+      </combatDamage>
+      <symbol>
+         diamond
+      </symbol>
+      <name>
+         Elder Thing
+      </name>
+      <amount>
+         2
+      </amount>
+      <combatCheck>
+         0
+      </combatCheck>
+      <sanityDamage>
+         2
+      </sanityDamage>
+      <sneakCheck>
+         -2
+      </sneakCheck>
+      <horrorCheck>
+         -3
+      </horrorCheck>
+      <movement>
+         black
+      </movement>
+   </monster>

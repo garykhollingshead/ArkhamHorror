@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Cavalry Saber.jpg
+      </picture>
+      <description>
+          +2 to combat checks.
+      </description>
+      <price>
+         3
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         2
+      </combatcheck>
+      <hands>
+         1
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Cavalry Saber
+      </name>
+   </Item>

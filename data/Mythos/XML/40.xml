@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         PlayersDrawCommonItems(2)
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         The Stars Are Right
+      </name>
+      <failCondition>
+         AncientOneAwakens()
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <activityAt>
+         downtown streets
+      </activityAt>
+      <failActions>
+         ReturnThisCard()
+      </failActions>
+      <passCondition>
+         PlayerInLocation(downtown streets)
+      </passCondition>
+      <monsterArea>
+         science building
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RollDieAtEndOfMythosPhaseOn1or2AdvanceDoomTrack()
+      </ongoingEffects>
+      <description/>
+   </Mythos>

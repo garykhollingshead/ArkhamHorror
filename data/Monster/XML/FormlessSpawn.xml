@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Formless Spawn.jpg
+      </picture>
+      <toughness>
+         3
+      </toughness>
+      <description>
+         The bosun was the only one left alive.  We dragged him screaming from the cargo hold. &quot;That thing!&quot; he wept.  &quot;Not a whale... not an island&quot;
+      </description>
+      <combatDamage>
+         3
+      </combatDamage>
+      <symbol>
+         hexagon
+      </symbol>
+      <name>
+         Formless Spawn
+      </name>
+      <amount>
+         2
+      </amount>
+      <combatCheck>
+         -3
+      </combatCheck>
+      <sanityDamage>
+         2
+      </sanityDamage>
+      <sneakCheck>
+         0
+      </sneakCheck>
+      <horrorCheck>
+         -3
+      </horrorCheck>
+      <movement>
+         black
+      </movement>
+   </monster>

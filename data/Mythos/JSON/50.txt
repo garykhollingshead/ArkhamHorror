@@ -1,0 +1,12 @@
+{ 
+  "name" : "Estate Sale",
+  "category" : "environment (urban)",
+  "description" : "Investigators who end their movement in the Uptown streets may draw 2 Unique items and purchase one, none, or both of them at list price, discarding any that are not purchased.",
+  "conditions" : "[[IsPhase(\"movement\"), PlayerInLocation(\"uptown streets\"), PlayerMovementFinished()]]",
+  "actions" : "DrawAndPurchaseOrDiscard(\"unique\", 2)",
+  "activityAt" : "uptown streets",
+  "monsterArea" : "the witch house",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

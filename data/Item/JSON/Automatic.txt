@@ -1,0 +1,13 @@
+{
+  "description" : "+4 to combat checks",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : ".45 Automatic",
+  "hands" : 1,
+  "price" : 5,
+  "itemtype" : "physical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : ".45 Automatic.jpg",
+  "combatcheck" : 4
+}

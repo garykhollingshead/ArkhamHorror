@@ -1,0 +1,16 @@
+{
+    "name":"Voice of Ra",
+    "castingModifier":-1,  
+    "sanityCost":1,
+    "postCast":"exhaust",
+    "phase":"upkeep",           
+    "effect":"allSkillCheck(1)",  
+    "description":"Upkeep: You may cast and exhaust to gain +1 to all skill checks for the rest of this turn.",
+    "hands":0,
+    "picture":"Voice of Ra.jpg",
+    "amount":3
+}
+
+
+
+

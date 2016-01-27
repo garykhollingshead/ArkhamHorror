@@ -1,0 +1,24 @@
+{
+  "AdministrationBuilding" : {
+    "text" : "The Dean introduces you to an anthropology professor who gives you some insight into your investigation. Gain 1 Clue token.",
+    "action" : [ "None", {"clue" : 1}, "None" ] 
+  },
+
+  
+"Library" : {
+
+"text" : "Make a Will (0) check and consult the chart below. Successes. 0) Abigail tosses you out. Move to the street. 1) Abigail lets you into a private section of the library where you find an ancient tome. Draw 2 spells and keep whichever one of them you want.2) Abigail loans you one of the strange items in the library\'s display case. Draw 1 unique item." ,
+
+"action" : [{"will":0}, [[{"pass":1}, "DrawAndChoose(\'spell\', 2, 1)"], [{"pass":2}, "Draw(\'unique\', 1)"]], 
+    		{"movement":"miskatonicu.streets"}
+    		] 
+  },
+
+  "ScienceBuilding" : {
+    "text" : "Assisting a professor in his research, you find a valuable Spell. Draw 1 Spell. However, you must pass a Fight(-1) check, or some sticky-fingered student steals one of your items. Lose 1 item of your choice.",
+    "action" : [{"fight":-1}, "Draw(\'spell\', 1)", ["Draw(\'spell\', 1)", "Lose(\'item\', 1)"]	
+    	]   
+   }
+}
+
+

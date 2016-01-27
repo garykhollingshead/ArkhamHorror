@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         45 Automatic.jpg
+      </picture>
+      <description>
+         +4 to combat checks
+      </description>
+      <price>
+         5
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         4
+      </combatcheck>
+      <hands>
+         1
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         .45 Automatic
+      </name>
+   </Item>

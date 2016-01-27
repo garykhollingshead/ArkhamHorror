@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            lostInTimeAndSpace()
+         </action>
+         <text>
+            You hear the scurrying and squeaking of a horde of rats from inside the walls. Abruptly, you realize that they are moving to surround you. Pass a Speed (-1) check to make it to the front door first. If you fail, you are lost in time and space.
+         </text>
+         <check>
+            1
+         </check>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            lostInTimeAndSpace()
+         </action>
+         <text>
+            As you look out across the waves, you feel strangely compelled to throw yourself into the ocean&quot;s watery embrace. Pass a Will (+1) check or you are lost in time and space.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            None
+         </action>
+         <text>
+            Looking up at the night sky from the island, you see constellations that you&quot;ve never seen before. The entire night sky is different here! Lose 1 Sanity and gain 1 Clue token.
+         </text>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>

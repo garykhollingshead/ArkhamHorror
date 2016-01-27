@@ -1,0 +1,19 @@
+{
+  "name" : "Carolyn Fern",
+  "title" : "the Psychologist",
+  "sanity" : 6,
+  "stamina" : 4,
+  "home" : "Arkham Asylum",
+  "fixed" : {"money" : 7, "clue" : 1},
+  "random" : {"common" : 2, "unique" : 2,"skill" : 1},
+  "focus" : 2,
+  "speed" : 0,
+  "sneak" : 0,
+  "fight" : 1,
+  "will" : 1,
+  "lore" : 2,
+  "luck" : 2,
+  "interrupt" : [ { "routine" : "UpkeepRoutine", "condition" : "optional", "invoke" : { "routine" : "RestoreSanitySubroutine" , "target" : { "invoke" : "ChooseLocalInvestigator" } } } ],
+  "picture" : "carolyn.jpg",
+  "story" : "Carolyn is a first year resident at a sanitarium in Providence.  Over the past six months, she has been studying the dreams of her patients using hypnosis.  One patient in particular gave her vivid and disturbing descriptions of his dreams, right up until he was murdered with a strange knife that closely resembled something from one of his nightmares.\n\nDisturbed and frightened by his murder, Carolyn dug back through her notes, poring over them late into the night.  Finally, she found some subtle clues that led to her here, to Arkham, where he was previously an inmate in Arkham Asylum.  Someone here has to know why a harmless man was murdered for talking about his dreams to his psychologist."
+}

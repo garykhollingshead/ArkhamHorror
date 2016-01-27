@@ -1,0 +1,12 @@
+{
+    "name":"Enchant Weapon",
+    "castingModifier":0,
+    "sanityCost":1,
+    "postCast":"exhaust",
+    "phase":"combat",
+    "effect":"makeWeaponMagical(weapon)",
+    "description":"Cast and exhaust to make one Physical Weapon a Magical Weapon until the end of this combat.",
+    "hands":0,
+    "picture":"Enchant Weapon.jpg",
+    "amount":3
+}

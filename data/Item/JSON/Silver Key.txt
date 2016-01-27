@@ -1,0 +1,15 @@
+{
+  "description" : "Use this item to automatically pass an Evade check.  Limit three uses.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Silver Key",
+  "hands" : 0,
+  "price" : 4,
+  "itemtype" : "None",
+  "conditionals" : {"UseCounter" : 3, "isEvadeCheck" : 0}, 
+  "usecount" : 1,
+  "discard" : {"UseCounter" : ["True", "False"]},
+  "amount" : 1,
+  "evadecheck" : {"isEvadeCheck" : ["succeed",0]},
+  "picture" : "Silver Key.jpg"
+}

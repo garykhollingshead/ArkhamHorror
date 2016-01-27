@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            Pass a Luck (-2) check to find a book small enough to carry.  Search the Unique Item deck and take the first tome you find.
+         </description>
+         <passaction>
+            drawUniqueItem(&quot;tome&quot;, 1)
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <description>
+            Make a Luck (-1) check.  If you pass, then, waving goodbye, the happy villagers bestow a gift uppon you.  Draw 1 Common Item
+         </description>
+         <passaction>
+            draw(&quot;common&quot;, 1)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;stamina&quot;, 1)
+         </passaction>
+         <description>
+            You find a quiet spot to rest and recuperate.  Gain 1 Stamina
+         </description>
+      </other>
+   </otherworldCard>

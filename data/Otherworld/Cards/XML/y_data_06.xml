@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <action>
+            lose(&quot;sanity&quot;,1)
+         </action>
+         <name>
+            The Dreamlands
+         </name>
+         <description>
+            You see the mountains move. Lose 1 Sanity from the terror.
+         </description>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            Fear grabs you as the buzzing entities approach. Pass a Will(-1) check or lose 2 Sanity.
+         </description>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;spell&quot;,1)
+         </failaction>
+         <check>
+            1
+         </check>
+         <description>
+            A ripple in the air passes over you. Pass a Lore(-1) check or lose 1 Spell of your choice as it is burned from your mind.
+         </description>
+      </other>
+   </otherworldCard>

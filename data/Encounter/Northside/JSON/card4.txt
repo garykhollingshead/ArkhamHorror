@@ -1,0 +1,23 @@
+{
+  "CuriositieShoppe" : {
+    "text" : "Pass a Luck (-1) check or you accidentally drop an item. Discard 1 item of your choice. If you have no items to drop, then draw again for a different encounter.",
+    "action" : [{"luck":-1}, 
+                {"discard" : "haveItems()"},
+                {"draw" : "search(\'Encounter\')"}
+	       ]
+  },
+
+  "Newspaper" : {
+    "text" : "Editor Doyle Jefferies offers you a Retainer in return for your fascinating stories. Take a Retainer card.",
+    "action" : [{"draw": "search(\'Misc\', \'Retainer\')"}]
+  },
+
+  "TrainStation" : {
+    "text" : "Joey \"the Rat\" is huddled in the shadows of the train station and motions for you to come over. He has an item for sale. Draw the top Common Item card and pay $1 more than the list price if you wish to purchase it.",
+    "action" : [{"draw" : "search(\'UniqueItem\')"}, 
+                {"optional" : "True", "userinput" : "buyItem(getItemCost()+1)"},
+                "None"
+               ]
+  }
+
+}

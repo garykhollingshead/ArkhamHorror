@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         The first player must pass a Luck (-1) check or be Cursed.
+      </description>
+      <actions>
+         CursePlayer()
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Ill Wind Grips Arkham!
+      </name>
+   </Mythos>

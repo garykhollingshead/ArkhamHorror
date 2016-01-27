@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         All investigators currently in lost in time and space immediately return to Arkham, appearing in a street or location of their choice.
+      </description>
+      <actions>
+         ReturnFromLISAT()
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Missing People Return!
+      </name>
+   </Mythos>

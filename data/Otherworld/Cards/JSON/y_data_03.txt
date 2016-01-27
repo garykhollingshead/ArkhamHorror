@@ -1,0 +1,20 @@
+{ 
+    "color" : "yellow",
+    "loc1" :              
+        {
+            "name" : "R\'lyeh",        
+            "passaction" : "rollDieAndLoseSanity()",
+            "description" : "The night stars change and the brazen temple doors open, pouring forth a vast, black corpulence. Roll a die and lose that much Sanity."
+        },
+    "loc2" : 
+        {
+            "name" : "City of the Great Race",
+            "check" : ["will", -1, 1], 
+	    "failaction" : [["lose(\"sanity\",2)"]],            
+            "description" : "The hideous whistling fills your ears. Pass a Will(-1) check or lose 2 Sanity."
+        },
+    "other" :
+        {
+            "passaction" : "stayHereNextTurn()",              "description" : "The sky is spinning. Pass a Will(-2) check or pass out and stay here next turn."
+        }
+}

@@ -1,0 +1,16 @@
+{
+    "name":"Find Gate",
+    "castingModifier":-1, 
+    "sanityCost":1,
+    "postCast":"exhaust",
+    "phase":"movement",         
+    "effect":"returnFromAnOtherWorld()", 
+    "description":"Movement: Cast and exhaust to immediately return to Arkham from an Other World.",
+    "hands":0,
+    "picture":"Find Gate.jpg",
+    "amount":4
+}
+
+
+
+

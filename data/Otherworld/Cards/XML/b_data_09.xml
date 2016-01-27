@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            You are lost in the darkness. Pass a Luck (-1) check or lose 1Sanity stay here next turn.
+         </description>
+         <passaction/>
+         <name>
+            Abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            You dring impure water from the River Kra. Pass a Luck (-1) check or lose 1 Stamina and stay here next turn due to illness.
+         </description>
+         <passaction/>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <passaction/>
+         <check>
+            1
+         </check>
+         <description>
+            You are lost in a labyrnth of high walls. Pass a Lore (-1) check or stay here next turn.
+         </description>
+      </other>
+   </otherworldCard>

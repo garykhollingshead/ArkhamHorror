@@ -1,0 +1,13 @@
+{
+  "description" : " +2 to combat checks.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Cavalry Saber",
+  "hands" : 1,
+  "price" : 3, 
+  "itemtype" : "physical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Cavalry Saber.jpg",
+  "combatcheck" : 2
+}

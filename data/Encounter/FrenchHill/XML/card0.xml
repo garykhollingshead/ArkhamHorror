@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+   <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            A gate and a monster appear!
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            Carl Sanford does not trust you and at the climax of the monthly ceremony spits a spell at you.  Pass a Luck (-2) check or you are Cursed.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <cluetoken>
+               loseAllClueTokens()
+            </cluetoken>
+            <movement>
+               frenchhill
+            </movement>
+         </action>
+         <text>
+            Carl Sanford draws you into the study to talk and you feel the cold creep of dread listening to him.  Make a Lore (-1) check.  If you pass, your willpower stands up to the test of the ancient wizard and you even learn something of value.  Gain 3 Clue tokens. If you fail, his hypnotic tones lull you into a trance.  The conversation seems short, but when you leave the study, much time has passed and your thoughts are confused.  Lose all of your Clue tokens and move to the street.
+         </text>
+      </SilverTwilightLodge>
+   </downtownencounter>

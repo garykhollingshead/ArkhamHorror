@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Raining Cats and Dogs",
+  "description"            : "Speed checks in Arkham are made at a -1 penalty, and players receive 1 less movement point during the Movement Phase. Sneak checks in Arkham are made at a +1 bonus. Return any Fire Vampires in play to the cup. If a Fire Vampire enters play, return it to the cup and draw a different monster.", 
+  "category"               : "environment (weather)",
+  "monsterArea"           : "hibbs roadhouse",
+  "whiteMovementShapes"  : ["plus"],
+  "blackMovementShapes"  : ["crescent"],
+  "clueAppears"           : "independence square",
+  "actions"                : "ModifyCheck(\"speed\", -1) and ModifyMovement(1) and ModifyCheck(\"sneak\", 1) and ReturnToCupMonstersType(\"fire vampire\")",
+  "movementImage"         : "plus crescent.jpg"
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "Will",
+  "picture" : "Will.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "SkillCheck" , "condition" : { "equalTo" : [ "Attribute" , "Will"] } , "modifyValue" : { "dice" : 1 , "dicePerClue" : 1 } }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;stamina&quot;, 3)
+         </failaction>
+         <description>
+            Avalanche! Pass a Speed (-1) check or lose 3 Stamina.
+         </description>
+         <name>
+            the dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, 2)
+         </failaction>
+         <description>
+            While you are climbing a high cliff, you begin to slip. Pass a Speed (-1) check or crash down the mountain, losing 2 Stamina.
+         </description>
+         <name>
+            plateau of leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            lose(&quot;stamina&quot;, 1)
+         </passaction>
+         <description>
+            The shadowy entity gives up the chase. Lose 1 Stamina from exhaustion.
+         </description>
+      </other>
+   </otherworldCard>

@@ -1,0 +1,13 @@
+{
+  "description" : "Causes a re-roll of any one skill check.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Lucky Cigarette Case",
+  "hands" : 0,
+  "price" : 1,
+  "itemtype" : "None",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Lucky Cigarette Case.jpg",
+  "action" : {"ReRollSkillCheck" : "True"}
+}

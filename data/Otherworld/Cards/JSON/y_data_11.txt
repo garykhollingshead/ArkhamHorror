@@ -1,0 +1,22 @@
+{ 
+    "color" : "yellow",
+    "loc1" :              
+        {
+            "name" : "R\'lyeh",
+            "check" : ["speed", -1, 1],       
+	    "failaction" : [["lose(\"sanity\",1)"]],
+            "description" : "The city is filled with unnerving alien angles. Pass a Speed(-1) check to avoid touching them or lose 1 Sanity."
+        },
+    "loc2" : 
+        {
+            "name" : "Yuggoth",
+            "check" : ["luck", -2, 1],              
+            "failaction" : [["rollDieAndStuff()"]], 
+            "description" : "A strange creature stare at you with burning eyes. it is as if its gaze were stealing your soul. Pass a Luck(-1) check or roll a die and subtract 2 from it (minimum 9), then lose that much Stamina and Sanity."
+        },
+    "other" :
+        {
+            "passaction" : "monsterAppears()",  
+            "description" : "You are not safe here. a monster appears!"
+        }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Northside streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMonstersAt([], [&quot;northside&quot;])
+      </actions>
+      <clueAppears>
+         graveyard
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         silver twilight lodge
+      </monsterArea>
+      <name>
+         Police Step Up Patrols in Northside!
+      </name>
+   </Mythos>

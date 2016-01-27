@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Dark Young.jpg
+      </picture>
+      <toughness>
+         2
+      </toughness>
+      <description/>
+      <combatDamage>
+         3
+      </combatDamage>
+      <symbol>
+         square
+      </symbol>
+      <physicalImmunity>
+         True
+      </physicalImmunity>
+      <name>
+         Hound of Tindalos
+      </name>
+      <amount>
+         2
+      </amount>
+      <combatCheck>
+         -1
+      </combatCheck>
+      <sanityDamage>
+         4
+      </sanityDamage>
+      <sneakCheck>
+         -1
+      </sneakCheck>
+      <horrorCheck>
+         -2
+      </horrorCheck>
+      <movement>
+         green
+      </movement>
+   </monster>

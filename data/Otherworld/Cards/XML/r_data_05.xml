@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;lost&quot;)
+         </failaction>
+         <description>
+            The ice bridge begins to crack. Pass a Luck (-1) check or fall into the icy depths. If you fall, you are lost in time and space.
+         </description>
+         <name>
+            the dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, &quot;roll(1)&quot;)
+         </failaction>
+         <description>
+            The stone arch breaks! Pass a Speed (-1) check to dive out of the way or roll a die and lose that much Stamina.
+         </description>
+         <name>
+            abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            lose(&quot;stamina&quot;, 1)
+         </passaction>
+         <description>
+            The humidity and heat is exhausting. Lose 1 Stamina.
+         </description>
+      </other>
+   </otherworldCard>

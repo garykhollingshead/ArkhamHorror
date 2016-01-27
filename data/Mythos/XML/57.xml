@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         However, the press is mistaken, and the murders were caused by 2 monsters that are released into the Southside streets.
+      </description>
+      <actions>
+         PlaceMonstersAt(2, [&quot;soutside&quot;]
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Southside Strangler Suspected
+      </name>
+   </Mythos>

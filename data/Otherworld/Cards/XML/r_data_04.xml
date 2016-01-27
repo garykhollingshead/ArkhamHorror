@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;lost&quot;)
+         </failaction>
+         <description>
+            Pass a Speed (-1) check to avoid a monstrous mass. If you fail, you are lost in time and space.
+         </description>
+         <name>
+            abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <passaction>
+            monster
+         </passaction>
+         <name>
+            r&quot;lyeh
+         </name>
+         <description>
+            A slimy monster appears!
+         </description>
+      </loc1>
+      <other>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <check>
+            1
+         </check>
+         <description>
+            The colors are blinding. Pass a Lore (-1) check or stay here next turn.
+         </description>
+      </other>
+   </otherworldCard>

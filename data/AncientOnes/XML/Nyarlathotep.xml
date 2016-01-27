@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+   <AncientOne>
+      <picture>
+         nyarlathotep.jpg
+      </picture>
+      <name>
+         Nyarlathotep
+      </name>
+      <combat>
+         -4
+      </combat>
+      <title>
+         A Thousand Masks
+      </title>
+      <attack>
+         <lore>
+            <clue>
+               -1
+            </clue>
+         </lore>
+      </attack>
+      <defense>
+         Magical Resistance
+      </defense>
+      <worshippers>
+         <cultists>
+            <special>
+               Endless
+            </special>
+         </cultists>
+      </worshippers>
+      <interrupt/>
+      <doom>
+         11
+      </doom>
+      <invoke>
+         <register>
+            ThousandMasks
+         </register>
+      </invoke>
+   </AncientOne>

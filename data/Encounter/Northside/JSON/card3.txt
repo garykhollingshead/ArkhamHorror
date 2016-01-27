@@ -1,0 +1,25 @@
+{
+  "CuriositieShoppe" : {
+    "text" : "You weed through piles of junk looking for something useful. Make a Luck (-1) check to see what you find. If you pass, your search has resulted in success. You may look at the top cards of both the Common and Unique Items decks. You may purchase one, both, or neither at list price. If you fail, there is little of interest here, but you may look at the top card of the Common Item deck and purchase it for its list price.",
+    "action" : [{"luck":-1}, 
+                {"draw" : ["search(\'UniqueItem\')", "purchaseItem()"], "draw" : ["search(\'CommonItem\')" , "purchaseItem()"]}, 
+                {"draw" : ["search(\'CommonItem\')", "purchaseItem()"]} 
+	       ]
+  },
+
+  "Newspaper" : {
+    "text" : "Pass a Luck (-1) check to find an article that a local citizen told you would shed light on the recent strange activities. Gain 1 Clue token.",
+    "action" : [{"luck":-1},
+                {"clue":1},
+                "None"]
+  },
+
+  "TrainStation" : {
+    "text" : "Pay $3 at the Railroad Office to claim an item left in Lost and Found. If you do so, make a Luck (-2) check. If you pass, draw a Unique Item. If you fail, draw a Common Item.",
+    "action" : [{"luck":-2, "optional":"True"}, 
+                "search(\'UniqueItem\')",
+                "search(\'CommonItem\')"
+               ]
+  }
+
+}

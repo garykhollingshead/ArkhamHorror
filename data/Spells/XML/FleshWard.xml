@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Flesh Ward.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Flesh Ward
+      </name>
+      <sanityCost>
+         1
+      </sanityCost>
+      <effect>
+         ignoreStaminaLoss(1)
+      </effect>
+      <amount>
+         4
+      </amount>
+      <hands>
+         1
+      </hands>
+      <phase>
+         any
+      </phase>
+      <discard>
+         ancientOneAwake()
+      </discard>
+      <castingModifier>
+         -2
+      </castingModifier>
+      <description>
+         Any Phase: Cast and exhaust to ignore stamina loss from ONE source
+      </description>
+   </Spell>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         A careless picnicker unleashes 2 monsters on the Downtown streets.
+      </description>
+      <actions>
+         PlaceMostersAt( number=2, streets=[&quot;downtown&quot;] )
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Picnickers Panic!
+      </name>
+   </Mythos>

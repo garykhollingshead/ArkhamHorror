@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;stamina&quot;,2)
+         </failaction>
+         <description>
+            That&quot;s it! That&quot;s the document you need! Quietly, you reach for it, trying not to disturb tits guardian. Make a Sneak (-2) check. If you pass, search the Spell deck and take 1 Spell of your choice. If you fail, lose 2 Stamina.
+         </description>
+         <passaction>
+            draw(&quot;spell&quot;, pickOne, 1)
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            monster
+         </failaction>
+         <description>
+            A glowing light ahead draws you towards it. Make a Luck (-1) check. If you pass, the glow is a way home. Return to Arkham. If you fail, the light is a trap set by one of the creatures that lives here. A monster appears!
+         </description>
+         <passaction>
+            status(&quot;returntoarkham&quot;)
+         </passaction>
+         <name>
+            Abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction/>
+         <passaction>
+            draw(&quot;spell&quot;, 1, 1)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Fight (-1) check to hang on to your prize dispite the wind. Draw 1 Spell.
+         </description>
+      </other>
+   </otherworldCard>

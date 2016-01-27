@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "Abyss",
+                        "passaction" : [["gain(\"stamina\", 1)"]],
+						"failaction" : [["gain(\"stamina\", 1)"]],
+                        "description" : "The feeble glow and warmth of the candle is enough to resore you a bit. Gain 1 Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "Yuggoth",
+                        "check" : ["fight", -2, 1],
+                        "passaction" : [[""]],
+                        "failaction" : [["status(\"lost\")"]],
+                        "description" : "The creature\'s grip is like steel! Pass a Fight (-2) check to break free and escape. If you fail, the creature\'s grip tightens with a sickening pop. You are lost in time and space."
+                },
+        "other" :
+                {
+                        "check" : ["speed", -2, 1],
+                        "passaction" : [["status(\"returntoarkham\")", "closegate()"]],
+						"failaction" : [["status(\"lost\")", "closegate()"]],
+                        "description" : "You\"ve completed you task, but now you must escape before the portal closes! Pass a Speed (-2) check to return to Arkham. If you fail, you are lost in time and space. In either event, you automatically close the gate that you entered through."
+                }
+}

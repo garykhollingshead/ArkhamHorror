@@ -1,0 +1,14 @@
+{
+    "RiverDocks" : 
+    { 
+        "text" : "A horrific stench draws your attention to the body of some bizarre marine creature, rotting on the edge of the docks. As you move toward it, an uneasy feeling grows in the pit of your stomach, as though you are meddling with something best left alone. Make a Will (-1) check. If you pass, lose 1 Sanity. If you fail, lose 2 Sanity. In either event, if you are not reduced to 0 Sanity, you find something clutched in its webbed hands. Draw 1 Unique Item." ,
+        "check" : ["will", -1, 1] , "action" : [{ "doAfter" : "True", "condition" : "ifSane" , "action" : "drawUniqueItem"}, "loseSanity(1)" , "loseSanity(2)" ] 
+    }, 
+
+    "UnvisitedIsle" : 
+    { 
+        "text" : "As you start to climb back into your canoe and row to shore, you see a huge, shadowy shape disturb the water near the island. Waves of intense dread grip you, and you must pass a Will (-1) check or be Cursed." , 
+        "check" : ["will", -1, 1] , 
+        "action" : ["None", "None", "cursed()"] 
+    } 
+  }

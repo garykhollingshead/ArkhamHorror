@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <passaction>
+            draw(&quot;common&quot;, 1)
+         </passaction>
+         <name>
+            Plateau of Leng
+         </name>
+         <description>
+            Pass a Luck (-2) check to find some useful things among the bones.  If so, draw 1 Common Item and 1 Spell. 
+         </description>
+      </loc2>
+      <loc1>
+         <description>
+            Pass a Will (-1) check to convince the Rulers of Rokol to share their wealth with you.  If so, roll two dice and add them together.  Gain that much money
+         </description>
+         <passaction>
+            gainWealthFromDice(2)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            returnToArkham()
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Luck (-1) check to find the gate back.  If so, immediately return to Arkham
+         </description>
+      </other>
+   </otherworldCard>

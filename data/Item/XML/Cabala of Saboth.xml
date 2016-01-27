@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Cabala Of Saboth.jpg
+      </picture>
+      <draw>
+         <skill>
+            <LoreCheck>
+               0
+            </LoreCheck>
+         </skill>
+      </draw>
+      <description>
+         Movement: exhaust and spend 2 movement points to make a Lore(-2) check. If you pass, draw 1 skill and discard Cabala. If you fail, nothing.
+      </description>
+      <price>
+         5
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         tome
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <discard>
+         <LoreCheck>
+            False
+         </LoreCheck>
+      </discard>
+      <conditionals>
+         <isPhase>
+            movement
+         </isPhase>
+         <LoreCheck>
+            -2
+         </LoreCheck>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Cabala Of Saboth
+      </name>
+   </Item>

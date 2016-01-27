@@ -1,0 +1,13 @@
+{
+  "description" : "+6 to Combat checks.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Sword of Glory",
+  "hands" : 2,
+  "price" : 8,
+  "itemtype" : "magical weapon",
+  "discard" : "False",
+  "amount" : 1,
+  "picture" : "Sword of Glory.jpg",
+  "combatcheck": 6
+}

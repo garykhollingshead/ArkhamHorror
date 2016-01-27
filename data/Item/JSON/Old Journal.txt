@@ -1,0 +1,16 @@
+{
+  "description" : "Movement: Exhaust and spend 1 movement point to make a Lore (-1) check. If you pass, gain 3 Clue tokens and discard Old Journal. If you fail, nothing happens.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Old Journal",
+  "hands" : 0,
+  "price" : 1,
+  "itemtype" : "tome",
+  "conditionals" : {"isPhase" : "movement", "LoreCheck" : -1},
+  "exhaust" : "True",
+  "movement" : -1,
+  "draw" : {"clue" : {"LoreCheck" : ["True", "False"]}, "clue" : {"LoreCheck" : ["True", "False"]}, "clue" : {"LoreCheck" : ["True", "False"]}},
+  "discard" : {"LoreCheck" : ["True", "False"]},
+  "amount" : 2,
+  "picture" : "Old Journal.jpg"
+}

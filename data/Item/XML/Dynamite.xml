@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Dynamite.jpg
+      </picture>
+      <description>
+         +8 to Combat checks (Discard after use)
+      </description>
+      <price>
+         4
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         8
+      </combatcheck>
+      <hands>
+         2
+      </hands>
+      <discard>
+         True
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Dynamite
+      </name>
+   </Item>

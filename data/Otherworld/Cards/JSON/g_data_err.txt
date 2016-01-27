@@ -1,0 +1,23 @@
+{ 
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "Plateau of Leng",         
+            "check" : ["will", 0, 2],         
+            "action" : ["draw(\"skill\", 1)", ""], 
+            "description" : "Your mind and body are toughened by your experiences.  Pass a Will (+0) [2] check to draw 1 Skill."
+        },
+    "loc2" : 
+        {
+            "name" : "Celeano",
+            "check" : ["luck", -2, 1],              
+            "action" : ["drawUniqueItem(\"Tome\")", ""],
+            "description" : "Pass a Luck (-2) check to find a valuable book.  If so, search the Unique Item deck and take the first Tome you find"
+        },
+    "other" :
+        {
+            "action" : "draw(\"spell\", 1)", 
+            "description" : "Wedged beneath a fallen stone is a scroll.  Draw 1 Spell"
+        }
+}
+

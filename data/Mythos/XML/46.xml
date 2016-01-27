@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <name>
+         Feds Raid Arkham!
+      </name>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <clueAppears>
+         hibb&quot;s roadhouse
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <action>
+         RemoveMonstersFromLocation(&quot;streets&quot;)
+      </action>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <description>
+         All monsters in the streets are returned to the cup.
+      </description>
+   </Mythos>

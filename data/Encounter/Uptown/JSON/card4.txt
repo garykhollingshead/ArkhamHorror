@@ -1,0 +1,28 @@
+
+{
+  "StMarysHospital" : {
+    "text" : "The Doctor escorts you behind a curtain where the body of some other unfortunate investigator has been laid. The corpse has been torn to shreds. Pass a Will (-1) check or loose 1 Sanity. If you pass, you may also search the body and find a helpful item. Draw 1 Unique Item. If you fail, you run away screaming. Move to the street.",
+    "action" : [  { "options": [{"will":-1}] },
+                  { "pass" : "draw(\'UniqueItem\')" },
+                  { "fail" : [{"sanity":-1}, "moveToStreet()"]}
+	       ]
+  },
+
+  "Woods" : {
+    "text" : "A gate and a monster appear!",
+    "action" : [ { "options" : [ {"gateappear":"woods"}, {"monsterappear":"woods"}]}, 
+                 { "pass" : "None"},
+		 { "fail" : "None" }
+	       ]
+  },
+
+  "YeOldeMagickShoppe" : {
+    "text" : "Pass a Lore (-1) check to recognize an item that Miriam Beecheer has underpriced. If you do so, draw 1 Unique Item. You may purchase it for half its list price(rounded up).",
+    "action" : [ { "options" : [{"lore":-1}]},
+                 { "pass" : [ "OR", "purchase(\'UniqueItem\', price(\'UniqueItem\')/2)", "None"] }, 
+                 { "fail" : "None" }
+               ]
+  }
+
+}
+

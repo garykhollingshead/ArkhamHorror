@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <AncientOne>
+      <picture>
+         ancient2.jpg
+      </picture>
+      <name>
+         Yog-Sothoth
+      </name>
+      <combat>
+         -5
+      </combat>
+      <title>
+         The Key and the Gate
+      </title>
+      <attack/>
+      <defense>
+         Magical Immunity
+      </defense>
+      <worshippers>
+         special=(&quot;magical immunity&quot;)
+      </worshippers>
+      <interrupt>
+         <invokeAfter>
+            DevouredSubroutine
+         </invokeAfter>
+         <condition>
+            always
+         </condition>
+         <routine>
+            DoLostInTimeAndSpace
+         </routine>
+      </interrupt>
+      <doom>
+         12
+      </doom>
+   </AncientOne>

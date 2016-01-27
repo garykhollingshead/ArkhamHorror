@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Lodge Member Held for Questioning!",
+  "description"            : "A Silver Lodge ritual lets 2 monsters loose in the French Hill streets.", 
+  "category"               : "headline",
+  "monsterArea"           : "black cabe",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "Hibb\'s Roadhouse",
+  "actions"                : "PlaceMonstersAt( number=2 , streets=[\"french hill\"])", 
+  "movementImage"         : "circle square diamond.jpg"
+}

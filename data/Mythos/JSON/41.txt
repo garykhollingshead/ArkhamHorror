@@ -1,0 +1,17 @@
+{
+  "name" : "The Terrible Experiment",
+  "category" : "rumor",
+  "description" : "When this card enters play, place 5 monsters from the cup on it. Any player may choose to fight one or more of these monsters while in the Miskatonic U. streets during the Arkham Encounters Phase. If defeated, they are claimed as monster trophies. These monsters do not move, are not considered to be on the board, and do not count against the monster limit.",
+  "playerInput" : "[[IsPhase(\"Encounter\"), PlayerInLocation(\"miskatonic u. streets\"), PlayerMayFightMonstersOnCard()]]",
+  "actions" : "AddMonstersToCard(5)",
+  "ongoingEffects" : "AddMonstersToCard(1, \"MythosPhase\")",
+  "passCondition" : "MonstersOnCard(0)",
+  "passActions" : "[[ReturnThisCard(), PlayersDrawSkillItems(1)]]",
+  "failCondition" : "MonstersOnCard(8)",
+  "failActions" : "[[SetTerorLevel(10), MoveMonstersFromCard(\"miskatonic u. streets\")]]",
+  "activityAt" : "miskatonic u. streets",
+  "monsterArea" : "unvisited isle",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

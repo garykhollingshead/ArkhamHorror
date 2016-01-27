@@ -1,0 +1,16 @@
+{
+  "description" : "Movement: Exhaust and spend 2 movement points to make a Lore(-2) check. If you pass, gain 4 Clue tokens, lose 1 Sanity, and discard The King in Yellow. If you fail, nothing happens.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "The King in Yellow",
+  "hands" : 0,
+  "price" : 2,
+  "itemtype" : "tome",
+  "exhaust" : "True",
+  "conditionals" : {"isPhase" : "movement", "LoreCheck" : -2},
+  "draw" : {"clue" : {"LoreCheck" : [4, 0]}},
+  "sanity" : {"LoreCheck" : [-1, 0]},
+  "discard" : {"LoreCheck" : ["True", "False"]},
+  "amount" : 2,
+  "picture" : "The King in Yellow.jpg"
+}

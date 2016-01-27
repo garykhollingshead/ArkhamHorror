@@ -1,0 +1,275 @@
+<?xml version="1.0" ?>
+<otherworldgatemarkers>
+    <otherworldGateMarker>
+      <picture>
+         The Abyss.jpg
+      </picture>
+      <symbol>
+         hexagon
+      </symbol>
+      <modifier>
+         -2
+      </modifier>
+      <location>
+         The Abyss
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Great Hall of Celeano.jpg
+      </picture>
+      <symbol>
+         star
+      </symbol>
+      <modifier>
+         -1
+      </modifier>
+      <location>
+         Great Hall of Celeano
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Plateau of Leng.jpg
+      </picture>
+      <symbol>
+         diamond
+      </symbol>
+      <modifier>
+         -1
+      </modifier>
+      <location>
+         Plateau of Leng
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         The City of the Great Race.jpg
+      </picture>
+      <symbol>
+         triangle
+      </symbol>
+      <modifier>
+         0
+      </modifier>
+      <location>
+         The City of the Great Race
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         The City of the Great Race.jpg
+      </picture>
+      <symbol>
+         triangle
+      </symbol>
+      <modifier>
+         0
+      </modifier>
+      <location>
+         The City of the Great Race
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         The Abyss.jpg
+      </picture>
+      <symbol>
+         hexagon
+      </symbol>
+      <modifier>
+         -2
+      </modifier>
+      <location>
+         The Abyss
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Plateau of Leng.jpg
+      </picture>
+      <symbol>
+         diamond
+      </symbol>
+      <modifier>
+         -1
+      </modifier>
+      <location>
+         Plateau of Leng
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         The Dreamlands.jpg
+      </picture>
+      <symbol>
+         rectangle
+      </symbol>
+      <modifier>
+         1
+      </modifier>
+      <location>
+         The Dreamlands
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Great Hall of Celeano.jpg
+      </picture>
+      <symbol>
+         star
+      </symbol>
+      <modifier>
+         -1
+      </modifier>
+      <location>
+         Great Hall of Celeano
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Rlyeh.jpg
+      </picture>
+      <symbol>
+         plus
+      </symbol>
+      <modifier>
+         -3
+      </modifier>
+      <location>
+         R&apos;lyeh
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Rlyeh.jpg
+      </picture>
+      <symbol>
+         plus
+      </symbol>
+      <modifier>
+         -3
+      </modifier>
+      <location>
+         R&apos;lyeh
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Yuggoth.jpg
+      </picture>
+      <symbol>
+         circle
+      </symbol>
+      <modifier>
+         -2
+      </modifier>
+      <location>
+         Yuggoth
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         The Dreamlands.jpg
+      </picture>
+      <symbol>
+         rectangle
+      </symbol>
+      <modifier>
+         +1
+      </modifier>
+      <location>
+         The Dreamlands
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Another Dimension.jpg
+      </picture>
+      <symbol>
+         square
+      </symbol>
+      <modifier>
+         +0
+      </modifier>
+      <location>
+         Another Dimension
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Yuggoth.jpg
+      </picture>
+      <symbol>
+         circle
+      </symbol>
+      <modifier>
+         -2
+      </modifier>
+      <location>
+         Yuggoth
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+    <otherworldGateMarker>
+      <picture>
+         Another Dimension.jpg
+      </picture>
+      <symbol>
+         square
+      </symbol>
+      <modifier>
+         +0
+      </modifier>
+      <location>
+         Another Dimension
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>
+</otherworldgatemarkers>

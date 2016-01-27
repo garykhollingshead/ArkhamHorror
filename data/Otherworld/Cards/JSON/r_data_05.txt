@@ -1,0 +1,23 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "abyss",
+                        "check" : ["speed", -1, 1],
+                        "failaction" : [["lose(\"stamina\", \"roll(1)\")"]], 
+                        "description" : "The stone arch breaks! Pass a Speed (-1) check to dive out of the way or roll a die and lose that much Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "the dreamlands",
+                        "check" : ["luck", -1, 1],
+                        "failaction" : [["status(\"lost\")"]],
+                        "description" : "The ice bridge begins to crack. Pass a Luck (-1) check or fall into the icy depths. If you fall, you are lost in time and space."
+                },
+        "other" :
+                {
+                        "passaction" : [["lose(\"stamina\", 1)"]],
+                        "description" : "The humidity and heat is exhausting. Lose 1 Stamina."
+                }
+}
+

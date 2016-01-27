@@ -1,0 +1,25 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "plateau of leng",
+                        "check" : ["sneak", -1, 1],
+                        "failaction" : [["lose(\"sanity\", 3)", "lose(\"stamina\", 3)", "status(\"stuck(1)\")"]], 
+                        "description" : "The villagers leap around a bonfire on the hoary plain. Pass a Sneak (-1) check or you are captured and subjected to terrible rites. Lose 3 Sanity and 3 Stamina, then stay here next turn."
+                },
+        "loc2" :
+                {
+                        "name" : "the dreamlands",
+                        "check" : ["sneak", -1, 1],
+                        "passaction" : [["gain(\"clue token\", 3)", "status(\"returntoarkham\")"]],
+                        "failaction" : [["status(\"devoured\")"]],
+                        "description" : "In the valley of Pnoth, where the dholes crawl and burrow nastily, you hear a slithering among the mountains of bone. Make a Sneak (-1) check. If you fail, you are devoured. If you pass, gain 3 Clue tokens and return immediately to Arkham."
+                },
+        "other" :
+                {
+                        "check" : ["speed", -1, 1],
+                        "passaction" : [["gain(\"spell\", 1)"]],
+                        "description" : "Pass a Speed (-1) check to grab the carving before it falls. Draw 1 Spell."
+                }
+}
+

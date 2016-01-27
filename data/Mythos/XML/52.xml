@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Happy Days are Here Again
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <actions>
+         FreezeTerrorTrack()
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <description>
+         Due to the renewed prosperity that has come to Arkham, the terror level cannot increase.
+      </description>
+   </Mythos>

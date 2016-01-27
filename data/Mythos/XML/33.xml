@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Investigators cannot gain Sanity except by receiving psychiatric care at Arkham Asylum (or from Carolyn Fern).
+      </description>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Dreams of a Sunken City
+      </name>
+   </Mythos>

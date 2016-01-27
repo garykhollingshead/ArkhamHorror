@@ -1,0 +1,13 @@
+{
+  "description" : "+8 to Combat checks (Discard after use)",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Dynamite",
+  "hands" : 2,
+  "price" : 4,
+  "itemtype" : "physical weapon",
+  "combatcheck" : 8,
+  "discard" : "True",
+  "amount" : 2,
+  "picture" : "Dynamite.jpg"  
+}

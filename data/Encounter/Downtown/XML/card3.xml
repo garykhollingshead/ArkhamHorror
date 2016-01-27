@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            LoreCheck(successes,GainClues(2),GainStamina(-1))
+         </action>
+         <text>
+            You hear screaming.  When you open a heavy cell door to investigate, a dark shape leaps out at you! It&quot;s an insane man in a straightjacket babbling about invisible horrors.  Make a Lore(-2) check to glean some useful information from him.  If you pass, gain 2 Clue tokens.  If you fail, lose 1 Stamina as he attacks you.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            LuckCheck(success,GainUniqueItem(1,-1),GainStamina(-1)/YouAreCursed()
+         </action>
+         <text>
+            There are gypsies camped out in the park.  Make a Luck(-1) check if you wish to interact with them.  If you pass, an old man has spread several items on a blanket for sale.  Draw 1 Unique Item and you may buy it for $1 less than the list price.  If you fail, a hag comes up to you and tells you that death shadows you.  You scoff at her and she cuts the side of your face with her fingernail, drawing blood. Lose 1 Stamina and you are Cursed.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            GainSanity(-1)
+         </action>
+         <text>
+            A little old lady stands in front of you in line counting out a bag of pennies to deposit.  Lose 1 Sanity
+         </text>
+      </BankOfArkham>
+   </downtownencounter>

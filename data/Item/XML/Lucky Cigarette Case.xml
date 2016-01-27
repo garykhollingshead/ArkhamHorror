@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Lucky Cigarette Case.jpg
+      </picture>
+      <description>
+         Causes a re-roll of any one skill check.
+      </description>
+      <price>
+         1
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <action>
+         <ReRollSkillCheck>
+            True
+         </ReRollSkillCheck>
+      </action>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Lucky Cigarette Case
+      </name>
+   </Item>

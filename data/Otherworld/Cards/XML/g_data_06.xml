@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            You find secret lore hidden in the mosaics on the wall.  Make a Lore (+2) check and gain Clue tokens equal to your successes
+         </description>
+         <passaction>
+            gain(&quot;clue&quot;, ????)
+         </passaction>
+         <name>
+            Celeano         
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <description>
+            The conical entity tries to teach you some magic.  Pass a Lore (-2) [2] check to draw 2 Spells. 
+         </description>
+         <passaction>
+            draw(&quot;spell&quot;, 2)
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            2
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;money&quot;, 3)
+         </passaction>
+         <description>
+            You find some valuable items that you can sell back in Arkham.  Gain $3
+         </description>
+      </other>
+   </otherworldCard>

@@ -1,0 +1,20 @@
+{
+  "name" : "Michael McGlen",
+  "title" : "the Gangster",
+  "sanity" : 3,
+  "stamina" : 7,
+  "home" : "Ma\'s Boarding House",
+  "fixed" : {"money" : 8, "common" : ["Dynamite", "Tommy Gun"]},
+  "random" : {"unique" : 1, "skill" : 1},
+  "focus" : 1,
+  "speed" : 2, 
+  "sneak" : 1,
+  "fight" : 3,
+  "will" : 1,
+  "lore" : 0,
+  "luck" : 0,
+  "interrupt" : [ {"routine" : "LoseStamina", "condition" : "always" , "modifyValue" : { "staminaLost" : -1 } } ],
+  "picture" : "michael.jpeg",
+  "story" : "As a soldier in the O\'Bannion gang, Michael didn\'t really believe in all this voodoo mumbo jumbo around town. Or at least, he didn\'t until the night of the Foreman job, when he saw Fast Louie Farrell pulled screaming into the river by a scaly green creature. As they say, seeing is believing and Michael is starting to believe. Now, he has gathered his belongings together in the room that he rents at Ma\'s Boarding House. Louie was a friend of his, and he won\'t rest until he finds out what\'s happening in this town and avenges his buddy."
+
+}

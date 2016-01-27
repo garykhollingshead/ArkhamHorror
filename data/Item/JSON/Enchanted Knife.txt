@@ -1,0 +1,13 @@
+{
+  "description" : "+3 to Combat checks",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Enchanted Knife",
+  "hands" : 1,
+  "price" : 5,
+  "itemtype" : "magical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "combatcheck" : 3,
+  "picture" : "Enchanted Knife.jpg"
+}

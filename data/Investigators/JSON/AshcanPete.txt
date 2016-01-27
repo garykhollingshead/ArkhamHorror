@@ -1,0 +1,19 @@
+{
+  "name" : "Ashcan Pete",
+  "title" : "the drifter",
+  "sanity" : 4,
+  "stamina" : 6,
+  "home" : "River Docks",
+  "fixed" : {"money" : 1, "clue" : 3, "ally" : "duke"},
+  "random" : {"common" : 1, "unique" : 1, "skill" : 1},
+  "focus" : 1,
+  "speed" : 0,
+  "sneak" : 3,
+  "fight" : 2,
+  "will" : 2,
+  "lore" : 0,
+  "luck" : 0,
+  "interrupt" : [ { "routine" : "DrawCommonItemSubroutine" , "condition" : "always" } ],
+  "picture" : "ashcan.jpg",
+  "story" : "When  you\'ve lived on the streets as long as pete has, you see things.  things that would drive braver men screaming into the night. But you also learn to be quiet, to stay hidden, and to play stupid if all else fails.  It also helps to have a good dog, like duke, to scare away the meaner elements of the street.\n\nunfortunately, this time, Pete can\'t hide, and there\'s nothing Duke can do to protect him.  His nightmares have been growing staeadily worse over the last month, driving him all the way here...to Arkham.  Even the whiskey isn\'t helping much anymore.  soon, he won\'t be able to sleep at all.  Still, there are always opportunities for a man who knows how to stay quiet...as long as he isn\'t too picky."
+}

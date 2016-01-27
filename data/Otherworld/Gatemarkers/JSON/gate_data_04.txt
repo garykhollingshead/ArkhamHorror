@@ -1,0 +1,7 @@
+{
+        'location' : 'The City of the Great Race',
+		'symbol'   : 'triangle',
+		'modifier' : 0,
+        'picture'  : 'The City of the Great Race.jpg',
+        'frontpicture' : 'front.jpg'
+}

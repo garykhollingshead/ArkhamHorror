@@ -1,0 +1,12 @@
+{ 
+  "name" : "Egyptian Exhibit Visits Miskatonic U.",
+  "category" : "environment (urban)",
+  "description" : "Any investigator who ends his movement in the Miskatonic U. streets may pass a Lore(-1) check to gain 1 Clue token by reading the strange heiroglyphics on the artifacts in the exhibit.",
+  "conditions" : "[[IsPhase(\"movement\"), PlayerInLocation(\"miskatonic u. streets\"), PlayerMovementFinished(), PassCheck(\"lore\", -1)]]",
+  "actions" : "GainClueToken(1)",
+  "activityAt" : "miskatonic u. streets",
+  "monsterArea" : "the witch house",
+  "whiteMovementShapes" : ["plus"],
+  "blackMovementShapes" : ["crescent"],
+  "movementImage" : "plus crescent.jpg"
+}

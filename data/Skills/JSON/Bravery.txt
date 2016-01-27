@@ -1,0 +1,6 @@
+{
+  "name" : "Bravery",
+  "picture" : "Bravery.JPG",
+  "backpic" : "SkillBack.JPG", 
+  "interrupt" : { "routine" : "ResolveSkillCheck" , "condition" : {"optional" : {"equalTo" : ["Type" , "Horror"]}}, "modifyValue" : { "rerollCheck" : "True" } , "invokeBefore" : { "Deregister" : "this" } }
+}

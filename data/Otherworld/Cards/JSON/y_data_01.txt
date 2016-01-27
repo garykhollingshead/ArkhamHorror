@@ -1,0 +1,21 @@
+{ 
+    "color" : "yellow",
+    "loc1" :              
+        {
+            "name" : "R\'lyeh",       
+            "check" : ["speed", -1, 1],
+	    "failaction" : [["lostInTimeAndSpace()"]],             "description" : "You trip over a stone outcropping that shouldn\'t be there. Pass a Speed(-1) check or you are lost in time and space."
+        },
+    "loc2" : 
+        {
+            "name" : "The Dreamlands",
+            "check" : ["will", -2, 1],
+	    "failaction" : [["lose(\"sanity\",2)"]],             
+            "description" : "The meeping of the ghouls in the tunnels echoes in your ears. Pass a Will(-2) check or lose 2 Sanity."
+        },
+    "other" :
+        {
+            "passaction" : "monsterAppear()",  
+            "description" : "A monster appears from the shadows!"
+        }
+}

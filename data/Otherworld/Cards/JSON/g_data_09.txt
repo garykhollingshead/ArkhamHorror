@@ -1,0 +1,26 @@
+
+{
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "City of the Great Race",         
+            "check" : ["sneak", -1, 2], 
+            "passaction" : [["gain(\"goldenstatue\")"]], 
+	    "failaction" : [["cursed()"]], 
+            "description" : "You find yourself in an ancient and abandoned temple.  Pass a Luck (-1) check to find a golden statue worth $10.  However, if you take it, you are Cursed"
+        },
+    "loc2" :
+        {
+            "name" : "Plateau of Leng",
+            "passaction" : ["waitTurn(1)", ""], 
+            "description" : "Your red-eyed reflection in the mirror captures your attention.  Stay here next turn"
+        },
+    "other" :
+        {
+            "check" : ["fight", -1, 1],
+            "passaction" : [["returnToArkham()"]], 
+	    "failaction" : [["lose(\"stamina\", 1)", "waitTurn()"]],  
+            "description" : "The rope seems to extend upwards forever, but it\'s the only way out of the crevasse you find yourself in.  Pass a Fight (-1) check to climb it and return to Arkham.  If you fail, you fall, losing 2 Stamina and staying here next turn"
+        }
+}
+

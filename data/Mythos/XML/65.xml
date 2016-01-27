@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Investigators receive 1 less movement point during the Movement Phase. Fast monsters move like normal monsters.
+      </description>
+      <actions>
+         ModifyMovement(-1) and FastMonstersMoveNormal()
+      </actions>
+      <clueAppears>
+         silver twilight lodge
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         historical society
+      </monsterArea>
+      <name>
+         Icy Conditions
+      </name>
+   </Mythos>

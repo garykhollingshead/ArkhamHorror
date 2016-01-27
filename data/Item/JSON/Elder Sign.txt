@@ -1,0 +1,17 @@
+{
+  "description" : "Use when sealing a gate. Lose 1 sanity and 1 stamina. Return this card to the box. Do not make a skill check or spend clue tokens to seal the gate. Remove one doom token from the ancient one\'s doom track.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Elder Sign",
+  "hands" : 0,
+  "price" : 5,
+  "itemtype" : "None",
+  "discard" : "False",   "amount" : 4,
+  "picture" : "Elder Sign.jpg",
+  "conditionals" : {"CurrentlySealingGate" : "None"},
+  "action" : {"CloseGateWithoutSkillCheckOrClueTokens" : "None", "RemoveDoomToken" : 1},
+  "removefromgame" : "True",
+  "sanity" : -1,
+  "stamina" : -1
+  
+}

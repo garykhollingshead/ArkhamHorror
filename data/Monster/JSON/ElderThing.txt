@@ -1,0 +1,12 @@
+{"amount": 2,
+ "combatCheck": 0,
+ "combatDamage": [1, "LoseWeaponOrSpellOfChoice"],
+ "description": "",
+ "horrorCheck": -3,
+ "movement": "black",
+ "name": "Elder Thing",
+ "picture": "Elder Thing.jpg",
+ "sanityDamage": 2,
+ "sneakCheck": -2,
+ "symbol": "diamond",
+ "toughness": 2}

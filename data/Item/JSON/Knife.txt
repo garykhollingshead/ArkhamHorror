@@ -1,0 +1,13 @@
+{
+  "description" : "+1 to combat checks",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Knife",
+  "hands" : 1,
+  "price" : 2,
+  "itemtype" : "physical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Knife.jpg",
+  "combatcheck" : 1
+}

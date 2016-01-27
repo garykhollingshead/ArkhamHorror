@@ -1,0 +1,13 @@
+{
+  "name" : "Nyarlathotep",
+  "title" : "A Thousand Masks",
+  "combat" : -4,
+  "defense" : "Magical Resistance",
+  "worshippers" :{"cultists" : {"special" : "Endless"}}, 
+  "interrupt" : "",
+  "invoke" : {"register" : "ThousandMasks"},
+  "attack" : {"lore" : {"clue" : -1}},
+  "doom" : 11,
+  "picture" : "nyarlathotep.jpg"
+
+}

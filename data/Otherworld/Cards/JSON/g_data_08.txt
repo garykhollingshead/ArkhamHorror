@@ -1,0 +1,27 @@
+
+{
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "City of the Great Race",         
+            "check" : ["sneak", -1, 2], 
+            "passaction" : [["drawUniqueItem(\"any\")", "returnToArkham()"]], 
+	    "failaction" : [["lose(\"sanity\", 3)", "lose(\"stamina\", 1)"]], 
+            "description" : "You must have that device if you are to escape from this accursed city.  Pass a Sneak (-1) [2] check to draw 1 Unique Item and return to Arkham.  If you fail, your captors are none too kind.  Lose 3 Sanity and 1 Stamina"
+        },
+    "loc2" :
+        {
+            "name" : "Plateau of Leng",
+            "check" : ["lore", -2, 1],
+            "passaction" : [["gain(\"money\", 6)"]], 
+	    "failaction" : [["loseInTimeAndSpace()"]], 
+            "description" : "The hooved, wide-mouthed traders of this land are wealthy, but dangerous.  You may make a Lore (-2) check to rade with them.  If you pass, gain $6.  If you fail, you are lost in time and space. "
+        },
+    "other" :
+        {
+            "check" : ["luck", -1, 1],
+            "passaction" : [["gain(\"clue\", 2)"]], 
+            "description" : "Pass a Luck (-1) check to discover a vital document.  Gain 2 Clue tokens. "
+        }
+}
+

@@ -1,0 +1,23 @@
+{
+  "BlackCave" : {
+    "text" : "The moaning winds in the cave whisper your name. Lose 1 Sanity.",
+    "action" : ["None", 
+                "None",
+                {"stamina" : -1}
+	       ]
+  },
+
+  "GeneralStore" : {
+    "text" : "You try talking to the elderly locals gathered around the potbellied stove playing checkers, but you gain nothing but stares and a few befuddled grunts for your trouble. Apparently they do not like outsiders. No encounter.",
+    "action" : ["None", 
+                "None",
+                "None"
+	       ]
+  },
+
+  "Graveyard" : {
+    "text" : "Cooter Falwell latches onto you and rambles on about his spiritual beliefs. Make a Lore (-1) check. If you pass, then somewhere in Cooter\'s words you find a clue to the Mythos threat. Gain 1 Clue token, but lose 1 Sanity. if you fail, move to the street while you listen to Cooter ramble on about pure nonsense.",
+    "action" : [{"lore":-1}, {"clue":1, "sanity" : -1},            {"movement" : "tostreet"} ]
+  }
+
+}

@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Rivertown Residents Take Back Streets!",
+  "description"            : "All monsters in the Rivertown streets or locations are returned to the cup.", 
+  "category"               : "headline",
+  "monsterArea"           : "the witch house",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "black cave",
+  "actions"                : "ReturnToCupMostersAt(locations=[\"rivertown\"], streets=[\"rivertown\"])", 
+  "movementImage"         : "circle square diamond.jpg"
+ }

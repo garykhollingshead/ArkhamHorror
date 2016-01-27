@@ -1,0 +1,6 @@
+{
+  "name" : "Expert Occultist",
+  "picture" : "Expert Occultist.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "ResolveSkillCheck" , "condition" : {"optional" : {"equalTo" : ["Type" , "Spell"]}}, "modifyValue" : { "rerollCheck" : "True" } , "invokeBefore" : { "Deregister" : "this" } }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            You may choose to help an anthropology professor and his students decipher an ancient stone tablet. If so, make a Lore(-2) check. If you pass, you correctly interpret it, draw 1 Spell. If you fail, you mispronounce a word and are cursed.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            gainCard(&quot;ally&quot;, &quot;sirwilliambrinton&quot;) || adjust(&quot;money&quot;, 5)
+         </action>
+         <text>
+            You find a muscular, bored-looking man who challenges you to an arm wrestling match. Lose 2 Stamina if you accept. If this does not knock you unconcious, Sir William Brinton laughs and slaps your shoulder, offering to join your investigation. Take his Ally card. If it is not available, gain $5 instead.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <encounter>
+               True
+            </encounter>
+            <movement>
+               library
+            </movement>
+         </action>
+         <text>
+            You doze off and enter the Dreamlands. Have an encounter there, then immediately return here.
+         </text>
+      </Library>
+   </MiskatonicuEncounter>

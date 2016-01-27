@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            In an old journal you learn some horrible eldritch secrets.  Roll a die.  Lose that much Sanity and gain that many Clue tokens.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            You attend a ceremony in which the order opens a gate and a monster bursts out of it before the gate closes once more.  A monster appears!
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <will>
+               -1
+            </will>
+            <fail>
+               <movement>
+                  street
+               </movement>
+            </fail>
+            <pass>
+               <movement>
+                  street
+               </movement>
+            </pass>
+         </action>
+         <text>
+            &quot;Care to join the Order?&quot; Carl Sanford and several of his henchmen ask.  If you accept, pay $3 and take a Silver Twilight Membership.  If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door.  Wheather you pass or not, move to the street.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>

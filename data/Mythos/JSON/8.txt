@@ -1,0 +1,11 @@
+{
+ "name" : "Ill Wind Grips Arkham!",
+ "description" : "The first player must pass a Luck (-1) check or be Cursed.",
+ "category" : "headline",
+ "monsterArea" : "graveyard",
+ "whiteMovementShapes" : ["hexagon"],
+ "blackMovementShapes" : ["slash", "triangle", "star"],
+ "clueAppears" : "unvisited isle",
+ "actions" : ["Check(\"luck\", -1)", "CursePlayer()"], 
+ "movementImage" : "hex slash triangle star.jpg"
+}

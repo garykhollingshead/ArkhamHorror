@@ -1,0 +1,10 @@
+{
+  "name" : "R\'lyeh Rising",
+  "description" : "Star Spawn and Maniacs have their toughness increased by 1. The difficulty to seal or close gates to R\'lyeh is increased by 1.",
+  "category" : "environment (mystic)",
+  "clueAppears" : "historical society",
+  "monsterArea" : "woods",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

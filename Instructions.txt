@@ -1,0 +1,7 @@
+Requires:
+Python 2.6
+Pyqt 4
+
+Suggested use on Windows.
+
+Open the project folder.  Double click ArkhamHorror.py

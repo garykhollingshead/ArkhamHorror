@@ -1,0 +1,22 @@
+<monsters>
+  <monster>
+    <count></count>
+    <description></description>
+    <name></name>
+    <image></image>
+    <color></color>
+    <symbol></symbol>
+    <toughness></toughness>
+    <damage>
+      <combat></combat>
+      <horror></horror>
+    </damage>
+    <check>
+      <combat></combat>
+      <horror></horror>
+      <sneak></sneak>
+      <sanity></sanity>
+    </check>
+    <abilities></abilities>
+  </monster>
+</monsters>

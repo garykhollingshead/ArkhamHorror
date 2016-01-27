@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;lost&quot;)
+         </failaction>
+         <description>
+            You are taken to a prehistoric monestary, where a high priest in a yellow silken mask questions you. Pass a Lore (-2) check to answer him to his satisfaction. Gain your freedom and 1 Spell. Otherwise, you are lost in time and space.
+         </description>
+         <passaction>
+            gain(&quot;spell&quot;, 1)
+         </passaction>
+         <name>
+            plateau of leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, &quot;roll(1)&quot;)
+         </failaction>
+         <description>
+            You become tangled in the damp seaweed. Pass a Luck (-1) check to pull free before something finds you while you&quot;re helpless. If you fail, roll a die and lose that much Stamina.
+         </description>
+         <name>
+            r&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;unique item&quot;, 1)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Luck (-1) check to discover a useful object in your wanderings. Draw 1 Unique Item.
+         </description>
+      </other>
+   </otherworldCard>

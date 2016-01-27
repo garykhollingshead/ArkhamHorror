@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+   <AncientOne>
+      <picture>
+         shub.jpg
+      </picture>
+      <name>
+         Shub-Niggurath
+      </name>
+      <combat>
+         -5
+      </combat>
+      <title>
+         Black Goat of the Woods
+      </title>
+      <attack>
+         Lose(&quot;MonsterTrophy&quot;,1)
+      </attack>
+      <defense>
+         Physical Immunity
+      </defense>
+      <worshippers>
+         toughness+1
+      </worshippers>
+      <interrupt>
+         <modifyValue>
+            <toughness>
+               1
+            </toughness>
+         </modifyValue>
+         <condition>
+            always
+         </condition>
+         <routine>
+            CreateMonsterRoutine
+         </routine>
+      </interrupt>
+      <doom>
+         12
+      </doom>
+   </AncientOne>

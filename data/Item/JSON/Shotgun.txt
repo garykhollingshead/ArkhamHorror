@@ -1,0 +1,13 @@
+{
+  "description" : "+4 to Combat checks. Any Phase: When using Shotgun in Combat, all 6\'s rolled count as 2 successes.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Shotgun",
+  "hands" : 2,
+  "price" : 6,
+  "itemtype" : "physical weapon",
+  "combatcheck" : 4,
+  "rollaugment" : [6, 2],
+  "amount" : 2,
+  "picture" : "Shotgun.jpg"
+}

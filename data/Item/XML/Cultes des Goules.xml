@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Cultes des Goules.jpg
+      </picture>
+      <draw>
+         <spell>
+            <LoreCheck>
+               0
+            </LoreCheck>
+         </spell>
+         <clue>
+            <LoreCheck>
+               0
+            </LoreCheck>
+         </clue>
+      </draw>
+      <description>
+         Movement: exhaust and spend 2 movement points to make a Lore(-2) check. If you pass, draw 1 spell and gain 1 clue token, but lose 2 sanity and discard Cultes des Goules. If you fail, nothing happens.
+      </description>
+      <price>
+         3
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <sanity>
+         <LoreCheck>
+            0
+         </LoreCheck>
+      </sanity>
+      <itemtype>
+         tome
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <discard>
+         <LoreCheck>
+            False
+         </LoreCheck>
+      </discard>
+      <conditionals>
+         <LoreCheck>
+            -2
+         </LoreCheck>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Cultes des Goules
+      </name>
+   </Item>

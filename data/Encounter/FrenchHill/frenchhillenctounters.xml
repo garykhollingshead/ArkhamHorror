@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<frenchhillenctounters>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            A gate and a monster appear!
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            Carl Sanford does not trust you and at the climax of the monthly ceremony spits a spell at you.  Pass a Luck (-2) check or you are Cursed.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <cluetoken>
+               loseAllClueTokens()
+            </cluetoken>
+            <movement>
+               frenchhill
+            </movement>
+         </action>
+         <text>
+            Carl Sanford draws you into the study to talk and you feel the cold creep of dread listening to him.  Make a Lore (-1) check.  If you pass, your willpower stands up to the test of the ancient wizard and you even learn something of value.  Gain 3 Clue tokens. If you fail, his hypnotic tones lull you into a trance.  The conversation seems short, but when you leave the study, much time has passed and your thoughts are confused.  Lose all of your Clue tokens and move to the street.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            <successes>
+               3
+            </successes>
+            <stamina>
+               3
+            </stamina>
+         </action>
+         <text>
+            You find a banquet laid out in the dining room and feel compelled to sit down and eat.  Make a Luck (+0) check and consult the following chart
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            Participating in the monthly ceremony, you witness great power and great evil.  Lose up to 3 Sanity and gain that many Clue tokens.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            Brushing up against a strange object in the hall, you feel stretched and thin, like your skin is too tight.  Pass a Luck (-1) check or you are Cursed.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;Excuse me, stranger, but have you ever seen this symbol before?&quot;  A man standing near the house holds up an occult symbol.  Make a Lore (-1) check.  If you pass, the man introduces himself as Thomas F. Malone, a police detective visiting Arkham on a case.  He&quot;s impressed with you and offers to join you.  Take his Ally card.  If it&quot;s not available, he tells you some valuable information instead.  Gain 2 Clue tokens.  If you fail, nothing happens.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            You are allowed into the vault of Silver Secrets.  Pass a Luck (-2) check to steal a very unusual item.  Search the Unique Item deck and take any one Unique Item you want.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            None
+         </action>
+         <text>
+            You find an old parchment in the study.  Pass a Lore (-1) check to draw 2 Spells and keep one of your choice.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            discardHalfOfItems()
+         </action>
+         <text>
+            You are overcome by the echoing chants of the long-gone witches who have lived and died here - you pass out.  Make a Will (-2) check.  If you pass, you learn an ancient spell in your dreams.  Draw 1 Spell.  If you fail, you are missing half your items when you wake up.  Discard half of your items (your choice, round down).
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            You&quot;re invited to take part in a Gating ceremony.  If you agree, spend 2 Clue tokens and 1 Sanity to make a Lore (-2) check.  If you pass, close one gate of your choice.  If you fail, nothing happens.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            None
+         </action>
+         <text>
+            Make a Sneak (-2) check.  If you pass, you slip into the temple area of the lodge and find 2 items of interest.  Roll a die for each item. On a success, draw a Unique Item, otherwise draw a Common Item.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            In an old journal you learn some horrible eldritch secrets.  Roll a die.  Lose that much Sanity and gain that many Clue tokens.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            You attend a ceremony in which the order opens a gate and a monster bursts out of it before the gate closes once more.  A monster appears!
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <will>
+               -1
+            </will>
+            <fail>
+               <movement>
+                  street
+               </movement>
+            </fail>
+            <pass>
+               <movement>
+                  street
+               </movement>
+            </pass>
+         </action>
+         <text>
+            &quot;Care to join the Order?&quot; Carl Sanford and several of his henchmen ask.  If you accept, pay $3 and take a Silver Twilight Membership.  If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door.  Wheather you pass or not, move to the street.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Luck (-1) check to find an odd-looking item in an old dusty display case. Draw 1 Unique Item.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            The Order of the Silver Twilight casts a banishment spell in their monthly ceremony. Spend 1 Sanity to make a Luck (-1) check. If you pass, claim any one monster on the board as a trophy. If you fail, nothing happens.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            None
+         </action>
+         <text>
+            You hear the quiet sounds of an intruder. If you investigate, you find a woman dressed in blak. She attacks you as soon as she sees you. Pass a Fight(-1) check to subdue her long enough to explain your investigation. You find out that her name is Ruby Standish and that she was robbing the Lodge. However, upon hearing your tale, she agrees to join you. Take her Ally card. If it is not available, draw a Unique item instead.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+    <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            You feel the house actually breathe and speak your name. Lose 1 Sanity.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <text>
+            Pay your monthly dues of $3 or lose 2 Sanity from strange dreams sent to you by Carl Sanford when he kicks you out of the Order. If you are kicked out, lose your Silver Twilight Membership.
+         </text>
+         <actio>
+            <sanity>
+               -2
+            </sanity>
+            <stmember>
+               discard()
+            </stmember>
+         </actio>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <stamina>
+               -3
+            </stamina>
+            <movement>
+               frenchhill
+            </movement>
+         </action>
+         <text>
+            &quot;Care to join the Order?&quot; Carl Sanford and several of his henchmen ask. If you accept, pay $3 and take a Silver Twilight Membership. If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door. Whether you pass or not, move to the street.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>
+</frenchhillenctounters>

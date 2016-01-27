@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            An old professor from Earth teaches you a thing or two.  Pass a Luck (-1) [2] check to draw 1 Skill
+         </description>
+         <passaction>
+            draw(&quot;skill&quot;, 1)
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <check>
+            2
+         </check>
+      </loc2>
+      <loc1>
+         <name>
+            Plateau of Leng
+         </name>
+         <description>
+            You wander the frozen wastes.  No encounter
+         </description>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;stamina&quot;, 2)
+         </failaction>
+         <passaction>
+            gain(&quot;money&quot;, 3)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            You come across a sleeping horror with a tentacle draped across a small gold idol.  Silence is of the essence as you attempt to gently easy the idol out from under the creatures pseudopod.  Make a Sneak (-1) check.  If you pass, gain $3.  If you fail, lose 2 Stamina
+         </description>
+      </other>
+   </otherworldCard>

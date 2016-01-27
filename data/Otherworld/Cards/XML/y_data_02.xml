@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            An alien mind forces its way into your body. Pass a Luck(-2) check to guess a way to drive it out, gaining 2 Clue tokens in the process, or else stay here next turn, serving as its host body.
+         </description>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;sanity&quot;,1)
+         </failaction>
+         <description>
+            The odd plant has you in its clutches. Pass a Fight(-1) check to break free. If you fail. lose 1 Stamina and 1 Sanity as it partially digests you.
+         </description>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;money&quot;,2)
+         </passaction>
+         <description>
+            A glimmer of gold catches your eye. Gain $2.
+         </description>
+      </other>
+   </otherworldCard>

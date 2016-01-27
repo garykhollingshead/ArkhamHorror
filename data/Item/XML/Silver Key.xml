@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Silver Key.jpg
+      </picture>
+      <description>
+         Use this item to automatically pass an Evade check.  Limit three uses.
+      </description>
+      <price>
+         4
+      </price>
+      <evadecheck>
+         <isEvadeCheck>
+            0
+         </isEvadeCheck>
+      </evadecheck>
+      <usecount>
+         1
+      </usecount>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <discard>
+         <UseCounter>
+            False
+         </UseCounter>
+      </discard>
+      <conditionals>
+         <UseCounter>
+            3
+         </UseCounter>
+         <isEvadeCheck>
+            0
+         </isEvadeCheck>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Silver Key
+      </name>
+   </Item>

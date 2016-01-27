@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Mists of Releh.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Mists of Releh
+      </name>
+      <sanityCost>
+         0
+      </sanityCost>
+      <effect>
+         evadeMonster()
+      </effect>
+      <amount>
+         4
+      </amount>
+      <hands>
+         0
+      </hands>
+      <phase>
+         evade
+      </phase>
+      <castingModifier>
+         monsterAwareness()
+      </castingModifier>
+      <description>
+         Any Phase: Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster&quot;s awareness
+      </description>
+   </Spell>

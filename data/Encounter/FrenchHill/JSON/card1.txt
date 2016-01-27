@@ -1,0 +1,29 @@
+
+{
+  "SilverTwilightLodge" : {
+    'text' : 'Brushing up against a strange object in the hall, you feel stretched and thin, like your skin is too tight.  Pass a Luck (-1) check or you are Cursed.',
+    'action' : [ {'luck': -1},
+                 'None',
+                 { 'cursed' : 'True' }
+               ]
+  },
+
+  "InnerSanctum" : {
+    'text' : "Participating in the monthly ceremony, you witness great power and great evil.  Lose up to 3 Sanity and gain that many Clue tokens.",
+    'action' : [ 'None',
+                 'swapSanityForClue(3)',
+                                'None'
+             ]
+  },
+
+  "TheWitchHouse" : {
+    'text' : "You find a banquet laid out in the dining room and feel compelled to sit down and eat.  Make a Luck (+0) check and consult the following chart",
+    'action' : [ {'luck':0, 'countsuccesses' : 'True'},
+                 {'successes': 0, 'sanity':-3 },
+                 {'successes': 1, 'fail':'loseTurn()'},
+                 {'successes': 2, 'stamina':-1},
+                 {'successes': 3, 'stamina':3}
+               ]
+  }
+
+}

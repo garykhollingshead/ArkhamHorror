@@ -1,0 +1,23 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "plateau of leng",
+                        "check" : ["speed", -1, 1],
+                        "failaction" : [["lose(\"stamina\", 2)"]], 
+                        "description" : "While you are climbing a high cliff, you begin to slip. Pass a Speed (-1) check or crash down the mountain, losing 2 Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "the dreamlands",
+                        "check" : ["speed", -1, 1],
+                        "failaction" : [["lose(\"stamina\", 3)"]],
+                        "description" : "Avalanche! Pass a Speed (-1) check or lose 3 Stamina."
+                },
+        "other" :
+                {
+                        "passaction" : [["lose(\"stamina\", 1)"]],
+                        "description" : "The shadowy entity gives up the chase. Lose 1 Stamina from exhaustion."
+                }
+}
+

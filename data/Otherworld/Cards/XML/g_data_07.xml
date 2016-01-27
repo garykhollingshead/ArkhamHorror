@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            Sometimes, voilence is the answer.  Pass a Fight (-1) check to break free of your captors and return to Arkham
+         </description>
+         <passaction>
+            returnToArkham()
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            loseItemOfChoice(1)
+         </failaction>
+         <description>
+            Tour the perfumed jungles of Kied, you come across an ancient ivory palace.  Pass a Luck (-1) check to explore it without getting caught.  Draw 1 Spell.  If you fail the check, lose 1 item of your choice. 
+         </description>
+         <passaction>
+            draw(&quot;spell&quot;, 1)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;sanity&quot;, 3)
+         </failaction>
+         <passaction>
+            draw(&quot;spell&quot;, 1)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Carefully, you avoid the gaze of a gigantic eye watching an altar.  You may try to pass a Sneak (-1) check to steal a scroll from the dais.  Draw 1 Spell.  If you fail, you are wracked by pain and lose 3 Sanity.
+         </description>
+      </other>
+   </otherworldCard>

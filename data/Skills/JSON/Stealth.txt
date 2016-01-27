@@ -1,0 +1,7 @@
+{
+  "name" : "Stealth",
+  "picture" : "Stealth.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "ResolveSkillCheck" , "condition" : {"optional" : {"equalTo" : ["Type" , "Evade"]}}, "modifyValue" : { "rerollCheck" : "True" } , "invokeBefore": { "Deregister" : "this" } }
+}
+

@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "The Dreamlands",
+                        "check" : ["lore", 0, 1], 
+			"passaction" : [["status(\"returntoarkham\")"]], 
+                        "failaction" : [["status(\"lost\")"]],
+                        "description" : "Pass a Lore (+0) check to fight off your desire to sleep. If you fail, you freexe in the night. You are lost in time and space. If you succeed, return to Arkham."
+                },
+        "loc2" :
+                {
+                        "name" : "Yuggoth",
+                        "check" : ["speed", -1, 1],
+                        "passaction" : [["gain(\"money\", 5)", "gain(\"clue\", 2)"]],
+                        "failaction" : [["status(\"lost\")"]],
+                        "description" : "The stone creature pursues you. Pass a Speed (-1) check to escape with the statue, gaining $5 and 2 Clue tokens. If you fail, the creature smashes you off the cliff. You are lost in time and space."
+                },
+        "other" :
+                {
+                        "passaction" : [["draw(\"common\", 1)"]],
+						"failaction" : [["draw(\"common\", 1)"]],
+                        "description" : "Luck is with you. You stumble on a cache of supplies. Draw 1 Common Item."
+                }
+}

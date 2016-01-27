@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <defaultaction>
+            monster
+         </defaultaction>
+         <name>
+            plateau of leng
+         </name>
+         <description>
+            A monster appears from the shadows!
+         </description>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, &quot;roll(1)&quot;)
+         </failaction>
+         <description>
+            Starving, you consider eating some of the glowing mushrooms. If you decide to do so, make a Luck (-1) check. If you fail, roll a die and lose that much Stamina. If you succeed, roll a die and gain that much Stamina.
+         </description>
+         <passaction>
+            gain(&quot;stamina&quot;, &quot;roll(1)&quot;)
+         </passaction>
+         <name>
+            abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;stamina&quot;, 2)
+         </failaction>
+         <check>
+            1
+         </check>
+         <description>
+            The pinkish rays nearly get you. Pass a Sneak (+0) check or lose 2 Stamina.
+         </description>
+      </other>
+   </otherworldCard>

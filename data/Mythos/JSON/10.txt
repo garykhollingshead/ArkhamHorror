@@ -1,0 +1,11 @@
+{
+ "name" : "Terror at the Train Station",
+ "description" : "A rusty train in Arkham, disgorging 2 monsters into the Northside streets",
+ "category" : "headline",
+ "monsterArea" : "the witch house",
+ "whiteMovementShapes" : ["crescent"],
+ "blackMovementShapes" : ["plus"],
+ "clueAppears" : "black cave",
+ "actions" : ["PlaceMonstersAt( number=2, streets=[\"northside\"])"],
+ "movementImage" : "crescent plus.jpg"
+}

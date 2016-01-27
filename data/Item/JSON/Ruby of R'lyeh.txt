@@ -1,0 +1,13 @@
+{
+  "description" : "Movement: You get 3 extra movement points.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Ruby of R\'lyeh",
+  "hands" : 0,
+  "price" : 8,
+  "itemtype" : "None",
+  "movement" : 3,
+  "conditionals" : {"isPhase" : "movement"},
+  "amount" : 1,
+  "picture" : "Ruby of R\'lyeh.jpg"
+}

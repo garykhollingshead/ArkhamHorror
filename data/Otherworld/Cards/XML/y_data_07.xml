@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <name>
+            Yuggoth
+         </name>
+         <description>
+            Breathing hard, you stay huddled against the rock until the sounds of pursuit fade into the distance. No encounter.
+         </description>
+      </loc2>
+      <loc1>
+         <failaction>
+            stayHereNextTurn()
+         </failaction>
+         <description>
+            You run for the boat. Pass a Speed(-1)[2] check to reach it in time. If you do, you escape with vital information. Gain 5 Clue tokens. If you fail, stay here next turn, hiding from your pursuer.
+         </description>
+         <passaction>
+            gain(&quot;clue&quot;,5)
+         </passaction>
+         <name>
+            R&quot;lyeh
+         </name>
+         <check>
+            2
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;sanity&quot;,1)
+         </failaction>
+         <passaction>
+            gain(&quot;spell&quot;,1)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Your mind is flooded with knowledge. Make a lore(-2) check. If you pass it, draw 1 Spell, but lose 1 Sanity.
+         </description>
+      </other>
+   </otherworldCard>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         The Black Man.jpg
+      </picture>
+      <toughness>
+         1
+      </toughness>
+      <description/>
+      <combatDamage/>
+      <symbol>
+         crescent
+      </symbol>
+      <mask>
+         True
+      </mask>
+      <movement>
+         black
+      </movement>
+      <name>
+         The Black Man
+      </name>
+      <amount>
+         1
+      </amount>
+      <combatCheck/>
+      <sanityDamage>
+         Devoured()
+      </sanityDamage>
+      <sneakCheck>
+         -3
+      </sneakCheck>
+      <horrorCheck>
+         GainClueTokens(+2)
+      </horrorCheck>
+      <endless>
+         True
+      </endless>
+   </monster>

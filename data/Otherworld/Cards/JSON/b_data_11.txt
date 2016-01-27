@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "The Dreamlands",
+                        "check" : ["sneak", 0, 1],  
+						"passaction" : [[""]],
+                        "failaction" : [["lose(\"items\", \"halfYourChoice()\")", "lose(\"money\", \"halfRoundedUp()\")"]],  
+                        "description" : "A thief attempts to rob you. Pass a Sneak (+0) check to notice him. If you fail, lose half of your items (your choice) and half your money (rounded up)."
+                },
+        "loc2" :
+                {
+                        "name" : "Yuggoth",
+                        "check" : ["will", -2, 1],
+                        "passaction" : [[""]],
+                        "failaction" : [["lose(\"item\", \"ofChoice(1)\")"]],  
+                        "description" : "You\"re dizzy from the strange ray. Pass a Will (-2) check or lose 1 item of your choice."
+                },
+        "other" :
+                {
+						"passaction" : [["lose(\"sanity\",1)"]],
+						"failaction" : [["lose(\"sanity\",1)"]],
+                        "description" : "The strain is too much for your mind. Lose 1 Sanity."
+                }
+}

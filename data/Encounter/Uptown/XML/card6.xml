@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <failCheck>
+               <stamina>
+                  -2
+               </stamina>
+            </failCheck>
+         </action>
+         <text>
+            You are bushwhacked by the Sheldon Gang. Pass a Luck(-1) check to avoid their trap. If you fail, lose 2 items of your choice and 2 Stamina.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            You see an interesting book sitting open on Miriam Beecher&quot;s desk. Pass a Lore(-1) check or you peer closely at its pages only to realize too late that the book is Cursed...and now, so are you.
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <sanity>
+               -2
+            </sanity>
+            <movement>
+               uptown
+            </movement>
+         </action>
+         <text>
+            Make a Luck (-1) check. If you pass, you realize that Dr. Mortimore is sneaking up behind you with a hypodermic needle filled with a phosphorescent gel. You avoid his experiment and subdue the mad doctor. The city awards you $3 and you gain 2 Sanity in the process. If you fail, lose 2 Sanity, then you are dumped in the street.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>

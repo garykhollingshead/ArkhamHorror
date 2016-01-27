@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         The Sheldon Gang disturbs a burial mound, releasing 2 monsters into Uptown streets
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;uptown&quot;])
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         Sheldon Gang Turns to Police for Aid!
+      </name>
+   </Mythos>

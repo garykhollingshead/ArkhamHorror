@@ -1,0 +1,28 @@
+
+{
+  "StMarysHospital" : {
+    "text" : "Nurse Sharon slips something into your hand when the doctor isn\'t looking. Pass a Sneak(-1) check to keep anyone else from noticing. If you do, you later examine the object and find it to be an old parchment with a spell scratched on it. Draw 1 Spell. If you fail, an orderly takes it away from you and you gain nothing.",
+    "action" : [  { "sneak": -1 },
+                  { "pass" : "draw(\'Spell\',1)" },
+                  { "fail" : "None" }
+	       ]
+  },
+
+  "Woods" : {
+    "text" : "You come across a cringing dog. Pass a Speed (-2) check to catch and calm him. If you have food, you can discard that to automatically pass the check instead of rolling. You see by his collar that he is named Duke. Take his Ally card. If it isn\'t available, gain $3 as a reward for returning him to his owner, instead.",
+    "action" : [ { "options" : [{"speed": -2}, "discard(\'Food\')"] }, 
+                 { "pass" : [ "TRY", "takeAlly(\'Duke\')", "addMoney(3)" ] },
+		 { "fail" : "None" }
+	       ]
+  },
+
+  "YeOldeMagickShoppe" : {
+    "text" : "Miriam Beecher talks to you for awhile, explaining some very interesting theories she has concerning the Mythos. Gain one Clue token",
+    "action" : [ { "options" : "addTokens(1)" },
+                 { "pass" : "None" }, 
+                 { "fail" : "None" }
+               ] 
+  }
+
+}
+

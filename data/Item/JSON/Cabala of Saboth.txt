@@ -1,0 +1,14 @@
+{
+  "description" : "Movement: exhaust and spend 2 movement points to make a Lore(-2) check. If you pass, draw 1 skill and discard Cabala. If you fail, nothing.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Cabala Of Saboth",
+  "hands" : 0,
+  "price" : 5,
+  "itemtype" : "tome",
+  "conditionals" : {"isPhase" : "movement", "LoreCheck" : -2},
+  "discard" : {"LoreCheck" : ["True", "False"]},
+  "draw" : {"skill" : {"LoreCheck" : [1, 0]}},
+  "amount" : 2,
+  "picture" : "Cabala Of Saboth.jpg"
+}

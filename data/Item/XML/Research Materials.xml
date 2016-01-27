@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Research Materials.jpg
+      </picture>
+      <description>
+         Any Phase: Discard Research Materials instead of spending 1 Clue token.
+      </description>
+      <price>
+         1
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <action>
+         <ClueTokenUse>
+            -1
+         </ClueTokenUse>
+      </action>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Research Materials
+      </name>
+   </Item>

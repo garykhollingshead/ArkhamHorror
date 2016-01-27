@@ -1,0 +1,6 @@
+{
+  "name" : "Fight",
+  "picture" : "Fight.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "SkillCheck" , "condition" : { "equalTo" : [ "Attribute" , "Fight"] } , "modifyValue" : { "dice" : 1 , "dicePerClue" : 1 } }
+}

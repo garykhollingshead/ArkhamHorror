@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <stamina>
+               -1
+            </stamina>
+         </action>
+         <text>
+            The moaning winds in the cave whisper your name. Lose 1 Sanity.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            <movement>
+               tostreet
+            </movement>
+         </action>
+         <text>
+            Cooter Falwell latches onto you and rambles on about his spiritual beliefs. Make a Lore (-1) check. If you pass, then somewhere in Cooter&quot;s words you find a clue to the Mythos threat. Gain 1 Clue token, but lose 1 Sanity. if you fail, move to the street while you listen to Cooter ramble on about pure nonsense.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            You try talking to the elderly locals gathered around the potbellied stove playing checkers, but you gain nothing but stares and a few befuddled grunts for your trouble. Apparently they do not like outsiders. No encounter.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>

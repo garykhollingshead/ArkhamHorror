@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Knife.jpg
+      </picture>
+      <description>
+         +1 to combat checks
+      </description>
+      <price>
+         2
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         1
+      </combatcheck>
+      <hands>
+         1
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Knife
+      </name>
+   </Item>

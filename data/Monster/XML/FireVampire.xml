@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Fire Vampire.jpg
+      </picture>
+      <toughness>
+         1
+      </toughness>
+      <description>
+         A thousand tiny fires, the size of match-flames, swept from the night sky.  The old man was suddenly radiant with light.
+      </description>
+      <combatDamage>
+         2
+      </combatDamage>
+      <symbol>
+         star
+      </symbol>
+      <amount>
+         2
+      </amount>
+      <name>
+         Fire Vampire
+      </name>
+      <ambush>
+         True
+      </ambush>
+      <combatCheck>
+         -2
+      </combatCheck>
+      <physicalImmunity>
+         True
+      </physicalImmunity>
+      <sanityDamage>
+         0
+      </sanityDamage>
+      <sneakCheck>
+         0
+      </sneakCheck>
+      <movement>
+         blue
+      </movement>
+      <horrorCheck>
+         None
+      </horrorCheck>
+   </monster>

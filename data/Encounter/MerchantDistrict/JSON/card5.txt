@@ -1,0 +1,23 @@
+
+  {
+    'RiverDocks' : 
+    { 
+         'text' : "Walking along the dock you see something floating in the water near the edge of the dock. You reach for it - make a Luck (-1) check. If you pass, you dredge up something useful. Draw 1 Common Item. If you fail, you pull to the surface a tentacle that immediately wraps around your neck and drags you under the water and out to sea. Lose 1 Sanity and 3 Stamina before you can break free." , 
+         'check' : ['luck', -1, 1] , 
+         'action' : ['None', 'drawCommonItem(1)', ['loseSanity(1)', 'loseStamina(3)']] 
+    },
+ 
+    'TheUnnamable' : 
+    { 
+         'text' : "Pass a Luck (-1) check to find a hidden cache concealed in the wall of an upstairs bedroom. Draw 1 Unique Item." , 
+         'check' : ['luck', -1, 1] , 
+         'action' : ['None', 'drawUniqueItem(1)', 'None'] 
+    },
+ 
+    'UnvisitedIsle' : 
+    { 
+         'text' : "A group of hooded cultists are having a meeting among the standing stones on the island. Pass a Sneak (-1) check to overhear some of what they have to say. Gain 2 Clue tokens." , 
+         'check' : ['sneak' , -1, 1] , 
+	 'action' : ['None', 'gain(\"clue\", 2)', 'None'] 
+    }
+  }

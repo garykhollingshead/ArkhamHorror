@@ -1,0 +1,26 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "Abyss",
+                        "check" : ["luck", -1, 1], 
+						"passaction" : [["status(\"returntoarkham\")"]],
+                        "failaction" : [["monster"]],
+                        "description" : "A glowing light ahead draws you towards it. Make a Luck (-1) check. If you pass, the glow is a way home. Return to Arkham. If you fail, the light is a trap set by one of the creatures that lives here. A monster appears!"
+                },
+        "loc2" :
+                {
+                        "name" : "Celeano",
+                        "check" : ["sneak", -2, 1],
+                        "passaction" : [["draw(\"spell\", pickOne, 1)"]], 
+                        "failaction" : [["lose(\"stamina\",2)"]],
+                        "description" : "That\"s it! That\"s the document you need! Quietly, you reach for it, trying not to disturb tits guardian. Make a Sneak (-2) check. If you pass, search the Spell deck and take 1 Spell of your choice. If you fail, lose 2 Stamina."
+                },
+        "other" :
+                {
+                        "check" : ["fight", -1, 1],
+                        "passaction" : [["draw(\"spell\", 1, 1)"]], 
+			"failaction" : [[""]],
+                        "description" : "Pass a Fight (-1) check to hang on to your prize dispite the wind. Draw 1 Spell."
+                }
+}

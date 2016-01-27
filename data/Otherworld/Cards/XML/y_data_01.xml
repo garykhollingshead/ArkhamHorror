@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            The meeping of the ghouls in the tunnels echoes in your ears. Pass a Will(-2) check or lose 2 Sanity.
+         </description>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lostInTimeAndSpace()
+         </failaction>
+         <description>
+            You trip over a stone outcropping that shouldn&quot;t be there. Pass a Speed(-1) check or you are lost in time and space.
+         </description>
+         <name>
+            R&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            monsterAppear()
+         </passaction>
+         <description>
+            A monster appears from the shadows!
+         </description>
+      </other>
+   </otherworldCard>

@@ -1,0 +1,11 @@
+{
+ "name" : "Lodge Members Watch the Night!",
+ "description" : "All monsters in the French Hill streets or locations are returned to the cup.",
+ "category" : "headline",
+ "monsterArea" : "unvisited isle",
+ "whiteMovementShapes" : ["circle"],
+ "blackMovementShapes" : ["square", "diamond"],
+ "clueArea" : "science building",
+ "actions" : ["ReturnToCupMonstersIn(locations=[\"french hill\"], streets=\"french hill\" )"],
+ "movementImage" : "circle square diamond.jpg"
+}

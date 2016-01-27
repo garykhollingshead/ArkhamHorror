@@ -1,0 +1,12 @@
+{
+    "name":"Dread Curse Of Azathoth",
+    "castingModifier":-2,
+    "sanityCost":2,
+    "postCast":"exhaust",
+    "phase":"combat",
+    "effect":"combatBonus(9)",
+    "description":"Any Phase: Cast and exhaust to gain +9 to Combat checks until the end of this combat.",
+    "hands":2,
+    "picture":"Dread Curse of Azathoth.jpg",
+    "amount":4
+}

@@ -1,0 +1,202 @@
+<?xml version="1.0" ?>
+<easttownenctounters>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            <stamina>
+               -2
+            </stamina>
+         </action>
+         <text>
+            Deputy Dingby, excitedly cleaning his gun fires a bullet from the chamber in your direction.  Pass a Luck (-1) check to avoid getting shot.  If you fail, lose two Stamina.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            <money>
+               <movement>
+                  easttown
+               </movement>
+            </money>
+         </action>
+         <text>
+            You enter a &quot;friendly&quot; card game.  Make a Luck (-1) check.  If you pass you win $5.  If you fail, you lose $3.  If you lose and can&quot;t pay the boys rough you up and throw you outside.  Lose 1 stamina and move to the street.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            Velma comments on how skinny you look and gives you a sandwich on the house.  You may search the Common Item deck for a Food card and take it.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            If you succeed at a Luck (-1) check, then Deputy Dingby absentmindedly leaves you holding his gun.  You may search the Common Item deck for a .45 Revolver card and take it.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            Joey &quot;The Rat&quot; Vigil slips into an empty chair at your table and whispers &quot;Pssssst!  Wanna buy something?&quot;  Look at the top 3 cards of the Common Item deck.  You may purchase any or all of them for $1 above list price. &quot;Hey I&quot;ve got overhead!&quot; the Rat explains
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            You spot a rat leaving the kitchen.  Pass a Will (-2) check to convince Velma to bribe you $5 not to tell anyone.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+            <movement>
+               easttown
+            </movement>
+         </action>
+         <text>
+            One of the men in the holding cells tries to intimidate you with stories about the things that he&quot;s seen.  Make a Will (-1) check.  If you pass, gain 1 Clue Token.  If you fail, move to the street and lose 1 Sanity as the man laughs at your retreating back.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;So, what&quot;s your story, friend?&quot;  A smiling man inquires about your adventures over a glass of gin.  You tell him your story.  If you spend 3 clue tokens, he introduces himself as Ryan Dean and asks to join you.  Take his Ally card.  If it&quot;s not available, he gives you some useful items instead.  Draw 2 Common Items.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;What&quot;ll it be, hon?&quot;  Velma takes your order.  Pay up to $6 to gain that many points of Sanity and Stamina however you like.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            Sheriff Engle trusts you and asks you to step into his office to discuss the recent strange events.  Pass a Luck (-2) check to convince him to take you into his confidence and give you something to help you out.  Draw 1 Unique Item.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            <userinput>
+               loseAllMoneyOrLoseOneItemYourChoice()
+            </userinput>
+         </action>
+         <text>
+            Prohibition failed to influence the proprietor of Hibb&quot;s.  You drink heavily while quizzing the locals about the strange going-ons in Arkham.  Make a Will (-1) check.  If you pass, you hold your liquor and learn something. Gain two clue tokens.  If you fail, you pass out.  Move to the street and either have one item (your choice) stolen or all of your money stolen.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            <stamina>
+               -2
+            </stamina>
+         </action>
+         <text>
+            You get food poisoning! Pass a Luck (-1) check or lose 2 Stamina.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            Deputy Dingby accidentally drops a case file as he makes his way past you.  Pass a Sneak (+0) check to search the Common Item deck for a Research Materials card and take it.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            loseAllMoney()
+         </action>
+         <text>
+            Pass a Luck (-1) check or a pickpocket clean you out! Lose all your money.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            <movement>
+               easttown
+            </movement>
+         </action>
+         <text>
+            You find some money on the floor under the back booth.  If you take it, make a Sneak (-1) check.  If you pass, roll a die and gain that much money.  if you fail, Velma sees you pick up the money.  She comes over and swipes it out of your hands screaming, &quot;Stealing my tips!&quot; so loudly that you feel the diner.  Move to the street.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            discard(&quot;Weapons&quot;)
+         </action>
+         <text>
+            Sheriff Engle notes that you are carrying an awful lot of weapons.  Either pay him $5 or discard all of your Weapons.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            A horrible monster appears!
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            cursed()
+         </action>
+         <text>
+            Velma reads the tea leaves left in your cup.  Make a Luck (-1) check.  If you pass, the formation of the leaves indicates hope, you are Blessed.  If you fail, the future looks bleak, you are Cursed.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+    <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Will (-1) check to convince Deputy Dingo to share some files with you that are very interesting.  Gain 2 Clue tokens.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            A stranger buys you a drink.  You may search the Common Item deck for a Whiskey Card and take it.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;This must be where pies go when they die.&quot; If you want, $1 to enjoy a fine slice of cherry pie.  If you do, gain 2 Stamina.
+         </text>
+      </VelmasDiner>
+   </easttownencounter>
+</easttownenctounters>

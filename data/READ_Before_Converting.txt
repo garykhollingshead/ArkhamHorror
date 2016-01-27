@@ -1,0 +1,10 @@
+Converting JSON to XML
+
+The jsontoxml.py program will convert a json file to an xml file. you should call getXmlFromDict(), passing in the path to the json file, the path to the xml file that you want to create, and a string representing what the head xml node should be called (For example, if you're doing Ancient One's, then pass in 'AncientOne')
+
+There are several problems that you will find in the JSON files that will keep the python program from interpreting it correctly. 
+   -Change all single quotes to double quotes, except those inside quoted strings
+   -change all double and single quotes inside quoted strings from " or ' to \" and \'
+   -make sure that comma separated lists do not have a comma after the last item
+   -Remove all comments (denoted by #)
+   -You also might find general formatting errors that do not follow the rules on json.org

@@ -1,0 +1,8 @@
+{
+        'location' : 'Another Dimension',
+        'symbol'   : 'square',
+        'modifier' : '+0',
+        'picture'  : 'Another Dimension.jpg',
+        'frontpicture' : 'front.jpg'
+}
+

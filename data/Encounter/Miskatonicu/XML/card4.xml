@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            The Dean introduces you to an anthropology professor who gives you some insight into your investigation. Gain 1 Clue token.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            Lose(&quot;item&quot;, 1)
+         </action>
+         <text>
+            Assisting a professor in his research, you find a valuable Spell. Draw 1 Spell. However, you must pass a Fight(-1) check, or some sticky-fingered student steals one of your items. Lose 1 item of your choice.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <movement>
+               miskatonicu.streets
+            </movement>
+         </action>
+         <text>
+            Make a Will (0) check and consult the chart below. Successes. 0) Abigail tosses you out. Move to the street. 1) Abigail lets you into a private section of the library where you find an ancient tome. Draw 2 spells and keep whichever one of them you want.2) Abigail loans you one of the strange items in the library&quot;s display case. Draw 1 unique item.
+         </text>
+      </Library>
+   </MiskatonicuEncounter>

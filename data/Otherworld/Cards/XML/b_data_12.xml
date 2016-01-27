@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            monster
+         </failaction>
+         <passaction>
+            monster
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <description>
+            A lurking monster appears!
+         </description>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;sanity&quot;,2)
+         </failaction>
+         <description>
+            Exposeure and fear weaken your mind. Pass a Will (-2) check or you must either lose 2 Spells of your choice or lose 2 Sanity.
+         </description>
+         <passaction/>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <passaction/>
+         <check>
+            1
+         </check>
+         <description>
+            Monsters lurk everywhere. Pass a Sneak (-2) check or stay here next turn.
+         </description>
+      </other>
+   </otherworldCard>

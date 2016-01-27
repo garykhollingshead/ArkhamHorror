@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            gain(&quot;curse&quot;,1)
+         </failaction>
+         <description>
+            As you read the page, you realize that you have stumbled into a written trap. Pass a Lore (-1) check or you are cursed.
+         </description>
+         <passaction/>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;money&quot;, all)
+         </failaction>
+         <description>
+            As you are climbing the cliffs in the underworld, your pocket gets caught and tears open. Pass a Speed (-1) check or lose all of your money.
+         </description>
+         <passaction/>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            monster
+         </failaction>
+         <passaction>
+            monster
+         </passaction>
+         <description>
+            A hideous monster appears!
+         </description>
+      </other>
+   </otherworldCard>

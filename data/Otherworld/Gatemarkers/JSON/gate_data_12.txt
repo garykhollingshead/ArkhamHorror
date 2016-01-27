@@ -1,0 +1,7 @@
+{
+    'location' : 'Yuggoth',
+    'symbol' : 'circle',
+    'modifier' : -2,
+    'picture' : 'Yuggoth.jpg',
+    'frontpicture' : 'front.jpg'
+}

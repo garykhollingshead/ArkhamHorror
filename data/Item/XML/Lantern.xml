@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Lantern.jpg
+      </picture>
+      <description>
+         +1 to Luck checks
+      </description>
+      <price>
+         3
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <luckcheck>
+         1
+      </luckcheck>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Lantern
+      </name>
+   </Item>

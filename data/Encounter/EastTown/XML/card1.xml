@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            If you succeed at a Luck (-1) check, then Deputy Dingby absentmindedly leaves you holding his gun.  You may search the Common Item deck for a .45 Revolver card and take it.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            Joey &quot;The Rat&quot; Vigil slips into an empty chair at your table and whispers &quot;Pssssst!  Wanna buy something?&quot;  Look at the top 3 cards of the Common Item deck.  You may purchase any or all of them for $1 above list price. &quot;Hey I&quot;ve got overhead!&quot; the Rat explains
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            You spot a rat leaving the kitchen.  Pass a Will (-2) check to convince Velma to bribe you $5 not to tell anyone.
+         </text>
+      </VelmasDiner>
+   </downtownencounter>

@@ -1,0 +1,10 @@
+{
+  "name" : "Things of Darkness",
+  "description" : "Ghouls, Formless Spawns, Shoggoths, and Flying Polyps have their toughness increased by 1.",
+  "category" : "environment (mystic)",
+  "monsterArea" : "silver twilight lodge",
+  "clueAppears" : "graveyard",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

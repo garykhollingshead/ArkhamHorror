@@ -1,0 +1,11 @@
+{ 
+  "name" : "Feds Raid Arkham!",
+  "category" : "headline",
+  "description" : "All monsters in the streets are returned to the cup.",
+  "action" : "RemoveMonstersFromLocation(\"streets\")",
+  "clueAppears" : "hibb\'s roadhouse",
+  "monsterArea" : "black cave",
+  "whiteMovementShapes" : ["crescent"],
+  "blackMovementShapes" : ["plus"],
+  "movementImage" : "crescent plus.jpg"
+}

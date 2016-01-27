@@ -1,0 +1,11 @@
+{
+ "name" : "Ghost Ship Docks by Itself!",
+ "description" : "An ancient ghost ship arries in Arkham, releasting 2 monsters into the Merchant Dist. streets.",
+ "category" : "headline",
+ "monsterArea" : "the unnamable",
+ "whiteMovementShapes" : ["crescent"],
+ "blackMovementShapes" : ["plus"], 
+ "clueAppears" : "woods",
+ "actions" : ["PlaceMonstersAt( number=2, streets=[\"merchant dist.\"])"],
+ "movementImage" : "crescent plus.jpg"
+}

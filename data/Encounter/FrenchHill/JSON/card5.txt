@@ -1,0 +1,28 @@
+
+{
+  "SilverTwilightLodge" : {
+    'text' : "You hear the quiet sounds of an intruder. If you investigate, you find a woman dressed in blak. She attacks you as soon as she sees you. Pass a Fight(-1) check to subdue her long enough to explain your investigation. You find out that her name is Ruby Standish and that she was robbing the Lodge. However, upon hearing your tale, she agrees to join you. Take her Ally card. If it is not available, draw a Unique item instead.",
+    'action' : [{'fight':-1},
+                {'ally':'rubystandish', 'uniqueitem':'draw(1)'},
+                'None'
+               ]
+  },
+
+  "InnerSanctum" : {
+    'text' : "The Order of the Silver Twilight casts a banishment spell in their monthly ceremony. Spend 1 Sanity to make a Luck (-1) check. If you pass, claim any one monster on the board as a trophy. If you fail, nothing happens.",
+   'action' : [{'luck':-1},
+               {'sanity':-1, 'special':'claimMonsterOfChoice(1)'},
+               {'sanity':-1}
+              ]
+  },
+
+  "TheWitchHouse" : {
+    'text' : "Pass a Luck (-1) check to find an odd-looking item in an old dusty display case. Draw 1 Unique Item.",
+    'action' : [{'luck':-1},
+                {'uniqueitem':'draw(1)'},
+                'None'
+               ]
+  }
+
+}
+

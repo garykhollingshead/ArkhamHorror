@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Dread Curse of Azathoth.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Dread Curse Of Azathoth
+      </name>
+      <sanityCost>
+         2
+      </sanityCost>
+      <effect>
+         combatBonus(9)
+      </effect>
+      <amount>
+         4
+      </amount>
+      <hands>
+         2
+      </hands>
+      <phase>
+         combat
+      </phase>
+      <castingModifier>
+         -2
+      </castingModifier>
+      <description>
+         Any Phase: Cast and exhaust to gain +9 to Combat checks until the end of this combat.
+      </description>
+   </Spell>

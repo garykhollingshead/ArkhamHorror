@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;sanity&quot;, 3
+         </failaction>
+         <description>
+            Pass a Luck (-1) check or you are faced with an enormous mountain with a strange symbol carved into it, as if by the claw of a gigantic creature. The world swims around you and you lose 3 Sanity.
+         </description>
+         <name>
+            abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, 3)
+         </failaction>
+         <description>
+            Pass a Speed (-1) check or you slip and slide down a barnacled surface, slashing your skin to ribbons. Lose 3 Stamina.
+         </description>
+         <name>
+            r&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <check>
+            1
+         </check>
+         <description>
+            The obsidian door refuses to open. Pass a Fight (-1) check or stay here next turn, struggling with it.
+         </description>
+      </other>
+   </otherworldCard>

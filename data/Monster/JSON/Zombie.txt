@@ -1,0 +1,13 @@
+{"amount": 3,
+ "combatCheck": -1,
+ "combatDamage": 2,
+ "description": "She screamed and fired again, but still the thing shambled on, teeth dropping as it groaned its horrible cry",
+ "horrorCheck": -1,
+ "movement": "black",
+ "name": "Zombie",
+ "picture": "Zombie.jpg",
+ "sanityDamage": 1,
+ "sneakCheck": 2,
+ "symbol": "crescent",
+ "toughness": 1,
+ "undead": "True"}

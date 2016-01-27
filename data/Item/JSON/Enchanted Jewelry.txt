@@ -1,0 +1,15 @@
+{
+  "description" : "Any phase: use to avoid losing 1 stamina. discard after 3 uses.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Enchanted Jewelry",
+  "hands" : 0,
+  "price" : 3,
+  "itemtype" : "None",
+  "conditionals" : {"UseCounter" : 3},
+  "usecount" : 1,
+  "discard" : {"UseCounter" : ["True", "False"]},
+  "amount" : 1,
+  "picture" : "Enchanted Jewelry.jpg",
+  "action" : {"ReduceStaminaLoss" : 1}
+}

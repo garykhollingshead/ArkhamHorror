@@ -1,0 +1,13 @@
+{
+  "name":"Mists of Releh",
+  "castingModifier":"monsterAwareness()",
+  "sanityCost":0,
+  "postCast":"exhaust",
+  "phase":"evade",
+  "effect":"evadeMonster()",
+  "description":"Any Phase: Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster\'s awareness",
+  "hands":0,
+  "picture":"Mists of Releh.jpg",
+  "amount":4
+}
+

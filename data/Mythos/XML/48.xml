@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Alien Technology
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <actions>
+         [[MonsterToughnessIncreased(2), DrawUniqueItemOnPassCombatCheck(1)]]
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <conditions>
+         PlayerFightingMonster(&quot;mi-go&quot;)
+      </conditions>
+      <description>
+         Mi-Go have their toughness increased by 2. If an investigator passes a Combat Check gainst a Mi-Go, he draws 1 extra Unique Item.
+      </description>
+   </Mythos>

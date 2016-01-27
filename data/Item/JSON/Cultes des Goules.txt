@@ -1,0 +1,15 @@
+{
+  "description" : "Movement: exhaust and spend 2 movement points to make a Lore(-2) check. If you pass, draw 1 spell and gain 1 clue token, but lose 2 sanity and discard Cultes des Goules. If you fail, nothing happens.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Cultes des Goules",
+  "hands" : 0,
+  "price" : 3,
+  "itemtype" : "tome",
+  "amount" : 2,
+  "picture" : "Cultes des Goules.jpg",
+  "conditionals" : {"LoreCheck" : -2},
+  "draw" : {"spell" : {"LoreCheck" : [1, 0]}, "clue" : {"LoreCheck" : [1, 0]}},
+  "sanity" : {"LoreCheck" : [-2, 0]},
+  "discard" : {"LoreCheck" : ["True", "False"]}
+}

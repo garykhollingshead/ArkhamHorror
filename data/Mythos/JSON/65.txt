@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Icy Conditions",
+  "description"            : "Investigators receive 1 less movement point during the Movement Phase. Fast monsters move like normal monsters.", 
+  "category"               : "environment (weather)",
+  "monsterArea"           : "historical society",
+  "whiteMovementShapes"  : ["plus"],
+  "blackMovementShapes"  : ["crescent"],
+  "clueAppears"           : "silver twilight lodge",
+  "actions"                : "ModifyMovement(-1) and FastMonstersMoveNormal()",
+  "movementImage"         : "plus crescent.jpg"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Downtown streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;downtown&quot;], streets=[&quot;downtown&quot;])
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Vigilante Guards the Night!
+      </name>
+   </Mythos>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Voice of Ra.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Voice of Ra
+      </name>
+      <sanityCost>
+         1
+      </sanityCost>
+      <effect>
+         allSkillCheck(1)
+      </effect>
+      <amount>
+         3
+      </amount>
+      <hands>
+         0
+      </hands>
+      <phase>
+         upkeep
+      </phase>
+      <castingModifier>
+         -1
+      </castingModifier>
+      <description>
+         Upkeep: You may cast and exhaust to gain +1 to all skill checks for the rest of this turn.
+      </description>
+   </Spell>

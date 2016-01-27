@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+   <Investigator>
+      <stamina>
+         6
+      </stamina>
+      <picture>
+         joe.jpg
+      </picture>
+      <story>
+         The job sounded simple enough - pick up a statue at the Providence Museum and deliver it to a guy at the Silver Twilight Lodge.  The money was good, and the dame who gave him the job seemed sincere.
+
+Sadly, things never seem to work out the easily for Joe.  Now the statue is missing, two people are dead, strange cultists are on his tail, and all the clues lead to Arkham.  Lady Luck can be funny that way.
+
+he&quot;s already tried talking to the Sheriff, but that flatfoot proved to be worse than useless.  Looks like its one again going to be up to Joe Diamond to solve the case.
+      </story>
+      <name>
+         Joe Diamond
+      </name>
+      <title>
+         the Private Eye
+      </title>
+      <interrupt>
+         <condition>
+            always
+         </condition>
+      </interrupt>
+      <fight>
+         2
+      </fight>
+      <random>
+         <skill>
+            1
+         </skill>
+         <common>
+            2
+         </common>
+      </random>
+      <focus>
+         3
+      </focus>
+      <sneak>
+         1
+      </sneak>
+      <sanity>
+         4
+      </sanity>
+      <will>
+         0
+      </will>
+      <lore>
+         0
+      </lore>
+      <home>
+         Police Station
+      </home>
+      <fixed>
+         <money>
+            8
+         </money>
+         <common>
+            .45 Automatic
+         </common>
+         <clue>
+            3
+         </clue>
+      </fixed>
+      <speed>
+         3
+      </speed>
+      <luck>
+         0
+      </luck>
+   </Investigator>

@@ -1,0 +1,7 @@
+{
+        'location' : 'The Abyss',
+        'symbol'   : 'hexagon',
+        'modifier' : -2,
+        'picture'  : 'The Abyss.jpg',
+        'frontpicture' : 'front.jpg'
+}

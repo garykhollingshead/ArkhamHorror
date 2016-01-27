@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;stamina&quot;, &quot;roll(1)&quot;)
+         </failaction>
+         <description>
+            A vast stirring rumbles through the plateau. Pass a Sneak (+0) check or roll a die and lose that much Stamina.
+         </description>
+         <name>
+            plateau of leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            Slip on wet stones and slide into a pit. Pass a Luck (+0) check to climb out. If you fail, lose 1 Sanity and stay here next turn.
+         </description>
+         <name>
+            r&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <description>
+            There is nothing here but barren wastes. No encounter.
+         </description>
+      </other>
+   </otherworldCard>

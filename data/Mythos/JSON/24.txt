@@ -1,0 +1,12 @@
+{ 
+  "name"                  : "Temperence Fever Sweeps City!",
+  "description"            : "Any investigator with Whiskey must pass a Sneak(-1) check or get arrested and taken to the Police Station. If this occurs they must discard their Whiskey. In addition, Hibb\'s Roadhouse is closed until the end of the next turn. Leave this card in play until then to indicate this.", 
+  "category"               : "headline",
+  "monsterArea"           : "the witch house",
+  "whiteMovementShapes"  : ["hexagon"],
+  "blackMovementShapes"  : ["slash", "triangle", "star"],
+  "clueAppears"           : "black cave",
+  "closeAreas"            : ["hibb\'s roadhouse"],
+  "actions"                : "if not PassSneakCheck() then ArrestPlayer(), TakeAllOfPlayersWisky()", 
+  "movementImage"         : "hex slash triangle star.jpg"
+}

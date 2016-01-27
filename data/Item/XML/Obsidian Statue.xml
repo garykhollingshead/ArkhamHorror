@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Obsidian Statue.jpg
+      </picture>
+      <description>
+         Discard to cancel all sanity or stamina loss from one source.
+      </description>
+      <price>
+         4
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <action>
+         <ChooseSanityOrStamina>
+            <CancelSanityLoss>
+               None
+            </CancelSanityLoss>
+            <CancelStaminaLoss>
+               None
+            </CancelStaminaLoss>
+         </ChooseSanityOrStamina>
+      </action>
+      <discard>
+         True
+      </discard>
+      <conditionals>
+         <ChooseSanityOrStamina>
+            None
+         </ChooseSanityOrStamina>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Obsidian Statue
+      </name>
+   </Item>

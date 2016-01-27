@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         Yuggoth.jpg
+      </picture>
+      <symbol>
+         circle
+      </symbol>
+      <modifier>
+         -2
+      </modifier>
+      <location>
+         Yuggoth
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

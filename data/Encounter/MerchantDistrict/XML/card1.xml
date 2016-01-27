@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            loseStamina(2)
+         </action>
+         <text>
+            You notice a glint of light in a crevice. If you reach in, make a Luck (-1) check. If you pass, draw 1 Unique Item. If you fail, you feel a sharp pain as teeth clamp down on your hand. you manage to pull free, but you lose 2 Stamina and 1 Sanity.
+         </text>
+         <optional>
+            true
+         </optional>
+         <check>
+            1
+         </check>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            loseSanity(1)
+         </action>
+         <text>
+            You notice a piece of wood floating in the water; carved into it is the name of a ship long since sunk. As you touch it, visions of the drowning passengers&quot; last moments of life flood through your mind. Pass a Speed (-1) check to hurl it away from you. If you fail, you fall to the ground with a cry. Lose 1 sanity.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            loseSanity(3)
+         </action>
+         <text>
+            The willows sway in a wind that you cannot hear or feel, and for a moment, the hatred of these ancient trees for the invader that has come to their island drives you to your knees. pass a Will (-2) check or lose 3 Sanity.
+         </text>
+         <check>
+            1
+         </check>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>

@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Big Storm Sweeps Arkham!",
+  "description"            : "All monsters in the Sky and Outskirts are returned to the cup.", 
+  "category"               : "headline",
+  "monsterArea"           : "independence square",
+  "whiteMovementShapes"  : ["crescent"],
+  "blackMovementShapes"  : ["plus"],
+  "clueAppears"           : "black cave",
+  "actions"                : "ReturnToCupMostersAt(locations=[\"sky\", \"outskirts\"])", 
+  "movementImage"         : "crescent plus.jpg"
+}

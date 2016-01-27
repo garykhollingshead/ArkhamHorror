@@ -1,0 +1,10 @@
+{
+  "name" : "Noden\'s Favor",
+  "description" : "It costs 2 fewer Clue tokens to seal gates.",
+  "category" : "environment (mystic)",
+  "monsterArea" : "the witch house",
+  "clueAppears" : "black cave",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

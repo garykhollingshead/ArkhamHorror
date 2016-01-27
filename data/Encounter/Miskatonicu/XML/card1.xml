@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            Discuss the opportunity to sell a monograph with the President of the University.  Pass a Lore (-1) check to make the sale and gain $5
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            A progessor of the occult asks you to hold a hideous statue that he believes to have strange powers while he reads a scroll. Energy shoots through your body.  Make a Luck (-1) check.  If you pass, your spirit rises from your body and you feel that you have the power to switch bodies with another investigator.  You may choose another investigator from the pile of unused investigators and bring it into play as a new character, discarding your current investigator (along with all his items, skills, trophies, etc.). If you fail, nothing happens.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <move>
+               street
+            </move>
+         </action>
+         <text>
+            Overdue book fines of $4. Pay up, or move to the street!
+         </text>
+      </Library>
+   </MiskatonicuEncounter>

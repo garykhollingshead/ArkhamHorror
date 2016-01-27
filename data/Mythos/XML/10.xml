@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         A rusty train in Arkham, disgorging 2 monsters into the Northside streets
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;northside&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Terror at the Train Station
+      </name>
+   </Mythos>

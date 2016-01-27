@@ -1,0 +1,20 @@
+{
+  "name" : "Sister Mary",
+  "title" : "the Nun",
+  "sanity" : 7,
+  "stamina" : 3,
+  "home" : "South Church",
+  "fixed" : [{"common" : "Cross", "unique" : "Holy Water"}],
+  "random" : [{"spell" : 2, "skill" : 1}],
+  "focus" : 1,
+  "speed" : 1, 
+  "sneak" : 1,
+  "fight" : 0,
+  "will" : 1,
+  "lore" : 1,
+  "luck" : 3,
+  "interrupt" : [ { "routine" : "LostInTimeAndSpaceSubroutine" , "condition" : "always" } ], 
+  "requires" : { "NoSanity" : "location=Arkham Asylum", "NoStamina" : "location=St. Mary\'s Hospital", "else" : "location=South Church" }, 
+  "picture" : "mary.jpeg",
+  "story" : "Sister Mary has served the Church faithfully for manyy years, so when she was sent to Arkham to work with Father Michael, a man whose writings she had admired for many years, she felt that she was truly blessed. Now, after witnessing Father Michael\'s strange mood swings and seeing some of the bizarre practices that go on in this town, she\'s beginning to feel that she may have been a bit too hasty. For instance, last night, there was a knock on the door of the church, and when she answered it, there was nothing but a handwritten journal lying on the steps outside. Reading it, she learned of strange cults and terrible creatures that lurk in the darkness. Worse, when she laughingly showed it to father Michael, he turned pale and threw it into the fire, yelling at her to forget what she\'d seen. Now, gathering her things and quietly leaving South Church, Sister Mary had decided to investigate this town, and in so doing, reaffirm her faith."
+}

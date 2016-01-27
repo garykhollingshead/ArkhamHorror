@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Will checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus. Fliers do not move.
+      </description>
+      <actions>
+         ModifyCheck(&quot;will&quot;, 1) and ModifyCheck(&quot;sneak&quot;, 1) and FliersDoNotMove()
+      </actions>
+      <clueAppears>
+         unvisited isle
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <name>
+         An Evil Fog
+      </name>
+   </Mythos>

@@ -1,0 +1,22 @@
+
+  {
+    'RiverDocks' : 
+    { 
+        'text' : "You bump into Abner Weems, the local drunk. You help him find a place to sleep for the night, and he mumbles something to you over and over. Make a Luck (-1) check. If you pass, his mumbling is a magical chant. Draw 1 Spell. If you fail, it\'s gibberish. Nothing happens." , 
+        'check' : ['luck' , -1, 1], 
+        'action' : ['None', 'drawSpell(1)', 'None'] 
+    },
+
+    'TheUnnamable' : 
+    { 
+        'text' : "You bump into Eric Colt. He tells you a horrible tale of the Mythos to test your nerves. If you listen, lose 2 Sanity. If this doesn\'t drive you insane, take his Ally card if it is available. If it is not available, you may pump him for information instead. Gain 3 Clue tokens." ,
+        'optional' : 'true' , 
+        'action' : [['loseSanity(2)', 'gainAlly(\"Eric Colt\")', 'gain(\"clue\",3)' ] , 'None', 'None'] 
+    },
+ 
+    'UnvisitedIsle' : 
+    { 
+        'text' : "You come across a large pile of human bones under the boughs of one of the willows on the isle. Lose 1 Sanity, but find a scroll among the bones. Draw 1 Spell." ,
+        'action' : [ [ 'loseSanity(1)', 'drawSpell(1)'], 'None', 'None' ] 
+    } 
+  }

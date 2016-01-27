@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Dimensional Shambler.jpg
+      </picture>
+      <toughness>
+         1
+      </toughness>
+      <description/>
+      <combatDamage>
+         LostInTimeInSpace
+      </combatDamage>
+      <symbol>
+         square
+      </symbol>
+      <name>
+         Dimensional Shambler
+      </name>
+      <amount>
+         2
+      </amount>
+      <combatCheck>
+         -2
+      </combatCheck>
+      <sanityDamage>
+         1
+      </sanityDamage>
+      <sneakCheck>
+         -2
+      </sneakCheck>
+      <horrorCheck>
+         -2
+      </horrorCheck>
+      <movement>
+         red
+      </movement>
+   </monster>

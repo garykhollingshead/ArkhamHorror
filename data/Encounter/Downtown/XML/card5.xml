@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            <arrested>
+               police station
+            </arrested>
+         </action>
+         <text>
+            The guards of the sanitarium are aware that there is an intruder. Make a Sneak (-1) check to escape. If you pass, move to the street. If you fail, you are arrested and taken to the Police Station.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            <stamina>
+               -1
+            </stamina>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            A shadow falls across you from no apparent source and you shiver with more than cold. Pass a Will(-1) check or lose 1 Stamina and 1 Sanity.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            <money>
+               loseAll()
+            </money>
+         </action>
+         <text>
+            &quot;This is a stick-up, see? Nobody move!&quot; Three men armed with tommy guns rob the bank while you&quot;re standing in line. Make a Combat (-1) check. If you pass, you drive them off. Nothing happens. If you fail, lose all of your money.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>

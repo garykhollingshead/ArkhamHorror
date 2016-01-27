@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+   <Item>
+      <exhaust>
+         True
+      </exhaust>
+      <draw>
+         <spell>
+            <LoreCheck>
+               False
+            </LoreCheck>
+         </spell>
+      </draw>
+      <description>
+         Movement: Exhaust and spend 2 movement points to make a Lore (-1) check. If you pass, draw 1 Spell and discard Ancient Tome. If you fail, nothing happens.
+      </description>
+      <picture>
+         Ancient Tome.jpg
+      </picture>
+      <price>
+         4
+      </price>
+      <movement>
+         -2
+      </movement>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         tome
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <discard>
+         <LoreCheck>
+            False
+         </LoreCheck>
+      </discard>
+      <conditionals>
+         <isPhase>
+            movement
+         </isPhase>
+         <LoreCheck>
+            -1
+         </LoreCheck>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Ancient Tome
+      </name>
+   </Item>

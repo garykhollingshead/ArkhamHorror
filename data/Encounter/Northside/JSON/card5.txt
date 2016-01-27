@@ -1,0 +1,24 @@
+{
+  "CuriositieShoppe" : {
+    "text" : "Jackpot! You find just what you\'ve been looking for. Search either the Common or Unique Item deck and purchase any one item of your choice at list price.",
+    "action" : [{"optional" : "True"},
+                {"draw" : "search(\'UniqueItem\')", "userinput" : "purchaseItem()"},
+                {"draw" : "search(\'CommonItem\')", "userinput" : "purchaseItem()"}
+	       ]
+  },
+
+  "Newspaper" : {
+    "text" : "Editor Doyle Jefferies offers you a Retainer in return for your fascinating stories. Take a Retainer card.",
+    "action" : ["None", 
+                {"draw" : "search(\'Misc\', \'Retainer\')"}, 
+                "None"]
+  },
+
+  "TrainStation" : {
+    "text" : "The old train hand Bill Washington sits on the train platform playing his guitar as he awaits the next train. As you listen to his singing you feel yourself healing inside. Gain 2 points divided between Stamina and Sanity however you choose.",
+    "action" : [{"optional" : "True", "stamina" : 2}, 
+                {"stamina" : 1, "sanity" : 1},
+                {"sanity" : 2}
+               ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "color" : "green",
+    "loc1" :             
+        {
+            "name" : "The Dreamlands",        
+            "check" : ["luck", -1, 1],
+            "passaction" : [[""]],
+            "description" : "Pass a Luck (-1) check to come across a riding zebra and save some traveling time.   If you are in the first area of The Dreamlands, move to the second area.  If you are in the second area, return to Arkham" 
+        },
+    "loc2" :
+        {
+            "name" : "Plateau of Leng",
+            "check" : ["fight", -1, 1],
+            "passaction" : [["drawUniqueItem(\"tome\")"]], 
+	    "failaction" : [["lostInTimeAndSpace()"]], 
+            "description" : "The rickety bridge collapses as you cross it.  Pass a Fight (-1) check to hang on, finding a relic on the other side.  Draw 1 Unique Item.  If you fail, you plummet into darkness.  You are lost in time and space"
+        },
+    "other" :
+        {
+            "check" : ["luck", -1, 1],
+            "passaction" : [["claimMonsterTrophy()", "gain(\"clue\", 2)"]],
+            "description" : "You come across a slaughtered creature.  Pass a Luck (-1) check to claim a monster trophy from the cup (even if it is Endless) and gain 2 Clue tokens"
+        }
+}
+

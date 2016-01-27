@@ -1,0 +1,13 @@
+{
+  "description" : "Any Phase: Discard Research Materials instead of spending 1 Clue token.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Research Materials",
+  "hands" : 0,
+  "price" : 1,
+  "itemtype" : "None",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Research Materials.jpg",
+  "action" : {"ClueTokenUse" : -1}
+}

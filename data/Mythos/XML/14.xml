@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An old basement is opened, releasing 2 monsters into the Easttown streets.
+      </description>
+      <actions>
+         PlaceMonstersAt(2, streets=[&quot;easttown&quot;])
+      </actions>
+      <clueAppears>
+         Historical Society
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Slum Murders Continue!
+      </name>
+   </Mythos>

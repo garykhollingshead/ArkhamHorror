@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <easttownencounter>
+      <PoliceStation>
+         <action>
+            discard(&quot;Weapons&quot;)
+         </action>
+         <text>
+            Sheriff Engle notes that you are carrying an awful lot of weapons.  Either pay him $5 or discard all of your Weapons.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            A horrible monster appears!
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            cursed()
+         </action>
+         <text>
+            Velma reads the tea leaves left in your cup.  Make a Luck (-1) check.  If you pass, the formation of the leaves indicates hope, you are Blessed.  If you fail, the future looks bleak, you are Cursed.
+         </text>
+      </VelmasDiner>
+   </downtownencounter>

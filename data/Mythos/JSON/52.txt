@@ -1,0 +1,11 @@
+{ 
+  "name" : "Happy Days are Here Again",
+  "category" : "environment (urban)",
+  "description" : "Due to the renewed prosperity that has come to Arkham, the terror level cannot increase.",
+  "actions" : "FreezeTerrorTrack()",
+  "clueAppears" : "historical society",
+  "monsterArea" : "woods",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

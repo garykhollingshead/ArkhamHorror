@@ -1,0 +1,25 @@
+{
+  "AdministrationBuilding": {
+    "text" : "Pass a Will (-1) check to get the Dean to offer you a retainer to write a manuscript for the college. Gain a Retainer card.",
+    "action" : [{"will" : -1}, 
+                {"retainercard" : 1},
+                "None"
+	       ]
+  },
+
+  "Library" : {
+    "text" : "You find an unusual book that radiates evil at the touch.  You begin to read and are drawn into it.  Make a Lore (-2) check. If you pass, you obtain vast knowldege of the eldritch threat.  Roll a die and gain that many Clue tokens.  If you fail, the book consumes you - mind and soul - lose 2 Sanity and 2 Stamina.",
+    "action" : [ {"lore" : -2},
+                 {"cluetokens" : "numberRolled()"},                 {"stamina" : -2, "sanity" : -2}
+               ]
+  },
+
+  "ScienceBuilding" : {
+    "text" : "An archaelogy professor shows you an item he recovered in an Egyptian pyramid.  If you have 2 or fewer Spells, it glows in your hands and you find yourself outisde, still holding it. Not wanting to confront the professor again, you decide to keep it.  Gain 1 Unique Item and move to the street.  If you have more than 2 Spells, nothing happens.",
+    "action" : [ {"hasMoreThanTheseManySpells()" : 2}, 
+                 {"specialitem": 1},
+                 "None"
+               ]
+  }
+
+}

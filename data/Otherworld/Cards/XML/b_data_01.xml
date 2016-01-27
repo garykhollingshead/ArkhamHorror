@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;item&quot;,2)
+         </failaction>
+         <description>
+            The symbol above the doorway glows. Make a Luck (-1) check. If you pass gain 2 Stamina and 2 Sanity. If you fail, discard 2 items of your choice.
+         </description>
+         <passaction>
+            gain(&quot;sanity&quot;, 2)
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            At the south gates of Thran, you are stopped by a red-robed sentry until you can tell three dreams beyond belief. Pass a Luck (-1) check to tour the golden spires of Threan, gaining 2 clue tokens in the process. If you failm stay here next turn.
+         </description>
+         <passaction>
+            gain(&quot;clue&quot;, 2)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;stamina&quot;,1)
+         </failaction>
+         <passaction>
+            gain(&quot;money&quot;, 8)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Fight (-2) check to lever back the lid of the stone chest. Inside, you find $8. If you fail, lose 1 Stamina.
+         </description>
+      </other>
+   </otherworldCard>

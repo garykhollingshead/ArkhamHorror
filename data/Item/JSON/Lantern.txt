@@ -1,0 +1,13 @@
+{
+  "description" : "+1 to Luck checks",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Lantern",
+  "hands" : 0,
+  "price" : 3,
+  "itemtype" : "None",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Lantern.jpg",
+  "luckcheck" : 1
+}

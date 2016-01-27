@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;stamina&quot;, 2)
+         </failaction>
+         <description>
+            The shantak claws at you as it swoops past overhead. Pass a Speed (-2) check or lose 2 Stamina as its claws rake your chest.
+         </description>
+         <name>
+            the dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <passaction>
+            monster
+         </passaction>
+         <name>
+            abyss
+         </name>
+         <description>
+            A monster appears!
+         </description>
+      </loc1>
+      <other>
+         <failaction>
+            monster
+         </failaction>
+         <passaction>
+            gain(&quot;clue token&quot;, 2)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            You sleep, fitfully, and awaken to the sound of your own voice, chanting something. Make a Luck (-2) check. If you pass, you are able to retain what you are saying. Draw 1 Spell and gain 2 Clue tokens. If you fail, the chant attracts something unsavory. A monster appears!
+         </description>
+      </other>
+   </otherworldCard>

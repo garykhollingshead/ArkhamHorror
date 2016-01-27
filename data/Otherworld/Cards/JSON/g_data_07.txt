@@ -1,0 +1,26 @@
+{
+    "color" : "green",
+    "loc1" :            
+        {
+            "name" : "The Dreamlands",         
+            "check" : ["Luck", -1, 1], 
+            "passaction" : [["draw(\"spell\", 1)"]], 
+	    "failaction" : [["loseItemOfChoice(1)"]], 
+            "description" : "Tour the perfumed jungles of Kied, you come across an ancient ivory palace.  Pass a Luck (-1) check to explore it without getting caught.  Draw 1 Spell.  If you fail the check, lose 1 item of your choice. "
+        },
+    "loc2" :
+        {
+            "name" : "City of the Great Race",
+            "check" : ["fight", -1, 1],
+            "passaction" : [["returnToArkham()"]],
+            "description" : "Sometimes, voilence is the answer.  Pass a Fight (-1) check to break free of your captors and return to Arkham"
+        },
+    "other" :
+        {
+            "check" : ["sneak", -1, 1],
+            "passaction" : [["draw(\"spell\", 1)"]], 
+	    "failaction" : [["lose(\"sanity\", 3)"]],
+            "description" : "Carefully, you avoid the gaze of a gigantic eye watching an altar.  You may try to pass a Sneak (-1) check to steal a scroll from the dais.  Draw 1 Spell.  If you fail, you are wracked by pain and lose 3 Sanity."
+        }
+}
+

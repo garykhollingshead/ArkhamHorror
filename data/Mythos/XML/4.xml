@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         The Library Administration Building, and Science Building are all closed until the end of next turn. Leave this card in playuntil then to indicate this.
+      </description>
+      <closeAreas>
+         science building
+      </closeAreas>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Strange Lights on Campus!
+      </name>
+   </Mythos>

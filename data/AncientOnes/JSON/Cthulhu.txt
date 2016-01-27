@@ -1,0 +1,11 @@
+{
+  "name" : "Cthulhu",
+  "title" : "Dreams of madness",
+  "combat" : -6,
+  "defense" : "Special",
+  "worshippers" : {"cultist" : {"toughness" : 2, "horror" : -2, "sanity" : 2}},
+  "interrupt" : { "routine" : "createNewCharacter", "condition" : "always", "modifyValue" : {"maxStamina" : -1, "maxSanity" : -1} },
+  "attack" : "",
+  "doom" : 13,
+  "picture" : "cthulhu.jpeg"
+}

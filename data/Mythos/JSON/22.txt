@@ -1,0 +1,11 @@
+{ 
+  'name'                  : 'Scientist Warns of Dimensional Rift!',
+  'description'            : 'All Dimensional Shamblers and Hounds of Tindalos in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.', 
+  'category'               : 'headline',
+  'monsterArea'           : 'unvisited isle',
+  'whiteMovementShapes'  : ['hexagon'],
+  'blackMovementShapes'  : ['slash', 'triangle', 'star'],
+  'clueAppears'           : "science building",
+  'actions'                : 'ReturnToCupMosterTypes([\"dimensional shamblers\", \"hounds of Tindalos\"])', 
+  'movementImage'         : 'hex slash triangle star.jpg'
+}

@@ -1,0 +1,11 @@
+{
+ "name" : "Witch Burning Anniversary!",
+ "description" : "An ancient curse strikes Arkham, releasing 2 monsters into the Rivertown streets.",
+ "category" : "headline",
+ "monsterArea" : "unvisited isle",
+ "whiteMovementShapes" : ["crescent"],
+ "blackMovementShapes" : ["plus"],
+ "clueAppears" : "science building",
+ "actions" : ["PlaceMonstersAt( number=2, streets=[\"rivertown\"])"],
+ "movementImage" : "crescent plus.jpg"
+}

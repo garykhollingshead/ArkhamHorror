@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Pallid Mask.jpg
+      </picture>
+      <description>
+         +2 to Evade checks
+      </description>
+      <price>
+         4
+      </price>
+      <evadecheck>
+         2
+      </evadecheck>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <type>
+         item
+      </type>
+      <name>
+         Pallid Mask
+      </name>
+   </Item>

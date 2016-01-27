@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <name>
+         Curfew Enforced
+      </name>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <actions>
+         MovePlayerTo(&quot;police station&quot;)
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;streets&quot;), PlayerMovementFinished(), FailCheck(&quot;will&quot;)]]
+      </conditions>
+      <description>
+         Any investigator who ends his movement in the streets must pass a Will (+0) check or be arrested and taken to the Police Station.
+      </description>
+   </Mythos>

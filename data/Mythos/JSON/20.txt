@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Vigilante Guards the Night!",
+  "description"            : "All monsters in the Downtown streets or locations are returned to the cup.", 
+  "category"               : "headline",
+  "monsterArea"           : "the unnamable",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "woods",
+  "actions"                : "ReturnToCupMostersAt(locations=[\"downtown\"], streets=[\"downtown\"])", 
+  "movementImage"         : "circle square diamond.jpg"
+}

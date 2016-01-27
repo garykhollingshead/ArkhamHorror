@@ -1,0 +1,10 @@
+{
+  "name" : "Dreams of a Sunken City",
+  "description" : "Investigators cannot gain Sanity except by receiving psychiatric care at Arkham Asylum (or from Carolyn Fern).",
+  "category" : "environment (mystic)",
+  "monsterArea" : "independence square",
+  "clueAppears" : "the unnamable",
+  "whiteMovementShapes" : ["plus"],
+  "blackMovementShapes" : ["crescent"],
+  "movementImage" : "plus crescent.jpg"
+}

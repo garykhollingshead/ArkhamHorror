@@ -1,0 +1,13 @@
+{"amount": 2,
+ "combatCheck": -3,
+ "combatDamage": 2,
+ "description": "She was lovely and terrible all at once.  A strange light shone in her eyes as she chanted \"Ia! Ia! Shub-Niggurath! The Goat with a Thousand Young!\"",
+ "horrorCheck": "",
+ "magicalResistance": "True",
+ "movement": "black",
+ "name": "Witch",
+ "picture": "Witch.jpg",
+ "sanityDamage": 0,
+ "sneakCheck": -1,
+ "symbol": "circle",
+ "toughness": 1}

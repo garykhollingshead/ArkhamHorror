@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         rumor
+      </category>
+      <playerInput>
+         [[IsPhase(&quot;Encounter&quot;), PlayerInLocation(&quot;miskatonic u. streets&quot;), PlayerMayFightMonstersOnCard()]]
+      </playerInput>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawSkillItems(1)]]
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         The Terrible Experiment
+      </name>
+      <failCondition>
+         MonstersOnCard(8)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <activityAt>
+         miskatonic u. streets
+      </activityAt>
+      <actions>
+         AddMonstersToCard(5)
+      </actions>
+      <passCondition>
+         MonstersOnCard(0)
+      </passCondition>
+      <failActions>
+         [[SetTerorLevel(10), MoveMonstersFromCard(&quot;miskatonic u. streets&quot;)]]
+      </failActions>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         AddMonstersToCard(1, &quot;MythosPhase&quot;)
+      </ongoingEffects>
+      <description>
+         When this card enters play, place 5 monsters from the cup on it. Any player may choose to fight one or more of these monsters while in the Miskatonic U. streets during the Arkham Encounters Phase. If defeated, they are claimed as monster trophies. These monsters do not move, are not considered to be on the board, and do not count against the monster limit.
+      </description>
+   </Mythos>

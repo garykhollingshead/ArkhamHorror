@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <action/>
+         <description>
+            Pass a Luck (-2) check to find a valuable book.  If so, search the Unique Item deck and take the first Tome you find
+         </description>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <action/>
+         <description>
+            Your mind and body are toughened by your experiences.  Pass a Will (+0) [2] check to draw 1 Skill.
+         </description>
+         <name>
+            Plateau of Leng
+         </name>
+         <check>
+            2
+         </check>
+      </loc1>
+      <other>
+         <action>
+            draw(&quot;spell&quot;, 1)
+         </action>
+         <description>
+            Wedged beneath a fallen stone is a scroll.  Draw 1 Spell
+         </description>
+      </other>
+   </otherworldCard>

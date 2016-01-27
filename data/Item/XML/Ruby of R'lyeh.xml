@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Ruby of R&quot;lyeh.jpg
+      </picture>
+      <description>
+         Movement: You get 3 extra movement points.
+      </description>
+      <conditionals>
+         <isPhase>
+            movement
+         </isPhase>
+      </conditionals>
+      <price>
+         8
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <movement>
+         3
+      </movement>
+      <type>
+         item
+      </type>
+      <name>
+         Ruby of R&quot;lyeh
+      </name>
+   </Item>

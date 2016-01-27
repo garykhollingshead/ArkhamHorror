@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Picnickers Panic!",
+  "description"            : "A careless picnicker unleashes 2 monsters on the Downtown streets.",
+  "category"               : "headline",
+  "monsterArea"           : "unvisited isle",
+  "whiteMovementShapes"  : ["crescent"],
+  "blackMovementShapes"  : ["plus"],
+  "clueAppears"           : "science building",
+  "actions"                : "PlaceMostersAt( number=2, streets=[\"downtown\"] )",
+  "movementImage" : "crescent plus.jpg"
+}

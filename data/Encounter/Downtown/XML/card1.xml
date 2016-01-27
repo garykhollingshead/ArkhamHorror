@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            LoreCheck(successes,Spell,null)
+         </action>
+         <text>
+            You find some strange medicine labeled &quot;Dream Enhancers&quot; in a dusty cabinet.  If you choose to take it, make a Lore(-1) check.  If you pass, your visions show you how to perform a ritual.  Draw 1 Spell.  Otherwise, nothing happens.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            LuckCheck(success,null,Item(1))
+         </action>
+         <text>
+            There are Gypsies camped in the park.  They are master thieves and you are their target.  Pass a Luck(-2) check or lose 1 item of your choice.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            LuckCheck(successes,Blessed,Cursed)
+         </action>
+         <text>
+            You find a penny with a strange sigl carved into it. Amused, you flip it in the air, then gasp as you feel a sudden gathering of magical forces around you. Make  Luck(-2) check.  If you pass, the penny comes up heads.  You are Blessed.  If you fail, it comes up tails.  You are Cursed.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>

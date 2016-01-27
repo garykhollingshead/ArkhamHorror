@@ -1,0 +1,13 @@
+{
+  "description" : "+4 to combat checks",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Enchanted Blade",
+  "hands" : 1,
+  "price" : 6,
+  "itemtype" : "magical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Enchanted Blade.jpg",
+  "combatcheck" : 4
+}

@@ -1,0 +1,12 @@
+{
+    "name":"Shrivelling",
+    "castingModifier":-1,
+    "sanityCost":1,
+    "postCast":"exhaust",
+    "phase":"combat",
+    "effect":"combatBonus(6)",
+    "description":"Any Phase: Cast and exhaust to gain +6 to Combat checks until the end of this combat.",
+    "hands":1,
+    "picture":"Shrivelling.jpg",
+    "amount":5
+}

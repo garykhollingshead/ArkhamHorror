@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;lost&quot;)
+         </failaction>
+         <description>
+            While wandering the phosphorescent woods, you are surrounded by hungry zoogs! Make a Luck (-2) check. If you pass, they take a liking to you and give you a gourd of moon-tree wine. Gain 1 Sanity and 1 Clue token. If you fail, the zoogs close in around you, their teeth gleaming. You are lost in time and space.
+         </description>
+         <passaction>
+            gain(&quot;clue&quot;, 1)
+         </passaction>
+         <name>
+            the dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            The shadow tries to force its way between your lips. Pass a Fight (-2) check or lose 2 Stamina and stay here next turn.
+         </description>
+         <name>
+            r&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;sanity&quot;, 2)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Luck (-1) check to find a quiet spot to rest. Gain 2 Stamina and 2 Sanity.
+         </description>
+      </other>
+   </otherworldCard>

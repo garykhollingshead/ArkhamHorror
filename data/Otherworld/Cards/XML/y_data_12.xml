@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            loseAll(&quot;sanity&quot;)
+         </failaction>
+         <description>
+            The stone face reveals to you one of the deepest secrets of the Dreamlands. Pass a Lore(-1)[2] check to gain 4 Clue tokens. If you fail the check, however the sight claims your last shred of sanity. Lose all your Sanity.
+         </description>
+         <passaction>
+            gain(&quot;clue&quot;,4)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            2
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lostInTimeAndSpace()
+         </failaction>
+         <description>
+            Glancing behind you, you see that the beasts are still chasing you. Pass a Speed(-1) check or be lost in time and space.
+         </description>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;clue&quot;,1)
+         </passaction>
+         <description>
+            Suddenly you notice something that you had previously missed. Gain 1 Clue token.
+         </description>
+      </other>
+   </otherworldCard>

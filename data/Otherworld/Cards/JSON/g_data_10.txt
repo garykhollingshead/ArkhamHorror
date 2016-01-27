@@ -1,0 +1,24 @@
+
+{
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "The Dreamlands",        
+            "check" : ["will", -1, 1], 
+            "passaction" : [["gainWealthFromDice(2)"]],
+            "description" : "Pass a Will (-1) check to convince the Rulers of Rokol to share their wealth with you.  If so, roll two dice and add them together.  Gain that much money"
+        },
+    "loc2" :
+        {
+            "name" : "Plateau of Leng",
+            "passaction" : [["draw(\"spell\", 1)", "draw(\"common\", 1)"]], 
+            "description" : "Pass a Luck (-2) check to find some useful things among the bones.  If so, draw 1 Common Item and 1 Spell. "
+        },
+    "other" :
+        {
+            "check" : ["luck", -1, 1],
+            "passaction" : [["returnToArkham()"]], 
+            "description" : "Pass a Luck (-1) check to find the gate back.  If so, immediately return to Arkham"
+        }
+}
+

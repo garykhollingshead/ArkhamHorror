@@ -1,0 +1,21 @@
+{ 
+    "color" : "yellow",
+    "loc1" :             
+        {
+            "name" : "City of the Great Race",
+            "check" : ["luck", -1, 1],       
+	    "failaction" : [["lostInTimeAndSpace()"]],             "description" : "Glancing behind you, you see that the beasts are still chasing you. Pass a Speed(-1) check or be lost in time and space."
+        },
+    "loc2" : 
+        {
+            "name" : "The Dreamlands",
+            "check" : ["lore", -1, 2], 
+	    "passaction": [["gain(\"clue\",4)"]],   
+            "failaction" : [["loseAll(\"sanity\")"]],             "description" : "The stone face reveals to you one of the deepest secrets of the Dreamlands. Pass a Lore(-1)[2] check to gain 4 Clue tokens. If you fail the check, however the sight claims your last shred of sanity. Lose all your Sanity."
+        },
+    "other" :
+        {
+            "passaction" : [["gain(\"clue\",1)"]],  
+            "description" : "Suddenly you notice something that you had previously missed. Gain 1 Clue token."
+        }
+}

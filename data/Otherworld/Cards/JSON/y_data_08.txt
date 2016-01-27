@@ -1,0 +1,23 @@
+{ 
+    "color" : "yellow",
+    "loc1" :             
+        {
+            "name" : "City of the Great Race",
+            "check" : ["luck", -1, 1],       
+            "passaction" : [["gain(\"clue\",2)"]],
+	    "failaction" : [["gain(\"clue\",2)","lose(\"sanity\",2)"]],
+            "description" : "The buzzing language of your captors begins to make sense to you. Gain 2 Clue tokens. then you must pass a Luck(-1) check to avoid hearing about the origins of the mankind and thereby losing 2 Sanity."
+        },
+    "loc2" : 
+        {
+            "name" : "Yuggoth",
+            "check" : ["luck", -2, 1],              
+            "failaction" : [["lose(\"sanity\",2)"]],
+            "description" : "The cylindered head mocks your hopes. \"You\'ll never return home!\" it cackles. Pass a Will(-2) check or lose 2 Sanity."
+        },
+    "other" :
+        {
+            "passaction" : "monsterAppears()",  
+            "description" : "A monster appears!"
+        }
+}

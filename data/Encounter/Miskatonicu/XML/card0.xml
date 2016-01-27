@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            <arrested>
+               True
+            </arrested>
+         </action>
+         <text>
+            A student mistakes you for the bursar.  If you want to carry on the deception, make a Will (-2) check. If you pass, gain $8 in ill-gotten tuition money. If you fail, you&quot;re arrested and taken to the Police Station.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            <roll1dielosestamina>
+               True
+            </roll1dielosestamina>
+         </action>
+         <text>
+            You find a student pounding on a strange device that he has hooked up to massive machinery.  He states that it is a dimensional beam machine. If you offer to help him, make a Lore (-2) check.  If you pass, beams shoots out in all directions, disrupting the gates open throughout the board.  Roll a die for each open gate one at a time.  On a success the gate is closed.  However, you may not take it as a trophy, but instead return it to the pile of gate markers.  If you fail, the machinery overheats and explodes.  Roll a die and lose that much Stamina, then move to St. Mary&quot;s Hospital.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a luck (-2) check to find $5 someone was using as a bookmark
+         </text>
+      </Library>
+   </MiskatonicuEncounter>

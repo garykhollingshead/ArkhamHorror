@@ -1,0 +1,19 @@
+{
+  "name" : "Gloria Goldberg",
+  "title" : "the Author",
+  "sanity" : 6,
+  "stamina" : 4,
+  "home" : "Velma\'s Diner",
+  "fixed" : {"money" : 7, "clue" : 2},
+  "random" : {"common" : 2, "spell" : 2, "skill" : 1},
+  "focus" : 2,
+  "speed" : 1,
+  "sneak" : 0,
+  "fight" : 0,
+  "will" : 2,
+  "lore" : 1,
+  "luck" : 2,
+  "interrupt" : [ { "routine" : "DrawOtherworldEncounterSubroutine", "condition" : "always" , "modifyValue" : { "cardsDrawn" : 1 } } ],
+  "picture" : "gloria.jpg",
+  "story" : "As a young girl, Gloria was haunted by terrible visions. After years of visiting doctors and some therapy, she learned to control her visions somewhat by writing stories. Her weird and disturbing fiction somehow spoke to the public in these troubled times, and has made her a bestselling writer. This evening, while leaving a book signing she\'s attending in Arkham, she was knocked to the ground by the most powerful vision she\'s ever experienced. Gloria saw the sky tear open, and a huge and monstrous form pour out of the very air itself, wreaking untold havoc and killing thousands. As she sat on the ground with her arms wrapped around herself, Gloria knew, somehow, that this vision was real, and that it would come to pass unless she did something about it. Now, she finds herself in a run-down diner, sipping coffee and trying to decide what to do."
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawSpell(1)]]
+      </passActions>
+      <name>
+         Distrubing the Dead
+      </name>
+      <failCondition>
+         TerrorLevel(10)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         rivertown streets
+      </activityAt>
+      <failActions>
+         [[ReturnThisCard(), PlayersCursed()]]
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), PlayerInLocation(&quot;rivertown streets&quot;), PlayerDiscardsGate(2)]]
+      </passCondition>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RollDieAtEndOfMythosPhaseOn1or2AdvanceTerrorTrack()
+      </ongoingEffects>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+   </Mythos>

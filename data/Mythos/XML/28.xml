@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         All Undead monsters have their toughness increased by 1.
+      </description>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         The Chill of the Grave
+      </name>
+   </Mythos>

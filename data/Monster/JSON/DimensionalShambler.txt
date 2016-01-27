@@ -1,0 +1,12 @@
+{"amount": 2,
+ "combatCheck": -2,
+ "combatDamage": "LostInTimeInSpace",
+ "description": "",
+ "horrorCheck": -2,
+ "movement": "red",
+ "name": "Dimensional Shambler",
+ "picture": "Dimensional Shambler.jpg",
+ "sanityDamage": 1,
+ "sneakCheck": -2,
+ "symbol": "square",
+ "toughness": 1}

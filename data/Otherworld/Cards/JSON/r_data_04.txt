@@ -1,0 +1,23 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "r\'lyeh",
+                        "passaction" : [["monster"]],
+                        "description" : "A slimy monster appears!"
+                },
+        "loc2" :
+                {
+                        "name" : "abyss",
+                        "check" : ["speed", -1, 1],
+                        "failaction" : [["status(\"lost\")"]],
+                        "description" : "Pass a Speed (-1) check to avoid a monstrous mass. If you fail, you are lost in time and space."
+                },
+        "other" :
+                {
+                        "check" : ["lore", -1, 1],
+                        "failaction" : [["status(\"stuck(1)\")"]],
+                        "description" : "The colors are blinding. Pass a Lore (-1) check or stay here next turn."
+                }
+}
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Powder Of Ibn-Ghazi.jpg
+      </picture>
+      <description>
+         Magical weapon. +9 to combat checks. (lose 1 sanity and discard after use).
+      </description>
+      <price>
+         6
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <sanity>
+         -1
+      </sanity>
+      <itemtype>
+         magical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         9
+      </combatcheck>
+      <hands>
+         2
+      </hands>
+      <discard>
+         True
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Powder Of Ibn-Ghazi
+      </name>
+   </Item>

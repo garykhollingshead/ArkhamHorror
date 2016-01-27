@@ -1,0 +1,15 @@
+{
+  "description" : "Any phase: Lose 3 Sanity and 3 Stamina and discard make a combat check to defeat all monters in your current area. Does not affect ancient ones.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Flute of the Outer Gods",
+  "hands" : 0,
+  "price" : 8,
+  "itemtype" : "None",
+  "discard" : "True",
+  "sanity" : -3,
+  "stamina" : -3,
+  "amount" : 1,
+  "action" : {"combatCheckToDefeatAllMonstersInCurrentArea": "None"},
+  "picture" : "Flute of the Outer Gods.jpg"
+}

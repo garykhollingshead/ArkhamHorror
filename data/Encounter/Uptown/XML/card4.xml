@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            A gate and a monster appear!
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Pass a Lore (-1) check to recognize an item that Miriam Beecheer has underpriced. If you do so, draw 1 Unique Item. You may purchase it for half its list price(rounded up).
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <fail>
+               moveToStreet()
+            </fail>
+         </action>
+         <text>
+            The Doctor escorts you behind a curtain where the body of some other unfortunate investigator has been laid. The corpse has been torn to shreds. Pass a Will (-1) check or loose 1 Sanity. If you pass, you may also search the body and find a helpful item. Draw 1 Unique Item. If you fail, you run away screaming. Move to the street.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>

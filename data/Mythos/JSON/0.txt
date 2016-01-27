@@ -1,0 +1,6 @@
+{
+  "name" : "The Story Continues...",
+  "description" : "I cannot remember, I must not remember what I saw on that dark and foreboding night",
+ "actions": ["ShuffleDeck(\"mythos\" )", "DrawCard(\"mythos\")"]
+
+}

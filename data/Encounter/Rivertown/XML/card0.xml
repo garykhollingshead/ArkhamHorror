@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            None
+         </action>
+         <text>
+            You are attacked by a shadowy being, but a large man leaps out of the darkness and drives it off. He introduces himself as Tom &quot;Mountain&quot; Murphy. Make a Luck (-2) check, or discard a Whiskey card to pass it automatically. If you pass, he joins your investigation. Take his Ally card if its&quot;s avalable, otherwise he gives you something to protect yourself with. Search the Common Item deck and take the first Weapon you find. If you fail, Nothing happens.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            <sanity>
+               2
+            </sanity>
+         </action>
+         <text>
+            Entering a stone crypt, you are surprised to find a beautiful fresco and some inspirational words upon the wall. There is an almost magical peace within the chamber. Gain 2 Sanity.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            A jar on the counter bears a sign proclaiming, &quot;Guess how many marbles are in the jar and win a prize! $1 entry fee.&quot; If you want you may pay $1 to make a Lore (-2) check. If you pass, you gain $5. If you fail, nothing happens.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>

@@ -1,0 +1,11 @@
+{ 
+  'name'                  : 'Sunny and Clear',
+  'description'            : 'Sneak checks in Arkham are made at a -1 penalty. Will checks in Arkham are made at a +1 bonus. If the Haunter in Darkness is in play, return it to the cup. If the Haunter in Darkness enters play, return it to the cup and draw a different monster.', 
+  'category'               : 'environment (weather)',
+  'monster area'           : 'black cave',
+  'white movement shapes'  : ['plus'],
+  'black movement shapes'  : ['crescent'],
+  'clue appears'           : 'hibbs roadhouse',
+  'actions'                : "ModifyCheck('sneak', -1) and ModifyCheck('will', 1) and ReturnToCupMonstersType('haunter in darkness')",
+  'movement image'         : 'plus crescent.jpg'
+}

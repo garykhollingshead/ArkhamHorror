@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Shrivelling.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Shrivelling
+      </name>
+      <sanityCost>
+         1
+      </sanityCost>
+      <effect>
+         combatBonus(6)
+      </effect>
+      <amount>
+         5
+      </amount>
+      <hands>
+         1
+      </hands>
+      <phase>
+         combat
+      </phase>
+      <castingModifier>
+         -1
+      </castingModifier>
+      <description>
+         Any Phase: Cast and exhaust to gain +6 to Combat checks until the end of this combat.
+      </description>
+   </Spell>

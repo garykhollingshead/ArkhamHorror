@@ -1,0 +1,47 @@
+{
+  # This scheme uses the encounter-event notation developed by the Otherworld Encounters group, with a single modification:
+  # Some cards say something happens, AND also impose an entirely-separate check-based condition. As a result of this,
+  # this scheme uses [_, _, _] structures corresponding to [no-check action, check-passed action, check-failed action], where 
+  # actions that all happen are enclosed in []s instead of standing as a single item.
+  # When an ally is gained, since there is always an 'if not available' condition, that condition is represented as the second
+  # 'argument' to the gainAlly() function that is assumed.
+  # Textual descriptions not implemented in this version, pending decision on whether scans of cards will be used instead.
+  
+  # NOTE: This is NOT the final version of these encounter cards. It is expected that there will be HEAVY revision to the general
+  # cross-group encounter-handling format.
+  'card1' : {
+    'River Docks' : { 'check' : ['luck', -1, 1] , 'action' :  [ 'drawCommonItem'(2)', None, 'arrested()' ] }
+    'The Unnamable' : { 'optional' : true , 'check' : ['lore' , -1 , 1] , 'action' : [None , 'drawSpell(1)' , ['delayed()' , gain("clue",2)] ] }
+    'Unvisited Isle' : { 'check' : ['sneak', -1, 1] , 'action' : [None, gainAlly("John Legrasse", ['restoreSanity()' , 'restoreStamina()' ] ) , None ] }
+  }
+  'card2' : {
+    'River Docks' : { 'check' : ['speed' , -1 , 1 ] 'action' : [ None , None , loseSanity(1) ] } 
+    'The Unnamable' : { 'check' : ['luck' , -1, 1] , 'action' : [None, drawUniqueItem(1), ['loseSanity(1)', 'loseStamina(2)'] }
+    'Unvisited Isle' : { 'check' : ['will' , -2, 1] , 'action' : [None, None, 'loseSanity(3)' ] } 
+  }
+  'card3' : {
+    'River Docks' : { 'check' : ['luck' , -1, 1] , 'action' : [None, drawSpell(1), None] } 
+    'The Unnamable' : { 'optional' : true , 'action' : [[loseSanity(2), gainAlly("Eric Colt", [gain("clue",3)] ) ] , None, None] } 
+    'Unvisited Isle' : { 'action' : [ [ loseSanity(1), drawSpell(1)], None, None ] } 
+  }
+  'card4' : {
+    'River Docks' : { 'check' : ['will', 1, 1] , 'action' : [None, None, 'lostInTimeAndSpace()'] }
+    'The Unnamable' : { 'check' : ['speed', -1, 1] , 'action' : [None, None, 'lostInTimeAndSpace()] }
+    'Unvisited Isle' : { 'action' : [ [ loseSanity(1), gain("clue",1) ], None, None ] }
+  }
+  'card5' : {
+    'River Docks' : { 'check' : ['will', -1, 1] , 'action' : [{ 'doAfter' : true, 'condition' : 'ifSane' , 'action' : 'drawUniqueItem'}, 'loseSanity(1)' , 'loseSanity(2)' ] } 
+    'The Unnamable' : { 'check' : ['speed', -1, 1] , 'action' : [None, 'goToStreet()' , 'loseStamina(2)' ] }
+    'Unvisited Isle' : { 'check' : ['will', -1, 1] , 'action' : [None, None, 'cursed()'] } 
+  }
+  'card6' : {
+    'River Docks' : { 'check' : ['luck', -1, 1] , 'action' : [None, 'drawCommonItem(1)', ['loseSanity(1)', 'loseStamina(3)']] } 
+    'The Unnamable' : { 'check' : ['luck', -1, 1] , 'action' : [None, 'drawUniqueItem(1)', None] } 
+    'Unvisited Isle' : { 'check' : ['sneak' , -1, 1] , 'action' : [None, 'gain("clue", 2)', None] }
+  }
+  'card7' : {
+    'River Docks' : { 'check' : ['fight', -0, 1] , 'action' : [None, {'forEachSuccess' : 'gain("money",3) }, ['loseStamina(1)', 'goToStreet()'] ] }
+    'The Unnamable' : { 'action' : ['monsterAndGateAppear()', None, None] } 
+    'Unvisited Isle' : { 'check' : ['will', -1, 1] , 'action' : ['loseStamina(1)', None, 'loseSanity(1)'] }
+  }
+}

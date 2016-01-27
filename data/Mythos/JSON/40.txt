@@ -1,0 +1,15 @@
+{
+  "name" : "The Stars Are Right",
+  "description" : "",
+  "category" : "rumor",
+  "ongoingEffects" : "RollDieAtEndOfMythosPhaseOn1or2AdvanceDoomTrack()", 
+  "passCondition" : [["IsEncounterPhase()", "PlayerDiscardsAlly()", "PlayerInLocation(downtown streets)"]],
+  "passActions" : ["ReturnCard()", "PlayersDrawCommonItems(2)"],
+  "failCondition" : "AncientOneAwakens()",
+  "failActions" : "ReturnThisCard()",
+  "activityAt" : "downtown streets",
+  "monsterArea" : "science building",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

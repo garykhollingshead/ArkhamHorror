@@ -1,0 +1,13 @@
+{"amount": 3,
+ "combatCheck": [1, ["TerrorLevel>=6", 2]],
+ "combatDamage": [1, ["TerrorLevel>=6", 3]],
+ "description": "",
+ "endless": ["False", ["TerrorLevel>=6", "True"]],
+ "horrorCheck": "",
+ "movement": "black",
+ "name": "Maniac",
+ "picture": "Maniac.jpg",
+ "sanityDamage": 0,
+ "sneakCheck": -1,
+ "symbol": "crescent",
+ "toughness": 1}

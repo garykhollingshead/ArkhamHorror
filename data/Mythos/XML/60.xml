@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         All investigators in Other World areas may immediately return to Arkham.
+      </description>
+      <actions>
+         ReturnFromOtherWorld()
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Strange Power Flux Plagues City!
+      </name>
+   </Mythos>

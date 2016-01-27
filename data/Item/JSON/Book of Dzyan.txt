@@ -1,0 +1,17 @@
+{
+  "description" : "Movement: exhaust and spend 2 movement points to make a LoreCheck(-1). If you pass, draw 1 spell, lose 1 sanity, and count 1 \"use\" of this discard after 2 uses. If you fail the lore check, nothing happens, not counted as a \"use\"",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Book Of Dzyan",
+  "hands" : 0,
+  "price" : 3,
+  "itemtype" : "tome",
+  "exhaust" : "True",
+  "conditionals" : {"isPhase" : "movement", "LoreCheck" : -1, "UseCounter" : 2},
+  "draw" : {"spell" : {"LoreCheck" : [1, 0]}}, 
+  "sanity" : {"LoreCheck" : [-1, 0]}, 
+  "usecount" : {"LoreCheck" : [1, 0]}, 
+  "discard" : {"UseCounter" : ["True", "False"]},
+  "amount" : 1,
+  "picture" : "Book Of Dzyan.jpg"  
+}

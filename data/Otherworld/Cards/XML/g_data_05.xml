@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            Your peril clears your mind.  Pass a Will (+0) check to restore your Sanity to its maximum value.
+         </description>
+         <passaction>
+            gain(&quot;sanity&quot;, 999)
+         </passaction>
+         <name>
+            Plateau of Leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lostInTimeAndSpace()
+         </failaction>
+         <description>
+            You may choose to try and infiltrate one of the angled structures.  If so, make a Sneak (-1) check.  If you pass, draw 2 Unique Items and keep 1 of them.  If you fail, you are lost in time and space.
+         </description>
+         <passaction>
+            drawUniqueItem(&quot;any&quot;, 2)
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;clue&quot;, 1)
+         </passaction>
+         <description>
+            You are beginning to understand the strange creatures here.  gain 1 Clue token. 
+         </description>
+      </other>
+   </otherworldCard>

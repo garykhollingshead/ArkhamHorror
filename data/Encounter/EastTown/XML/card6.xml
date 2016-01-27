@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Will (-1) check to convince Deputy Dingo to share some files with you that are very interesting.  Gain 2 Clue tokens.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            None
+         </action>
+         <text>
+            A stranger buys you a drink.  You may search the Common Item deck for a Whiskey Card and take it.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;This must be where pies go when they die.&quot; If you want, $1 to enjoy a fine slice of cherry pie.  If you do, gain 2 Stamina.
+         </text>
+      </VelmasDiner>
+   </downtownencounter>

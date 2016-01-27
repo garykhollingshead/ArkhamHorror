@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Enchanted Knife.jpg
+      </picture>
+      <description>
+         +3 to Combat checks
+      </description>
+      <price>
+         5
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         magical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         3
+      </combatcheck>
+      <hands>
+         1
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Enchanted Knife
+      </name>
+   </Item>

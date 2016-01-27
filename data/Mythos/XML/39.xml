@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All monsters in the Southside streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnMonstersInSouthsideStreetsAndLocationsToCup()
+      </actions>
+      <clueAppears>
+         hibb&quot;s roadhouse
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <name>
+         Church Group Reclaims Southside!
+      </name>
+   </Mythos>

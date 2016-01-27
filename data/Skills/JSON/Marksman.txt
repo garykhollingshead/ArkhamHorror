@@ -1,0 +1,6 @@
+{
+  "name" : "Marksman",
+  "picture" : "Marksman.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "ResolveSkillCheck" , "condition" : {"optional" : {"equalTo" : ["Type" , "Combat"]}}, "modifyValue" : { "rerollCheck" : "True" } , "invokeBefore" : { "Deregister" : "this" } }
+}

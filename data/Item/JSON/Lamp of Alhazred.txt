@@ -1,0 +1,13 @@
+{
+  "description" : "+5 to combat checks",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Lamp of Alhazred",
+  "hands" : 2,
+  "price" : 7,
+  "itemtype" : "magical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Lamp of Alhazred.jpg",
+  "combatcheck" : 5
+}

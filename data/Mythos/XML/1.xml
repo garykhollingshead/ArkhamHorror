@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <movementImage>
+         None
+      </movementImage>
+      <name>
+         The Story Continues...
+      </name>
+      <actions>
+         DrawCard(&quot;mythos&quot;)
+      </actions>
+      <description>
+         I cannot remember, I must not remember what I saw on that dark and foreboding night
+      </description>
+   </Mythos>

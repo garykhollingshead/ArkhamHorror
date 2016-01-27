@@ -1,0 +1,52 @@
+Train Station,215,36,244,198
+Bank Of Arkham,535,29,244,198
+Arkham Asylum,851,32,244,198
+Independence Square,1156,32,244,198
+Newspaper,36,279,244,198
+Hibbs Roadhouse,1164,371,244,198
+Velmas Diner,1464,371,244,198
+Curiositie Shoppe,36,536,244,198
+Police Station,1467,645,244,198
+Jail Cell,1377,889,88,109
+Unvisited Isle,36,934,244,198
+River Docks,36,1189,244,198
+The Unnameable,352,1314,244,198
+General Store,1123,1298,244,198
+Black Cave,1478,1318,244,198
+Graveyard,1474,1051,244,198
+Science Building,36,1542,244,198
+Administration,206,1900,244,198
+Library,492,1807,244,198
+Silver Twilight Lodge,1180,1851,244,198
+The Witch House,1472,1706,244,198
+St Marys Hospital,36,2247,244,198
+Ye Olde Magick Shoppe,271,2592,244,198
+Woods,659,2638,244,198
+Historical Society,1005,2638,244,198
+South Church,1362,2567,244,198
+Mas Boarding House,1468,2166,244,198
+Northside,384,517,282,146
+Downtown,790,508,310,159
+Easttown,991,825,326,153
+Merchant District,477,1089,403,151
+Rivertown,972,1088,295,152
+Miskatonic University,499,1606,371,156
+French Hill,972,1663,312,154
+Uptown,627,2295,246,149
+Southside,1019,2295,288,156
+R'lyeh2,1861,117,255,130
+R'lyeh,1861,247,255,130
+Plateau of Leng2,1861,520,255,130
+Plateau of Leng,1861,650,255,130
+The Dreamlands2,1861,925,255,130
+The Dreamlands,1861,1055,255,130
+Great Hall of Celeano2,1861,1327,255,130
+Great Hall of Celeano,1861,1457,255,130
+Yuggoth2,1861,1730,255,130
+Yuggoth,1861,1860,255,130
+The City of the Great Race2,1861,2125,255,130
+The City of the Great Race,1861,2255,255,130
+The Abyss2,1861,2535,255,130
+The Abyss,1861,2665,255,130
+Another Dimension2,1861,2935,255,130
+Another Dimension,1861,3065,255,130

@@ -1,0 +1,402 @@
+{ 
+  "TrainStation" : { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["UniqueItem", "CommonItem"],
+                      "neighborhood" : "Northside",
+                      "map" : {"black": "Northside",
+                               "white": "Northside" },
+                      "description" : ""
+                    },
+  "Newspaper" :     { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Money", "Clue"],
+                      "neighborhood" : "Northside",
+                      "map" : {"black": "Northside",
+                               "white": "Northside" },
+                      "description" : ""
+                    },
+  "CuriosittieShoppe" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["UniqueItem", "CommonItem"],
+                      "action" : "buy(\'UniqueItem\', \'top3\')",
+                      "neighborhood" : "Northside",
+                      "map" : {"black": "Northside",
+                               "white": "Northside" },
+                      "description": "Shop: Instead of having an encounter here, you may draw 3 Unique Items and purchase one of them for list price.  Discard the other two items."
+                    },
+  "Northside" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "Northside",
+                      "map" : {"black": "MerchantDistrict",
+                               "white": "Downtown",
+                               "other": ["CuriosittieShoppe", 
+                                         "Newspaper", 
+                                         "Train Station"] 
+                      },
+                      "description" : ""
+                    },
+  
+  "BankOfArkham" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Money", "Blessing"],
+                      "action" : "take(\'BankLoan\')",
+                      "neighborhood" : "Downtown",
+                 
+                      "map" : {"black": "Downtown","white": "Downtown"}, "description" : "Bank Loan Instead of having an encounter here, you may take out a Bank Loan if you don\'t have one yet."  
+                    },
+
+  "ArkhamAsylum" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Sanity", "Clue"],
+                      "action" : "FreeStamina()||pay(2, \'restore\')",
+                      "neighborhood" : "Downtown",
+                      "map" : {"black": "Downtown",
+                               "white": "Downtown" },
+                      "description": "Psychiatric Care: Instead of having an encounter here, you may recover Sanity by receiving psychiatric care.  You may either regain 1 Sanity for free, or pay $2 to restore your sanity to its maximum value."
+                      
+                    },
+
+  "IndependenceSquare" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["Clue", "UniqueItem"],
+                      "neighborhood" : "Downtown",
+                      "map" : {"black": "Downtown",
+                               "white": "Downtown" },
+                      "description": ""
+                    },
+
+  "Downtown" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "Downtown",
+                      "map" : {"black": "Northside",
+                               "white": "Easttown",
+                               "other": ["BankOfArkham", 
+                                         "ArkhamAsylum", 
+                                          "IndependenceSquare"] 
+                                         
+                      },
+                      "description" : ""             
+                    },
+
+
+  "HibbsRoadhouse" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["Money", "CommonItem"],
+                      "neighborhood" : "Easttown",
+                      "map" : {"black": "Easttown",
+                               "white": "Easttown" },
+                      "description" : ""
+                    },
+
+  "VelmasDiner" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Money", "Stamina"],
+                      "neighborhood" : "Easttown",
+                      "map" : {"black": "Easttown",
+                               "white": "Easttown" },
+                      "description" : ""
+                    },
+
+  "PoliceStation" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["CommonItem", "Clue"],
+                      "neighborhood" : "Easttown",
+                      "map" : {"black": "Easttown",
+                               "white": "Easttown" },
+                      "description": "Deputized: Instead of having an encounter here, you may spend 10 toughness worth of monster trophies, 2 gate trophies, or 5 toughness worth of monter trophies and 1 gate trophy to become the Deputy of Arkham.  Take the Deputy of Arkham card."
+                      
+                    },
+
+
+  "Easttown" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "Easttown",
+                      "map" : {"black": "Downtown",
+                               "white": "Rivertown",
+                               "other": ["HibbsRoadhouse",
+	                                 "VelmasDiner",
+                                         "PoliceStation"]
+                                         
+                      },
+                      "description" : ""                    
+                    },
+                    
+  "Graveyard" :
+  					{ "location" : "True",
+  					  "stable"   : "False",
+  					  "expected" : ["Clue", "UniqueItem"],
+  					  "neighborhood" : "Rivertown",
+  					  "map" : {"black" : "Rivertown",
+  					  		   "white" : "Rivertown" },
+  					  "description" : ""
+					},
+					
+  "BlackCave" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["CommonItem", "Spell"],
+                      "neighborhood" : "Rivertown",
+                      "map" : {"black": "Rivertown",
+                               "white": "Rivertown" },
+                      "description" : ""
+                    },
+
+  "GeneralStore" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Money", "CommonItem"],
+                      "neighborhood" : "Rivertown",
+                      "map" : {"black": "Rivertown",
+                               "white": "Rivertown" },
+                      "description": "Shop: Instead of having an encounter here, you may draw 3 Common Items and purchase one of them for its list price.  Disard the other two items."
+                      
+                    },
+
+
+  "Rivertown" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "Rivertown",
+                      "map" : {"black": "Easttown",
+                               "white": "FrenchHill",
+                               "other": ["Graveyard",
+	                                 "BlackCave",
+                                         "GeneralStore"]
+                                         
+                      },         
+                      "description": ""             
+                    },
+
+  "TheWitchHouse" :
+  					{ "location" : "True",
+  					  "stable"   : "False",
+  					  "expected" : ["Clue", "Spell"],
+  					  "neighborhood" : "FrenchHill",
+  					  "map" : {"black" : "FrenchHill",
+  					  		   "white" : "FrenchHill" },
+  					  "description" : ""
+					},
+					
+  "SilverTwilightLodge" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["UniqueItem", "Clue"],
+                      "neighborhood" : "FrenchHill",
+                      "map" : {"black": "FrenchHill",
+                               "white": "FrenchHill" },
+                      "description" : "Inner Sanctum: If you have a Silver Twilight Membership, then you look at the Inner Sanctum entry when having encounters here."
+                      
+                    },
+
+
+  "FrenchHill" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "FrenchHill",
+                      "map" : {"black": "Rivertown",
+                               "white": "Southside",
+                               "other": ["TheWitchHouse",
+	                                 "SilverTwilightLodge"]
+                                         
+                      },
+                      "description": ""                   
+                    },
+
+ "MasBoardingHouse" :
+  					{ "location" : "True",
+  					  "stable"   : "True",
+  					  "expected" : ["Ally", "Stamina"],
+  					  "neighborhood" : "Southside",
+  					  "map" : {"black" : "Southside",
+  					  		   "white" : "Southside" },
+  					  "description" : "Recruit: Instead of having an encounter here, you may spend 10 toughness worth of monster trophies, two gate trophies, or t toughness worth of monster trophies and 1 gate trophy to take any 1 Ally of your choice from the Ally deck."
+					},
+					
+  "SouthChurch" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Blessing", "Sanity"],
+                      "neighborhood" : "Southside",
+                      "map" : {"black": "Southside",
+                               "white": "Southside" },
+                      "description" : "Blessing: Instead of having an encounter here, you may spend 5 toughness worth of monster trophies or 1 gate trophy to have an investigator you choose be Blessed."
+                      
+                    },
+
+  "HistoricalSociety" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["Skill", "Spell"],
+                      "neighborhood" : "Southside",
+                      "map" : {"black": "Southside",
+                               "white": "Southside" },
+                      "description": ""
+                      
+                    },
+
+
+  "Southside" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "Southside",
+                      "map" : {"black": "FrenchHill",
+                               "white": "Uptown",
+                               "other": ["MasBoardingHouse",
+	                                 "SouthChurch",
+                                         "HistoricalSociety"]
+                                         
+                      },
+                      "description": ""                    
+                    },
+                    
+  "Woods" :
+  					{ "location" : "True",
+  					  "stable"   : "False",
+  					  "expected" : ["Money", "CommonItem"],
+  					  "neighborhood" : "Uptown",
+  					  "map" : {"black" : "Uptown",
+  					  		   "white" : "Uptown" },
+  					  "description" : ""
+					},
+					
+  "YeOldeMagickShoppe" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Spell", "UniqueItem"],
+                      "neighborhood" : "Uptown",
+                      "map" : {"black": "Uptown",
+                               "white": "Uptown" },
+                      "description" : "Magic Lessons: Instead of having an encounter here, you may pay $5 to draw 2 sSpell.  Keep one of them and discard the other."
+                      
+                    },
+
+  "StMarysHospital" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["Clue", "Stamina"],
+                      "neighborhood" : "Uptown",
+                      "map" : {"black": "Uptown",
+                               "white": "Uptown" },
+                      "description": "Medical Care: Instead of having an encounter here, you may recover Stamina by receiving medical care.  You may either regain 1 Stamina for free, or pay $2 to restore your Stamina to the maximum value."
+                      
+                    },
+
+
+  "Uptown" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "Uptown",
+                      "map" : {"black": "Southside",
+                               "white": "MiskatonicUniversity",
+                               "other": ["Woods",
+	                                 "YeOldeMagickShoppe",
+                                         "StMarysHospital"]
+                                         
+                      },
+                      "description": ""                   
+                    },
+                    
+  "Library" :
+  					{ "location" : "True",
+  					  "stable"   : "True",
+  					  "expected" : ["CommonItem", "Spell"],
+  					  "neighborhood" : "MiskatonicUniversity",
+  					  "map" : {"black" : "MiskatonicUniversity",
+  					  		   "white" : "MiskatonicUniversity" },
+  					  "description" : ""
+					},
+					
+  "Administration" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Money", "Skill"],
+                      "neighborhood" : "MiskatonicUniversity",
+                      "map" : {"black": "MiskatonicUniversity",
+                               "white": "MiskatonicUniversity" },
+                      "description" : "Classes: Instead of having an encounter here, you may pay $8 to draw 2 skills.  Keep one of them and discard the other"
+                      
+                    },
+
+  "ScienceBuilding" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["Skill", "UniqueItem"],
+                      "neighborhood" : "MiskatonicUniversity",
+                      "map" : {"black": "MiskatonicUniversity",
+                               "white": "MiskatonicUniversity" },
+                      "description": "Dissection: Instead of having an encounter here, you may spend 5 toughness worth of monster trophies or 1 gate trophy to gain 2 Clue tokens."
+                      
+                    },
+
+
+  "MiskatonicUniversity" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "MiskatonicUniversity",
+                      "map" : {"black": "Uptown",
+                               "white": "MerchantDistrict",
+                               "other": ["Library",
+	                                 "Administration",
+                                         "ScienceBuilding"]
+                                         
+                      },
+                      "description": ""                    
+                    },
+                    
+  "TheUnnameable" :
+  					{ "location" : "True",
+  					  "stable"   : "False",
+  					  "expected" : ["UniqueItem", "Clue"],
+  					  "neighborhood" : "MerchantDistrict",
+  					  "map" : {"black" : "MerchantDistrict",
+  					  		   "white" : "MerchantDistrict" },
+  					  "description" : ""
+					},
+					
+  "RiverDocks" :  
+                    { "location" : "True",
+                      "stable"   : "True",
+                      "expected" : ["Money", "CommonItem"],
+                      "neighborhood" : "MerchantDistrict",
+                      "map" : {"black": "MerchantDistrict",
+                               "white": "MerchantDistrict" },
+                      "description": ""
+                    },
+
+  "UnvisitedIsle" :  
+                    { "location" : "True",
+                      "stable"   : "False",
+                      "expected" : ["Clue", "Spell"],
+                      "neighborhood" : "MerchantDistrict",
+                      "map" : {"black": "MerchantDistrict",
+                               "white": "MerchantDistrict" },
+                      "description": "Shady Character: Instead of having an encounter here, you may spend 5 toughness worth of monster trophies or 1 gate trophy to gain $5."
+                      
+                    },
+
+
+  "MerchantDistrict" :  
+                    { "location" : "False",
+                      "stable"   : "True",
+                      "neighborhood" : "MerchantDistrict",
+                      "map" : {"black": "MiskatonicUniversity",
+                               "white": "Northside",
+                               "other": ["TheUnnameable",
+	                                 "RiverDocks",
+                                         "Unvisitied Isle"]
+                                         
+                      },                    
+                      "description": ""
+                    }
+
+}

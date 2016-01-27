@@ -1,0 +1,8 @@
+{
+        'location' : 'The Dreamlands',
+        'symbol'   : 'rectangle',
+        'modifier' : '+1',
+        'picture'  : 'The Dreamlands.jpg',
+        'frontpicture' : 'front.jpg'
+}
+

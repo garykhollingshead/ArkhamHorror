@@ -1,0 +1,12 @@
+{ 
+  "name" : "Curfew Enforced",
+  "category" : "environment (urban)",
+  "description" : "Any investigator who ends his movement in the streets must pass a Will (+0) check or be arrested and taken to the Police Station.",
+  "conditions" : "[[IsPhase(\"movement\"), PlayerInLocation(\"streets\"), PlayerMovementFinished(), FailCheck(\"will\")]]",
+  "actions" : "MovePlayerTo(\"police station\")",
+  "clueAppears" : "science building",
+  "monsterArea" : "unvisited isle",
+  "whiteMovementShapes" : ["plus"],
+  "blackMovementShapes" : ["crescent"],
+  "movementImage" : "plus crescent.jpg"
+}

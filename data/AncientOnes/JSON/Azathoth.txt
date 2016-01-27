@@ -1,0 +1,11 @@
+{
+  "name" : "Azathoth",
+  "title" : "Absolute Destruction",
+  "combat" : -99,
+  "defense" : "",
+  "worshippers" : {"maniacs" : {"toughness" : 1}},
+  "interrupt" : [ { "routine" : "AncientOneAwakensRoutine" , "condition" : "always" , "invokeBefore" : "GameOverRoutine" } ],
+  "attack" : "",
+  "doom" : 14,
+  "picture" : "ancient2.jpg"
+}

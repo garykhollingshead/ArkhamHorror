@@ -1,0 +1,14 @@
+{
+  "description" : "+2 to combat checks, +3 if the other hand is free",  
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Axe",
+  "hands" : 1,
+  "price" : 3,
+  "itemtype" : "physical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Axe.jpg",
+  "conditionals" : {"freeHands" : "1"},
+  "combatcheck" : {"freeHands" : [3, 2]}
+}

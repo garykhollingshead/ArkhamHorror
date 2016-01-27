@@ -1,0 +1,15 @@
+<map>
+  <mapNode>
+    <name></name>
+    <location></location>
+    <stable></stable>
+    <neighborhood></neighborhood>
+    <links>
+      <black></black>
+      <white></white>
+    </links>
+    <action></action>
+    <description></description>
+    <items></items>
+  </mapNode>
+</map>

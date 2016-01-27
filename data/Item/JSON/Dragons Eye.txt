@@ -1,0 +1,15 @@
+{
+  "description" : "Use after drawing a gate or location card. Exhaust and lose 1 sanity. Draw a new card in its place.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Dragon\'s Eye",
+  "hands" : 0,
+  "price" : 6, 
+  "itemtype" :"None",
+  "discard" : "False", 
+  "exhaust" : "True",
+  "amount" : 1,
+  "picture" : "Dragon\'s Eye.jpg",
+  "conditionals": {"isGateorLocationCard" : 0},
+  "sanity" : -1
+}

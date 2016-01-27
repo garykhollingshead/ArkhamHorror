@@ -1,0 +1,27 @@
+{
+  "SilverTwilightLodge" : {
+    'text' : '\"Care to join the Order?\" Carl Sanford and several of his henchmen ask.  If you accept, pay $3 and take a Silver Twilight Membership.  If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door.  Wheather you pass or not, move to the street.',
+    'action' : [ {'optional': 'True'},
+                 {'money':3, 'membership':'Silver Twilight'},
+                 {'will':-1, 'pass':[{'movement':'street'}], 'fail':[{'stamina':-3}, {'movement':'street'}]}
+               ]
+  },
+
+  "InnerSanctum" : {
+    'text' : "You attend a ceremony in which the order opens a gate and a monster bursts out of it before the gate closes once more.  A monster appears!",
+    'action' : [ 'None',
+                 'monsterAppear()',
+                         'None'
+                   ]
+  },
+
+  "TheWitchHouse" : {
+    'text' : 'In an old journal you learn some horrible eldritch secrets.  Roll a die.  Lose that much Sanity and gain that many Clue tokens.',
+    'action' : [ 'None',
+                 {'roll': 1, 'both': ['loseSanity(rollReturn())', 'loseClues(rollReturn())']},
+                 'None'
+               ]
+  }
+
+}
+

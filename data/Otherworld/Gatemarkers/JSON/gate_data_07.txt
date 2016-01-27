@@ -1,0 +1,7 @@
+{
+        'location' : 'Plateau of Leng',
+        'symbol'   : 'diamond',
+        'modifier' : -1,
+        'picture'  : 'Plateau of Leng.jpg',
+        'frontpicture' : 'front.jpg'
+}

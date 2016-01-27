@@ -1,0 +1,16 @@
+{
+  "description" : "Movement: exhaust and spend 1 movement points to make a LoreCheck(-1). If you pass, draw 1 spell, lose 1 sanity, and discard. If you fail the lore check, nothing happens.",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Nameless Cults",
+  "hands" : 0,
+  "price" : 3,
+  "itemtype" : "tome",
+  "exhaust" : "True",
+  "conditionals" : {"isPhase" : "movement", "LoreCheck" : -1},
+  "draw" : {"spell" : {"LoreCheck" : [1, 0]}}, 
+  "sanity" : {"LoreCheck" : [-1, 0]}, 
+  "discard" : {"LoreCheck" : ["True", "False"]},
+  "amount" : 2,
+  "picture" : "Nameless Cults.jpg"  
+}

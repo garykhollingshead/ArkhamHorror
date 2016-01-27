@@ -1,0 +1,19 @@
+{
+  "name" : "Harvey Walters",
+  "title" : "the Professor",
+  "sanity" : 7,
+  "stamina" : 3,
+  "home" : "Administration Building",
+  "fixed" : {"money" : 5, "clue" : 1},
+  "random" : {"unique" : 2, "spell" : 2, "skill" : 1},
+  "focus" : 2,
+  "speed" : 0,
+  "sneak" : 2,
+  "fight" : 0,
+  "will" : 0,
+  "lore" : 3,
+  "luck" : 1,
+  "interrupt" : [ {"routine" : "LoseSanity", "condition" : "always" , "modifyValue" : { "sanityLost" : -1 } } ],
+  "picture" : "harvey.jpg",
+  "story" : "Harvey is a visiting Professor at Miskatonic University. With Doctorates in History and Archaeology, he has uncovered several interesting artifacts over the years ad learned a little of the arcane arts. Recently, by carefully studying the papers and talking to people in the streets, he has begun to detect a disturbance in the city - something that could potentially herald the arrival of the something unthinkable from beyond space and time. Checking his notes, Professor Walters prepares himself for one last trip into the streets of Arkham to confirm his theory. If he\'s right, it could spell the end of everything."
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Gates cannot be sealed, although they can still be closed.
+      </description>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         No One Can Help You Now
+      </name>
+   </Mythos>

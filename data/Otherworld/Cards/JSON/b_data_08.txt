@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "Yuggoth",
+                        "passaction" : [["monster"]],
+						"failaction" : [["monster"]],
+                        "description" : "A monster appears from the darkness!"
+                },
+        "loc2" :
+                {
+                        "name" : "Celeano",
+                        "check" : ["luck", -1, 1],
+                        "passaction" : [[""]],
+                        "failaction" : [[]], 
+                        "description" : "Pass a Luck (-1) check or the book is a prison. If you fail, roll a die. On a failure, a monster appears from the book. On a success, you are drawn into the book for a time. Stay here next turn."
+                },
+        "other" :
+                {
+                        "check" : ["luck", -1, 1],
+                        "passaction" : [["draw(\"common\", \"firstWeaponInDeck()\", 1)"]], 
+						"failaction" : [[""]],
+                        "description" : "Pass a Luck (-1) check to find something to defend yourself with. Take the first Weapon from the Common Item Deck."
+                }
+}

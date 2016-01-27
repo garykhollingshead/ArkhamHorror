@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         An ancient ghost ship arries in Arkham, releasting 2 monsters into the Merchant Dist. streets.
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2, streets=[&quot;merchant dist.&quot;])
+      </actions>
+      <clueAppears>
+         woods
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         the unnamable
+      </monsterArea>
+      <name>
+         Ghost Ship Docks by Itself!
+      </name>
+   </Mythos>

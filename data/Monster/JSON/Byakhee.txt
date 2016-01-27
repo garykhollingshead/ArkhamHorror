@@ -1,0 +1,12 @@
+{"amount": 3,
+ "combatCheck": 0,
+ "combatDamage": 2,
+ "description": "It shrieked and flapped its wings.  I thought of the empty shell of a beetle and the soft loam of rotting earth. It cocked its carpaced head at me black teeth clicking against each other.",
+ "horrorCheck": -1,
+ "movement": "blue",
+ "name": "Byakhee",
+ "picture": "Byakhee.jpg",
+ "sanityDamage": 1,
+ "sneakCheck": -2,
+ "symbol": "circle",
+ "toughness": 1}

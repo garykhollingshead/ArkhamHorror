@@ -1,0 +1,28 @@
+
+{
+  'ArkhamAsylum': {
+    'text' : 'The guards of the sanitarium are aware that there is an intruder. Make a Sneak (-1) check to escape. If you pass, move to the street. If you fail, you are arrested and taken to the Police Station.',
+    'action' : [{'sneak':-1},
+                {'movement':'downtown'},
+                {'arrested':'police station'}
+               ]
+  },
+
+  'BankOfArkham': {
+    'text' : '\"This is a stick-up, see? Nobody move!\" Three men armed with tommy guns rob the bank while you\'re standing in line. Make a Combat (-1) check. If you pass, you drive them off. Nothing happens. If you fail, lose all of your money.',
+    'action' : [{'combat':-1},
+                "None",
+                {'money':'loseAll()'}
+               ]
+  },
+
+  'IndependenceSquare' : {
+    'text' : 'A shadow falls across you from no apparent source and you shiver with more than cold. Pass a Will(-1) check or lose 1 Stamina and 1 Sanity.',
+    'action' : [{'will':-1},
+                "None",
+                {'stamina':-1,'sanity':-1}
+               ]
+  }
+
+}
+

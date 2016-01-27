@@ -1,0 +1,14 @@
+<skills>
+  <skill>
+    <name></name>
+    <phase></phase>
+    <modifier>
+      <stat></stat>
+      <amount></amount>
+    </modifier>
+    <choice>
+      <cost></cost>
+      <effect></effect>
+    </choice>
+  </skill>
+</skills>

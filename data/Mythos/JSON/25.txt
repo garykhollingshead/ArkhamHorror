@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "The Festival",
+  "description"            : "The festival has begun! Cultists and Byakhee have their toughness increased by 1.", 
+  "category"               : "environment (urban)",
+  "monsterArea"           : "woods",
+  "whiteMovementShapes"  : ["plus"],
+  "blackMovementShapes"  : ["crescent"],
+  "clueAppears"           : "Historical Society",
+  "actions"                : "IncreaseToughnessFor([\"Cultists\", \"Byakhee\"])", 
+  "movementImage"         : "plus crescent.jpg"
+}

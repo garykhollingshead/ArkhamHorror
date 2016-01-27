@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <description>
+         Speed checks in Arkham are made at a -1 penalty, and players receive 1 less movement point during the Movement Phase. Sneak checks in Arkham are made at a +1 bonus. Return any Fire Vampires in play to the cup. If a Fire Vampire enters play, return it to the cup and draw a different monster.
+      </description>
+      <actions>
+         ModifyCheck(&quot;speed&quot;, -1) and ModifyMovement(1) and ModifyCheck(&quot;sneak&quot;, 1) and ReturnToCupMonstersType(&quot;fire vampire&quot;)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         hibbs roadhouse
+      </monsterArea>
+      <name>
+         Raining Cats and Dogs
+      </name>
+   </Mythos>

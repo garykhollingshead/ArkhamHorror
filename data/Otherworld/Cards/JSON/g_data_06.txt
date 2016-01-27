@@ -1,0 +1,22 @@
+{
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "City of the Great Race",        
+            "check" : ["lore", -2, 2], 
+            "passaction" : [["draw(\"spell\", 2)"]], 
+            "description" : "The conical entity tries to teach you some magic.  Pass a Lore (-2) [2] check to draw 2 Spells. "
+        },
+    "loc2" :
+        {
+            "name" : "Celeano         ",
+            "check" : ["lore", 2, 1],
+            "passaction" : [["gain(\"clue\", ????)"]], 
+            "description" : "You find secret lore hidden in the mosaics on the wall.  Make a Lore (+2) check and gain Clue tokens equal to your successes"
+        },
+    "other" :
+        {
+            "passaction" : [["gain(\"money\", 3)"]], 
+            "description" : "You find some valuable items that you can sell back in Arkham.  Gain $3"
+        }
+}

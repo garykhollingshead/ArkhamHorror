@@ -1,0 +1,23 @@
+{ 
+    "color" : "yellow",
+    "loc1" :              
+        {
+            "name" : "Yuggoth",         
+            "check" : ["sneak", -2, 1],
+	    "passaction" : [["gain(\"clue\",2)"]],
+            "failaction" : [["lostInTimeAndSpace()"]],  
+            "description" : "Your only hope is to steal a byakhee and some space mead! Pass a Sneak(-2) check to escape. Return to Arkham and gain 2 Clue tokens. If you fail, you are lost in time and space."
+        },
+    "loc2" : 
+        {
+            "name" : "The Dreamlands",
+            "check" : ["luck", -1, 1],              
+            "failaction" : [["stayHereATurn()"]], 
+            "description" : "The golden city of your dreams is threatening to become an obsession. Pass a Luck(-1) check or stay here next turn to hunt for it."
+        },
+    "other" :
+        {
+            "passaction" : [[""]], 
+            "description" : "You stare into the face of madness. Roll 1 die for each point of Sanity you have. Lose 1 Sanity for each die that does not roll a success. If you do not go insane, gain 1 Clue token for each die that rolled a success."
+        }
+}

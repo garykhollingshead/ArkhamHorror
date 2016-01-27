@@ -1,0 +1,14 @@
+{
+    "name":"Bind Monster",
+    "castingModifier":"4",              
+    "sanityCost":"2",
+    "postCast":"discard",
+    "discard":"spellUsed()",           
+    "phase":"any",                      
+    "effect":"passCombatCheck(successEqualToMonsterToughness())",      
+    "description":"Any Phase: Cast and discard to pass one combat check.  You must roll successes = to monster toughness.  Not effective on ancient ones",
+    "hands":"2",
+    "picture":"Bindmonster.jpg",
+    "amount":"2"
+}
+

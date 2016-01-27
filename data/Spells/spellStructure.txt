@@ -1,0 +1,14 @@
+<spells>
+  <spell>
+    <name></name>
+    <modifier></modifier>
+    <phase></phase>
+    <discard></discard>
+    <effect></effect>
+    <hands></hands>
+    <image></image>
+    <count></count>
+    <description></description>
+    <cost></cost>
+  </spell>
+</spells>

@@ -1,0 +1,27 @@
+{
+  "HibbsRoadhouse" : {
+    'text' : '\"So, what\'s your story, friend?\"  A smiling man inquires about your adventures over a glass of gin.  You tell him your story.  If you spend 3 clue tokens, he introduces himself as Ryan Dean and asks to join you.  Take his Ally card.  If it\'s not available, he gives you some useful items instead.  Draw 2 Common Items.',
+    'action' : [ {'clue':3 , 'optional':'True' },
+                 'ally(\"Ryan Dean\"), search(\"CommonItem\", 2)',
+                 'None'
+	       ]
+  },
+
+  "PoliceStation" : {
+    'text' : "One of the men in the holding cells tries to intimidate you with stories about the things that he\'s seen.  Make a Will (-1) check.  If you pass, gain 1 Clue Token.  If you fail, move to the street and lose 1 Sanity as the man laughs at your retreating back.", 
+    'action' : [ {'will':-1}, 
+                 {'clue':1},
+		 {'sanity':-1, 'movement':'easttown'}
+	       ]
+  },
+
+  "VelmasDiner" : {
+    'text' : '\"What\'ll it be, hon?\"  Velma takes your order.  Pay up to $6 to gain that many points of Sanity and Stamina however you like.',
+    'action' : [ {'optional': 'True'}, 
+                 "moneyForStaminaOrSanity(6)", 
+                 'None'
+               ]
+  }
+
+}
+

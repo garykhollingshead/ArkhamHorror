@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <name>
+         Merchants March on Crime!
+      </name>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Merchant Dist. Streets or locations are returned to the cup.
+      </description>
+      <monsterSrea>
+         independence square
+      </monsterSrea>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;merchant dist&quot;], streets=[&quot;merchant dist&quot;])
+      </actions>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+   </Mythos>

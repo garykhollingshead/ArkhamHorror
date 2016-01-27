@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <stamina>
+               -1
+            </stamina>
+         </action>
+         <text>
+            Bats! Hundreds of them!  Pass a Speed (-1) check to get out of the cave safely.  If you fail, lose 1 stamina.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            None
+         </action>
+         <text>
+            Descending into a dark mausoleum, you discover a vampire rising to feed.  You quickly find yourself fighting for your life. Make a Combat (-2) check.  If you pass, you defeat the vampire, gaining 1 Clue token and drawing 1 Unique Item.  If you fail, roll a die and lose that much Stamina. 
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            The shopkeeper notices one of the items you&quot;re carrying and his face lights up.  &quot;Say, I&quot;ve been looking for one of those.  You wouldn&quot;t mind parting with it, would ya?  I can pay well.&quot;  You may sell any of your Common Items for twice its listed price.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>

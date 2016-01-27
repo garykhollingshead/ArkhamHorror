@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "Abyss",
+                        "check" : ["lore", -1, 1],
+			"passaction" : [[""]],
+                        "failaction" : [["status(\"stuck(1)\")"]],
+                        "description" : "You are bewildered. Pass a Lore (-1) check or stay here next turn."
+                },
+        "loc2" :
+                {
+                        "name" : "Yuggoth",
+                        "check" : ["sneak", -1, 1],
+                        "passaction" : [[""]],
+                        "failaction" : [["loseHalfOf(\"item\")","returnToArkham"]], 
+                        "description" : "Pass a Sneak (-1) check or the creatures capture and ecperiment on you. Lose half of your items, then immediately return to Arkham with no memory of the experiments."
+                },
+        "other" :
+                {
+                        "passaction" : [["lose(\"sanity\", 1)"]],
+						"failaction" : [["lose(\"sanity\", 1)"]],
+                        "description" : "The insanity of the place finally hits you. Lose 1 Sanity."
+                }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <draw>
+               <mythos>
+                  <movement>
+                     getMythosLocation()
+                  </movement>
+               </mythos>
+            </draw>
+         </action>
+         <text>
+            In the darkness you happen upon the remains of a previous spelunker. Make a Luck(0) check and consult the chart below: Successes: 0) The body begins to bloat and splits open, releasing the horror within. Lose 1 Sanity and a monster appears! 1) The body has been ripped apart as if shredded by a powerful monster. Lose 1 Sanity. 2+) Searching the body you find something interesting. Draw 1 Common Item.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            None
+         </action>
+         <text>
+            A monster appears!
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            Noticing a glint on the floor, you discover a silver dollar someone must have dropped. Gain $1.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>

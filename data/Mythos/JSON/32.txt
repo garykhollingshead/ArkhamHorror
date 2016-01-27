@@ -1,0 +1,10 @@
+{
+  "name" : "A Strange Plague",
+  "description" : "Investigators cannot gain Stamina except by recieving medical care in St. Mary\'s Hospital (or from Vincent Lee).",
+  "category" : "environment (mystic)",
+  "monsterArea" : "independence square",
+  "clueAppears" : "the unnamable",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

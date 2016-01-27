@@ -1,0 +1,10 @@
+{
+  "name" : "No One Can Help You Now",
+  "description" : "Gates cannot be sealed, although they can still be closed.",
+  "category" : "environment (mystic)",
+  "monsterArea" : "the unnamable",
+  "clueAppears" : "woods",
+  "whiteMovementShapes" : ["plus"],
+  "blackMovementShapes" : ["crescent"],
+  "movementImage" : "plus crescent.jpg"
+}

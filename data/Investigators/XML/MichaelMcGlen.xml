@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+   <Investigator>
+      <stamina>
+         7
+      </stamina>
+      <picture>
+         michael.jpg
+      </picture>
+      <story>
+         As a soldier in the O&quot;Bannion gang, Michael didn&quot;t really believe in all this voodoo mumbo jumbo around town. Or at least, he didn&quot;t until the night of the Foreman job, when he saw Fast Louie Farrell pulled screaming into the river by a scaly green creature. As they say, seeing is believing and Michael is starting to believe. Now, he has gathered his belongings together in the room that he rents at Ma&quot;s Boarding House. Louie was a friend of his, and he won&quot;t rest until he finds out what&quot;s happening in this town and avenges his buddy.
+      </story>
+      <name>
+         Michael McGlen
+      </name>
+      <title>
+         the Gangster
+      </title>
+      <interrupt>
+         <modifyValue>
+            <staminaLost>
+               -1
+            </staminaLost>
+         </modifyValue>
+         <condition>
+            always
+         </condition>
+         <routine>
+            LoseStamina
+         </routine>
+      </interrupt>
+      <fight>
+         3
+      </fight>
+      <random>
+         <skill>
+            1
+         </skill>
+         <unique>
+            1
+         </unique>
+      </random>
+      <focus>
+         1
+      </focus>
+      <sneak>
+         1
+      </sneak>
+      <sanity>
+         3
+      </sanity>
+      <will>
+         1
+      </will>
+      <lore>
+         0
+      </lore>
+      <home>
+         Ma&quot;s Boarding House
+      </home>
+      <fixed>
+         <money>
+            8
+         </money>
+         <common>
+            Tommy Gun
+         </common>
+      </fixed>
+      <speed>
+         2
+      </speed>
+      <luck>
+         0
+      </luck>
+   </Investigator>

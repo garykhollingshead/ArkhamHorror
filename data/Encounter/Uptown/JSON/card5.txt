@@ -1,0 +1,25 @@
+
+{
+  "StMarysHospital" : {
+    "text" : "You sneak a peek at the medical records for a recent admission who was involved in a cult ritual. Pass a Lore (0) check to learn something about the cult\'s methods. Gain 1 Clue Token.",
+    "action" : [ {"lore" : 0}, {"clue" : 1}, "None" ]
+  },
+
+  "Woods" : {
+    "text" : "You meet an old wise man in the grove who offers to share his wisdom with you. If you accept, lose your next turn and make a Lore (-2) check. If you pass, you may draw 1 Skill, or draw 2 Spells, or gain 4 Clue tokens. If you fail, nothing happens.",
+    "action" : [{"lore" : -2, "optional" : "True"},
+                {"turn" : "lose", "special" : "Gain1SkillOr2SpellOr4Clue()"},
+                {"turn" : "lose"}
+               ]
+  },
+
+  "YeOldeMagickShoppe" : {
+    "text" : "Miriam Beecher, the shopkeeper, peers closely at your face, then screams, \"They\'ve marked you! Get out! Get out!\" and throws you out. Move to the street and lose 1 Sanity from this unsettling incident.",
+    "action" : ["None",
+                {"movement" : "uptown", "sanity" : -1},
+                {"movement" : "uptown", "sanity" : -1}
+               ]
+  }
+
+}
+

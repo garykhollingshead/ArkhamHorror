@@ -1,0 +1,10 @@
+{
+  "name" : "Blackest Night",
+  "description" : "Luck checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus",
+  "category" : "environment (mystic)",
+  "monsterArea" : "black cave",
+  "clueAppears" : "hibb\'s roadhouse",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

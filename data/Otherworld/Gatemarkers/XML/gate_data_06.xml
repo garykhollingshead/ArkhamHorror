@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         The Abyss.jpg
+      </picture>
+      <symbol>
+         hexagon
+      </symbol>
+      <modifier>
+         -2
+      </modifier>
+      <location>
+         The Abyss
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

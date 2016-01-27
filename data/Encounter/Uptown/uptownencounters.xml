@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<uptownencounters>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <success>
+               drawinCash(&quot;jewelry&quot;,10)
+            </success>
+         </action>
+         <text>
+            You trip over an object which turns out to be a rusty lockbox. If you open it, make a Luck(0) check and consult the following chart. Successes. 0) A rotted human foot. Lose 1 Sanity. 1) Draw 1 Common Item 2) Draw 1 Unique Item 3+)$10 in jewelery.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            None
+         </action>
+         <text>
+            Looking closely at a mummified head in the shop, you are horrified to find it looking back at you! Lose 1 Sanity
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            None
+         </action>
+         <text>
+            One of the staff physicians talks some sense into you. You are disabused of certain crazy but accurate notions. Lose 1 Clue token.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               moveToStreet()
+            </fail>
+         </action>
+         <text>
+            You find a sleeping Sheldon Gang member near the still. Make a Sneak (-2) check to try to swipe the shotgun he has dropped on the ground. If you pass, take a Shotgun from the Common Item deck if there is one. If you fail, the guard awakens. You are cought and beaten, losing 2 Stamina, but you escape with your life. Move to the street.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <success>
+               draw(&quot;UniqueItem&quot;,2)
+            </success>
+         </action>
+         <text>
+            There is an old, locked trunk for sale for $5. If you buy it, make a Luck(0) check and consult the chart below. Success. 0)  Empty! 1)  Gold coins! roll 2 dice, add them together, and gain that much money. 2+) Jackpot! Draw 2 Unique Items!
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            None
+         </action>
+         <text>
+            You agree to undergo an experimental treatment. Roll a die. On a 1 to 3, gain that many Stamina. On a 4 to 6, nothing happens.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            You come across a cringing dog. Pass a Speed (-2) check to catch and calm him. If you have food, you can discard that to automatically pass the check instead of rolling. You see by his collar that he is named Duke. Take his Ally card. If it isn&quot;t available, gain $3 as a reward for returning him to his owner, instead.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Miriam Beecher talks to you for awhile, explaining some very interesting theories she has concerning the Mythos. Gain one Clue token
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Nurse Sharon slips something into your hand when the doctor isn&quot;t looking. Pass a Sneak(-1) check to keep anyone else from noticing. If you do, you later examine the object and find it to be an old parchment with a spell scratched on it. Draw 1 Spell. If you fail, an orderly takes it away from you and you gain nothing.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               moveToStreet()
+            </fail>
+         </action>
+         <text>
+            You have stumbled onto a still owned by the Sheldon Gang. Make a Sneak (-1) check. If you pass, skulk away without being seen. If you fail, lose 2 Stamina as the Sheldon Gang works you over while escorting you from the woods. In either case move to the street.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Looking into a glass ball, you receive a vision of things to come. Turn the top card of one location deck of your choice face up. The next investigator to have an encounter at that location draws that encounter card
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <fail>
+               moveToStreet()
+            </fail>
+         </action>
+         <text>
+            The corpse you are examining isn&quot;t quite dead yet. It reaches out and grabs you by the throat. Lose 1 Sanity. Then, you must fight the corpse. If you pass a Combat(-1) check, you defeat it and gain 1 Clue token. Otherwise, move to the street
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            A gate and a monster appear!
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Pass a Lore (-1) check to recognize an item that Miriam Beecheer has underpriced. If you do so, draw 1 Unique Item. You may purchase it for half its list price(rounded up).
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <fail>
+               moveToStreet()
+            </fail>
+         </action>
+         <text>
+            The Doctor escorts you behind a curtain where the body of some other unfortunate investigator has been laid. The corpse has been torn to shreds. Pass a Will (-1) check or loose 1 Sanity. If you pass, you may also search the body and find a helpful item. Draw 1 Unique Item. If you fail, you run away screaming. Move to the street.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <turn>
+               lose
+            </turn>
+         </action>
+         <text>
+            You meet an old wise man in the grove who offers to share his wisdom with you. If you accept, lose your next turn and make a Lore (-2) check. If you pass, you may draw 1 Skill, or draw 2 Spells, or gain 4 Clue tokens. If you fail, nothing happens.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+            <movement>
+               uptown
+            </movement>
+         </action>
+         <text>
+            Miriam Beecher, the shopkeeper, peers closely at your face, then screams, &quot;They&quot;ve marked you! Get out! Get out!&quot; and throws you out. Move to the street and lose 1 Sanity from this unsettling incident.
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            None
+         </action>
+         <text>
+            You sneak a peek at the medical records for a recent admission who was involved in a cult ritual. Pass a Lore (0) check to learn something about the cult&quot;s methods. Gain 1 Clue Token.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+ 
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <failCheck>
+               <stamina>
+                  -2
+               </stamina>
+            </failCheck>
+         </action>
+         <text>
+            You are bushwhacked by the Sheldon Gang. Pass a Luck(-1) check to avoid their trap. If you fail, lose 2 items of your choice and 2 Stamina.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            You see an interesting book sitting open on Miriam Beecher&quot;s desk. Pass a Lore(-1) check or you peer closely at its pages only to realize too late that the book is Cursed...and now, so are you.
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <sanity>
+               -2
+            </sanity>
+            <movement>
+               uptown
+            </movement>
+         </action>
+         <text>
+            Make a Luck (-1) check. If you pass, you realize that Dr. Mortimore is sneaking up behind you with a hypodermic needle filled with a phosphorescent gel. You avoid his experiment and subdue the mad doctor. The city awards you $3 and you gain 2 Sanity in the process. If you fail, lose 2 Sanity, then you are dumped in the street.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>
+</uptownencounters>

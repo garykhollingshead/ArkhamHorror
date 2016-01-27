@@ -1,0 +1,26 @@
+{
+  "HibbsRoadhouse" : {
+    'text' : "Prohibition failed to influence the proprietor of Hibb\'s.  You drink heavily while quizzing the locals about the strange going-ons in Arkham.  Make a Will (-1) check.  If you pass, you hold your liquor and learn something. Gain two clue tokens.  If you fail, you pass out.  Move to the street and either have one item (your choice) stolen or all of your money stolen.",
+    'action' : [ {'will':-1},
+                 {'clue':2},
+                 {'userinput': "loseAllMoneyOrLoseOneItemYourChoice()"}
+	       ]
+  },
+
+  "PoliceStation" : {
+    'text' : "Sheriff Engle trusts you and asks you to step into his office to discuss the recent strange events.  Pass a Luck (-2) check to convince him to take you into his confidence and give you something to help you out.  Draw 1 Unique Item.",
+    'action' : [ {'luck':-2}, 
+                 'search(\"UniqueItem\")',
+		 'None'
+	       ]
+  },
+
+  "VelmasDiner" : {
+    'text' : 'You get food poisoning! Pass a Luck (-1) check or lose 2 Stamina.',
+    'action' : [ {'luck': -1}, 
+                ' None', 
+                 {'stamina':-2}
+               ]
+  }
+
+}

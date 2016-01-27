@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         crescent
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         plus
+      </blackMovementShapes>
+      <description>
+         Any Elder Things perviously claimed as monster trophies by players return to life and are placed in the River Docks.
+      </description>
+      <actions>
+         ReturnTrophiesToLife(&quot;Elder Things&quot;)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         crescent plus.jpg
+      </movementImage>
+      <monsterArea>
+         hibb&quot;s roadhouse
+      </monsterArea>
+      <name>
+         Miskatonic Arctic Expedition Returns!
+      </name>
+   </Mythos>

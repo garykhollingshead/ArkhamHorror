@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Police Step Up Patrols in Northside!",
+  "description"            : "All monsters in the Northside streets or locations are returned to the cup.", 
+  "category"               : "headline",
+  "monsterArea"           : "silver twilight lodge",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "graveyard",
+  "actions"                : "ReturnToCupMonstersAt([], [\"northside\"])",
+  "movementImage"         : "circle square diamond.jpg"
+}

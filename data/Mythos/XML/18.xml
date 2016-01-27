@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         A Silver Lodge ritual lets 2 monsters loose in the French Hill streets.
+      </description>
+      <actions>
+         PlaceMonstersAt( number=2 , streets=[&quot;french hill&quot;])
+      </actions>
+      <clueAppears>
+         Hibb&quot;s Roadhouse
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         black cabe
+      </monsterArea>
+      <name>
+         Lodge Member Held for Questioning!
+      </name>
+   </Mythos>

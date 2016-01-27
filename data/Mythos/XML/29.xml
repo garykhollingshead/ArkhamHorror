@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Ghouls, Formless Spawns, Shoggoths, and Flying Polyps have their toughness increased by 1.
+      </description>
+      <clueAppears>
+         graveyard
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         silver twilight lodge
+      </monsterArea>
+      <name>
+         Things of Darkness
+      </name>
+   </Mythos>

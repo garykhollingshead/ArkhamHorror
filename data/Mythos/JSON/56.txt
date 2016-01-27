@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Campus Security Increases",
+  "description"            : "All monsters in the Miskatonic U. streets or locations are returned to the cup.", 
+  "category"               : "headline",
+  "monsterArea"           : "independence square",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "the unnamable",
+  "actions"                : "ReturnToCupMonstersAt([],[\"Miskatonic U.\"])", 
+  "movementImage"         : "circle square diamond.jpg"
+}

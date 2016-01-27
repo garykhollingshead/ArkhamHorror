@@ -1,0 +1,13 @@
+{
+  "description" : "Reduces any loss of Stamina by 1.",  
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Whiskey",
+  "hands" : 0,
+  "price" : 1,
+  "itemtype" : "None",
+  "discard" : "True",
+  "amount" : 2,
+  "picture" : "Whiskey.jpg",
+  "action" : {"ReduceStaminaLoss" : 1}
+}

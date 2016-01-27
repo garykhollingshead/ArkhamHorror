@@ -1,0 +1,12 @@
+{ 
+  "name" : "Darke\'s Carnival Arrives",
+  "category" : "environment (urban)",
+  "description" : "Investigators who end their movement in the Northside streets gain 1 Clue token from the sinister wonders they witness, but must pass a Will(-1) check or lose 1 Sanity.",
+  "conditions" : "[[IsPhase(\"movement\"), PlayerInLocation(\"northside streets\"), PlayerMovementFinished(), FailCheck(\"will\", -1)]]",
+  "actions" : "LoseSanity(1)",
+  "activityAt" : "northside streets",
+  "monsterArea" : "woods",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

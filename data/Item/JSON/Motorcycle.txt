@@ -1,0 +1,15 @@
+{
+  "description" : "During movement phase, exhaust to get 2 extra movement point.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Motorcycle",
+  "hands" : 0,
+  "price" : 4,
+  "itemtype" : "None",
+  "discard" : "False",
+  "exhaust" : "True",
+  "amount" : 2,
+  "picture" : "Motorcycle.jpg",
+  "conditionals" : {"isPhase" : "movement"},
+  "movement" : 2
+}

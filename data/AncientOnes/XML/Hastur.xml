@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+   <AncientOne>
+      <picture>
+         hastur.jpg
+      </picture>
+      <name>
+         Hastur
+      </name>
+      <combat>
+         -10
+      </combat>
+      <title>
+         The King in Yellow
+      </title>
+      <attack>
+         <luck>
+            <sanity>
+               -2
+            </sanity>
+         </luck>
+      </attack>
+      <defense>
+         Physical Resistance
+      </defense>
+      <worshippers>
+         combat=-2
+      </worshippers>
+      <interrupt>
+         <modifyValue>
+            <clueCost>
+               3
+            </clueCost>
+         </modifyValue>
+         <condition>
+            always
+         </condition>
+         <routine>
+            AttemptSealGateRoutine
+         </routine>
+      </interrupt>
+      <doom>
+         13
+      </doom>
+   </AncientOne>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Bindmonster.jpg
+      </picture>
+      <postCast>
+         discard
+      </postCast>
+      <name>
+         Bind Monster
+      </name>
+      <sanityCost>
+         2
+      </sanityCost>
+      <effect>
+         passCombatCheck(successEqualToMonsterToughness())
+      </effect>
+      <amount>
+         2
+      </amount>
+      <hands>
+         2
+      </hands>
+      <phase>
+         any
+      </phase>
+      <discard>
+         spellUsed()
+      </discard>
+      <castingModifier>
+         4
+      </castingModifier>
+      <description>
+         Any Phase: Cast and discard to pass one combat check.  You must roll successes = to monster toughness.  Not effective on ancient ones
+      </description>
+   </Spell>

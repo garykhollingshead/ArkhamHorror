@@ -1,0 +1,13 @@
+{
+  "description" : "+1 to Combat checks. Any Phase: Exhaust to re-roll 1 die after making a Combat Check.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Bullwhip",
+  "hands" : 1,
+  "price" : 2, 
+  "itemtype" : "physical weapon",
+  "rerollcombat" : "True",
+  "exhaust" : "True",
+  "amount" : 2,
+  "picture" : "Bullwhip.jpg"
+}

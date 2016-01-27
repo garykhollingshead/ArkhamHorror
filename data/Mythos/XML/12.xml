@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Dark Young in Arkham are returned to the cup.  If at least one monster returns to the cup, raise terror level by 1.
+      </description>
+      <actions>
+         RaiseTerrorLevel(1)
+      </actions>
+      <clueAppears>
+         the unamable
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         Goat-like Creature Spotted in Woods!
+      </name>
+   </Mythos>

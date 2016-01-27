@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         plus
+      </whiteMovementShapes>
+      <name>
+         Egyptian Exhibit Visits Miskatonic U.
+      </name>
+      <blackMovementShapes>
+         crescent
+      </blackMovementShapes>
+      <activityAt>
+         miskatonic u. streets
+      </activityAt>
+      <actions>
+         GainClueToken(1)
+      </actions>
+      <movementImage>
+         plus crescent.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;miskatonic u. streets&quot;), PlayerMovementFinished(), PassCheck(&quot;lore&quot;, -1)]]
+      </conditions>
+      <description>
+         Any investigator who ends his movement in the Miskatonic U. streets may pass a Lore(-1) check to gain 1 Clue token by reading the strange heiroglyphics on the artifacts in the exhibit.
+      </description>
+   </Mythos>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (weather)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Fight checks in Arkham are made at a -1 penalty. Lore checks in Arkham are made at a +1 bonus. Fire Vampires have their toughness increased by 1.
+      </description>
+      <actions>
+         ModifyCheck(&quot;fight&quot;, -1) and ModifyCheck(&quot;lore&quot;, 1) and ModifyTraitOf(&quot;fire vampire&quot;, &quot;toughness&quot;, 1)
+      </actions>
+      <clueAppears>
+         independence square
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         Heatwave
+      </name>
+   </Mythos>

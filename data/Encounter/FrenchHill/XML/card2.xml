@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;Excuse me, stranger, but have you ever seen this symbol before?&quot;  A man standing near the house holds up an occult symbol.  Make a Lore (-1) check.  If you pass, the man introduces himself as Thomas F. Malone, a police detective visiting Arkham on a case.  He&quot;s impressed with you and offers to join you.  Take his Ally card.  If it&quot;s not available, he tells you some valuable information instead.  Gain 2 Clue tokens.  If you fail, nothing happens.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            You are allowed into the vault of Silver Secrets.  Pass a Luck (-2) check to steal a very unusual item.  Search the Unique Item deck and take any one Unique Item you want.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            None
+         </action>
+         <text>
+            You find an old parchment in the study.  Pass a Lore (-1) check to draw 2 Spells and keep one of your choice.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>

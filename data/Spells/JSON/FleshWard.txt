@@ -1,0 +1,14 @@
+{
+    "name":"Flesh Ward",
+    "castingModifier":-2,              
+    "sanityCost":1,
+    "postCast":"exhaust",
+    "discard": "ancientOneAwake()",     
+    "phase":"any",                      
+    "effect":"ignoreStaminaLoss(1)",    
+    "description":"Any Phase: Cast and exhaust to ignore stamina loss from ONE source",
+    "hands":1,
+    "picture":"Flesh Ward.jpg",
+    "amount":4
+}
+

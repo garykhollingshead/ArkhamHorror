@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Enchant Weapon.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Enchant Weapon
+      </name>
+      <sanityCost>
+         1
+      </sanityCost>
+      <effect>
+         makeWeaponMagical(weapon)
+      </effect>
+      <amount>
+         3
+      </amount>
+      <hands>
+         0
+      </hands>
+      <phase>
+         combat
+      </phase>
+      <castingModifier>
+         0
+      </castingModifier>
+      <description>
+         Cast and exhaust to make one Physical Weapon a Magical Weapon until the end of this combat.
+      </description>
+   </Spell>

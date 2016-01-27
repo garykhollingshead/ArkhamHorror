@@ -1,0 +1,26 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "The Dreamlands",
+                        "check" : ["luck", -1, 1], 
+			"passaction" : [["gain(\"clue\", 2)"]],
+                        "failaction" : [["status(\"stuck(1)\")"]],
+                        "description" : "At the south gates of Thran, you are stopped by a red-robed sentry until you can tell three dreams beyond belief. Pass a Luck (-1) check to tour the golden spires of Threan, gaining 2 clue tokens in the process. If you failm stay here next turn."
+                },
+        "loc2" :
+                {
+                        "name" : "Celeano",
+                        "check" : ["luck", -1, 1],
+                        "passaction" : [["gain(\"stamina\", 2)", "gain(\"sanity\", 2)"]],
+                        "failaction" : [["lose(\"item\",2)"]],
+                        "description" : "The symbol above the doorway glows. Make a Luck (-1) check. If you pass gain 2 Stamina and 2 Sanity. If you fail, discard 2 items of your choice."
+                },
+        "other" :
+                {
+                        "check" : ["fight", -2, 1],
+                        "passaction" : [["gain(\"money\", 8)"]],
+						"failaction" : [["lose(\"stamina\",1)"]],
+                        "description" : "Pass a Fight (-2) check to lever back the lid of the stone chest. Inside, you find $8. If you fail, lose 1 Stamina."
+                }
+}

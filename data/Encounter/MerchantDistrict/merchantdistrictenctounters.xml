@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<merchantdistrictenctounters>
+    <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            gain(&quot;clue&quot;,2)
+         </action>
+         <text>
+            In a dusty and decaying roll-top desk, you find a mysterious manuscript. If you read it, make a Lore (-1) check. If you pass, draw one Spell. If you fail, the manuscript is nothing but the insane babbling of a previous renter. Stay here next turn reading it, but gain 2 Clue tokens.
+         </text>
+         <optional>
+            True
+         </optional>
+         <check>
+            1
+         </check>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            arrested()
+         </action>
+         <text>
+            You open some crates on the dock. Inside you find some useful things. Draw 2 Common Items. Next, make a Luck (-1) check. If you pass, you get away without being seen. If you fail, you are arrested and taken to the police station.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            None
+         </action>
+         <text>
+            You come across a man examining some old bones. Pass a Sneak (-1) check to get close enough to see what he&quot;s doing. He finally notices you and is impressed with your skills, introducing himself as John Legrasse. Take his Ally card if it&quot;s available, otherwise he shares a meal with you. Restore your Sanity and Stamina to their maximum values.
+         </text>
+         <check>
+            1
+         </check>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>
+    <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            loseStamina(2)
+         </action>
+         <text>
+            You notice a glint of light in a crevice. If you reach in, make a Luck (-1) check. If you pass, draw 1 Unique Item. If you fail, you feel a sharp pain as teeth clamp down on your hand. you manage to pull free, but you lose 2 Stamina and 1 Sanity.
+         </text>
+         <optional>
+            true
+         </optional>
+         <check>
+            1
+         </check>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            loseSanity(1)
+         </action>
+         <text>
+            You notice a piece of wood floating in the water; carved into it is the name of a ship long since sunk. As you touch it, visions of the drowning passengers&quot; last moments of life flood through your mind. Pass a Speed (-1) check to hurl it away from you. If you fail, you fall to the ground with a cry. Lose 1 sanity.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            loseSanity(3)
+         </action>
+         <text>
+            The willows sway in a wind that you cannot hear or feel, and for a moment, the hatred of these ancient trees for the invader that has come to their island drives you to your knees. pass a Will (-2) check or lose 3 Sanity.
+         </text>
+         <check>
+            1
+         </check>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>
+    <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            None
+         </action>
+         <text>
+            You bump into Eric Colt. He tells you a horrible tale of the Mythos to test your nerves. If you listen, lose 2 Sanity. If this doesn&quot;t drive you insane, take his Ally card if it is available. If it is not available, you may pump him for information instead. Gain 3 Clue tokens.
+         </text>
+         <optional>
+            true
+         </optional>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            None
+         </action>
+         <text>
+            You bump into Abner Weems, the local drunk. You help him find a place to sleep for the night, and he mumbles something to you over and over. Make a Luck (-1) check. If you pass, his mumbling is a magical chant. Draw 1 Spell. If you fail, it&quot;s gibberish. Nothing happens.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            None
+         </action>
+         <text>
+            You come across a large pile of human bones under the boughs of one of the willows on the isle. Lose 1 Sanity, but find a scroll among the bones. Draw 1 Spell.
+         </text>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>
+    <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            lostInTimeAndSpace()
+         </action>
+         <text>
+            You hear the scurrying and squeaking of a horde of rats from inside the walls. Abruptly, you realize that they are moving to surround you. Pass a Speed (-1) check to make it to the front door first. If you fail, you are lost in time and space.
+         </text>
+         <check>
+            1
+         </check>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            lostInTimeAndSpace()
+         </action>
+         <text>
+            As you look out across the waves, you feel strangely compelled to throw yourself into the ocean&quot;s watery embrace. Pass a Will (+1) check or you are lost in time and space.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            None
+         </action>
+         <text>
+            Looking up at the night sky from the island, you see constellations that you&quot;ve never seen before. The entire night sky is different here! Lose 1 Sanity and gain 1 Clue token.
+         </text>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>
+    <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Luck (-1) check to find a hidden cache concealed in the wall of an upstairs bedroom. Draw 1 Unique Item.
+         </text>
+         <check>
+            1
+         </check>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            loseStamina(3)
+         </action>
+         <text>
+            Walking along the dock you see something floating in the water near the edge of the dock. You reach for it - make a Luck (-1) check. If you pass, you dredge up something useful. Draw 1 Common Item. If you fail, you pull to the surface a tentacle that immediately wraps around your neck and drags you under the water and out to sea. Lose 1 Sanity and 3 Stamina before you can break free.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            None
+         </action>
+         <text>
+            A group of hooded cultists are having a meeting among the standing stones on the island. Pass a Sneak (-1) check to overhear some of what they have to say. Gain 2 Clue tokens.
+         </text>
+         <check>
+            1
+         </check>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>
+    <merchantdistrictencounter>
+      <TheUnnamable>
+         <action>
+            None
+         </action>
+         <text>
+            A monster and gate appear!
+         </text>
+      </TheUnnamable>
+      <RiverDocks>
+         <action>
+            goToStreet()
+         </action>
+         <text>
+            The dock workers are short-handed and offer you a job as a stevedore for the day. Make a Fight(+0) check. If you pass, gain $3 for every success you rolled. If you fail, the boss gets tired of your lollygagging and throws you out. Lose 1 Stamina and move to the street.
+         </text>
+         <check>
+            1
+         </check>
+      </RiverDocks>
+      <UnvisitedIsle>
+         <action>
+            loseSanity(1)
+         </action>
+         <text>
+            A silent man brushes past you on the trail. Your arm goes numb with cold from the brief contact, and you whirl around to look at him, but he has disappeared. Lose 1 Stamina and pass a Will (-1) check or lose 1 Sanity as well.
+         </text>
+         <check>
+            1
+         </check>
+      </UnvisitedIsle>
+   </merchantdistrictencounter>
+</merchantdistrictenctounters>

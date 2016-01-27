@@ -1,0 +1,26 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "The Dreamlands",
+                        "check" : ["luck", -1, 1], 
+						"passaction" : [[""]],
+                        "failaction" : [["lose(\"stamina\",1)", "status(\"stuck(1)\")"]],
+                        "description" : "You dring impure water from the River Kra. Pass a Luck (-1) check or lose 1 Stamina and stay here next turn due to illness."
+                },
+        "loc2" :
+                {
+                        "name" : "Abyss",
+                        "check" : ["luck", -2, 1],
+                        "passaction" : [[""]],
+                        "failaction" : [["lose(\"sanity\",1)", "status(\"stuck(1)\")"]],
+                        "description" : "You are lost in the darkness. Pass a Luck (-1) check or lose 1Sanity stay here next turn."
+                },
+        "other" :
+                {
+                        "check" : ["lore", -1, 1],
+                        "passaction" : [""],
+						"failaction" : [["status(\"stuck(1)\")"]],
+                        "description" : "You are lost in a labyrnth of high walls. Pass a Lore (-1) check or stay here next turn."
+                }
+}

@@ -1,0 +1,19 @@
+<ancientones>
+  <ancientOne>
+    <name></name>
+    <title></title>
+    <combatRating></combatRating>
+    <doomTrack></doomTrack>
+    <worshipers>
+      <description></description>
+      <type></type>
+      <mods></mods>
+    </worshipers>
+    <defence></defence>
+    <power>
+      <name></name>
+      <description></description>
+    </power>
+    <attack></attack>
+  </ancientOne>
+</ancientones>

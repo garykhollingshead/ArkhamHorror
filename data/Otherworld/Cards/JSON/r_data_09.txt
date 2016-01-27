@@ -1,0 +1,23 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "r\'lyeh",
+                        "check" : ["fight", -1, 1],
+                        "failaction" : [["lose(\"stamina\", 3)"]], 
+                        "description" : "Hurricane winds smash you against the cyclopean stones. Pass a Fight (-1) check or lose 3 Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "the dreamlands",
+                        "check" : ["fight", -1, 1],
+                        "failaction" : [["lose(\"stamina\", 2)"]],
+                        "description" : "The wind increases, and you feel your feet go numb. Pass a Fight (-1) check or lose 2 Stamina."
+                },
+        "other" :
+                {
+                        "passaction" : [["monster"]],
+                        "description" : "A lurking monster appears!"
+                }
+}
+

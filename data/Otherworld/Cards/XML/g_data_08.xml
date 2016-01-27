@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <failaction>
+            loseInTimeAndSpace()
+         </failaction>
+         <description>
+            The hooved, wide-mouthed traders of this land are wealthy, but dangerous.  You may make a Lore (-2) check to rade with them.  If you pass, gain $6.  If you fail, you are lost in time and space. 
+         </description>
+         <passaction>
+            gain(&quot;money&quot;, 6)
+         </passaction>
+         <name>
+            Plateau of Leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, 1)
+         </failaction>
+         <description>
+            You must have that device if you are to escape from this accursed city.  Pass a Sneak (-1) [2] check to draw 1 Unique Item and return to Arkham.  If you fail, your captors are none too kind.  Lose 3 Sanity and 1 Stamina
+         </description>
+         <passaction>
+            returnToArkham()
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            2
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;clue&quot;, 2)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Luck (-1) check to discover a vital document.  Gain 2 Clue tokens. 
+         </description>
+      </other>
+   </otherworldCard>

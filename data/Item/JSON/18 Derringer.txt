@@ -1,0 +1,12 @@
+{
+  "description" : "+2 to Combat Checks. .18 Derringer cannot be lost or stolen unless you choose to allow it.",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : ".18 Derringer",
+  "hands" : 1,
+  "price" : 3,
+  "itemtype" : "physical weapon",
+  "combatcheck" : 2,
+  "amount" : 2,
+  "picture" : "18 Derringer.jpg"
+}

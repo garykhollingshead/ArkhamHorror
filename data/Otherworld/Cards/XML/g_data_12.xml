@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            Pass a Luck (-1) check to find something useful among the incomprehensible artifacts.  If so, draw 1 Unique Item
+         </description>
+         <passaction>
+            draw(&quot;spell&quot;, 1)
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <description>
+            You encounter the talking cats of Ulthar.  Pass a Will (+0) check to draw 1 Spell. 
+         </description>
+         <passaction>
+            draw(&quot;spell&quot;, 1)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;sanity&quot;, 1)
+         </passaction>
+         <description>
+            A glimpse of home gives you hope.  Gain 1 Sanity. 
+         </description>
+      </other>
+   </otherworldCard>

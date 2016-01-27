@@ -1,0 +1,14 @@
+{
+  "description" : "Magical weapon. +9 to combat checks. (lose 1 sanity and discard after use).",  
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Powder Of Ibn-Ghazi",
+  "hands" : 2,
+  "price" : 6,
+  "itemtype" : "magical weapon",
+  "discard" : "True",
+  "amount" : 2,
+  "sanity" : -1,
+  "combatcheck" : 9,
+  "picture" : "Powder Of Ibn-Ghazi.jpg"
+}

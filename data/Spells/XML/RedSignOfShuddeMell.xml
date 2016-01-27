@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Red Sign of Shuddemell.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Red Sign of Shudde M&quot;ell
+      </name>
+      <sanityCost>
+         1
+      </sanityCost>
+      <effect>
+         lowerMonsterToughnessByValueAndIgnoreSpecialAbilityOtherThan(1,&quot;Magical Immunity&quot;)
+      </effect>
+      <amount>
+         2
+      </amount>
+      <hands>
+         1
+      </hands>
+      <phase>
+         any
+      </phase>
+      <castingModifier>
+         -1
+      </castingModifier>
+      <description>
+         Any Phase: Cas and exhaust to lower a monster&quot;s toughness by 1 (to a minimum of 1) and ignore one of its special abilities other than Magical Immunity until the end of this combat.
+      </description>
+   </Spell>

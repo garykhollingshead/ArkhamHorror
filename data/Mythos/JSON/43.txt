@@ -1,0 +1,15 @@
+{ 
+  "name" : "Distrubing the Dead",
+  "category" : "rumor",
+  "ongoingEffectsCondition" : "IsPhase(\"mythos\")",
+  "ongoingEffects" : "RollDieAtEndOfMythosPhaseOn1or2AdvanceTerrorTrack()",
+  "passCondition" : "[[IsPhase(\"encounter\"), PlayerInLocation(\"rivertown streets\"), PlayerDiscardsGate(2)]]",
+  "passActions" : "[[ReturnThisCard(), PlayersDrawSpell(1)]]",
+  "failCondition" : "TerrorLevel(10)",
+  "failActions" : "[[ReturnThisCard(), PlayersCursed()]]",
+  "activityAt" : "rivertown streets",
+  "monsterArea" : "black cave",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

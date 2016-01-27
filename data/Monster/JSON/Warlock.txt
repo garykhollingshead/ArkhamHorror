@@ -1,0 +1,13 @@
+{"amount": 2,
+ "combatCheck": [-3, "ClueTokens(+2)", "ReturnToBox"],
+ "combatDamage": 1,
+ "description": "",
+ "horrorCheck": -1,
+ "magicalImmunity": "True",
+ "movement": "yellow",
+ "name": "Warlock",
+ "picture": "Warlock.jpg",
+ "sanityDamage": 1,
+ "sneakCheck": -2,
+ "symbol": "circle",
+ "toughness": 2}

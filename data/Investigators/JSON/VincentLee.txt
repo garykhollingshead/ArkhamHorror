@@ -1,0 +1,19 @@
+{
+  "name" : "Vincent Lee",
+  "title" : "the Doctor",
+  "sanity" : 5,
+  "stamina" : 5,
+  "home" : "St. Mary\'s Hospital",
+  "fixed" : {"money" : 9, "clue" : 1},
+  "random" : {"common" : 2, "spell" : 2, "skill" : 1},
+  "focus" : 2,
+  "speed" : 0,
+  "sneak" : 2,
+  "fight" : 0,
+  "will" : 1,
+  "lore" : 2,
+  "luck" : 1,
+  "interrupt" : [ { "routine" : "UpkeepRoutine", "condition" : "optional", "invoke" : { "routine" : "RestoreStaminaSubroutine" , "target" : { "invoke" : "ChooseLocalInvestigator" } } } ],
+  "picture" : "vince.jpeg",
+  "story" : "A Yale graduate of Medicine, Vincent has recently moved to Arkham from Boston to practice at St. Mary\'s Hospital. Since his coming to Arkham, he has seen far too many horrible and unexplained deaths . and elderly victim torn apart by unknown wild animals, a healthy young man whose heart exploded and so many others. Their faces haunt his dreams, especially the young man\'s terrified expression. After all this, small wonder that Vincent has begun to wonder if there\'s something sinister going on in this quiet Massachusetts town. Tonight, Dr. Lee made the decision to investigate the mysteries of Arkham and stop the strange deaths. He is determined to see this through, even if in so doing he becomes another puzzle for the next doctor who comes to Arkham."
+}

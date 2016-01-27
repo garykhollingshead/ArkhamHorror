@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Southside Strangler Suspected",
+  "description"            : "However, the press is mistaken, and the murders were caused by 2 monsters that are released into the Southside streets.", 
+  "category"               : "headline",
+  "monsterArea"           : "woods",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "historical society",
+  "actions"                : "PlaceMonstersAt(2, [\"soutside\"]",
+  "movementImage"         : "circle square diamond.jpg"
+}

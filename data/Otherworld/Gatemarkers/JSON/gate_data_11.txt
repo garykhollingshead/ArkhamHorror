@@ -1,0 +1,7 @@
+{
+    'location' : "R\'lyeh",
+    'symbol' : 'plus',
+    'modifier' : -3,
+    'picture' : 'Rlyeh.jpg',
+    'frontpicture' : 'front.jpg'
+}

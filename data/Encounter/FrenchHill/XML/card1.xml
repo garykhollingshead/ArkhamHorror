@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+   <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            <successes>
+               3
+            </successes>
+            <stamina>
+               3
+            </stamina>
+         </action>
+         <text>
+            You find a banquet laid out in the dining room and feel compelled to sit down and eat.  Make a Luck (+0) check and consult the following chart
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            None
+         </action>
+         <text>
+            Participating in the monthly ceremony, you witness great power and great evil.  Lose up to 3 Sanity and gain that many Clue tokens.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            Brushing up against a strange object in the hall, you feel stretched and thin, like your skin is too tight.  Pass a Luck (-1) check or you are Cursed.
+         </text>
+      </SilverTwilightLodge>
+   </downtownencounter>

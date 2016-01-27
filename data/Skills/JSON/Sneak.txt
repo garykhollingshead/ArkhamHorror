@@ -1,0 +1,6 @@
+{
+  "name" : "Sneak",
+  "picture" : "Sneak.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "SkillCheck" , "condition" : { "equalTo" : [ "Attribute" , "Sneak"] } , "modifyValue" : { "dice" : 1 , "dicePerClue" : 1 } }
+}

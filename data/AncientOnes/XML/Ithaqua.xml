@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+   <AncientOne>
+      <picture>
+         ithaqua.jpeg
+      </picture>
+      <name>
+         Ithaqua
+      </name>
+      <combat>
+         -3
+      </combat>
+      <title>
+         Icy Winds
+      </title>
+      <attack/>
+      <defense/>
+      <worshippers>
+         <cultist>
+            <toughness>
+               2
+            </toughness>
+         </cultist>
+      </worshippers>
+      <interrupt>
+         <condition>
+            always
+         </condition>
+      </interrupt>
+      <doom>
+         11
+      </doom>
+   </AncientOne>

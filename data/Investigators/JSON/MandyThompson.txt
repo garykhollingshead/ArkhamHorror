@@ -1,0 +1,20 @@
+{
+  "name" : "Mandy Thompson",
+  "title" : "the Researcher",
+  "sanity" : 5,
+  "stamina" : 5,
+  "home" : "Library",
+  "fixed" : {"money" : 6, "clue" : 4},
+  "random" : {"common" : 2, "unique" : 1, "skill" : 1},
+  "focus" : 2,
+  "speed" : 1,
+  "sneak" : 2,
+  "fight" : 0,
+  "will" : 2,
+  "lore" : 1,
+  "luck" : 0,
+  "interrupt" : [{"routine" : "ResolveSkillCheckRoutine", "condition" : {"optional" : {"notRegistered" : "MandyThomsonReroll"}}, "modifyValue" : {"rerollCheck" : "True" }, "invokeAfter" : {"Register" : "MandyThomsonReroll"}}, {"routine" : "UpkeepPhase", "condition" : "always" , "invokeBefore" : {"Deregister" : "MandyThomsonReroll"}}], 
+  "picture" : "mandy.jpeg",
+  "story" : "Mandy came to Arkham several years ago looking for work as a researcher for Miskatonic University. Since then, she has worked with many of the University professors, delving into esoteric tomes filled with scientific information, historical reports, and sometimes even occult ramblings. It was while reading an old book of prophecies last week that she first felt that she had stumbled onto something big. Mandy came to believe that certain signs portents described in the book were taking place in Arkham right now - omens that indicated the return of a terrible being referred to as an Ancient One, which would grind the cities of Man beneath its loathsome tread. Tonight, the full moon has turned blood red, which is the final omen of the return of the Ancient One. Slipping into the night, and armed with her knowledge of prophecy, Mandy has decided to see if she can defy fate and stop these events from taking place."
+
+}

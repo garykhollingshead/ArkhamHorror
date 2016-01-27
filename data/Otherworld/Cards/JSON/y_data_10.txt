@@ -1,0 +1,21 @@
+{ 
+    "color" : "yellow",
+    "loc1" :             
+        {
+            "name" : "City of the Great Race",
+            "description" : "you wander the empty streets of the city. No encounter."
+        },
+    "loc2" : 
+        {
+            "name" : "The Dreamlands",
+            "check" : ["lore", -1, 1],              
+            "failaction" : [["lose(\"sanity\",3)"]],
+            "description" : "You come across an abandoned onyx quarry whose chiselled vacancies are so vast that it staggers your mind. Pass a Lore(-1) check to avoid awakening anything here, or else lose 3 Sanity."
+        },
+    "other" :
+        {
+	    "check" : ["will", -1, 1],
+            "failaction" : [["lose(\"sanity\",1)","lose(\"stamina\",1)"]],
+            "description" : "The unending blackness terrifies you. Pass a Will(-1) check or lose 1 Sanity and 1 Stamina from fear and exhaustion."
+        }
+}

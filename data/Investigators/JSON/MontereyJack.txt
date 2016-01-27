@@ -1,0 +1,19 @@
+{
+  "name" : "Monterey Jack",
+  "title" : "the Archaeologist",
+  "sanity" : 3,
+  "stamina" : 7,
+  "home" : "Curiositie Shoppe",
+  "fixed" : {"money" : 7, "clue" : 1, "common" : ["bull whip", ".38 revolver"]},
+  "random" : ["unique=2", "skill=1"],
+  "focus" : 2,
+  "speed" : 1,
+  "sneak" : 0,
+  "fight" : 2,
+  "will" : 0,
+  "lore" : 1,
+  "luck" : 2,
+  "interrupt" : [ { "routine" : "DrawUniqueItemSubroutine", "condition" : "always" , "modifyValue" : { "cardsDrawn" : 1 } } ],
+  "picture" : "jack.jpg",
+  "story" : "Monterey has been a globe-trotting treasure hunter and adventurer for many years. Following in his father\'s footsteps, he\'s always tried to ensure that the scientific value of his finds is preserved. Recently, he followed a lead on an odd prehistoric statue to Arkham. However, when he arrived, the man he came to buy the statue from was locked up in the asylum. Monterey was just about to give up and go home in disgust when a robed figure pushed past him. For just an instant, there was a flash of a silver pendant with a symbol on it that Monterey would never forget. That symbol has been carved into his murdered father\'s forehead, and had haunted his dreams for years. Chasing after the mysterious figure, he turned a corner only to discover that he had lost his quarry. However, Monterey knows that somewhere in Arkham may lie the answer to the mystery of his father\'s murder, and he\'s not leaving until he finds it."
+}

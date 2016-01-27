@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Sword of Glory.jpg
+      </picture>
+      <description>
+         +6 to Combat checks.
+      </description>
+      <price>
+         8
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         magical weapon
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <combatcheck>
+         6
+      </combatcheck>
+      <hands>
+         2
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Sword of Glory
+      </name>
+   </Item>

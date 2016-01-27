@@ -1,0 +1,211 @@
+<?xml version="1.0" ?>
+<downtownencounters>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            LoreCheck(successes,sanity,clue)
+         </action>
+         <text>
+            In the Doctor&quot;s study, you find a book of helpful notes gathered from inmate interviews.  Make a lore(+0) check and consult the following chart 
+	0)  Their stories fill you with horror even as you learn a few bits of knowledge.  Lose 1 sanity and gain 1 Clue token.
+	1-2)  You find several pieces of useful information.  Gain 2 Clue tokens.
+	3+)  One of the interviews contains vital information.  Gain 3 Clue tokens.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            GainStamina(1)
+         </action>
+         <text>
+            A pair of friendly picnickers share their lunch with you.  Gain 1 stamnina.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            <movement>
+               anywhere
+            </movement>
+         </action>
+         <text>
+            One of the other customers in the banm recognizes you and offers you a lift. Move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            LoreCheck(successes,Spell,null)
+         </action>
+         <text>
+            You find some strange medicine labeled &quot;Dream Enhancers&quot; in a dusty cabinet.  If you choose to take it, make a Lore(-1) check.  If you pass, your visions show you how to perform a ritual.  Draw 1 Spell.  Otherwise, nothing happens.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            LuckCheck(success,null,Item(1))
+         </action>
+         <text>
+            There are Gypsies camped in the park.  They are master thieves and you are their target.  Pass a Luck(-2) check or lose 1 item of your choice.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            LuckCheck(successes,Blessed,Cursed)
+         </action>
+         <text>
+            You find a penny with a strange sigl carved into it. Amused, you flip it in the air, then gasp as you feel a sudden gathering of magical forces around you. Make  Luck(-2) check.  If you pass, the penny comes up heads.  You are Blessed.  If you fail, it comes up tails.  You are Cursed.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            WillCheck(successes,Skill(1),Clue(4)/Spell(2)/Skill(1))
+         </action>
+         <text>
+            You are mistaken for an inmate.  Doctor Mintz has the guards subdue you and conducts an experiment.  Make a Will(-1[2] check to discover the results.  If you pass, the injections seem to increase your capacity for learning. Draw 1 Skill. If you fail, his memory drug fails miserably, resulting in lost knowledge.  You must discard one of the following (your choice), if able: 4 Clue tokens, or 2 Spells or 1 Skill.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            FightCheck(success,null,movement(to street))
+         </action>
+         <text>
+            Pass a Fight(-1) check to intimidate a policeman or he rousts you from the park.  Move to the street..
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            SpeedCheck(successes,Gain($2),null)
+         </action>
+         <text>
+            You see a richly dressed man making a large withdrawl.  On the way out, he lights his cigar with a piece of green paper which he then drops on the ground. Pass a Speed(-1) check to stub it out with your toe before it burns up. You discover it to be a slightly singed two Dollar bill.  Gain $2.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            LoreCheck(successes,GainClues(2),GainStamina(-1))
+         </action>
+         <text>
+            You hear screaming.  When you open a heavy cell door to investigate, a dark shape leaps out at you! It&quot;s an insane man in a straightjacket babbling about invisible horrors.  Make a Lore(-2) check to glean some useful information from him.  If you pass, gain 2 Clue tokens.  If you fail, lose 1 Stamina as he attacks you.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            LuckCheck(success,GainUniqueItem(1,-1),GainStamina(-1)/YouAreCursed()
+         </action>
+         <text>
+            There are gypsies camped out in the park.  Make a Luck(-1) check if you wish to interact with them.  If you pass, an old man has spread several items on a blanket for sale.  Draw 1 Unique Item and you may buy it for $1 less than the list price.  If you fail, a hag comes up to you and tells you that death shadows you.  You scoff at her and she cuts the side of your face with her fingernail, drawing blood. Lose 1 Stamina and you are Cursed.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            GainSanity(-1)
+         </action>
+         <text>
+            A little old lady stands in front of you in line counting out a bag of pennies to deposit.  Lose 1 Sanity
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            SpeedCheck(successes,GainUniqueItem(1),movement(to_street))
+         </action>
+         <text>
+            Nurse Heather is coming!  Make a Speed(-1) check to hid in time.  If you pass, you see her drop something as she walks by.  Draw 1 Unique Item.  If you fail, she throws you out.  Move to the street.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            WillCheck(success,GainAlly(Anna Kaslow)|GainClues(2),null
+         </action>
+         <text>
+            Make a Will(-1) check.  If you pass it, Anna Kaslow the fortune teller offers her help in your investigation.  Take her Ally card if it is still available.  Otherwise, gain 2 Clue tokens.  If you fail, nothing happens.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            LuckCheck(successes,GainUniqueItem(1),GainCommonItem(1))
+         </action>
+         <text>
+            A man wearing dirty and tattered clothing is loitering outside the bank.  He offers to sell you his last possession to get some food money for him and his family.  If you accept, pay $2 and make a Luck(-1) check.  If you pass, draw 1 Unique Item.  If you fail, draw 1 Common Item
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            <arrested>
+               police station
+            </arrested>
+         </action>
+         <text>
+            The guards of the sanitarium are aware that there is an intruder. Make a Sneak (-1) check to escape. If you pass, move to the street. If you fail, you are arrested and taken to the Police Station.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            <stamina>
+               -1
+            </stamina>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            A shadow falls across you from no apparent source and you shiver with more than cold. Pass a Will(-1) check or lose 1 Stamina and 1 Sanity.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            <money>
+               loseAll()
+            </money>
+         </action>
+         <text>
+            &quot;This is a stick-up, see? Nobody move!&quot; Three men armed with tommy guns rob the bank while you&quot;re standing in line. Make a Combat (-1) check. If you pass, you drive them off. Nothing happens. If you fail, lose all of your money.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+    <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            <sanity>
+               2
+            </sanity>
+            <loseTurn>
+               True
+            </loseTurn>
+         </action>
+         <text>
+            Nurse Heather accidentally injects you with a sleeping draught. You may make a Fight (-2) check to resist. If you fail or choose not to resist, lose your next turn and gain 2 Sanity from the prolonged rest. If you pass, nothing happens.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            <special>
+               gateAppears()
+            </special>
+         </action>
+         <text>
+            You touch Founder&quot;s Rock. Make a Luck (-1) check. If you pass, there is an electrifying shock that opens your mind to the elder things of eons past. Lose 1 Stamina, but gain 2 Clue tokens and draw 1 Spell. If you fail, you find a strange carving. As you finger the grooves, a gate opens here and you are drawn through it.
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+            <money>
+               5
+            </money>
+         </action>
+         <text>
+            A teller you&quot;ve never seen before insists she just saw you come in and make a deposit the day before. She proves it by showing you your signature. Gain $5, but lose 1 Sanity.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>
+</downtownencounters>

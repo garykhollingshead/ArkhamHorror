@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Cross.jpg
+      </picture>
+      <description>
+         +0 to Combat Checks (+3 if Opponent is Undead) +1 to Horror Checks)
+      </description>
+      <price>
+         3
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         magical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         <isOpponentUndead>
+            0
+         </isOpponentUndead>
+      </combatcheck>
+      <hands>
+         1
+      </hands>
+      <discard>
+         False
+      </discard>
+      <horrorcheck>
+         1
+      </horrorcheck>
+      <type>
+         item
+      </type>
+      <name>
+         Cross
+      </name>
+   </Item>

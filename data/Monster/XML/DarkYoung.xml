@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Dark Young.jpg
+      </picture>
+      <physicalResistance>
+         3
+      </physicalResistance>
+      <toughness>
+         3
+      </toughness>
+      <description>
+         The trees trembled, leaves fluttering around us.  The earth shook as the thuds of the giant hooved feet grew ever closer
+      </description>
+      <combatDamage>
+         3
+      </combatDamage>
+      <symbol>
+         hexagon
+      </symbol>
+      <name>
+         Dark Young
+      </name>
+      <amount>
+         3
+      </amount>
+      <combatCheck>
+         -1
+      </combatCheck>
+      <sanityDamage>
+         3
+      </sanityDamage>
+      <nightmarish>
+         1
+      </nightmarish>
+      <sneakCheck>
+         -2
+      </sneakCheck>
+      <horrorCheck>
+         0
+      </horrorCheck>
+      <movement>
+         yellow
+      </movement>
+   </monster>

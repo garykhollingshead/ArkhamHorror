@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (urban)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <name>
+         Estate Sale
+      </name>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <activityAt>
+         uptown streets
+      </activityAt>
+      <actions>
+         DrawAndPurchaseOrDiscard(&quot;unique&quot;, 2)
+      </actions>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <conditions>
+         [[IsPhase(&quot;movement&quot;), PlayerInLocation(&quot;uptown streets&quot;), PlayerMovementFinished()]]
+      </conditions>
+      <description>
+         Investigators who end their movement in the Uptown streets may draw 2 Unique items and purchase one, none, or both of them at list price, discarding any that are not purchased.
+      </description>
+   </Mythos>

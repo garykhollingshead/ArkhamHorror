@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Missing People Return!",
+  "description"            : "All investigators currently in lost in time and space immediately return to Arkham, appearing in a street or location of their choice.", 
+  "category"               : "headline",
+  "monsterArea"           : "the unnamable",
+  "whiteMovementShapes"  : ["slash", "triangle", "star"],
+  "blackMovementShapes"  : ["hexagon"],
+  "clueAppears"           : "woods",
+  "actions"                : "ReturnFromLISAT()", 
+  "movementImage"         : "slash triangle star hex.jpg"
+}

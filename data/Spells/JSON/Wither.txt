@@ -1,0 +1,13 @@
+{
+    "name":"Wither",
+    "castingModifier":0,  
+    "sanityCost":0,
+    "postCast":"exhaust",
+    "phase":"combat",           
+    "effect":"combatBonus(3)",  
+    "description":"Any Phase: Cast and exhaust to gain +3 to Combat checks until the end of this combat",
+    "hands":1,
+    "picture":"Wither.jpg",
+    "amount":6
+}
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Gugs and Nightgaunts in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.
+      </description>
+      <actions>
+         if previousWasTrue then RaiseTerrorLevel(1)
+      </actions>
+      <clueAppears>
+         the witch house
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         science building
+      </monsterArea>
+      <name>
+         Bizarre Dreams Plague Citizens!
+      </name>
+   </Mythos>

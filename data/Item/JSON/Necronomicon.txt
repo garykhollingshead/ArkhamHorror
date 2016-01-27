@@ -1,0 +1,16 @@
+{
+  "description" : "Movement: Exhaust and spend 2 movement points to make a Lore (-2) Check. If you pass, draw 1 Spell and lose 2 Sanity. If you fail, nothing happens.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Necronomicon",
+  "hands" : 0,
+  "price" : 6,
+  "itemtype" : "tome",
+  "exhaust" : "True",
+  "conditionals" : {"isPhase" : "movement", "LoreCheck" : -2},
+  "draw" : {"spell" : {"LoreCheck" : [1, 0]}},
+  "sanity" : {"LoreCheck" : [-2,0]}, 
+  "movement" : -2,
+  "amount" : 1,
+  "picture" : "Necronomicon.jpg"
+}

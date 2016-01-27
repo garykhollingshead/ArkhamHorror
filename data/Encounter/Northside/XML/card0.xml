@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            You accidentally tip over a bottle of ink and are aghast at the pattern the ink forms on the newsroom floor. Lose 1 Sanity.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               <mythos>
+                  <movement>
+                     getMythosLocation()
+                  </movement>
+               </mythos>
+            </draw>
+         </action>
+         <text>
+            As you wander into the back of the shop, you hear a noise. Pass a Speed (-1) check or you look up just in time to see a descending club. Everything goes black. When you awaken, you are somewhere else. Draw a mythos card and move to the gate location shown on it, then immediately have an encounter there.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <stamina>
+               -rollDice(1)
+            </stamina>
+         </action>
+         <text>
+            A stranger in a turban steps off the Boston local train with a crazed look on his face. Make a Luck (-1) check. If you pass, the man pulls a strange object from beneath his cloak and gives it to you. Draw 1 Unique Item. If you fail, he pulls a poisoned blade out of his cloak and stabs you. Roll a die and lose that much Stamina
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>

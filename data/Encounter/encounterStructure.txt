@@ -1,0 +1,16 @@
+<encounters>
+  <card>
+    <neighborhood></neighborhood>
+    <image></image>
+    <location>
+      <name></name>
+      <text></text>
+      <action>
+        <optional></optional>
+        <check></check>
+        <pass></pass>
+        <fail></fail>
+      </action>
+    </location>
+  </card>
+</encounters>

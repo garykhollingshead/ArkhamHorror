@@ -1,0 +1,11 @@
+{
+  "name" : "Yog-Sothoth",
+  "title" : "The Key and the Gate",
+  "combat" : -5,
+  "defense" : "Magical Immunity",
+  "worshippers" : ["Cultists", "combat=-1", "special=(\"magical immunity\")"],
+  "interrupt" : [ { "routine" : "AttemptCloseGateSubroutine" , "condition" : "always" , "modifyValue" : { "fieldName" : "difficultyModifier" , "modifyBy" : 1 } } , { "routine" : "DoLostInTimeAndSpace" , "condition" : "always" , "invokeAfter" : "DevouredSubroutine" } ],
+  "attack" : "",
+  "doom" : 12,
+  "picture" : "ancient2.jpg"
+}

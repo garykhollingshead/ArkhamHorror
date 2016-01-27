@@ -1,0 +1,22 @@
+{
+        'color' : 'red',
+        'loc1' : 
+                { 
+                        'name' : "r\'lyeh",
+                        'check' : ['luck', 0, 1],
+                        'failaction' : [['lose(\"sanity\", 1)', 'status(\"stuck(1)\")']], 
+                        'description' : 'Slip on wet stones and slide into a pit. Pass a Luck (+0) check to climb out. If you fail, lose 1 Sanity and stay here next turn.'
+                },
+        'loc2' :
+                {
+                        'name' : 'plateau of leng',
+                        'check' : ['sneak', 0, 1],
+                        'failaction' : [['lose(\"stamina\", \"roll(1)\")']],
+                        'description' : 'A vast stirring rumbles through the plateau. Pass a Sneak (+0) check or roll a die and lose that much Stamina.'
+                },
+        'other' :
+                {
+                        'description' : 'There is nothing here but barren wastes. No encounter.'
+                }
+}
+

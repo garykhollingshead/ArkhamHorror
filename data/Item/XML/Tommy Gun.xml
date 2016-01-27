@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Tommy Gun.jpg
+      </picture>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <price>
+         7
+      </price>
+      <name>
+         Tommy Gun
+      </name>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         6
+      </combatcheck>
+      <rarity>
+         common
+      </rarity>
+      <type>
+         item
+      </type>
+      <description>
+         +6 to Combat checks.
+      </description>
+   </Item>

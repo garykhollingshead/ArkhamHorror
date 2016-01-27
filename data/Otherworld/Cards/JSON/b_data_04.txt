@@ -1,0 +1,23 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "The Dreamlands",
+                        "description" : "You wander the frozen wastes. No encounter."
+                },
+        "loc2" :
+                {
+                        "name" : "Abyss",
+                        "check" : ["luck", -1, 1],
+                        "passaction" : [["draw(\"unique\", 1, 1)", "gain(\"money\", 3)"]],
+                        "failaction" : [[""]],
+                        "description" : "You rest a bit beside a small, glowing pool filled with black, blind fish. Pass a Luck (-1) check to notice an unusual object in the water. Fishing it out, you draw 1 Unique Item and gain $3."
+                },
+        "other" :
+                {
+                        "check" : ["luck", -1, 1],
+                        "passaction" : [["gain(\"clue\", onePerSuccess())"]],
+			"failaction" : [[""]],
+                        "description" : "Pass a Luck (-1) check to discover a cache of ancient papers containing valuable information about the mythos. Gain 1 Clue token for every successyou rolled on you Luck check."
+                }
+}

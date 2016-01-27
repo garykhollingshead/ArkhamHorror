@@ -1,0 +1,23 @@
+{ 
+    "color" : "yellow",
+    "loc1" :
+        {
+            "name" : "R\'lyeh",
+            "check" : ["speed", -1, 2],
+            "passaction" : [["gain(\"clue\",5)"]],  
+	    "failaction" : [["stayHereNextTurn()"]], 
+            "description" : "You run for the boat. Pass a Speed(-1)[2] check to reach it in time. If you do, you escape with vital information. Gain 5 Clue tokens. If you fail, stay here next turn, hiding from your pursuer."
+        },
+    "loc2" : 
+        {
+            "name" : "Yuggoth",
+            "description" : "Breathing hard, you stay huddled against the rock until the sounds of pursuit fade into the distance. No encounter."
+        },
+    "other" :
+        {
+            "check" : ["lore", -2, 1],
+            "passaction" : [["gain(\"spell\",1)"]],  
+	    "failaction" : [["lose(\"sanity\",1)"]],
+            "description" : "Your mind is flooded with knowledge. Make a lore(-2) check. If you pass it, draw 1 Spell, but lose 1 Sanity."
+        }
+}

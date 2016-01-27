@@ -1,0 +1,16 @@
+{ 
+  "name" : "The Southside Strangler Strikes",
+  "category" : "rumor",
+  "description" : "",
+  "ongoingEffectsCondition" : "IsPhase(\"mythos\")",
+  "ongoingEffects" : "RemoveCardFromDeck(\"ally\")",
+  "passCondition" : "[[IsPhase(\"encounter\"), PlayerInLocation(\"ma\'s boarding house\"), PlayerDiscardsClue(5)]]",
+  "passActions" : "[[ReturnThisCard(), PlayersDrawMoney(5)]]",
+  "failCondition" : "DeckEmpty(\"ally\")",
+  "failActions" : "[[ReturnThisCard(), PlayersChooseSanityOrStamina(-1)]]",
+  "activityAt" : "southside streets",
+  "monsterArea" : "independence square",
+  "whiteMovementShapes" : ["slash", "triangle", "star"],
+  "blackMovementShapes" : ["hexagon"],
+  "movementImage" : "slash triangle star hex.jpg"
+}

@@ -1,0 +1,11 @@
+{
+ "name" : "Goat-like Creature Spotted in Woods!",
+ "description" : "All Dark Young in Arkham are returned to the cup.  If at least one monster returns to the cup, raise terror level by 1.",
+ "category" : "headline",
+ "monsterArea" : "independence square",
+ "whiteMovementShapes" : ["hexagon"],
+ "blackMovementShapes" : ["slash", "triangle", "star"],
+ "clueAppears" : "the unamable",
+ "actions" : ["ReturnToCupMonstersType(\"Dark Young\")", "RaiseTerrorLevel(1)"],
+ "movementImage" : "hex slash triangle star.jpg"
+}

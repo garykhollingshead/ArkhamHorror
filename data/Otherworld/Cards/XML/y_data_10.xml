@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;sanity&quot;,3)
+         </failaction>
+         <description>
+            You come across an abandoned onyx quarry whose chiselled vacancies are so vast that it staggers your mind. Pass a Lore(-1) check to avoid awakening anything here, or else lose 3 Sanity.
+         </description>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <name>
+            City of the Great Race
+         </name>
+         <description>
+            you wander the empty streets of the city. No encounter.
+         </description>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;stamina&quot;,1)
+         </failaction>
+         <check>
+            1
+         </check>
+         <description>
+            The unending blackness terrifies you. Pass a Will(-1) check or lose 1 Sanity and 1 Stamina from fear and exhaustion.
+         </description>
+      </other>
+   </otherworldCard>

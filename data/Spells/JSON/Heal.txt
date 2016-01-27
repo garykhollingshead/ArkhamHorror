@@ -1,0 +1,13 @@
+{
+    "name":"Heal",
+    "castingModifier":"1", 
+    "sanityCost":1,
+    "postCast":"exhaust",
+    "phase":"upkeep",
+    "effect":"restoreStaminaEqualToSuccesses()",
+    "description":"Upkeep: You may cast and exhaust. You or another investigator in your area gains Stamina equal to the succeses you rolled on your Spell Check. This Stamina cannot be split between multiple investigators",
+    "hands":0,
+    "picture":"Heal.jpg",
+    "amount":3
+}
+

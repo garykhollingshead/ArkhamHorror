@@ -1,0 +1,22 @@
+{ 
+    "color" : "yellow",
+    "loc1" :             
+        {
+            "name" : "City of the Great Race",        
+            "check" : ["fight", -1, 1],
+	    "failaction" : [["lose(\"stamina\",1)","lose(\"sanity\",1)"]],  
+            "description" : "The odd plant has you in its clutches. Pass a Fight(-1) check to break free. If you fail. lose 1 Stamina and 1 Sanity as it partially digests you."
+        },
+    "loc2" : 
+        {
+            "name" : "Yuggoth",
+            "check" : ["will", -2, 1],  
+	    "failaction" : [["lose(\"sanity\",2)"]],
+            "description" : "An alien mind forces its way into your body. Pass a Luck(-2) check to guess a way to drive it out, gaining 2 Clue tokens in the process, or else stay here next turn, serving as its host body."
+        },
+    "other" :
+        {
+            "passaction" : "gain(\"money\",2)",  
+            "description" : "A glimmer of gold catches your eye. Gain $2."
+        }
+}

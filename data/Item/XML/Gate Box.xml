@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Gate Box.jpg
+      </picture>
+      <description>
+         When you return to Arkham from an Other World, you can return to any location with an open gate, not just those leading to the Other World you were in.
+      </description>
+      <price>
+         4
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <action>
+         <allowReturnToAnyGate>
+            None
+         </allowReturnToAnyGate>
+      </action>
+      <type>
+         item
+      </type>
+      <name>
+         Gate Box
+      </name>
+   </Item>

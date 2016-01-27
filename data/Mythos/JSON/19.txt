@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Merchants March on Crime!",
+  "description"            : "All monsters in the Merchant Dist. Streets or locations are returned to the cup.", 
+  "category"               : "headline",
+  "monsterSrea"           : "independence square",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "the unnamable",
+  "actions"                : "ReturnToCupMostersAt(locations=[\"merchant dist\"], streets=[\"merchant dist\"])", 
+  "movementImage"         : "circle square diamond.jpg"
+}

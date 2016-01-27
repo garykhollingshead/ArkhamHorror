@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <downtownencounter>
+      <ArkhamAsylum>
+         <action>
+            WillCheck(successes,Skill(1),Clue(4)/Spell(2)/Skill(1))
+         </action>
+         <text>
+            You are mistaken for an inmate.  Doctor Mintz has the guards subdue you and conducts an experiment.  Make a Will(-1[2] check to discover the results.  If you pass, the injections seem to increase your capacity for learning. Draw 1 Skill. If you fail, his memory drug fails miserably, resulting in lost knowledge.  You must discard one of the following (your choice), if able: 4 Clue tokens, or 2 Spells or 1 Skill.
+         </text>
+      </ArkhamAsylum>
+      <IndependenceSquare>
+         <action>
+            FightCheck(success,null,movement(to street))
+         </action>
+         <text>
+            Pass a Fight(-1) check to intimidate a policeman or he rousts you from the park.  Move to the street..
+         </text>
+      </IndependenceSquare>
+      <BankOfArkham>
+         <action>
+            SpeedCheck(successes,Gain($2),null)
+         </action>
+         <text>
+            You see a richly dressed man making a large withdrawl.  On the way out, he lights his cigar with a piece of green paper which he then drops on the ground. Pass a Speed(-1) check to stub it out with your toe before it burns up. You discover it to be a slightly singed two Dollar bill.  Gain $2.
+         </text>
+      </BankOfArkham>
+   </downtownencounter>

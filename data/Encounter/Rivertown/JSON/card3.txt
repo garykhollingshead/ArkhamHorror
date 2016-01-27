@@ -1,0 +1,25 @@
+{
+  "BlackCave" : {
+    "text" : "Bats! Hundreds of them!  Pass a Speed (-1) check to get out of the cave safely.  If you fail, lose 1 stamina.",
+    "action" : [ {"speed" : -1},
+    		"None",
+    		{"stamina" : -1}]
+   },
+   
+  
+  "GeneralStore" : {
+    "text" : "The shopkeeper notices one of the items you\'re carrying and his face lights up.  \"Say, I\'ve been looking for one of those.  You wouldn\'t mind parting with it, would ya?  I can pay well.\"  You may sell any of your Common Items for twice its listed price.",
+    "action" : [ {"optional" : "True"},
+    		"sellCommonItemForTwiceCost()",
+    		"None" ]
+   },
+   
+  "Graveyard" : {
+    "text" : "Descending into a dark mausoleum, you discover a vampire rising to feed.  You quickly find yourself fighting for your life. Make a Combat (-2) check.  If you pass, you defeat the vampire, gaining 1 Clue token and drawing 1 Unique Item.  If you fail, roll a die and lose that much Stamina. ",
+    "action" : [ {"combat" : -2},
+    		"search(\'UniqueItem\')", 
+    		"None" ]
+   }
+}
+
+

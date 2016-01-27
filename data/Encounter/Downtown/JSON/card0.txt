@@ -1,0 +1,20 @@
+{
+  "ArkhamAsylum" : {
+    "text" : "In the Doctor\'s study, you find a book of helpful notes gathered from inmate interviews.  Make a lore(+0) check and consult the following chart \n\t0)  Their stories fill you with horror even as you learn a few bits of knowledge.  Lose 1 sanity and gain 1 Clue token.\n\t1-2)  You find several pieces of useful information.  Gain 2 Clue tokens.\n\t3+)  One of the interviews contains vital information.  Gain 3 Clue tokens.",
+    "action" : [ {"optional" : "False"}, "LoreCheck(successes,sanity,clue)"]
+  },
+
+  "BankOfArkham" : {
+    "text" : "One of the other customers in the banm recognizes you and offers you a lift. Move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.", 
+    "action" : [ {"movement":"anywhere"}
+	       ]
+  },
+
+  "IndependenceSquare" : 
+  {
+    "text" : "A pair of friendly picnickers share their lunch with you.  Gain 1 stamnina.",
+    "action" : [ "GainStamina(1)"] 
+  }
+
+}
+

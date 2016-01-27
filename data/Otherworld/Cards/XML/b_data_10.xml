@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;lost&quot;)
+         </failaction>
+         <description>
+            The creature&quot;s grip is like steel! Pass a Fight (-2) check to break free and escape. If you fail, the creature&quot;s grip tightens with a sickening pop. You are lost in time and space.
+         </description>
+         <passaction/>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            gain(&quot;stamina&quot;, 1)
+         </failaction>
+         <passaction>
+            gain(&quot;stamina&quot;, 1)
+         </passaction>
+         <name>
+            Abyss
+         </name>
+         <description>
+            The feeble glow and warmth of the candle is enough to resore you a bit. Gain 1 Stamina.
+         </description>
+      </loc1>
+      <other>
+         <failaction>
+            closegate()
+         </failaction>
+         <passaction>
+            closegate()
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            You&quot;ve completed you task, but now you must escape before the portal closes! Pass a Speed (-2) check to return to Arkham. If you fail, you are lost in time and space. In either event, you automatically close the gate that you entered through.
+         </description>
+      </other>
+   </otherworldCard>

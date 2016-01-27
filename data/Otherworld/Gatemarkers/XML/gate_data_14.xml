@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         Another Dimension.jpg
+      </picture>
+      <symbol>
+         square
+      </symbol>
+      <modifier>
+         +0
+      </modifier>
+      <location>
+         Another Dimension
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         The Dark Pharoah.jpg
+      </picture>
+      <toughness>
+         2
+      </toughness>
+      <description/>
+      <combatDamage>
+         2
+      </combatDamage>
+      <symbol>
+         hexagon
+      </symbol>
+      <mask>
+         True
+      </mask>
+      <movement>
+         black
+      </movement>
+      <name>
+         The Bloated Woman
+      </name>
+      <amount>
+         1
+      </amount>
+      <combatCheck>
+         -2
+      </combatCheck>
+      <sanityDamage>
+         2
+      </sanityDamage>
+      <sneakCheck>
+         -1
+      </sneakCheck>
+      <horrorCheck>
+         FailbothHorrorAndCombatCheck
+      </horrorCheck>
+      <endless>
+         True
+      </endless>
+   </monster>

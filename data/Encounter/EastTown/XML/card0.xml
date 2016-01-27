@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <easttownencounter>
+      <PoliceStation>
+         <action>
+            <stamina>
+               -2
+            </stamina>
+         </action>
+         <text>
+            Deputy Dingby, excitedly cleaning his gun fires a bullet from the chamber in your direction.  Pass a Luck (-1) check to avoid getting shot.  If you fail, lose two Stamina.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            <money>
+               <movement>
+                  easttown
+               </movement>
+            </money>
+         </action>
+         <text>
+            You enter a &quot;friendly&quot; card game.  Make a Luck (-1) check.  If you pass you win $5.  If you fail, you lose $3.  If you lose and can&quot;t pay the boys rough you up and throw you outside.  Lose 1 stamina and move to the street.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            None
+         </action>
+         <text>
+            Velma comments on how skinny you look and gives you a sandwich on the house.  You may search the Common Item deck for a Food card and take it.
+         </text>
+      </VelmasDiner>
+   </downtownencounter>

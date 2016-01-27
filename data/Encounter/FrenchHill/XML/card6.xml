@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+   <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            You feel the house actually breathe and speak your name. Lose 1 Sanity.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <text>
+            Pay your monthly dues of $3 or lose 2 Sanity from strange dreams sent to you by Carl Sanford when he kicks you out of the Order. If you are kicked out, lose your Silver Twilight Membership.
+         </text>
+         <actio>
+            <sanity>
+               -2
+            </sanity>
+            <stmember>
+               discard()
+            </stmember>
+         </actio>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            <stamina>
+               -3
+            </stamina>
+            <movement>
+               frenchhill
+            </movement>
+         </action>
+         <text>
+            &quot;Care to join the Order?&quot; Carl Sanford and several of his henchmen ask. If you accept, pay $3 and take a Silver Twilight Membership. If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door. Whether you pass or not, move to the street.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>

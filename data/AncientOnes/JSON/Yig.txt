@@ -1,0 +1,11 @@
+{
+"name" : "Yig",
+  "title" : "Yigs Anger",
+  "combat" : -3,
+  "defense" : "",
+  "worshippers" :["Cultists","stamina=-4"], 
+  "interrupt" : [ { "routine" : "ResolveCombatVictoryRoutine", "condition" : { "equalTo" : [ "monsterName" , "Cultist"] } , "invokeAfter" : "DoomAdvanceRoutine" } , { "routine" : "DoLostInTimeAndSpace" , "condition" : "always" , "invokeAfter" : "DoomAdvanceRoutine" } ],
+  "attack" : {"or" : { "speedcheck" : -1, "sanity" : -1}},
+  "doom" : 10,
+  "picture" : "yig.jpg"
+}

@@ -1,0 +1,22 @@
+
+{ 
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "Plateau of Leng",       
+            "description" : "You wander the frozen wastes.  No encounter"        },
+    "loc2" : 
+        {
+            "name" : "Celeano",
+            "check" : ["luck", -1, 2],              
+            "passaction" : [["draw(\"skill\", 1)"]],
+            "description" : "An old professor from Earth teaches you a thing or two.  Pass a Luck (-1) [2] check to draw 1 Skill"
+        },
+    "other" :
+        {
+            "check" : ["sneak", -1, 1],     
+            "passaction" : [["gain(\"money\", 3)"]], 
+	    "failaction" : [["lose(\"stamina\", 2)"]],
+            "description" : "You come across a sleeping horror with a tentacle draped across a small gold idol.  Silence is of the essence as you attempt to gently easy the idol out from under the creatures pseudopod.  Make a Sneak (-1) check.  If you pass, gain $3.  If you fail, lose 2 Stamina"
+        }
+}

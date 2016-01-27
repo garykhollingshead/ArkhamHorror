@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         Plateau of Leng.jpg
+      </picture>
+      <symbol>
+         diamond
+      </symbol>
+      <modifier>
+         -1
+      </modifier>
+      <location>
+         Plateau of Leng
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

@@ -1,0 +1,36 @@
+<investigators>
+  <investigator>
+    <name></name>
+    <title></title>
+    <story></story>
+    <home></home>
+    <sanity></sanity>
+    <stamina></stamina>
+    <focus></focus>
+    <speed></speed>
+    <sneak></sneak>
+    <fight></fight>
+    <will></will>
+    <lore></lore>
+    <luck></luck>
+    <image></image>
+    <startItems>
+      <fixed>
+        <money></money>
+        <spell></spell>
+        <item></item>
+        <skill></skill>
+        <clue></clue>
+        <ally></ally>
+      </fixed>
+      <random>
+        <money></money>
+        <spell></spell>
+        <item></item>
+        <skill></skill>
+        <clue></clue>
+        <ally></ally>
+      </random>      
+    </startItems>
+  </investigator>
+</investigators>

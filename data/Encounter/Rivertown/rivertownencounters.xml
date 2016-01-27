@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<rivertownencounters>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            None
+         </action>
+         <text>
+            You are attacked by a shadowy being, but a large man leaps out of the darkness and drives it off. He introduces himself as Tom &quot;Mountain&quot; Murphy. Make a Luck (-2) check, or discard a Whiskey card to pass it automatically. If you pass, he joins your investigation. Take his Ally card if its&quot;s avalable, otherwise he gives you something to protect yourself with. Search the Common Item deck and take the first Weapon you find. If you fail, Nothing happens.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            <sanity>
+               2
+            </sanity>
+         </action>
+         <text>
+            Entering a stone crypt, you are surprised to find a beautiful fresco and some inspirational words upon the wall. There is an almost magical peace within the chamber. Gain 2 Sanity.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            A jar on the counter bears a sign proclaiming, &quot;Guess how many marbles are in the jar and win a prize! $1 entry fee.&quot; If you want you may pay $1 to make a Lore (-2) check. If you pass, you gain $5. If you fail, nothing happens.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <stamina>
+               -1
+            </stamina>
+         </action>
+         <text>
+            The moaning winds in the cave whisper your name. Lose 1 Sanity.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            <movement>
+               tostreet
+            </movement>
+         </action>
+         <text>
+            Cooter Falwell latches onto you and rambles on about his spiritual beliefs. Make a Lore (-1) check. If you pass, then somewhere in Cooter&quot;s words you find a clue to the Mythos threat. Gain 1 Clue token, but lose 1 Sanity. if you fail, move to the street while you listen to Cooter ramble on about pure nonsense.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            You try talking to the elderly locals gathered around the potbellied stove playing checkers, but you gain nothing but stares and a few befuddled grunts for your trouble. Apparently they do not like outsiders. No encounter.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            None
+         </action>
+         <text>
+            A monster appears!
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <text>
+            You find a man painting a picture of one of the horrible gargoyles lining the walls of the graveyard.  Seeing you, he introduces himself as Richard Upton Pickman, a painter visiting from Boston.  If you spend monster trophies that have a total of 5 toughness, Pickman takes a liking to you.  Take his Ally card.  If it is not available, he teachers you an incantation instead.  Draw 1 Spell.
+         </text>
+         <action>
+            None
+         </action>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            You notice that some of the locals have an odd, fish-like quality to them that sets your teeth on edge.  The shopkeeper notices your gaze and nods. &quot;Marsh stock, from over Innsmouth. Watch yourself around them.&quot;  Shivering, you lose 1 Sanity.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <stamina>
+               -1
+            </stamina>
+         </action>
+         <text>
+            Bats! Hundreds of them!  Pass a Speed (-1) check to get out of the cave safely.  If you fail, lose 1 stamina.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            None
+         </action>
+         <text>
+            Descending into a dark mausoleum, you discover a vampire rising to feed.  You quickly find yourself fighting for your life. Make a Combat (-2) check.  If you pass, you defeat the vampire, gaining 1 Clue token and drawing 1 Unique Item.  If you fail, roll a die and lose that much Stamina. 
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            The shopkeeper notices one of the items you&quot;re carrying and his face lights up.  &quot;Say, I&quot;ve been looking for one of those.  You wouldn&quot;t mind parting with it, would ya?  I can pay well.&quot;  You may sell any of your Common Items for twice its listed price.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <draw>
+               <mythos>
+                  <movement>
+                     getMythosLocation()
+                  </movement>
+               </mythos>
+            </draw>
+         </action>
+         <text>
+            In the darkness you happen upon the remains of a previous spelunker. Make a Luck(0) check and consult the chart below: Successes: 0) The body begins to bloat and splits open, releasing the horror within. Lose 1 Sanity and a monster appears! 1) The body has been ripped apart as if shredded by a powerful monster. Lose 1 Sanity. 2+) Searching the body you find something interesting. Draw 1 Common Item.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            None
+         </action>
+         <text>
+            A monster appears!
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            Noticing a glint on the floor, you discover a silver dollar someone must have dropped. Gain $1.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            <stamina>
+               1
+            </stamina>
+            <movement>
+               blackcave
+            </movement>
+         </action>
+         <text>
+            You are in a maze of twisty passages, all alike. Pass a Lore(-2) check or become lost. If you fail, lose 1 Stamina and stay here next turn.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            <draw>
+               search(&quot;Encounter&quot;)
+            </draw>
+         </action>
+         <text>
+            Pass a Luck(-2) check to find a valuable clue within your tombstone rubblings. Gain 2 Clue tokens and you may move to any location or street in Arkham. If you move to a lcoation, immediately have an encounter there.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            <discard>
+               unusedCardsDrawnThisTurn()
+            </discard>
+         </action>
+         <text>
+            Make a Will(-2) check. If you pass, you gain the ear of the shopkeeper. Seeing your valiant cause, he takes you into the back room and offers you some special equipment. Draw 3 Common Items. You may take 1 of them for free as a gift to help thwart the evil in Arkham! Discard the other 2. If you fail, nothing happens.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+ 
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            None
+         </action>
+         <text>
+            You find an old book. If you read it, make a Luck (0) check and consult the chart below. Successes - 0) Evil forces assault you. Lose 1 Sanity and 1 Stamina. 1) You find the diary of a lost soul who died in the caves long ago. Lose 1 Sanity and gain 1 Clue token as you read his horrible tale. 2+) The book is a spellbook. Take the first Tome from the Unique Item deck.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            None
+         </action>
+         <text>
+            You find the half-buried corpse of a strange being. Draw a monster from the cup and take it as a monster trophy, even if it has the Endless ability.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;Hey, you dropped this!&quot; A young street urchin hands you an item and then scampers off. You don&quot;t recognize the item, but the boy is already gone. Draw 1 Common Item.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>
+</rivertownencounters>

@@ -1,0 +1,12 @@
+{"amount": 2,
+ "combatCheck": -3,
+ "combatDamage": 3,
+ "description": "",
+ "horrorCheck": -2,
+ "movement": ["green", "InvestigatorsInArkhamLose1Sanityon4to6()"],
+ "name": "Chthonian",
+ "picture": "Chthonian.jpg",
+ "sanityDamage": 2,
+ "sneakCheck": 1,
+ "symbol": "triangle",
+ "toughness": 3}

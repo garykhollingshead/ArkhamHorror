@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+   <Investigator>
+      <stamina>
+         3
+      </stamina>
+      <picture>
+         mary.jpg
+      </picture>
+      <story>
+         Sister Mary has served the Church faithfully for manyy years, so when she was sent to Arkham to work with Father Michael, a man whose writings she had admired for many years, she felt that she was truly blessed. Now, after witnessing Father Michael&quot;s strange mood swings and seeing some of the bizarre practices that go on in this town, she&quot;s beginning to feel that she may have been a bit too hasty. For instance, last night, there was a knock on the door of the church, and when she answered it, there was nothing but a handwritten journal lying on the steps outside. Reading it, she learned of strange cults and terrible creatures that lurk in the darkness. Worse, when she laughingly showed it to father Michael, he turned pale and threw it into the fire, yelling at her to forget what she&quot;d seen. Now, gathering her things and quietly leaving South Church, Sister Mary had decided to investigate this town, and in so doing, reaffirm her faith.
+      </story>
+      <name>
+         Sister Mary
+      </name>
+      <title>
+         the Nun
+      </title>
+      <interrupt>
+         <condition>
+            always
+         </condition>
+         <routine>
+            LostInTimeAndSpaceSubroutine
+         </routine>
+      </interrupt>
+      <fight>
+         0
+      </fight>
+      <requires>
+         <else>
+            location=South Church
+         </else>
+         <NoStamina>
+            location=St. Mary&quot;s Hospital
+         </NoStamina>
+         <NoSanity>
+            location=Arkham Asylum
+         </NoSanity>
+      </requires>
+      <random>
+         <skill>
+            1
+         </skill>
+         <spell>
+            2
+         </spell>
+      </random>
+      <focus>
+         1
+      </focus>
+      <sneak>
+         1
+      </sneak>
+      <sanity>
+         7
+      </sanity>
+      <will>
+         1
+      </will>
+      <lore>
+         1
+      </lore>
+      <home>
+         South Church
+      </home>
+      <fixed>
+         <unique>
+            Holy Water
+         </unique>
+         <common>
+            Cross
+         </common>
+      </fixed>
+      <speed>
+         1
+      </speed>
+      <luck>
+         3
+      </luck>
+   </Investigator>

@@ -1,0 +1,14 @@
+{
+  "AdministrationBuilding" : {
+    "text" : "Discuss the opportunity to sell a monograph with the President of the University. Pass a Lore(-1) check to make the sale and gain $5.",
+    "action" : [{"lore":-1}, {"money":5}, "None"] },
+
+  "Library" : {
+    "text" : "You look up to see Abigail foreman leaning over you with hands on hips and a frustrated look on her face. Make a Will (-1) check. If you pass, she helps you find the book you were looking for. Take the first Tome from the Unique Item deck. If you fail, youve made too much noise. She escorts you out of the library. Move to the street",
+    "action" : [ {"will":-1}, "search(\'unique\',\'tome\', 1)", {"movement":"miskatonicu.streets"}]   },
+
+  "ScienceBuilding" : {
+    "text" : "As you enter the Department of Alchemy, a professor looks up in horror. He grabs an ancient artifact from a locked drawer in his desk and holds it up before your face, chanting and making symbolic motions with the item. If you are Cursed, discard the Curse. If you are not Cursed, then you are Blessed.",
+    "action" :[ {"cursed":"True"}, {"cursed":"False"}, {"blessed":"True"} ] 
+}
+}

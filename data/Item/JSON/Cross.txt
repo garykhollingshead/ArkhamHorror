@@ -1,0 +1,14 @@
+{
+  "description" : "+0 to Combat Checks (+3 if Opponent is Undead) +1 to Horror Checks)",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Cross",
+  "hands" : 1,
+  "price" : 3,
+  "itemtype" : "magical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "Cross.jpg",
+  "horrorcheck" : 1,
+  "combatcheck" : {"isOpponentUndead" : [3, 0]}
+}

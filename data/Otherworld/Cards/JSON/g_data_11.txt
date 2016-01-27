@@ -1,0 +1,25 @@
+
+{
+    "color" : "green",
+    "loc1" :             
+        {
+            "name" : "The Dreamlands",        
+            "check" : ["luck", -1, 1], 
+            "passaction" : [["gain(\"stamina\", 999", "gain(\"sanity\", 999)"]], 
+            "description" : "Pass a Luck (-1) check to chance across one of the little red singing birds of Celephais.  Its song brings solace and strength to your heart.  Restore your Sanity and Stamina to their maximum values. "
+        },
+    "loc2" :
+        {
+            "name" : "Celeano",
+            "check" : ["lore", -1, 1],
+            "passaction" : [["blessed()"]], 
+            "description" : "You come across a wizened old creature who debates with you for some time.  If you pass a Lore (-1) check, the creature is amused by your discussion and you are Blessed"
+        },
+    "other" :
+        {
+            "check" : ["fight", -2, 1],
+            "passaction" : [["drawUniqueItem()"]], 
+            "description" : "Pass a Fight (-2) check to pry open a grate you find built into the wall.  Inside, you find something fascinating.  Draw 1 Unique Item"
+        }
+}
+

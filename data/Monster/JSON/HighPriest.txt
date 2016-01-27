@@ -1,0 +1,13 @@
+{"amount": 1,
+ "combatCheck": -2,
+ "combatDamage": 2,
+ "description": "\"We will not cease our struggle,\" intoned the robed figure, \"Until we have built Carcosa upon this land of ruined Reason.\"",
+ "horrorCheck": 1,
+ "magicalImmunity": "True",
+ "movement": "black",
+ "name": "High Priest",
+ "picture": "High Priest.jpg",
+ "sanityDamage": 1,
+ "sneakCheck": -2,
+ "symbol": "plus",
+ "toughness": 2}

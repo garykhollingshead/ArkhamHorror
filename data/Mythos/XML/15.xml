@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         circle
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         diamond
+      </blackMovementShapes>
+      <description>
+         All monsters in the Easttown streets or locations are returned to the cup.
+      </description>
+      <actions>
+         ReturnToCupMostersAt(locations=[&quot;easttown&quot;], streets=[&quot;easttown&quot;])
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         circle square diamond.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Gangs Clean Up Easttown!
+      </name>
+   </Mythos>

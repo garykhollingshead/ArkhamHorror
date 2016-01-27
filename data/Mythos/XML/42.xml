@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawMoney(5)]]
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         The Southside Strangler Strikes
+      </name>
+      <failCondition>
+         DeckEmpty(&quot;ally&quot;)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         southside streets
+      </activityAt>
+      <failActions>
+         [[ReturnThisCard(), PlayersChooseSanityOrStamina(-1)]]
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), PlayerInLocation(&quot;ma&quot;s boarding house&quot;), PlayerDiscardsClue(5)]]
+      </passCondition>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RemoveCardFromDeck(&quot;ally&quot;)
+      </ongoingEffects>
+      <description/>
+   </Mythos>

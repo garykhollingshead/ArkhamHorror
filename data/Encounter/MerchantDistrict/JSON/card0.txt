@@ -1,0 +1,21 @@
+{
+    'RiverDocks' : 
+     { 
+        'text' : "You open some crates on the dock. Inside you find some useful things. Draw 2 Common Items. Next, make a Luck (-1) check. If you pass, you get away without being seen. If you fail, you are arrested and taken to the police station." , 
+        'check' : ['luck', -1, 1] , 'action' :  [ 'drawCommonItem(2)', 'None', 'arrested()' ] 
+     },
+
+    'TheUnnamable' : 
+     { 
+        'text' : "In a dusty and decaying roll-top desk, you find a mysterious manuscript. If you read it, make a Lore (-1) check. If you pass, draw one Spell. If you fail, the manuscript is nothing but the insane babbling of a previous renter. Stay here next turn reading it, but gain 2 Clue tokens." , 
+        'optional' : 'True' , 'check' : ['lore' , -1 , 1] , 
+        'action' : ['None' , 'drawSpell(1)' , ['delayed()' , 'gain(\"clue\",2)'] ] 
+     },
+
+    'UnvisitedIsle' : 
+     { 
+        'text' : "You come across a man examining some old bones. Pass a Sneak (-1) check to get close enough to see what he\'s doing. He finally notices you and is impressed with your skills, introducing himself as John Legrasse. Take his Ally card if it\'s available, otherwise he shares a meal with you. Restore your Sanity and Stamina to their maximum values." , 
+        'check' : ['sneak', -1, 1], 
+        'action' : ['None', 'gainAlly(\"John Legrasse\")', ['restoreSanity()' , 'restoreStamina()'], 'None' ] 
+     }
+  }

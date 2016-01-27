@@ -1,0 +1,11 @@
+{ 
+  "name" : "Church Group Reclaims Southside!",
+  "description" : "All monsters in the Southside streets or locations are returned to the cup.", 
+  "category" : "headline",
+  "monsterArea" : "black cave",
+  "whiteMovementShapes" : ["hexagon"],
+  "blackMovementShapes" : ["slash", "triangle", "star"],
+  "clueAppears" : "hibb\'s roadhouse",
+  "actions" : "ReturnMonstersInSouthsideStreetsAndLocationsToCup()",
+  "movementImage" : "hex slash triangle star.jpg"
+}

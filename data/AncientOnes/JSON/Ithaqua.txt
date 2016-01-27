@@ -1,0 +1,11 @@
+{
+  "name" : "Ithaqua",
+  "title" : "Icy Winds",
+  "combat" : -3,
+  "defense" : "",
+  "worshippers" : {"cultist" : {"toughness" : 2}},
+  "interrupt" : [ { "condition" : "always" } ],
+  "attack" : "",
+  "doom" : 11,
+  "picture" : "ithaqua.jpeg"
+}

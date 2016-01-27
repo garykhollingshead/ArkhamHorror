@@ -1,0 +1,24 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "abyss",
+                        "passaction" : [["monster"]], 
+                        "description" : "A monster appears!"
+                },
+        "loc2" :
+                {
+                        "name" : "the dreamlands",
+                        "check" : ["speed", -2, 1],
+                        "failaction" : [["lose(\"stamina\", 2)"]],
+                        "description" : "The shantak claws at you as it swoops past overhead. Pass a Speed (-2) check or lose 2 Stamina as its claws rake your chest."
+                },
+        "other" :
+                {
+                        "check" : ["luck", -2, 1],
+                        "passaction" : [["gain(\"spell\", 1)", "gain(\"clue token\", 2)"]],
+                        "failaction" : [["monster"]],
+                        "description" : "You sleep, fitfully, and awaken to the sound of your own voice, chanting something. Make a Luck (-2) check. If you pass, you are able to retain what you are saying. Draw 1 Spell and gain 2 Clue tokens. If you fail, the chant attracts something unsavory. A monster appears!"
+                }
+}
+

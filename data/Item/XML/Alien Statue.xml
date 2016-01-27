@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Alien Statue.jpg
+      </picture>
+      <draw>
+         <Cluetokens>
+            <rollDice>
+               0
+            </rollDice>
+         </Cluetokens>
+      </draw>
+      <description>
+         movement: exhaust and spend 2 movement points and one Sanity to roll a die.  If the die is a success, draw 1 Spell or gain 3 Clue tokens.  If it is a failure, lose 2 Stamina.
+      </description>
+      <price>
+         5
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         tome
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <discard>
+         False
+      </discard>
+      <conditionals>
+         <rollDice>
+            1
+         </rollDice>
+         <isPhase>
+            movement
+         </isPhase>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Alien Statue
+      </name>
+   </Item>

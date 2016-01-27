@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         High Priest.jpg
+      </picture>
+      <toughness>
+         2
+      </toughness>
+      <description>
+         &quot;We will not cease our struggle,&quot; intoned the robed figure, &quot;Until we have built Carcosa upon this land of ruined Reason.&quot;
+      </description>
+      <combatDamage>
+         2
+      </combatDamage>
+      <symbol>
+         plus
+      </symbol>
+      <magicalImmunity>
+         True
+      </magicalImmunity>
+      <name>
+         High Priest
+      </name>
+      <amount>
+         1
+      </amount>
+      <combatCheck>
+         -2
+      </combatCheck>
+      <sanityDamage>
+         1
+      </sanityDamage>
+      <sneakCheck>
+         -2
+      </sneakCheck>
+      <movement>
+         black
+      </movement>
+      <horrorCheck>
+         1
+      </horrorCheck>
+   </monster>

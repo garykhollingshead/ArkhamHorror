@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <description>
+            You come across a wizened old creature who debates with you for some time.  If you pass a Lore (-1) check, the creature is amused by your discussion and you are Blessed
+         </description>
+         <passaction>
+            blessed()
+         </passaction>
+         <name>
+            Celeano
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <description>
+            Pass a Luck (-1) check to chance across one of the little red singing birds of Celephais.  Its song brings solace and strength to your heart.  Restore your Sanity and Stamina to their maximum values. 
+         </description>
+         <passaction>
+            gain(&quot;sanity&quot;, 999)
+         </passaction>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            drawUniqueItem()
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Fight (-2) check to pry open a grate you find built into the wall.  Inside, you find something fascinating.  Draw 1 Unique Item
+         </description>
+      </other>
+   </otherworldCard>

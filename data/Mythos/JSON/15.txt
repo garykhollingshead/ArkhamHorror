@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Gangs Clean Up Easttown!",
+  "description"            : "All monsters in the Easttown streets or locations are returned to the cup.", 
+  "category"               : "headline",
+  "monsterArea"           : "the witch house",
+  "whiteMovementShapes"  : ["circle"],
+  "blackMovementShapes"  : ["square", "diamond"],
+  "clueAppears"           : "black cave",
+  "actions"                : "ReturnToCupMostersAt(locations=[\"easttown\"], streets=[\"easttown\"])", 
+  "movementImage"         : "circle square diamond.jpg"
+}

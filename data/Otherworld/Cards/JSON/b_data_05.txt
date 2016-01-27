@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "The Dreamlands",
+                        "check" : ["speed", -1, 1], 
+			"passaction" : [[""]],
+                        "failaction" : [["lose(\"money\", all)"]],
+                        "description" : "As you are climbing the cliffs in the underworld, your pocket gets caught and tears open. Pass a Speed (-1) check or lose all of your money."
+                },
+        "loc2" :
+                {
+                        "name" : "Celeano",
+                        "check" : ["lore", -1, 1],
+                        "passaction" : [[""]],
+                        "failaction" : [["gain(\"curse\",1)"]],
+                        "description" : "As you read the page, you realize that you have stumbled into a written trap. Pass a Lore (-1) check or you are cursed."
+                },
+        "other" :
+                {
+						"passaction" : [["monster"]],
+						"failaction" : [["monster"]],
+                        "description" : "A hideous monster appears!"
+                }
+}

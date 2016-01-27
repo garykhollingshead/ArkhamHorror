@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         The City of the Great Race.jpg
+      </picture>
+      <symbol>
+         triangle
+      </symbol>
+      <modifier>
+         0
+      </modifier>
+      <location>
+         The City of the Great Race
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

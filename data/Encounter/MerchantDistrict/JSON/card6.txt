@@ -1,0 +1,21 @@
+{
+    'RiverDocks' : 
+    { 
+         'text' : "The dock workers are short-handed and offer you a job as a stevedore for the day. Make a Fight(+0) check. If you pass, gain $3 for every success you rolled. If you fail, the boss gets tired of your lollygagging and throws you out. Lose 1 Stamina and move to the street." , 
+         'check' : ['fight', -0, 1] , 
+         'action' : ['None', {'forEachSuccess' : 'gain(\"money\",3)' }, ['loseStamina(1)', 'goToStreet()'] ] 
+    },
+
+    'TheUnnamable' : 
+    { 
+         'text' : "A monster and gate appear!" , 
+         'action' : ['monsterAndGateAppear()', 'None', 'None'] 
+    },
+
+    'UnvisitedIsle' : 
+    { 
+         'text' : "A silent man brushes past you on the trail. Your arm goes numb with cold from the brief contact, and you whirl around to look at him, but he has disappeared. Lose 1 Stamina and pass a Will (-1) check or lose 1 Sanity as well." , 
+         'check' : ['will', -1, 1] , 
+         'action' : ['loseStamina(1)', 'None', 'loseSanity(1)'] 
+    }
+  }

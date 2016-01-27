@@ -1,0 +1,24 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "abyss",
+                        "check" : ["luck", -1, 1],
+                        "failaction" : [["lose(\"stamina\", \"roll(1)\")"]],
+                        "passaction" : [["gain(\"stamina\", \"roll(1)\")"]],
+                        "description" : "Starving, you consider eating some of the glowing mushrooms. If you decide to do so, make a Luck (-1) check. If you fail, roll a die and lose that much Stamina. If you succeed, roll a die and gain that much Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "plateau of leng",
+                        "defaultaction" : [["monster"]],
+                        "description" : "A monster appears from the shadows!"
+                },
+        "other" :
+                {
+                        "check" : ["sneak", 0, 1],
+                        "failaction" : [["lose(\"stamina\", 2)"]],
+                        "description" : "The pinkish rays nearly get you. Pass a Sneak (+0) check or lose 2 Stamina."
+                }
+}
+

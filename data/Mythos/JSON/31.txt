@@ -1,0 +1,10 @@
+{
+  "name" : "The Chill of the Grave",
+  "description" : "All Undead monsters have their toughness increased by 1.",
+  "category" : "environment (mystic)",
+  "monsterArea" : "unvisited isle",
+  "clueAppears" : "science building",
+  "whiteMovementShapes" : ["plus"],
+  "blackMovementShapes" : ["crescent"],
+  "movementImage" : "plus crescent.jpg"
+}

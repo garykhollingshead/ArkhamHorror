@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<northsideencounters>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            You accidentally tip over a bottle of ink and are aghast at the pattern the ink forms on the newsroom floor. Lose 1 Sanity.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               <mythos>
+                  <movement>
+                     getMythosLocation()
+                  </movement>
+               </mythos>
+            </draw>
+         </action>
+         <text>
+            As you wander into the back of the shop, you hear a noise. Pass a Speed (-1) check or you look up just in time to see a descending club. Everything goes black. When you awaken, you are somewhere else. Draw a mythos card and move to the gate location shown on it, then immediately have an encounter there.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <stamina>
+               -rollDice(1)
+            </stamina>
+         </action>
+         <text>
+            A stranger in a turban steps off the Boston local train with a crazed look on his face. Make a Luck (-1) check. If you pass, the man pulls a strange object from beneath his cloak and gives it to you. Draw 1 Unique Item. If you fail, he pulls a poisoned blade out of his cloak and stabs you. Roll a die and lose that much Stamina
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            Flipping through the early edition, you are surprised to see that one of the classified ads begins with your name. Reading it, you realize that it contains several coded clues to the nature of the threat that faces Arkham. Pass a Lore (-1) check to gain 3 Clue Tokens.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <discard>
+               unusedCardsDrawnThisTurn()
+            </discard>
+         </action>
+         <text>
+            A sale takes place. All players may participate. Turn over the top 3 Common Item cards and the top Unique Item card. Any player may buy one or more of these cards for their list price. If there is a disagreement over who gets to buy a certain card, you decide. Any items not sold are discarded.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            None
+         </action>
+         <text>
+            Bill Washington moves the last of the baggage from his cart onto a truck and offers you a ride as he opens the driver&quot;s door. If you accept, move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            You earn a hefty fee for a story and get a ride with Doyle Jefferies, the editor. Gain $2 and move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            cursed()
+         </action>
+         <text>
+            You examine an obscene statue. Pass a Luck (-2) check or else you feel a cold dread spread through your body as you hold it. You are Cursed.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <movement>
+               Police Station
+            </movement>
+         </action>
+         <text>
+            On the loading dock you investigate a large crate with strange markings. Make a Sneak (-1) check. If you pass, you find a very unusual item in the crate. Gain 1 Unique Item. If you fail, Deputy Dingby cathces you breaking it open. You are arrested and taken to the Police Station
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Luck (-1) check to find an article that a local citizen told you would shed light on the recent strange activities. Gain 1 Clue token.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               purchaseItem()
+            </draw>
+         </action>
+         <text>
+            You weed through piles of junk looking for something useful. Make a Luck (-1) check to see what you find. If you pass, your search has resulted in success. You may look at the top cards of both the Common and Unique Items decks. You may purchase one, both, or neither at list price. If you fail, there is little of interest here, but you may look at the top card of the Common Item deck and purchase it for its list price.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            search(&quot;CommonItem&quot;)
+         </action>
+         <text>
+            Pay $3 at the Railroad Office to claim an item left in Lost and Found. If you do so, make a Luck (-2) check. If you pass, draw a Unique Item. If you fail, draw a Common Item.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            <draw>
+               search(&quot;Misc&quot;, &quot;Retainer&quot;)
+            </draw>
+         </action>
+         <text>
+            Editor Doyle Jefferies offers you a Retainer in return for your fascinating stories. Take a Retainer card.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               search(&quot;Encounter&quot;)
+            </draw>
+         </action>
+         <text>
+            Pass a Luck (-1) check or you accidentally drop an item. Discard 1 item of your choice. If you have no items to drop, then draw again for a different encounter.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            None
+         </action>
+         <text>
+            Joey &quot;the Rat&quot; is huddled in the shadows of the train station and motions for you to come over. He has an item for sale. Draw the top Common Item card and pay $1 more than the list price if you wish to purchase it.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            Editor Doyle Jefferies offers you a Retainer in return for your fascinating stories. Take a Retainer card.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               search(&quot;CommonItem&quot;)
+            </draw>
+            <userinput>
+               purchaseItem()
+            </userinput>
+         </action>
+         <text>
+            Jackpot! You find just what you&quot;ve been looking for. Search either the Common or Unique Item deck and purchase any one item of your choice at list price.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <sanity>
+               2
+            </sanity>
+         </action>
+         <text>
+            The old train hand Bill Washington sits on the train platform playing his guitar as he awaits the next train. As you listen to his singing you feel yourself healing inside. Gain 2 points divided between Stamina and Sanity however you choose.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+ 
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            <money>
+               5
+            </money>
+         </action>
+         <text>
+            Earn $5 for a story
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               search(&quot;Encounter&quot;)
+            </draw>
+            <movement>
+               abyss
+            </movement>
+         </action>
+         <text>
+            A pulsing void gapes behind a bookshelf, sending out waves of heat. Pass a Fight (-1) check or it sucks you in, hurling you into the Abyss. Have one encounter there, then immediately return.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <sanity>
+               -rollDice(1)
+            </sanity>
+         </action>
+         <text>
+            A well-dressed man is standing on the platform. He turns and greets you by name. Although he seems oddly familiar, you don&quot;t remember ever meeting him before. Then he steps off the platform into the path of a speeding train. Make a Speed (-2) check. IF you pass, he vanishes as you leap right through him. On the ground, you find yourself clutching a scrap of paper. Gain 1 Spell. If you fail, he is obliterated before your eyes. Roll a die and lose that much Sanity.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>
+</northsideencounters>

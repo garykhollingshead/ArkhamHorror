@@ -1,0 +1,28 @@
+
+{
+  'ArkhamAsylum' : {
+    'text' : 'Nurse Heather accidentally injects you with a sleeping draught. You may make a Fight (-2) check to resist. If you fail or choose not to resist, lose your next turn and gain 2 Sanity from the prolonged rest. If you pass, nothing happens.',
+    'action' : [{'optional':'True', 'fight':-2},
+                "None",
+                {'sanity':2, 'loseTurn':'True'}
+               ]
+  },
+
+  'BankOfArkham' : {
+    'text' : 'A teller you\'ve never seen before insists she just saw you come in and make a deposit the day before. She proves it by showing you your signature. Gain $5, but lose 1 Sanity.',
+    'action' : ["None",  
+                {'sanity':-1, 'money':5},  
+                {'sanity':-1, 'money':5}
+               ]
+  },
+
+  'IndependenceSquare' : {
+    'text' : 'You touch Founder\'s Rock. Make a Luck (-1) check. If you pass, there is an electrifying shock that opens your mind to the elder things of eons past. Lose 1 Stamina, but gain 2 Clue tokens and draw 1 Spell. If you fail, you find a strange carving. As you finger the grooves, a gate opens here and you are drawn through it.',
+    'action' : [{'luck':-1},
+                {'stamina':-1, 'clue':2, 'spell':'draw(1)'},
+                {'special' : 'gateAppears()'}
+               ]
+  }
+
+}
+

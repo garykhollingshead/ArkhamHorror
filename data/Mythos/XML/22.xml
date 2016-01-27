@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         All Dimensional Shamblers and Hounds of Tindalos in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.
+      </description>
+      <actions>
+         ReturnToCupMosterTypes([&quot;dimensional shamblers&quot;, &quot;hounds of Tindalos&quot;])
+      </actions>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <name>
+         Scientist Warns of Dimensional Rift!
+      </name>
+   </Mythos>

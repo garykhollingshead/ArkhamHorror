@@ -1,0 +1,24 @@
+{
+    "color" : "green",
+    "loc1" :              
+        {
+            "name" : "City of the Great Race",        
+            "check" : ["sneak", -1, 1], 
+            "passaction" : [["drawUniqueItem(\"any\", 2)"]], 
+	    "failaction" : [["lostInTimeAndSpace()"]], 
+            "description" : "You may choose to try and infiltrate one of the angled structures.  If so, make a Sneak (-1) check.  If you pass, draw 2 Unique Items and keep 1 of them.  If you fail, you are lost in time and space."
+        },
+    "loc2" :
+        {
+            "name" : "Plateau of Leng",
+            "check" : ["will", 0, 1],
+            "passaction" : [["gain(\"sanity\", 999)"]],
+            "description" : "Your peril clears your mind.  Pass a Will (+0) check to restore your Sanity to its maximum value."
+        },
+    "other" :
+        {
+            "passaction" : [["gain(\"clue\", 1)"]],
+            "description" : "You are beginning to understand the strange creatures here.  gain 1 Clue token. "
+        }
+}
+

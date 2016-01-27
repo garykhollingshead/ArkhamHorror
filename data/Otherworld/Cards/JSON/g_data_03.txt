@@ -1,0 +1,23 @@
+{
+    "color" : "green",
+    "loc1" :            
+        {
+            "name" : "The Dreamlands",         
+            "check" : ["luck", -1, 1],
+            "passaction" : [["draw(\"common\", 1)"]],
+            "description" : "Make a Luck (-1) check.  If you pass, then, waving goodbye, the happy villagers bestow a gift uppon you.  Draw 1 Common Item"
+        },
+    "loc2" :
+        {
+            "name" : "Celeano",
+            "check" : ["luck", -2, 1],
+            "passaction" : [["drawUniqueItem(\"tome\", 1)"]],
+            "description" : "Pass a Luck (-2) check to find a book small enough to carry.  Search the Unique Item deck and take the first tome you find."
+        },
+    "other" :
+        {
+            "passaction" : [["gain(\"stamina\", 1)"]],  
+            "description" : "You find a quiet spot to rest and recuperate.  Gain 1 Stamina"
+        }
+}
+

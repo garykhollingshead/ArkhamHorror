@@ -1,0 +1,27 @@
+{
+  "HibbsRoadhouse" : {
+    'text' : "A horrible monster appears!",
+    'action' : [ 'None',
+                 {'monster': 'True'},
+                 'None'
+	       ]
+  },
+
+  "PoliceStation" : {
+    'text' : "Sheriff Engle notes that you are carrying an awful lot of weapons.  Either pay him $5 or discard all of your Weapons.",
+    'action' : [ {'money': 5}, 
+                 'None',
+		 "discard(\"Weapons\")"
+	       ]
+  },
+
+  "VelmasDiner" : {
+    'text' : 'Velma reads the tea leaves left in your cup.  Make a Luck (-1) check.  If you pass, the formation of the leaves indicates hope, you are Blessed.  If you fail, the future looks bleak, you are Cursed.' ,
+    'action' : [ {'luck': -1}, 
+	         "blessed()",
+                 "cursed()"
+               ]
+  }
+
+}
+

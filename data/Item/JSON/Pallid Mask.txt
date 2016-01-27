@@ -1,0 +1,12 @@
+{
+  "description" : "+2 to Evade checks",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Pallid Mask",
+  "hands" : 0,
+  "price" : 4,
+  "itemtype" : "None",
+  "evadecheck" : 2,
+  "amount" : 1,
+  "picture" : "Pallid Mask.jpg"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <failaction>
+            stayHereNextTurn()
+         </failaction>
+         <description>
+            Pass a Luck(+0) check or stumble into a spider&quot;s web. Lose 2 Sanity and stay here next turn while struggling to get free.
+         </description>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            stayHereNextTurn()
+         </failaction>
+         <description>
+            A horrible visage captures your gaze. Pass a Will(+0) check to look away or lose 1 Stamina and stay here next turn.
+         </description>
+         <name>
+            R&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;clue&quot;,1)
+         </passaction>
+         <description>
+            Suddenly, the things you&quot;ve seen make sense! Gain 1 Clue token.
+         </description>
+      </other>
+   </otherworldCard>

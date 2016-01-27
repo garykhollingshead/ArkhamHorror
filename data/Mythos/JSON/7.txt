@@ -1,0 +1,11 @@
+{
+ "name" : "Miskatonic Arctic Expedition Returns!",
+ "description" : "Any Elder Things perviously claimed as monster trophies by players return to life and are placed in the River Docks.",
+ "category" : "headline",
+ "monsterArea" : "hibb\'s roadhouse",
+ "whiteMovementShapes" : ["crescent"],
+ "blackMovementShapes" : ["plus"],
+ "clueAppears" : "independence square",
+ "actions" : "ReturnTrophiesToLife(\"Elder Things\")",
+ "movementImage" : "crescent plus.jpg"
+}

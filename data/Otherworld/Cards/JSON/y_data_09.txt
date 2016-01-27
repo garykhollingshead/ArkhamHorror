@@ -1,0 +1,20 @@
+{ 
+    "color" : "yellow",
+    "loc1" :               
+        {
+            "name" :"R\'lyeh",
+            "check" : ["will", 0, 1],       
+	    "failaction" : [["lose(\"stamina\",1)", "stayHereNextTurn()"]],             "description" : "A horrible visage captures your gaze. Pass a Will(+0) check to look away or lose 1 Stamina and stay here next turn."
+        },
+    "loc2" : 
+        {
+            "name" : "The Dreamlands",
+            "check" : ["luck", 0, 1],              
+            "failaction" : [["lose(\"sanity\",2)", "stayHereNextTurn()"]],             "description" : "Pass a Luck(+0) check or stumble into a spider\'s web. Lose 2 Sanity and stay here next turn while struggling to get free."
+        },
+    "other" :
+        {
+            "passaction" : [["gain(\"clue\",1)"]],  
+            "description" : "Suddenly, the things you\'ve seen make sense! Gain 1 Clue token."
+        }
+}

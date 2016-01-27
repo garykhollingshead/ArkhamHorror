@@ -1,0 +1,13 @@
+{"amount": 2,
+ "combatCheck": -2,
+ "combatDamage": 4,
+ "description": "I caught confused glimpses of a terrible, wrongly-angled mouth, multi-jointed arms and protruding eyes as big as a man\'s head.",
+ "horrorCheck": -1,
+ "movement": "black",
+ "name": "Gug",
+ "overwhelming": 1,
+ "picture": "Gug.jpg",
+ "sanityDamage": 2,
+ "sneakCheck": -2,
+ "symbol": "slash",
+ "toughness": 2}

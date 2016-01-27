@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;stamina&quot;, 2)
+         </failaction>
+         <description>
+            The loathsome villagers send out their strongest warrior to fight you in unarmed combat. Pass a Fight (-1) [2] check to defeat him and draw 1 Unique Item and gain 1 Clue token. Otherwise lose 1 Sanity and 2 Stamina.
+         </description>
+         <passaction>
+            gain(&quot;clue token&quot;, 1)
+         </passaction>
+         <name>
+            plateau of leng
+         </name>
+         <check>
+            2
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;sanity&quot;, 2)
+         </failaction>
+         <description>
+            You are disturbed by unsettling echoes. Pass a Sneak (-1) check to quiet them or lose 2 Sanity.
+         </description>
+         <name>
+            abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction/>
+         <description>
+            You push yourself to the limit. Roll 1 die for each point of Stamina you have. Lose 1 Stamina for each die that does not roll a success. If you do not fall unconscious, gain 1 Clue token for each die that rolled a success.
+         </description>
+      </other>
+   </otherworldCard>

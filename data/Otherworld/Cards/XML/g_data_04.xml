@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <failaction>
+            lostInTimeAndSpace()
+         </failaction>
+         <description>
+            The rickety bridge collapses as you cross it.  Pass a Fight (-1) check to hang on, finding a relic on the other side.  Draw 1 Unique Item.  If you fail, you plummet into darkness.  You are lost in time and space
+         </description>
+         <passaction>
+            drawUniqueItem(&quot;tome&quot;)
+         </passaction>
+         <name>
+            Plateau of Leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <description>
+            Pass a Luck (-1) check to come across a riding zebra and save some traveling time.   If you are in the first area of The Dreamlands, move to the second area.  If you are in the second area, return to Arkham
+         </description>
+         <passaction/>
+         <name>
+            The Dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;clue&quot;, 2)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            You come across a slaughtered creature.  Pass a Luck (-1) check to claim a monster trophy from the cup (even if it is Endless) and gain 2 Clue tokens
+         </description>
+      </other>
+   </otherworldCard>

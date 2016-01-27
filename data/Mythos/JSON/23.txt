@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Family Found Butchered!",
+  "description"            : "The terror level increases by 1 in light of this tragic news.", 
+  "category"               : "headline",
+  "monsterArea"           : "graveyard",
+  "whiteMovementShapes"  : ["crescent"],
+  "blackMovementShapes"  : ["plus"],
+  "clueAppears"           : "unvisited isle",
+  "actions"                : "RaiseTerrorLevel(1)",
+  "movementImage"         : "crescent plus.jpg"
+}

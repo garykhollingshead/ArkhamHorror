@@ -1,0 +1,25 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "Yuggoth",
+                        "check" : ["will", -2, 1], 
+						"passaction" : [[""]],
+                        "failaction" : [["lose(\"spell\", \"ofChoice(2)\")"],["lose(\"sanity\",2)"]],
+                        "description" : "Exposeure and fear weaken your mind. Pass a Will (-2) check or you must either lose 2 Spells of your choice or lose 2 Sanity."
+                },
+        "loc2" :
+                {
+                        "name" : "Celeano",
+                        "passaction" : [["monster"]],
+						"failaction" : [["monster"]],
+                        "description" : "A lurking monster appears!"
+                },
+        "other" :
+                {
+                        "check" : ["sneak", -2, 1],
+                        "passaction" : [[""]],
+						"failaction" : [["status(\"stuck(1)\")"]],
+                        "description" : "Monsters lurk everywhere. Pass a Sneak (-2) check or stay here next turn."
+                }
+}

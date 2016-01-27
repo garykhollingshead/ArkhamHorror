@@ -1,0 +1,21 @@
+{
+  "BlackCave" : {
+    "text" : "A monster appears!",
+    "action" : ["None", 
+    		{"monster" : "True"},
+    		"None"]
+  },
+  
+  "GeneralStore" : {
+    "text" : "You notice that some of the locals have an odd, fish-like quality to them that sets your teeth on edge.  The shopkeeper notices your gaze and nods. \"Marsh stock, from over Innsmouth. Watch yourself around them.\"  Shivering, you lose 1 Sanity.",
+    "action" : ["None",
+    		{"stamina":-1},
+    		"None"]
+  },
+  
+  "Graveyard" : {
+    "text" : "You find a man painting a picture of one of the horrible gargoyles lining the walls of the graveyard.  Seeing you, he introduces himself as Richard Upton Pickman, a painter visiting from Boston.  If you spend monster trophies that have a total of 5 toughness, Pickman takes a liking to you.  Take his Ally card.  If it is not available, he teachers you an incantation instead.  Draw 1 Spell.", 
+    "action " :["None", "None", "None"]  
+	}
+}
+

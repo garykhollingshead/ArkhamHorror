@@ -1,0 +1,23 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "r\'lyeh",
+                        "check" : ["speed", -1, 1],
+                        "failaction" : [["lose(\"stamina\", 3)"]],
+                        "description" : "Pass a Speed (-1) check or you slip and slide down a barnacled surface, slashing your skin to ribbons. Lose 3 Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "abyss",
+                        "check" : ["luck", -1, 1],
+                        "failaction" : [["lose(\"sanity\", 3"]],
+                        "description" : "Pass a Luck (-1) check or you are faced with an enormous mountain with a strange symbol carved into it, as if by the claw of a gigantic creature. The world swims around you and you lose 3 Sanity."
+            	},
+        "other" :
+                {
+                        "check" : ["fight", -1, 1],
+                        "failaction" : [["status(\"stuck(1)\")"]],
+                        "description" : "The obsidian door refuses to open. Pass a Fight (-1) check or stay here next turn, struggling with it."
+                }
+}

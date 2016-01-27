@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         green
+      </color>
+      <loc2>
+         <passaction/>
+         <name>
+            Plateau of Leng
+         </name>
+         <description>
+            Your red-eyed reflection in the mirror captures your attention.  Stay here next turn
+         </description>
+      </loc2>
+      <loc1>
+         <failaction>
+            cursed()
+         </failaction>
+         <description>
+            You find yourself in an ancient and abandoned temple.  Pass a Luck (-1) check to find a golden statue worth $10.  However, if you take it, you are Cursed
+         </description>
+         <passaction>
+            gain(&quot;goldenstatue&quot;)
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <check>
+            2
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            waitTurn()
+         </failaction>
+         <passaction>
+            returnToArkham()
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            The rope seems to extend upwards forever, but it&quot;s the only way out of the crevasse you find yourself in.  Pass a Fight (-1) check to climb it and return to Arkham.  If you fail, you fall, losing 2 Stamina and staying here next turn
+         </description>
+      </other>
+   </otherworldCard>

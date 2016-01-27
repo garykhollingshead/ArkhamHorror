@@ -1,0 +1,19 @@
+{
+  "name" : "Dexter Drake",
+  "title" : "the Magician",
+  "sanity" : 5,
+  "stamina" : 5,
+  "home" : "Ye Olde Magick Shoppe",
+  "fixed" : {"money" : 5, "spell" : "shrivelling"},
+  "random" : {"common" : 1, "unique" : 1, "spell" : 2, "skill" : 1},
+  "focus" : 2,
+  "speed" : 2,
+  "sneak" : 1,
+  "fight" : 1,
+  "will" : 0,
+  "lore" : 2,
+  "luck" : 0,
+  "interrupt" : [ { "routine" : "DrawSpellSubroutine", "condition" : "always" , "modifyValue" : { "cardsDrawn" : 1 } } ],
+  "picture" : "dexter.jpg",
+  "story" : "After returning from from his stint in the army during WWI, Dexter became a stage magician, and proved to be very successful at his trade, but he always longed to find real magic. As they say, be careful what you wish for. Years later, in a rundown store, Dexter came across a burnt and torn fragment of the Necronomicon itself. Intrigued by this ancient piece of occult of knowledge, Dexter began to use his wealth in search of the truth about the ancient lore, and what he found horrified him. Now, the more he learns, the less he wants to know, but his studies have led him to believe that a great evil will soon rise in Arkham. He knows that he may well be the only person with the ability to stop this evil from swallowing the world, so, he has come to that sleepy town to speak with the proprietor of Ye Olde Magick Shoppe, one of the few magic shops that contain true lore, and not merely the stage tricks he once studied."
+}

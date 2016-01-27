@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            Editor Doyle Jefferies offers you a Retainer in return for your fascinating stories. Take a Retainer card.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               search(&quot;CommonItem&quot;)
+            </draw>
+            <userinput>
+               purchaseItem()
+            </userinput>
+         </action>
+         <text>
+            Jackpot! You find just what you&quot;ve been looking for. Search either the Common or Unique Item deck and purchase any one item of your choice at list price.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <sanity>
+               2
+            </sanity>
+         </action>
+         <text>
+            The old train hand Bill Washington sits on the train platform playing his guitar as he awaits the next train. As you listen to his singing you feel yourself healing inside. Gain 2 points divided between Stamina and Sanity however you choose.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>

@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "An Evil Fog",
+  "description"            : "Will checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus. Fliers do not move.", 
+  "category"               : "environment (weather)",
+  "monsterArea"           : "graveyard",
+  "whiteMovementShapes"  : ["plus"],
+  "blackMovementShapes"  : ["crescent"],
+  "clueAppears"           : "unvisited isle",
+  "actions"                : "ModifyCheck(\"will\", 1) and ModifyCheck(\"sneak\", 1) and FliersDoNotMove()",
+  "movementImage"         : "plus crescent.jpg"
+}

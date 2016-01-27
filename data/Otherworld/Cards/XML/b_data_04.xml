@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction/>
+         <description>
+            You rest a bit beside a small, glowing pool filled with black, blind fish. Pass a Luck (-1) check to notice an unusual object in the water. Fishing it out, you draw 1 Unique Item and gain $3.
+         </description>
+         <passaction>
+            gain(&quot;money&quot;, 3)
+         </passaction>
+         <name>
+            Abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <name>
+            The Dreamlands
+         </name>
+         <description>
+            You wander the frozen wastes. No encounter.
+         </description>
+      </loc1>
+      <other>
+         <failaction/>
+         <passaction>
+            gain(&quot;clue&quot;, onePerSuccess())
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Luck (-1) check to discover a cache of ancient papers containing valuable information about the mythos. Gain 1 Clue token for every successyou rolled on you Luck check.
+         </description>
+      </other>
+   </otherworldCard>

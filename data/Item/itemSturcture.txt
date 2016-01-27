@@ -1,0 +1,14 @@
+<items>
+  <item>
+    <name></name>
+    <description></description>
+    <rarity></rarity>
+    <hands></hands>
+    <price></price>
+    <type></type>
+    <count></count>
+    <image></image>
+    <action></action>
+    <discard></discard>
+  </item>
+</items>

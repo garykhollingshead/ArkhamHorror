@@ -1,0 +1,12 @@
+{
+  "description" : "+5 to Combat checks",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : "Rifle",
+  "hands" : 2,
+  "price" : 6,
+  "itemtype" : "physical weapon",
+  "combatcheck" : 5,
+  "amount" : 2,
+  "picture" : "Rifle.jpg"
+}

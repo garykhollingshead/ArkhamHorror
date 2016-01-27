@@ -1,0 +1,19 @@
+{
+  "name" : "Amanda Sharpe",
+  "title" : "the Student",
+  "sanity" : 5,
+  "stamina" : 5,
+  "home" : "Bank of Arkham",
+  "fixed" : {"money" : 1, "clue" : 1},
+  "random" : {"common" : 1, "unique" : 1, "spell" : 1, "skill" : 2},
+  "focus" : 3,
+  "speed" : 1,
+  "sneak" : 1,
+  "fight" : 1,
+  "will" : 1,
+  "lore" : 1,
+  "luck" : 1,
+  "interrupt" : [ { "routine" : "DrawSkillSubroutine", "condition" : "always" , "modifyValue" : {"fieldName": "cardsDrawn" , "modifyBy" : 1 } } ],
+  "picture" : "amanda.jpg",
+  "story": "Amanda has been a student at Miskatonic University for 2 years now.  On her way to talk to one of her professors last month, she saw a painting in the hallway that captured her attention with its hazy depiction of some horrible creature rising up out of the ocean.  Ever since, Amanda has heard strange whispers in a foreigh language whenever her attention drifts.  More disturbingly, she has begun to dreaam of the vast green depths of the ocean and terrible alien cities that lie in its darkest crevasses.\n\nThis evening, as she finishes her shift as a bank teller at the First Bank of Arkham, something out in the night calls to her-something dark and sinister that leaves the feel of sea foam in her mind and makes her gasp with the effort of resisting it.  Leaning against the brick wall of the bank, Amanda realizes that she was to find out what\'s happening to her or she\'s going to fall prey to whatever alien presense is invading her mind."
+}

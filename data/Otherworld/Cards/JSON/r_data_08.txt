@@ -1,0 +1,24 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "abyss",
+                        "check" : ["sneak", -1, 1],
+                        "failaction" : [["lose(\"sanity\", 2)"]], 
+                        "description" : "You are disturbed by unsettling echoes. Pass a Sneak (-1) check to quiet them or lose 2 Sanity."
+                },
+        "loc2" :
+                {
+                        "name" : "plateau of leng",
+                        "check" : ["fight", -1, 2],
+                        "passaction" : [["gain(\"unique item\", 1)", "gain(\"clue token\", 1)"]],
+                        "failaction" : [["lose(\"sanity\", 1)", "lose(\"stamina\", 2)"]],
+                        "description" : "The loathsome villagers send out their strongest warrior to fight you in unarmed combat. Pass a Fight (-1) [2] check to defeat him and draw 1 Unique Item and gain 1 Clue token. Otherwise lose 1 Sanity and 2 Stamina."
+                },
+        "other" :
+                {
+                        "passaction" : "", 
+                        "description" : "You push yourself to the limit. Roll 1 die for each point of Stamina you have. Lose 1 Stamina for each die that does not roll a success. If you do not fall unconscious, gain 1 Clue token for each die that rolled a success."
+                }
+}
+

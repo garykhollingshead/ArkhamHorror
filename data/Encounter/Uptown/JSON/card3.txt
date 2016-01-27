@@ -1,0 +1,28 @@
+
+{
+  "StMarysHospital" : {
+    "text" : "The corpse you are examining isn\'t quite dead yet. It reaches out and grabs you by the throat. Lose 1 Sanity. Then, you must fight the corpse. If you pass a Combat(-1) check, you defeat it and gain 1 Clue token. Otherwise, move to the street",
+    "action" : [  { "options": [ "AND", {"sanity":-1}, {"combat":-1}]  },
+                  { "pass" : "addTokens(1)" },
+                  { "fail" : "moveToStreet()"}
+	       ]
+  },
+
+  "Woods" : {
+    "text" : "You have stumbled onto a still owned by the Sheldon Gang. Make a Sneak (-1) check. If you pass, skulk away without being seen. If you fail, lose 2 Stamina as the Sheldon Gang works you over while escorting you from the woods. In either case move to the street.",
+    "action" : [ { "options" : [ {"sneak":-1}] }, 
+                 { "pass" : "moveToStreet()"},
+		 { "fail" : [ {"stamina":-2}, "moveToStreet()"] }
+	       ]
+  },
+
+  "YeOldeMagickShoppe" : {
+    "text" : "Looking into a glass ball, you receive a vision of things to come. Turn the top card of one location deck of your choice face up. The next investigator to have an encounter at that location draws that encounter card",
+    "action" : [ { "options" : ["drawLocationCard()"]},
+                 { "pass" : "placeTopofStack(drawLocationCard())" }, 
+                 { "fail" : "None" }
+               ]
+  }
+
+}
+

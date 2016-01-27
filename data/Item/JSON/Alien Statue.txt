@@ -1,0 +1,15 @@
+{
+  "description" : "movement: exhaust and spend 2 movement points and one Sanity to roll a die.  If the die is a success, draw 1 Spell or gain 3 Clue tokens.  If it is a failure, lose 2 Stamina.",
+  "type" : "item",
+  "rarity" : "unique",
+  "name" : "Alien Statue",
+  "hands" : 0,
+  "price" : 5,
+  "itemtype" : "tome",
+  "conditionals" : {"isPhase" : "movement", "rollDice" : 1},
+  "discard" : "False",
+  "draw" : {"Spell" : {"rollDice" : [1, 0]}},
+  "draw" : {"Cluetokens" : {"rollDice" : [3,0]}},
+  "amount" : 2,
+  "picture" : "Alien Statue.jpg"
+}

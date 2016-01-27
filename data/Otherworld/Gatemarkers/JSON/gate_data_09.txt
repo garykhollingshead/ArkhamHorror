@@ -1,0 +1,7 @@
+{
+    'location' : 'Great Hall of Celeano',
+    'symbol' : 'star',
+    'modifier' : -1,
+    'picture' : 'Great Hall of Celeano.jpg',
+    'frontpicture' : 'front.jpg'
+}

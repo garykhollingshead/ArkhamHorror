@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Investigators cannot gain Stamina except by recieving medical care in St. Mary&quot;s Hospital (or from Vincent Lee).
+      </description>
+      <clueAppears>
+         the unnamable
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         independence square
+      </monsterArea>
+      <name>
+         A Strange Plague
+      </name>
+   </Mythos>

@@ -1,0 +1,11 @@
+{
+  "name" : "Horror at Groundbreaking!",
+  "description" : "An ancient stone is disturbed by the construction, releasing 2 monsters into the Miskatonic U. streets",
+  "category" : "headline",
+  "monsterArea" : "historical society",  
+  "whiteMovementShapes" : ["crescent"],
+  "blackMovementShapes" : ["plus"], 
+  "clueAppears" : "silver twilight lodge",
+  "actions" : ["PlaceMonstersAt( number=2, streets=[\"miskatonic u.\"])"],
+  "movementImage" : "crescent plus.jpg"
+}

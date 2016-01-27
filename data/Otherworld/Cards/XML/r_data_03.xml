@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            status(&quot;devoured&quot;)
+         </failaction>
+         <description>
+            In the valley of Pnoth, where the dholes crawl and burrow nastily, you hear a slithering among the mountains of bone. Make a Sneak (-1) check. If you fail, you are devoured. If you pass, gain 3 Clue tokens and return immediately to Arkham.
+         </description>
+         <passaction>
+            status(&quot;returntoarkham&quot;)
+         </passaction>
+         <name>
+            the dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            The villagers leap around a bonfire on the hoary plain. Pass a Sneak (-1) check or you are captured and subjected to terrible rites. Lose 3 Sanity and 3 Stamina, then stay here next turn.
+         </description>
+         <name>
+            plateau of leng
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            gain(&quot;spell&quot;, 1)
+         </passaction>
+         <check>
+            1
+         </check>
+         <description>
+            Pass a Speed (-1) check to grab the carving before it falls. Draw 1 Spell.
+         </description>
+      </other>
+   </otherworldCard>

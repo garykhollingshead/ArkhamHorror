@@ -1,0 +1,25 @@
+{
+        "color" : "red",
+        "loc1" : 
+                { 
+                        "name" : "r\'lyeh",
+                        "check" : ["luck", -1, 1],
+                        "failaction" : [["lose(\"stamina\", \"roll(1)\")"]], 
+                        "description" : "You become tangled in the damp seaweed. Pass a Luck (-1) check to pull free before something finds you while you\'re helpless. If you fail, roll a die and lose that much Stamina."
+                },
+        "loc2" :
+                {
+                        "name" : "plateau of leng",
+                        "check" : ["lore", -2, 1],
+                        "passaction" : [["gain(\"spell\", 1)"]],
+                        "failaction" : [["status(\"lost\")"]],
+                        "description" : "You are taken to a prehistoric monestary, where a high priest in a yellow silken mask questions you. Pass a Lore (-2) check to answer him to his satisfaction. Gain your freedom and 1 Spell. Otherwise, you are lost in time and space."
+                },
+        "other" :
+                {
+                        "check" : ["luck", -1, 1],
+                        "passaction" : [["gain(\"unique item\", 1)"]],
+                        "description" : "Pass a Luck (-1) check to discover a useful object in your wanderings. Draw 1 Unique Item."
+                }
+}
+

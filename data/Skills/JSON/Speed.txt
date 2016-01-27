@@ -1,0 +1,6 @@
+{
+  "name" : "Speed",
+  "picture" : "Speed.JPG",
+  "backpic" : "SkillBack.JPG",
+  "interrupt" : { "routine" : "SkillCheck" , "condition" : { "equalTo" : [ "Attribute" , "Speed"] } , "modifyValue" : { "dice" : 1 , "dicePerClue" : 1 } }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+   <Investigator>
+      <stamina>
+         6
+      </stamina>
+      <picture>
+         ashcan.jpg
+      </picture>
+      <story>
+         When  you&quot;ve lived on the streets as long as pete has, you see things.  things that would drive braver men screaming into the night. But you also learn to be quiet, to stay hidden, and to play stupid if all else fails.  It also helps to have a good dog, like duke, to scare away the meaner elements of the street.
+
+unfortunately, this time, Pete can&quot;t hide, and there&quot;s nothing Duke can do to protect him.  His nightmares have been growing staeadily worse over the last month, driving him all the way here...to Arkham.  Even the whiskey isn&quot;t helping much anymore.  soon, he won&quot;t be able to sleep at all.  Still, there are always opportunities for a man who knows how to stay quiet...as long as he isn&quot;t too picky.
+      </story>
+      <name>
+         Ashcan Pete
+      </name>
+      <title>
+         the Drifter
+      </title>
+      <interrupt>
+         <condition>
+            always
+         </condition>
+         <routine>
+            DrawCommonItemSubroutine
+         </routine>
+      </interrupt>
+      <fight>
+         2
+      </fight>
+      <random>
+         <skill>
+            1
+         </skill>
+         <unique>
+            1
+         </unique>
+         <common>
+            1
+         </common>
+      </random>
+      <focus>
+         1
+      </focus>
+      <sneak>
+         3
+      </sneak>
+      <sanity>
+         4
+      </sanity>
+      <will>
+         2
+      </will>
+      <lore>
+         0
+      </lore>
+      <home>
+         River Docks
+      </home>
+      <fixed>
+         <money>
+            1
+         </money>
+         <ally>
+            duke
+         </ally>
+         <clue>
+            3
+         </clue>
+      </fixed>
+      <speed>
+         0
+      </speed>
+      <luck>
+         0
+      </luck>
+   </Investigator>

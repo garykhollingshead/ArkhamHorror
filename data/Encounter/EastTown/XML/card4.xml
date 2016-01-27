@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <easttownencounter>
+      <PoliceStation>
+         <action>
+            None
+         </action>
+         <text>
+            Deputy Dingby accidentally drops a case file as he makes his way past you.  Pass a Sneak (+0) check to search the Common Item deck for a Research Materials card and take it.
+         </text>
+      </PoliceStation>
+      <HibbsRoadhouse>
+         <action>
+            loseAllMoney()
+         </action>
+         <text>
+            Pass a Luck (-1) check or a pickpocket clean you out! Lose all your money.
+         </text>
+      </HibbsRoadhouse>
+      <VelmasDiner>
+         <action>
+            <movement>
+               easttown
+            </movement>
+         </action>
+         <text>
+            You find some money on the floor under the back booth.  If you take it, make a Sneak (-1) check.  If you pass, roll a die and gain that much money.  if you fail, Velma sees you pick up the money.  She comes over and swipes it out of your hands screaming, &quot;Stealing my tips!&quot; so loudly that you feel the diner.  Move to the street.
+         </text>
+      </VelmasDiner>
+   </downtownencounter>

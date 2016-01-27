@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Heatwave",
+  "description"            : "Fight checks in Arkham are made at a -1 penalty. Lore checks in Arkham are made at a +1 bonus. Fire Vampires have their toughness increased by 1.", 
+  "category"               : "environment (weather)",
+  "monsterArea"           : "woods",
+  "whiteMovementShapes"  : ["square", "diamond"],
+  "blackMovementShapes"  : ["circle"],
+  "clueAppears"           : "independence square",
+  "actions"                : "ModifyCheck(\"fight\", -1) and ModifyCheck(\"lore\", 1) and ModifyTraitOf(\"fire vampire\", \"toughness\", 1)",
+  "movementImage"         : "square diamond circle.jpg"
+}

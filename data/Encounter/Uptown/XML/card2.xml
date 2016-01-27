@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            You come across a cringing dog. Pass a Speed (-2) check to catch and calm him. If you have food, you can discard that to automatically pass the check instead of rolling. You see by his collar that he is named Duke. Take his Ally card. If it isn&quot;t available, gain $3 as a reward for returning him to his owner, instead.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Miriam Beecher talks to you for awhile, explaining some very interesting theories she has concerning the Mythos. Gain one Clue token
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            <fail>
+               None
+            </fail>
+         </action>
+         <text>
+            Nurse Sharon slips something into your hand when the doctor isn&quot;t looking. Pass a Sneak(-1) check to keep anyone else from noticing. If you do, you later examine the object and find it to be an old parchment with a spell scratched on it. Draw 1 Spell. If you fail, an orderly takes it away from you and you gain nothing.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>

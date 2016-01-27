@@ -1,0 +1,12 @@
+{"amount": 2,
+ "combatCheck": -2,
+ "combatDamage": "SuckedThroughClosestGate()",
+ "description": "",
+ "horrorCheck": -1,
+ "movement": "blue",
+ "name": "Nightgaunt",
+ "picture": "Nightgaunt.jpg",
+ "sanityDamage": 1,
+ "sneakCheck": -2,
+ "symbol": "slash",
+ "toughness": 2}

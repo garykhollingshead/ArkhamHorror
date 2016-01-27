@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawUniqueItem(1)]]
+      </passActions>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <name>
+         Good Work Undone
+      </name>
+      <failCondition>
+         [[IsPhase(&quot;encounter&quot;), TokensOnCard(10)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         easttown streets
+      </activityAt>
+      <failActions>
+         [[ReturnThisCard(), RemoveAllFromBoard(&quot;elder sign&quot;)]]
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), TokensOnCard(0)]]
+      </passCondition>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         RollTwoDiceAddClueTokenOn1Or2()
+      </ongoingEffects>
+      <description>
+         When this card enters play,  place 6 Clue tokens on it. Any player may spend Clue tokens during the Arkham Encounter Phase while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis.
+      </description>
+   </Mythos>

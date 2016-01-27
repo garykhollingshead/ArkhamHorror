@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<miskatonicuencounters>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            <arrested>
+               True
+            </arrested>
+         </action>
+         <text>
+            A student mistakes you for the bursar.  If you want to carry on the deception, make a Will (-2) check. If you pass, gain $8 in ill-gotten tuition money. If you fail, you&quot;re arrested and taken to the Police Station.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            <roll1dielosestamina>
+               True
+            </roll1dielosestamina>
+         </action>
+         <text>
+            You find a student pounding on a strange device that he has hooked up to massive machinery.  He states that it is a dimensional beam machine. If you offer to help him, make a Lore (-2) check.  If you pass, beams shoots out in all directions, disrupting the gates open throughout the board.  Roll a die for each open gate one at a time.  On a success the gate is closed.  However, you may not take it as a trophy, but instead return it to the pile of gate markers.  If you fail, the machinery overheats and explodes.  Roll a die and lose that much Stamina, then move to St. Mary&quot;s Hospital.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a luck (-2) check to find $5 someone was using as a bookmark
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            Discuss the opportunity to sell a monograph with the President of the University.  Pass a Lore (-1) check to make the sale and gain $5
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            A progessor of the occult asks you to hold a hideous statue that he believes to have strange powers while he reads a scroll. Energy shoots through your body.  Make a Luck (-1) check.  If you pass, your spirit rises from your body and you feel that you have the power to switch bodies with another investigator.  You may choose another investigator from the pile of unused investigators and bring it into play as a new character, discarding your current investigator (along with all his items, skills, trophies, etc.). If you fail, nothing happens.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <move>
+               street
+            </move>
+         </action>
+         <text>
+            Overdue book fines of $4. Pay up, or move to the street!
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            <cursed>
+               True
+            </cursed>
+         </action>
+         <text>
+            You may choose to help an anthropology professor and his students decipher an ancient stone tablet. If so, make a Lore(-2) check. If you pass, you correctly interpret it, draw 1 Spell. If you fail, you mispronounce a word and are cursed.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            gainCard(&quot;ally&quot;, &quot;sirwilliambrinton&quot;) || adjust(&quot;money&quot;, 5)
+         </action>
+         <text>
+            You find a muscular, bored-looking man who challenges you to an arm wrestling match. Lose 2 Stamina if you accept. If this does not knock you unconcious, Sir William Brinton laughs and slaps your shoulder, offering to join your investigation. Take his Ally card. If it is not available, gain $5 instead.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <encounter>
+               True
+            </encounter>
+            <movement>
+               library
+            </movement>
+         </action>
+         <text>
+            You doze off and enter the Dreamlands. Have an encounter there, then immediately return here.
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            Discuss the opportunity to sell a monograph with the President of the University. Pass a Lore(-1) check to make the sale and gain $5.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            <blessed>
+               True
+            </blessed>
+         </action>
+         <text>
+            As you enter the Department of Alchemy, a professor looks up in horror. He grabs an ancient artifact from a locked drawer in his desk and holds it up before your face, chanting and making symbolic motions with the item. If you are Cursed, discard the Curse. If you are not Cursed, then you are Blessed.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <movement>
+               miskatonicu.streets
+            </movement>
+         </action>
+         <text>
+            You look up to see Abigail foreman leaning over you with hands on hips and a frustrated look on her face. Make a Will (-1) check. If you pass, she helps you find the book you were looking for. Take the first Tome from the Unique Item deck. If you fail, youve made too much noise. She escorts you out of the library. Move to the street
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            The Dean introduces you to an anthropology professor who gives you some insight into your investigation. Gain 1 Clue token.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            Lose(&quot;item&quot;, 1)
+         </action>
+         <text>
+            Assisting a professor in his research, you find a valuable Spell. Draw 1 Spell. However, you must pass a Fight(-1) check, or some sticky-fingered student steals one of your items. Lose 1 item of your choice.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <movement>
+               miskatonicu.streets
+            </movement>
+         </action>
+         <text>
+            Make a Will (0) check and consult the chart below. Successes. 0) Abigail tosses you out. Move to the street. 1) Abigail lets you into a private section of the library where you find an ancient tome. Draw 2 spells and keep whichever one of them you want.2) Abigail loans you one of the strange items in the library&quot;s display case. Draw 1 unique item.
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Will (-1) check to get the Dean to offer you a retainer to write a manuscript for the college. Gain a Retainer card.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            An archaelogy professor shows you an item he recovered in an Egyptian pyramid.  If you have 2 or fewer Spells, it glows in your hands and you find yourself outisde, still holding it. Not wanting to confront the professor again, you decide to keep it.  Gain 1 Unique Item and move to the street.  If you have more than 2 Spells, nothing happens.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            <stamina>
+               -2
+            </stamina>
+            <sanity>
+               -2
+            </sanity>
+         </action>
+         <text>
+            You find an unusual book that radiates evil at the touch.  You begin to read and are drawn into it.  Make a Lore (-2) check. If you pass, you obtain vast knowldege of the eldritch threat.  Roll a die and gain that many Clue tokens.  If you fail, the book consumes you - mind and soul - lose 2 Sanity and 2 Stamina.
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+ 
+   <MiskatonicuEncounter>
+      <AdministrationBuilding>
+         <action>
+            None
+         </action>
+         <text>
+            Your descussions on the Mythos lead campus security to conclude that you are off your rocker, and they escort you off campus.  Move to Arkham Asylum and immediately have an encounter there.
+         </text>
+      </AdministrationBuilding>
+      <ScienceBuilding>
+         <action>
+            <stamina>
+               1
+            </stamina>
+         </action>
+         <text>
+            A chemical brew bubbles on a nearby Bunsen burner. It smells delicious. If you drink it, make a Luck (+0) check.  If you pass, the strange liquid fortifies you. Roll a die and gain that many points, split between your Stamina and Sanity however you like. If you fail, the liquid turns out to be coffee. Gain 1 Stamina.
+         </text>
+      </ScienceBuilding>
+      <Library>
+         <action>
+            None
+         </action>
+         <text>
+            A book in a shadowy corner of the library begins to whisper terrible things to you.  Lose 1 Sanity.
+         </text>
+      </Library>
+   </MiskatonicuEncounter>
+</miskatonicuencounters>

@@ -1,0 +1,26 @@
+{
+  "HibbsRoadhouse" : {
+    'text' : 'Joey \"The Rat\" Vigil slips into an empty chair at your table and whispers \"Pssssst!  Wanna buy something?\"  Look at the top 3 cards of the Common Item deck.  You may purchase any or all of them for $1 above list price. \"Hey I\'ve got overhead!\" the Rat explains',
+    'action' : [ {'optional': 'True'},
+                 'search(\"CommonItem\", \"top3\", +1)',
+                 'None'
+	       ]
+  },
+
+  "PoliceStation" : {
+    'text' : "If you succeed at a Luck (-1) check, then Deputy Dingby absentmindedly leaves you holding his gun.  You may search the Common Item deck for a .45 Revolver card and take it.",
+    'action' : [ {'optional':'True', 'luck':-1}, 
+                 'search(\"CommonItem\", \".45 Revolver\")', 
+		 'None'
+	       ]
+  },
+
+  "VelmasDiner" : {
+    'text' : "You spot a rat leaving the kitchen.  Pass a Will (-2) check to convince Velma to bribe you $5 not to tell anyone.",
+    'action' : [ {'will':-2}, 
+                 {'money':5}, 
+                 'None'
+               ]
+  }
+
+}

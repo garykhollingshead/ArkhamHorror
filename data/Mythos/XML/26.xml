@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <name>
+         City Gripped by Blackouts!
+      </name>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <closeAreas>
+         Ye Olde Magick Shoppe
+      </closeAreas>
+      <clueAppears>
+         science building
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         unvisited isle
+      </monsterArea>
+      <description>
+         The General Store, Curiositie Shoppe, and Ye Olde Magick Shoppe are closed until the end of the next turn. Leave this card in play until then to indicate this.
+      </description>
+   </Mythos>

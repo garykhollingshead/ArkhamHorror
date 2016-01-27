@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         rumor
+      </category>
+      <passActions>
+         [[ReturnThisCard(), PlayersDrawClue(2)]]
+      </passActions>
+      <name>
+         The Great Ritual
+      </name>
+      <failCondition>
+         [[IsPhase(&quot;encounter&quot;), TokensOnCard(5)
+      </failCondition>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <ongoingEffectsCondition>
+         IsPhase(&quot;mythos&quot;)
+      </ongoingEffectsCondition>
+      <activityAt>
+         french hill streets
+      </activityAt>
+      <failActions>
+         OnMythosPhaseDrawExtraCardAndOpenGate()
+      </failActions>
+      <passCondition>
+         [[IsPhase(&quot;encounter&quot;), PlayerInLocation(&quot;french hill streets&quot;), PlayerDiscardsSpell(3)]]
+      </passCondition>
+      <monsterArea>
+         graveyard
+      </monsterArea>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <ongoingEffects>
+         [[IncreaseToughnessByClass([&quot;cultist&quot;, &quot;witch&quot;, &quot;warlock&quot;, &quot;high priest&quot;], 2), AddClueTokenToCard()]]
+      </ongoingEffects>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+   </Mythos>

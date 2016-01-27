@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            <money>
+               5
+            </money>
+         </action>
+         <text>
+            Earn $5 for a story
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <draw>
+               search(&quot;Encounter&quot;)
+            </draw>
+            <movement>
+               abyss
+            </movement>
+         </action>
+         <text>
+            A pulsing void gapes behind a bookshelf, sending out waves of heat. Pass a Fight (-1) check or it sucks you in, hurling you into the Abyss. Have one encounter there, then immediately return.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            <sanity>
+               -rollDice(1)
+            </sanity>
+         </action>
+         <text>
+            A well-dressed man is standing on the platform. He turns and greets you by name. Although he seems oddly familiar, you don&quot;t remember ever meeting him before. Then he steps off the platform into the path of a speeding train. Make a Speed (-2) check. IF you pass, he vanishes as you leap right through him. On the ground, you find yourself clutching a scrap of paper. Gain 1 Spell. If you fail, he is obliterated before your eyes. Roll a die and lose that much Sanity.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>

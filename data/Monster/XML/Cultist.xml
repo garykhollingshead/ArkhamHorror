@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Cultist.jpg
+      </picture>
+      <toughness>
+         1
+      </toughness>
+      <description>
+         Ia! Ia! Cthulu Ftagn! Ph&quot;nglui mglw&quot;nfah Cthulu R&quot;lyek wgah&quot;nagl fhtagn!
+      </description>
+      <combatDamage>
+         1
+      </combatDamage>
+      <symbol>
+         crescent
+      </symbol>
+      <name>
+         Cultist
+      </name>
+      <amount>
+         6
+      </amount>
+      <combatCheck>
+         1
+      </combatCheck>
+      <sanityDamage>
+         0
+      </sanityDamage>
+      <sneakCheck>
+         -3
+      </sneakCheck>
+      <horrorCheck/>
+      <movement>
+         black
+      </movement>
+   </monster>

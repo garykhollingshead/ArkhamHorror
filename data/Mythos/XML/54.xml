@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         Each player may pass a Luck (-1) check to be Blessed.
+      </description>
+      <actions>
+         if Check(&quot;luck&quot;, -1) then Bless()
+      </actions>
+      <clueAppears>
+         historical society
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         woods
+      </monsterArea>
+      <name>
+         All Quiet in Arkham!
+      </name>
+   </Mythos>

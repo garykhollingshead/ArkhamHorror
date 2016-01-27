@@ -1,0 +1,12 @@
+{ 
+  "name" : "Alien Technology",
+  "category" : "environment (urban)",
+  "description" : "Mi-Go have their toughness increased by 2. If an investigator passes a Combat Check gainst a Mi-Go, he draws 1 extra Unique Item.",
+  "conditions" : "PlayerFightingMonster(\"mi-go\")",
+  "actions" : "[[MonsterToughnessIncreased(2), DrawUniqueItemOnPassCombatCheck(1)]]",
+  "clueAppears" : "science building",
+  "monsterArea" : "unvisited isle",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

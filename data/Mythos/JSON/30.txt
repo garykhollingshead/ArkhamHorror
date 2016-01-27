@@ -1,0 +1,11 @@
+{
+  "name" : "Black Magic",
+  "description" : "Investigators who end their movement in Rivertown streets may choose to delve into dark mysteries using their life force. They roll dice equal to their current Stamina, and for every failed die, they lose 1 Stamina. If this reduces them to 0 Stamina, they are devoured and the player must start a new character. Otherwise, they gain 3 Clue tokens.",
+  "category" : "environment (mystic)",
+  "monsterArea" : "independence square",
+  "activityAt" : "rivertown streets",
+  "clueAppears" : "the unnamable",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

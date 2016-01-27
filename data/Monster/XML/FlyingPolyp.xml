@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+   <monster>
+      <picture>
+         Flying Polyp.jpg
+      </picture>
+      <physicalResistance>
+         True
+      </physicalResistance>
+      <overwhelming>
+         1
+      </overwhelming>
+      <toughness>
+         3
+      </toughness>
+      <description/>
+      <combatDamage>
+         3
+      </combatDamage>
+      <symbol>
+         hexagon
+      </symbol>
+      <name>
+         Flying Polyp
+      </name>
+      <amount>
+         1
+      </amount>
+      <combatCheck>
+         -3
+      </combatCheck>
+      <sanityDamage>
+         4
+      </sanityDamage>
+      <nightmarish>
+         1
+      </nightmarish>
+      <sneakCheck>
+         0
+      </sneakCheck>
+      <horrorCheck>
+         -2
+      </horrorCheck>
+      <movement>
+         blue
+      </movement>
+   </monster>

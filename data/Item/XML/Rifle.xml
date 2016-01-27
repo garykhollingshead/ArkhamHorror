@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Rifle.jpg
+      </picture>
+      <description>
+         +5 to Combat checks
+      </description>
+      <price>
+         6
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         5
+      </combatcheck>
+      <hands>
+         2
+      </hands>
+      <type>
+         item
+      </type>
+      <name>
+         Rifle
+      </name>
+   </Item>

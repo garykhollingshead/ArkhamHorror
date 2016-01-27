@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         diamond
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         circle
+      </blackMovementShapes>
+      <description>
+         Luck checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus
+      </description>
+      <clueAppears>
+         hibb&quot;s roadhouse
+      </clueAppears>
+      <movementImage>
+         square diamond circle.jpg
+      </movementImage>
+      <monsterArea>
+         black cave
+      </monsterArea>
+      <name>
+         Blackest Night
+      </name>
+   </Mythos>

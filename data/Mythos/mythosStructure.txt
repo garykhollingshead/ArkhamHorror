@@ -1,0 +1,25 @@
+<mythos>
+  <card>
+    <name></name>
+    <description></description>
+    <category></category>
+    <monsterArea></monsterArea>
+    <movement>
+      <white></white>
+      <black></black>
+    </movement>
+    <clue></clue>
+    <image></image>
+    <actions></actions>
+    <ongoing></ongoing>
+    <pass>
+      <condition></condition>
+      <action></action>
+    </pass>
+    <fail>
+      <condition></condition>
+      <action></action>
+    </fail>
+    <playerChoice></playerChoice>
+  </card>
+</mythos>

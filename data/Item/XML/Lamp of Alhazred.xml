@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Lamp of Alhazred.jpg
+      </picture>
+      <description>
+         +5 to combat checks
+      </description>
+      <price>
+         7
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         magical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         5
+      </combatcheck>
+      <hands>
+         2
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Lamp of Alhazred
+      </name>
+   </Item>

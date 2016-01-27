@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <NorthsideEncounter>
+      <Newspaper>
+         <action>
+            None
+         </action>
+         <text>
+            Flipping through the early edition, you are surprised to see that one of the classified ads begins with your name. Reading it, you realize that it contains several coded clues to the nature of the threat that faces Arkham. Pass a Lore (-1) check to gain 3 Clue Tokens.
+         </text>
+      </Newspaper>
+      <CuriositieShoppe>
+         <action>
+            <discard>
+               unusedCardsDrawnThisTurn()
+            </discard>
+         </action>
+         <text>
+            A sale takes place. All players may participate. Turn over the top 3 Common Item cards and the top Unique Item card. Any player may buy one or more of these cards for their list price. If there is a disagreement over who gets to buy a certain card, you decide. Any items not sold are discarded.
+         </text>
+      </CuriositieShoppe>
+      <TrainStation>
+         <action>
+            None
+         </action>
+         <text>
+            Bill Washington moves the last of the baggage from his cart onto a truck and offers you a ride as he opens the driver&quot;s door. If you accept, move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.
+         </text>
+      </TrainStation>
+   </NorthsideEncounter>

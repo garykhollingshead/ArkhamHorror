@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         Great Hall of Celeano.jpg
+      </picture>
+      <symbol>
+         star
+      </symbol>
+      <modifier>
+         -1
+      </modifier>
+      <location>
+         Great Hall of Celeano
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

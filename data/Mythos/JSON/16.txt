@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Blue Flu!",
+  "description"            : "All investigators in jail are released. No investigators may be arrested until the end of next turn. Leave this card in play until then to indicate this.", 
+  "category"               : "headline",
+  "monsterArea"           : "the unnamable",
+  "whiteMovementShapes"  : ["hexagon"],
+  "blackMovementShapes"  : ["slash", "triangle", "star"],
+  "clueAppears"           : "woods",
+  "actions"                : ["ReleaseAllInvestigatorsFromJail()", "SetInvestigatorsCannotBeArrested(1)"], 
+  "movementImage"         : "hex slash triangle star.jpg"
+}

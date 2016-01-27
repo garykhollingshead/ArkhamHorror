@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Warding Statue.jpg
+      </picture>
+      <description>
+         Any phase: discard warding statue after failing a combat check to reduce the monster&quot;s combat damage to 0 stamina. this can also be used to cancel an Ancient One&quot;s entire attack for 1 turn.
+      </description>
+      <price>
+         6
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <action>
+         <ChooseMonsterOrAncientOne>
+            <CancelAncientOneEntireAttack>
+               None
+            </CancelAncientOneEntireAttack>
+            <CancelMonsterCombatDamage>
+               None
+            </CancelMonsterCombatDamage>
+         </ChooseMonsterOrAncientOne>
+      </action>
+      <discard>
+         True
+      </discard>
+      <conditionals>
+         <ChooseMonsterOrAncientOne>
+            None
+         </ChooseMonsterOrAncientOne>
+         <JustFailedCombatCheck>
+            None
+         </JustFailedCombatCheck>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Warding Statue
+      </name>
+   </Item>

@@ -1,0 +1,26 @@
+{
+        "color" : "blue",
+        "loc1" : 
+                { 
+                        "name" : "Abyss",
+                        "check" : ["luck", 1, 1], 
+			"passaction" : [[]],
+                        "failaction" : [["move(\"Black Cave\")"]],
+                        "description" : "The cavenrs split. Make a Luck (+1) check and consult the chart below:\n Successes:\n0-1: Move to the Black Cave.\n2: Move to The Dreamlands.\n3+: You enter a dark temple. Pass a Luck (-1) check to draw a Unique Item."
+                },
+        "loc2" :
+                {
+                        "name" : "Celeano",
+                        "check" : ["fight", -1, 2], 
+                        "passaction" : [["draw(\"spell\", 3, 2)"]], 
+                        "failaction" : [["lose(\"stamina\",3)"]],
+                        "description" : "The huge book opens noiselessly at your approach. If you choose, you may read it, in which case you must pass a Fight (-1) [2] check to defeat its guardian. If you do, draw 3 Spells and keep 2 of them. If you fail, lose 3 Stamina."
+                },
+        "other" :
+                {
+                        "check" : ["fight", -2, 1],
+						"passaction" : [["monster"]],
+						"failaction" : [["monster"]],
+                        "description" : "A monster appears!"
+                }
+}

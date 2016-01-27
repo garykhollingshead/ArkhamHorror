@@ -1,0 +1,13 @@
+{
+  "description" : "+3 to combat checks",
+  "type" : "item",
+  "rarity" : "common",
+  "name" : ".38 Revolver",
+  "hands" : 1,
+  "price" : 4,
+  "itemtype" : "physical weapon",
+  "discard" : "False",
+  "amount" : 2,
+  "picture" : "38 Revolver.jpg",
+  "combatcheck" : 3
+}

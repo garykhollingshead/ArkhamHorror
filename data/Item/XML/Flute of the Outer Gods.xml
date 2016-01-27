@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+   <Item>
+      <stamina>
+         -3
+      </stamina>
+      <description>
+         Any phase: Lose 3 Sanity and 3 Stamina and discard make a combat check to defeat all monters in your current area. Does not affect ancient ones.
+      </description>
+      <picture>
+         Flute of the Outer Gods.jpg
+      </picture>
+      <price>
+         8
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <sanity>
+         -3
+      </sanity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         1
+      </amount>
+      <hands>
+         0
+      </hands>
+      <action>
+         <combatCheckToDefeatAllMonstersInCurrentArea>
+            None
+         </combatCheckToDefeatAllMonstersInCurrentArea>
+      </action>
+      <discard>
+         True
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Flute of the Outer Gods
+      </name>
+   </Item>

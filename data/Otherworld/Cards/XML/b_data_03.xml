@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         blue
+      </color>
+      <loc2>
+         <failaction>
+            returnToArkham
+         </failaction>
+         <description>
+            Pass a Sneak (-1) check or the creatures capture and ecperiment on you. Lose half of your items, then immediately return to Arkham with no memory of the experiments.
+         </description>
+         <passaction/>
+         <name>
+            Yuggoth
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            status(&quot;stuck(1)&quot;)
+         </failaction>
+         <description>
+            You are bewildered. Pass a Lore (-1) check or stay here next turn.
+         </description>
+         <passaction/>
+         <name>
+            Abyss
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            lose(&quot;sanity&quot;, 1)
+         </failaction>
+         <passaction>
+            lose(&quot;sanity&quot;, 1)
+         </passaction>
+         <description>
+            The insanity of the place finally hits you. Lose 1 Sanity.
+         </description>
+      </other>
+   </otherworldCard>

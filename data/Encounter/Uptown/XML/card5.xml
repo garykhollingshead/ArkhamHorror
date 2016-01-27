@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <turn>
+               lose
+            </turn>
+         </action>
+         <text>
+            You meet an old wise man in the grove who offers to share his wisdom with you. If you accept, lose your next turn and make a Lore (-2) check. If you pass, you may draw 1 Skill, or draw 2 Spells, or gain 4 Clue tokens. If you fail, nothing happens.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+            <movement>
+               uptown
+            </movement>
+         </action>
+         <text>
+            Miriam Beecher, the shopkeeper, peers closely at your face, then screams, &quot;They&quot;ve marked you! Get out! Get out!&quot; and throws you out. Move to the street and lose 1 Sanity from this unsettling incident.
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            None
+         </action>
+         <text>
+            You sneak a peek at the medical records for a recent admission who was involved in a cult ritual. Pass a Lore (0) check to learn something about the cult&quot;s methods. Gain 1 Clue Token.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>

@@ -1,0 +1,12 @@
+{"amount": 2,
+ "combatCheck": -3,
+ "combatDamage": 3,
+ "description": "The bosun was the only one left alive.  We dragged him screaming from the cargo hold. \"That thing!\" he wept.  \"Not a whale... not an island\"",
+ "horrorCheck": -3,
+ "movement": "black",
+ "name": "Star Spawn",
+ "picture": "Star Spawn.jpg",
+ "sanityDamage": 2,
+ "sneakCheck": -1,
+ "symbol": "plus",
+ "toughness": 3}

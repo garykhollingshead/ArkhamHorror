@@ -1,0 +1,19 @@
+{
+  "name" : "Bob Jenkins",
+  "title" : "the Salesman",
+  "sanity" : 4,
+  "stamina" : 6,
+  "home" : "General Store",
+  "fixed" : {"money" : 9},
+  "random" : {"common" : 2, "unique" : 2, "spell" : 1},
+  "focus" : 1,
+  "speed" : 2,
+  "sneak" : 0,
+  "fight" : 1,
+  "will" : 3,
+  "lore" : 0,
+  "luck" : 1,
+  "interrupt" : [ { "routine" : "DrawCommonItemSubroutine", "condition" : "always" , "modifyValue" : { "cardsDrawn" : 1 } } ],
+  "picture" : "bob.jpg",
+  "story" : "As a traveling salesman, Bob is always on the go.  but yesterday, he saw something that made him decide to stay in Arkham and miss his train. While he was in the general Store selling his wares, a robed man came in and bought several items, payhing with old gold coins.  Astounded, Bob turned to the shopkeeper for an explanation, but the man just ignored his questions, simply saying, \"That happens, sometimes.\"\n\nNow, Bob isn\'t leaving until he figures out where those gold coins came from.  If he plays his cards right, maybe this will be the big score. Maybe he\'ll finally be able to reire and buy that boat he\'s had his eye on and spend the rest of his days fishing in a tropical paradise.  then again, maybe Bob will finally come to see that all that glitters is not gold."
+}

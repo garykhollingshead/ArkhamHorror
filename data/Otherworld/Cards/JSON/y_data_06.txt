@@ -1,0 +1,21 @@
+{ 
+    "color" : "yellow",
+    "loc1" :              
+        {
+            "name" : "Yuggoth",         
+            "check" : ["will", -1, 1],
+            "failaction" : [["lose(\"sanity\",2)"]],  
+            "description" : "Fear grabs you as the buzzing entities approach. Pass a Will(-1) check or lose 2 Sanity."
+        },
+    "loc2" : 
+        {
+            "name" : "The Dreamlands",             
+            "action" : "lose(\"sanity\",1)",
+            "description" : "You see the mountains move. Lose 1 Sanity from the terror."
+        },
+    "other" :
+        {
+            "check" : ["lore", -1, 1],
+            "failaction" : [["lose(\"spell\",1)"]],             "description" : "A ripple in the air passes over you. Pass a Lore(-1) check or lose 1 Spell of your choice as it is burned from your mind."
+        }
+}

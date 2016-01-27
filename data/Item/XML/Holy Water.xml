@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Holy Water.jpg
+      </picture>
+      <description>
+         +6 to Combat checks (Discard after use)
+      </description>
+      <price>
+         4
+      </price>
+      <rarity>
+         unique
+      </rarity>
+      <itemtype>
+         magical weapon
+      </itemtype>
+      <amount>
+         4
+      </amount>
+      <combatcheck>
+         6
+      </combatcheck>
+      <hands>
+         2
+      </hands>
+      <discard>
+         True
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Holy Water
+      </name>
+   </Item>

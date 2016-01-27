@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Wither.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Wither
+      </name>
+      <sanityCost>
+         0
+      </sanityCost>
+      <effect>
+         combatBonus(3)
+      </effect>
+      <amount>
+         6
+      </amount>
+      <hands>
+         1
+      </hands>
+      <phase>
+         combat
+      </phase>
+      <castingModifier>
+         0
+      </castingModifier>
+      <description>
+         Any Phase: Cast and exhaust to gain +3 to Combat checks until the end of this combat
+      </description>
+   </Spell>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <RivertownEncounter>
+      <BlackCave>
+         <action>
+            None
+         </action>
+         <text>
+            You find an old book. If you read it, make a Luck (0) check and consult the chart below. Successes - 0) Evil forces assault you. Lose 1 Sanity and 1 Stamina. 1) You find the diary of a lost soul who died in the caves long ago. Lose 1 Sanity and gain 1 Clue token as you read his horrible tale. 2+) The book is a spellbook. Take the first Tome from the Unique Item deck.
+         </text>
+      </BlackCave>
+      <Graveyard>
+         <action>
+            None
+         </action>
+         <text>
+            You find the half-buried corpse of a strange being. Draw a monster from the cup and take it as a monster trophy, even if it has the Endless ability.
+         </text>
+      </Graveyard>
+      <GeneralStore>
+         <action>
+            None
+         </action>
+         <text>
+            &quot;Hey, you dropped this!&quot; A young street urchin hands you an item and then scampers off. You don&quot;t recognize the item, but the boy is already gone. Draw 1 Common Item.
+         </text>
+      </GeneralStore>
+   </RivertownEncounter>

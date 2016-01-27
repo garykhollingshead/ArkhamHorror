@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Axe.jpg
+      </picture>
+      <description>
+         +2 to combat checks, +3 if the other hand is free
+      </description>
+      <price>
+         3
+      </price>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         physical weapon
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <combatcheck>
+         <freeHands>
+            2
+         </freeHands>
+      </combatcheck>
+      <hands>
+         1
+      </hands>
+      <discard>
+         False
+      </discard>
+      <conditionals>
+         <freeHands>
+            1
+         </freeHands>
+      </conditionals>
+      <type>
+         item
+      </type>
+      <name>
+         Axe
+      </name>
+   </Item>

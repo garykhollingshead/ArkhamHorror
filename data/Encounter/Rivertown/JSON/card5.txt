@@ -1,0 +1,23 @@
+{
+  "BlackCave" : {
+    "text" : "You are in a maze of twisty passages, all alike. Pass a Lore(-2) check or become lost. If you fail, lose 1 Stamina and stay here next turn.", 
+     "action" : [{"lore" : -2},
+                 "None",
+                {"stamina" : 1, "movement" : "blackcave"}] 
+  },
+
+  "GeneralStore" : {
+    "text" : "Make a Will(-2) check. If you pass, you gain the ear of the shopkeeper. Seeing your valiant cause, he takes you into the back room and offers you some special equipment. Draw 3 Common Items. You may take 1 of them for free as a gift to help thwart the evil in Arkham! Discard the other 2. If you fail, nothing happens.",
+    "action" : [{"will" : -2},
+                {"draw" : "search(\'CommonItem\', 3)"},
+                {"discard" : "unusedCardsDrawnThisTurn()"}]
+  },
+
+  "Graveyard" : {
+    "text" : "Pass a Luck(-2) check to find a valuable clue within your tombstone rubblings. Gain 2 Clue tokens and you may move to any location or street in Arkham. If you move to a lcoation, immediately have an encounter there.",
+    "action" : [{"luck":-2}, 
+                {"clue":2, "movement":"userinput"},
+                {"draw" : "search(\'Encounter\')"}                ]
+  }
+
+}

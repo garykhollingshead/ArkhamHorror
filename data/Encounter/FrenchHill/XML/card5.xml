@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+   <frenchhillencounter>
+      <TheWitchHouse>
+         <action>
+            None
+         </action>
+         <text>
+            Pass a Luck (-1) check to find an odd-looking item in an old dusty display case. Draw 1 Unique Item.
+         </text>
+      </TheWitchHouse>
+      <InnerSanctum>
+         <action>
+            <sanity>
+               -1
+            </sanity>
+         </action>
+         <text>
+            The Order of the Silver Twilight casts a banishment spell in their monthly ceremony. Spend 1 Sanity to make a Luck (-1) check. If you pass, claim any one monster on the board as a trophy. If you fail, nothing happens.
+         </text>
+      </InnerSanctum>
+      <SilverTwilightLodge>
+         <action>
+            None
+         </action>
+         <text>
+            You hear the quiet sounds of an intruder. If you investigate, you find a woman dressed in blak. She attacks you as soon as she sees you. Pass a Fight(-1) check to subdue her long enough to explain your investigation. You find out that her name is Ruby Standish and that she was robbing the Lodge. However, upon hearing your tale, she agrees to join you. Take her Ally card. If it is not available, draw a Unique item instead.
+         </text>
+      </SilverTwilightLodge>
+   </frenchhillencounter>

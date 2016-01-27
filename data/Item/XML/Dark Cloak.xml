@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+   <Item>
+      <picture>
+         Dark Cloak.jpg
+      </picture>
+      <description>
+         +1 to Evade checks
+      </description>
+      <price>
+         2
+      </price>
+      <evadecheck>
+         1
+      </evadecheck>
+      <rarity>
+         common
+      </rarity>
+      <itemtype>
+         None
+      </itemtype>
+      <amount>
+         2
+      </amount>
+      <hands>
+         0
+      </hands>
+      <discard>
+         False
+      </discard>
+      <type>
+         item
+      </type>
+      <name>
+         Dark Cloak
+      </name>
+   </Item>

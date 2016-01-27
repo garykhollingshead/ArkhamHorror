@@ -1,0 +1,12 @@
+{"amount": 2,
+ "combatCheck": -3,
+ "combatDamage": 3,
+ "description": "The bosun was the only one left alive.  We dragged him screaming from the cargo hold. \"That thing!\" he wept.  \"Not a whale... not an island\"",
+ "horrorCheck": -3,
+ "movement": "black",
+ "name": "Formless Spawn",
+ "picture": "Formless Spawn.jpg",
+ "sanityDamage": 2,
+ "sneakCheck": 0,
+ "symbol": "hexagon",
+ "toughness": 3}

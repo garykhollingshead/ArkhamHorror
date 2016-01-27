@@ -1,0 +1,10 @@
+{
+  "name" : "Solar Eclipse",
+  "description" : "Due to the interference of the solar eclipse, no spells may be cast.",
+  "category" : "environment (mystic)",
+  "monsterArea" : "graveyard",
+  "clueAppears" : "unvisited isle",
+  "whiteMovementShapes" : ["square", "diamond"],
+  "blackMovementShapes" : ["circle"],
+  "movementImage" : "square diamond circle.jpg"
+}

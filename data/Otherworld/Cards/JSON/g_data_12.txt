@@ -1,0 +1,24 @@
+
+{
+    "color" : "green",
+    "loc1" :             
+        {
+            "name" : "The Dreamlands",        
+            "check" : ["will", 0, 1], 
+            "passaction" : [["draw(\"spell\", 1)"]], 
+            "description" : "You encounter the talking cats of Ulthar.  Pass a Will (+0) check to draw 1 Spell. "
+        },
+    "loc2" :
+        {
+            "name" : "Celeano",
+            "check" : ["luck", -1, 1],
+            "passaction" : [["draw(\"spell\", 1)"]], 
+            "description" : "Pass a Luck (-1) check to find something useful among the incomprehensible artifacts.  If so, draw 1 Unique Item"
+        },
+    "other" :
+        {
+            "passaction" : [["gain(\"sanity\", 1)"]], 
+            "description" : "A glimpse of home gives you hope.  Gain 1 Sanity. "
+        }
+}
+

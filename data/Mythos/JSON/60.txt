@@ -1,0 +1,11 @@
+{ 
+  "name"                  : "Strange Power Flux Plagues City!",
+  "description"            : "All investigators in Other World areas may immediately return to Arkham.", 
+  "category"               : "headline",
+  "monsterArea"           : "independence square",
+  "whiteMovementShapes"  : ["slash", "riangle", "star"],
+  "blackMovementShapes"  : ["hexagon"],
+  "clueAppears"           : "the unnamable",
+  "actions"                : "ReturnFromOtherWorld()",
+  "movementImage"         : "slash triangle star hex.jpg"
+}

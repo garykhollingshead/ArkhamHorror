@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+   <Investigator>
+      <stamina>
+         6
+      </stamina>
+      <picture>
+         bob.jpg
+      </picture>
+      <story>
+         As a traveling salesman, Bob is always on the go.  but yesterday, he saw something that made him decide to stay in Arkham and miss his train. While he was in the general Store selling his wares, a robed man came in and bought several items, payhing with old gold coins.  Astounded, Bob turned to the shopkeeper for an explanation, but the man just ignored his questions, simply saying, &quot;That happens, sometimes.&quot;
+
+Now, Bob isn&quot;t leaving until he figures out where those gold coins came from.  If he plays his cards right, maybe this will be the big score. Maybe he&quot;ll finally be able to retire and buy that boat he&quot;s had his eye on and spend the rest of his days fishing in a tropical paradise.  then again, maybe Bob will finally come to see that all that glitters is not gold.
+      </story>
+      <name>
+         Bob Jenkins
+      </name>
+      <title>
+         the Salesman
+      </title>
+      <interrupt>
+         <modifyValue>
+            <cardsDrawn>
+               1
+            </cardsDrawn>
+         </modifyValue>
+         <condition>
+            always
+         </condition>
+         <routine>
+            DrawCommonItemSubroutine
+         </routine>
+      </interrupt>
+      <fight>
+         1
+      </fight>
+      <random>
+         <spell>
+            1
+         </spell>
+         <unique>
+            2
+         </unique>
+         <common>
+            2
+         </common>
+      </random>
+      <focus>
+         1
+      </focus>
+      <sneak>
+         0
+      </sneak>
+      <sanity>
+         4
+      </sanity>
+      <will>
+         3
+      </will>
+      <lore>
+         0
+      </lore>
+      <home>
+         General Store
+      </home>
+      <fixed>
+         <money>
+            9
+         </money>
+      </fixed>
+      <speed>
+         2
+      </speed>
+      <luck>
+         1
+      </luck>
+   </Investigator>

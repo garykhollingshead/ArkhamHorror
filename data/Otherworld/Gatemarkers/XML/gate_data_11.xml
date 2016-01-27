@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+   <otherworldGateMarker>
+      <picture>
+         Rlyeh.jpg
+      </picture>
+      <symbol>
+         plus
+      </symbol>
+      <modifier>
+         -3
+      </modifier>
+      <location>
+         R&quot;lyeh
+      </location>
+      <frontpicture>
+         front.jpg
+      </frontpicture>
+   </otherworldGateMarker>

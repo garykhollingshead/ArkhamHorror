@@ -1,0 +1,12 @@
+{"amount": 6,
+ "combatCheck": 1,
+ "combatDamage": 1,
+ "description": "Ia! Ia! Cthulu Ftagn! Ph\'nglui mglw\'nfah Cthulu R\'lyek wgah\'nagl fhtagn!",
+ "horrorCheck": "",
+ "movement": "black",
+ "name": "Cultist",
+ "picture": "Cultist.jpg",
+ "sanityDamage": 0,
+ "sneakCheck": -3,
+ "symbol": "crescent",
+ "toughness": 1}

@@ -1,0 +1,11 @@
+{
+ "name" : "PrivateSecurity Hired in Uptown!",
+ "description" : "All monsters in the Uptown streets or locations are returned to the cup.",
+ "category" : "headline",
+ "monsterArea" : "woods",
+ "whiteMovementShapes" : ["circle"],
+ "blackMovementShapes" : ["square", "diamond"],
+ "clueAppears" : "historical society",
+ "actions" : ["ReturnToCupMonstersIn(locations=[\"uptown\", streets=\"uptown\")"],
+ "movementImage" : "circle square diamond.jpg"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         environment (mystic)
+      </category>
+      <whiteMovementShapes>
+         star
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         hexagon
+      </blackMovementShapes>
+      <description>
+         It costs 2 fewer Clue tokens to seal gates.
+      </description>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         slash triangle star hex.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Noden&quot;s Favor
+      </name>
+   </Mythos>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+   <UptownEncounter>
+      <Woods>
+         <action>
+            <fail>
+               moveToStreet()
+            </fail>
+         </action>
+         <text>
+            You find a sleeping Sheldon Gang member near the still. Make a Sneak (-2) check to try to swipe the shotgun he has dropped on the ground. If you pass, take a Shotgun from the Common Item deck if there is one. If you fail, the guard awakens. You are cought and beaten, losing 2 Stamina, but you escape with your life. Move to the street.
+         </text>
+      </Woods>
+      <YeOldeMagickShoppe>
+         <action>
+            <success>
+               draw(&quot;UniqueItem&quot;,2)
+            </success>
+         </action>
+         <text>
+            There is an old, locked trunk for sale for $5. If you buy it, make a Luck(0) check and consult the chart below. Success. 0)  Empty! 1)  Gold coins! roll 2 dice, add them together, and gain that much money. 2+) Jackpot! Draw 2 Unique Items!
+         </text>
+      </YeOldeMagickShoppe>
+      <StMarysHospital>
+         <action>
+            None
+         </action>
+         <text>
+            You agree to undergo an experimental treatment. Roll a die. On a 1 to 3, gain that many Stamina. On a 4 to 6, nothing happens.
+         </text>
+      </StMarysHospital>
+   </UptownEncounter>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Spell>
+      <picture>
+         Find Gate.jpg
+      </picture>
+      <postCast>
+         exhaust
+      </postCast>
+      <name>
+         Find Gate
+      </name>
+      <sanityCost>
+         1
+      </sanityCost>
+      <effect>
+         returnFromAnOtherWorld()
+      </effect>
+      <amount>
+         4
+      </amount>
+      <hands>
+         0
+      </hands>
+      <phase>
+         movement
+      </phase>
+      <castingModifier>
+         -1
+      </castingModifier>
+      <description>
+         Movement: Cast and exhaust to immediately return to Arkham from an Other World.
+      </description>
+   </Spell>

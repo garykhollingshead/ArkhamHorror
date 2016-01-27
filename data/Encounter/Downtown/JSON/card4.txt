@@ -1,0 +1,25 @@
+
+{
+  'ArkhamAsylum' : {
+    'text' : 'Nurse Heather is coming!  Make a Speed(-1) check to hid in time.  If you pass, you see her drop something as she walks by.  Draw 1 Unique Item.  If you fail, she throws you out.  Move to the street.',
+    'action' : [ {'optional' : 'False'},
+                 "SpeedCheck(successes,GainUniqueItem(1),movement(to_street))"]
+  },
+
+  'BankOfArkham' : {
+    'text' : 'A man wearing dirty and tattered clothing is loitering outside the bank.  He offers to sell you his last possession to get some food money for him and his family.  If you accept, pay $2 and make a Luck(-1) check.  If you pass, draw 1 Unique Item.  If you fail, draw 1 Common Item',
+    'action' : [ {'optional' : 'True'},
+                 "GainMoney(-2)",
+                 "LuckCheck(successes,GainUniqueItem(1),GainCommonItem(1))"
+               ]
+  },
+
+  'IndependenceSquare' : {
+    'text' : 'Make a Will(-1) check.  If you pass it, Anna Kaslow the fortune teller offers her help in your investigation.  Take her Ally card if it is still available.  Otherwise, gain 2 Clue tokens.  If you fail, nothing happens.',
+    'action' : [ {'optional' : 'False'},
+                 "WillCheck(success,GainAlly(Anna Kaslow)|GainClues(2),null"
+               ]
+  }
+
+}
+

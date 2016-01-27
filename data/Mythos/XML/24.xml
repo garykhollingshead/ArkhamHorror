@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+   <Mythos>
+      <category>
+         headline
+      </category>
+      <whiteMovementShapes>
+         hexagon
+      </whiteMovementShapes>
+      <blackMovementShapes>
+         star
+      </blackMovementShapes>
+      <description>
+         Any investigator with Whiskey must pass a Sneak(-1) check or get arrested and taken to the Police Station. If this occurs they must discard their Whiskey. In addition, Hibb&quot;s Roadhouse is closed until the end of the next turn. Leave this card in play until then to indicate this.
+      </description>
+      <closeAreas>
+         hibb&quot;s roadhouse
+      </closeAreas>
+      <actions>
+         if not PassSneakCheck() then ArrestPlayer(), TakeAllOfPlayersWisky()
+      </actions>
+      <clueAppears>
+         black cave
+      </clueAppears>
+      <movementImage>
+         hex slash triangle star.jpg
+      </movementImage>
+      <monsterArea>
+         the witch house
+      </monsterArea>
+      <name>
+         Temperence Fever Sweeps City!
+      </name>
+   </Mythos>

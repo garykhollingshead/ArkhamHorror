@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         yellow
+      </color>
+      <loc2>
+         <passaction>
+            gain(&quot;clue&quot;,1)
+         </passaction>
+         <name>
+            City of the Great Race
+         </name>
+         <description>
+            In a flash of insight, you realize the purpose of the bladed artifact. Shivering, you put it back where you found it. Lose 1 Sanity but gain 1 Clue token.
+         </description>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;sanity&quot;,1)
+         </failaction>
+         <description>
+            The stink of this place is unbearable. Pass a Will(-1) check or lose 1 Stamina, 1 Sanity, and your lunch.
+         </description>
+         <name>
+            R&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <failaction>
+            stayHereATurn()
+         </failaction>
+         <check>
+            1
+         </check>
+         <description>
+            Time and space bend around you. Make a Luck(-1) check. If you pass, return to Arkham. If you fail, stay here next turn.
+         </description>
+      </other>
+   </otherworldCard>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+   <otherworldCard>
+      <color>
+         red
+      </color>
+      <loc2>
+         <failaction>
+            lose(&quot;stamina&quot;, 2)
+         </failaction>
+         <description>
+            The wind increases, and you feel your feet go numb. Pass a Fight (-1) check or lose 2 Stamina.
+         </description>
+         <name>
+            the dreamlands
+         </name>
+         <check>
+            1
+         </check>
+      </loc2>
+      <loc1>
+         <failaction>
+            lose(&quot;stamina&quot;, 3)
+         </failaction>
+         <description>
+            Hurricane winds smash you against the cyclopean stones. Pass a Fight (-1) check or lose 3 Stamina.
+         </description>
+         <name>
+            r&quot;lyeh
+         </name>
+         <check>
+            1
+         </check>
+      </loc1>
+      <other>
+         <passaction>
+            monster
+         </passaction>
+         <description>
+            A lurking monster appears!
+         </description>
+      </other>
+   </otherworldCard>
